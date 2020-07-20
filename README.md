@@ -37,8 +37,8 @@
 
 ### 참고문헌
 #### Upstream
-* [EXTD - Extremely Tiny Face Detector via Iterative Filter Reuse](https://arxiv.org/abs/1906.06579)  
-arXiv 2019 - YoungJoon Yoo et al.
+* ~~[EXTD - Extremely Tiny Face Detector via Iterative Filter Reuse](https://arxiv.org/abs/1906.06579)  
+arXiv 2019 - YoungJoon Yoo et al.~~ Titan X 환경에서 5 ~ 25FPS : 부적합
 * [PFLD - a practical facial landmark detector](https://paperswithcode.com/paper/pfld-a-practical-facial-landmark-detector)  
 arXiv 2019 - Xiaojie Guo et al.
 * [EfficientFAN - deep knowledge transfer for face alignment](https://dl.acm.org/doi/10.1145/3372278.3390692)  
