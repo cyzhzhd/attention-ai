@@ -1,0 +1,44 @@
+{
+  "name": "183-2",
+  "version": "0.0.1",
+  "description": "Face Analysis model",
+  "scripts": {
+    "start": "electron ./dist/electron.js",
+    "build": "webpack --mode production"
+  },
+  "private": true,
+  "repository": "git@git.swmgit.org:swmaestro/183-2.git",
+  "author": "Jae Gwon Choi <cyrojyro@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "electron": "^9.1.1",
+    "eslint": "^7.5.0",
+    "face-api.js": "^0.22.2",
+    "onnxjs": "^0.1.7",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "commitlint": "^9.1.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
+    "webpack-cli": "^3.3.12"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "{src,dist}/*.{js,jsx,ts,tsx,html,css,md}": [
+      "prettier --write"
+    ],
+    "{src,dist}/*.{js,jsx,ts,tsx}": [
+      "eslint"
+    ]
+
+  }
+}

@@ -1,5 +1,12 @@
 ## 얼굴 데이터 기반 학생 분석 엔진 개발
 
+### How To
+~~~
+yarn
+npm run build
+npm start
+~~~
+
 ### Upstream task
 * 얼굴 탐지, 전처리
 * 얼굴 인식 / 랜드마크 탐지 / 표정 분류
@@ -37,6 +44,8 @@
 
 ### 참고문헌
 #### Upstream
+* ~~[EXTD - Extremely Tiny Face Detector via Iterative Filter Reuse](https://arxiv.org/abs/1906.06579)  
+arXiv 2019 - YoungJoon Yoo et al.~~ Titan X 환경에서 5 ~ 25FPS : 부적합
 * [PFLD - a practical facial landmark detector](https://paperswithcode.com/paper/pfld-a-practical-facial-landmark-detector)  
 arXiv 2019 - Xiaojie Guo et al.
 * [EfficientFAN - deep knowledge transfer for face alignment](https://dl.acm.org/doi/10.1145/3372278.3390692)  
