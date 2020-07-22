@@ -1,0 +1,9 @@
+image: node:14.5.0
+
+before_script:  
+  - apt-get update -qq && apt-get install
+  - yarn
+
+build:
+  script: npm run build
+
