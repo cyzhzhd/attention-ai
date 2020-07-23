@@ -37797,16 +37797,17 @@ PERFORMANCE OF THIS SOFTWARE.
     function _n(t, e) {
       return Math.sqrt(Math.pow(t._x - e._x, 2) + Math.pow(t._y - e._y, 2));
     }
-    const { ImageData: In } = o;
+    const In = { turned: 30, bowed: 40, expressionChange: 20 },
+      { ImageData: Rn } = o;
     q.monkeyPatch({
       Canvas: HTMLCanvasElement,
       Image: HTMLImageElement,
-      ImageData: In,
+      ImageData: Rn,
       Video: HTMLVideoElement,
       createCanvasElement: () => document.createElement("canvas"),
       createImageElement: () => document.createElement("img"),
     });
-    const Rn = document.getElementById("video");
+    const Sn = document.getElementById("video");
     Promise.all([
       en.tinyFaceDetector.loadFromUri("./models-faceapi"),
       en.faceLandmark68Net.loadFromUri("./models-faceapi"),
@@ -37815,15 +37816,15 @@ PERFORMANCE OF THIS SOFTWARE.
     ]).then(function () {
       navigator.getUserMedia(
         { video: {} },
-        (t) => (Rn.srcObject = t),
+        (t) => (Sn.srcObject = t),
         (t) => console.error(t)
       );
     });
-    let Sn = 0;
-    Rn.addEventListener("play", () => {
-      const t = rt(Rn);
+    let kn = 0;
+    Sn.addEventListener("play", () => {
+      const t = rt(Sn);
       document.body.append(t);
-      const e = { width: Rn.width, height: Rn.height };
+      const e = { width: Sn.width, height: Sn.height };
       !(function (t, e, n) {
         void 0 === n && (n = !1);
         var r = n ? et(e) : e,
@@ -37832,15 +37833,17 @@ PERFORMANCE OF THIS SOFTWARE.
         (t.width = o), (t.height = i);
       })(t, e),
         setInterval(async () => {
-          console.time("time" + Sn);
+          console.time("time" + kn);
           const n = await wn(
-            Rn,
+            Sn,
             new Pe({ inputSize: 320, scoreThreshold: 0.4 })
           )
             .withFaceLandmarks()
             .withFaceExpressions();
-          console.timeEnd("time" + Sn), (Sn += 1), En(n), console.log(Cn);
-          const o = (function t(e, n) {
+          console.timeEnd("time" + kn), (kn += 1), En(n);
+          let o = Object.keys(In).reduce((t, e) => t + Cn[e] * In[e], 0),
+            i = t.getContext("2d");
+          const a = (function t(e, n) {
             var r = new u(n.width, n.height),
               o = r.width,
               i = r.height;
@@ -37864,10 +37867,13 @@ PERFORMANCE OF THIS SOFTWARE.
               ? e.forSize(o, i)
               : e;
           })(n, e);
-          t.getContext("2d").clearRect(0, 0, t.width, t.height),
-            r.drawDetections(t, o),
-            r.drawFaceLandmarks(t, o),
-            r.drawFaceExpressions(t, o);
+          i.clearRect(0, 0, t.width, t.height),
+            r.drawDetections(t, a),
+            r.drawFaceLandmarks(t, a),
+            r.drawFaceExpressions(t, a),
+            (i.font = "30px Arial"),
+            (i.fillStyle = "#000000"),
+            i.fillText("score: " + o, 30, 50);
         }, 100);
     });
   },
