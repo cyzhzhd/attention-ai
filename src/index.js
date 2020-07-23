@@ -1,5 +1,7 @@
 import * as canvas from "canvas";
 import * as faceapi from "face-api.js";
+import { status, analyze } from "./analysis.js";
+
 const { ImageData } = canvas;
 faceapi.env.monkeyPatch({
   Canvas: HTMLCanvasElement,
@@ -27,12 +29,12 @@ Promise.all([
 ]).then(startVideo);
 
 let timeLabel = 0;
-
 video.addEventListener("play", () => {
   const canvas = faceapi.createCanvasFromMedia(video);
   document.body.append(canvas);
   const displaySize = { width: video.width, height: video.height };
   faceapi.matchDimensions(canvas, displaySize);
+
   setInterval(async () => {
     console.time("time" + timeLabel);
     const detections = await faceapi
@@ -47,6 +49,10 @@ video.addEventListener("play", () => {
       .withFaceExpressions();
     console.timeEnd("time" + timeLabel);
     timeLabel += 1;
+
+    analyze(detections);
+    console.log(status);
+
     const resizedDetections = faceapi.resizeResults(detections, displaySize);
     canvas.getContext("2d").clearRect(0, 0, canvas.width, canvas.height);
     faceapi.draw.drawDetections(canvas, resizedDetections);

@@ -37758,16 +37758,55 @@ PERFORMANCE OF THIS SOFTWARE.
           );
         });
     })();
-    const { ImageData: Cn } = o;
+    const Cn = { turned: !1, bowed: !1, expressionChange: !1 };
+    function En(t) {
+      if (t[0]) {
+        let e = t[0].landmarks._positions;
+        ([Cn.turned, Cn.bowed] = (function (t) {
+          let e = _n(t[33], t[3]),
+            n = _n(t[33], t[13]),
+            r = (function (t, e, n) {
+              if (t < e) {
+                let n = t;
+                (t = e), (e = n);
+              }
+              return e < t * n;
+            })(e, n, 0.4),
+            o = (t[1]._y + t[15]._y) / 2,
+            i = (t[39]._y + t[42]._y) / 2;
+          return [r, o < i];
+        })(e)),
+          (function (t) {
+            let e = "neutral";
+            Object.keys(t).forEach((n) => {
+              t[e] < t[n] && (e = n);
+            }),
+              "neutral" != e &&
+                1 != Cn.expressionChange &&
+                ((Cn.expressionChange = !0),
+                setTimeout(
+                  (t) => {
+                    t.expressionChange = !1;
+                  },
+                  1500,
+                  Cn
+                ));
+          })(t[0].expressions);
+      }
+    }
+    function _n(t, e) {
+      return Math.sqrt(Math.pow(t._x - e._x, 2) + Math.pow(t._y - e._y, 2));
+    }
+    const { ImageData: In } = o;
     q.monkeyPatch({
       Canvas: HTMLCanvasElement,
       Image: HTMLImageElement,
-      ImageData: Cn,
+      ImageData: In,
       Video: HTMLVideoElement,
       createCanvasElement: () => document.createElement("canvas"),
       createImageElement: () => document.createElement("img"),
     });
-    const En = document.getElementById("video");
+    const Rn = document.getElementById("video");
     Promise.all([
       en.tinyFaceDetector.loadFromUri("./models-faceapi"),
       en.faceLandmark68Net.loadFromUri("./models-faceapi"),
@@ -37776,15 +37815,15 @@ PERFORMANCE OF THIS SOFTWARE.
     ]).then(function () {
       navigator.getUserMedia(
         { video: {} },
-        (t) => (En.srcObject = t),
+        (t) => (Rn.srcObject = t),
         (t) => console.error(t)
       );
     });
-    let _n = 0;
-    En.addEventListener("play", () => {
-      const t = rt(En);
+    let Sn = 0;
+    Rn.addEventListener("play", () => {
+      const t = rt(Rn);
       document.body.append(t);
-      const e = { width: En.width, height: En.height };
+      const e = { width: Rn.width, height: Rn.height };
       !(function (t, e, n) {
         void 0 === n && (n = !1);
         var r = n ? et(e) : e,
@@ -37793,14 +37832,14 @@ PERFORMANCE OF THIS SOFTWARE.
         (t.width = o), (t.height = i);
       })(t, e),
         setInterval(async () => {
-          console.time("time" + _n);
+          console.time("time" + Sn);
           const n = await wn(
-            En,
+            Rn,
             new Pe({ inputSize: 320, scoreThreshold: 0.4 })
           )
             .withFaceLandmarks()
             .withFaceExpressions();
-          console.timeEnd("time" + _n), (_n += 1);
+          console.timeEnd("time" + Sn), (Sn += 1), En(n), console.log(Cn);
           const o = (function t(e, n) {
             var r = new u(n.width, n.height),
               o = r.width,
