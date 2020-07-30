@@ -68,6 +68,9 @@ TODO
 * [Concentration analysis by detecting face features of learners](https://ieeexplore.ieee.org/document/7334807)  
 IEEE PACRIM 2015 - Seunghui Cha et al.
 
+* [Measuring Student Engagement Level Using Facial Information](https://ieeexplore.ieee.org/document/8803590)  
+IEEE ICIP 2019 - Islam Alkabbany et al.
+
 ### Datasets
 * TBD
 
