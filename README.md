@@ -36,35 +36,18 @@ npm start
 ------
 
 ### Electron 통합 방법론
-* [ONNX](https://onnx.ai/): 머신러닝 모델 상호작동성을 위한 프레임워크
-* [TorchJS](https://github.com/torch-js/torch-js): 노드 - 파이토치 바인딩
-* [Python-shell](https://www.npmjs.com/package/python-shell): 일렉트론 - 파이썬 IPC 노드 패키지 (파이썬 dependency 문제 해결 필요)
+* [통합 방법론 이슈](https://13.125.91.162/swmaestro/183-2/issues/6)
 
 ------
 
 ### 참고문헌
 #### Upstream
-##### 얼굴 탐지
-* ~~[EXTD - Extremely Tiny Face Detector via Iterative Filter Reuse](https://arxiv.org/abs/1906.06579)  
-arXiv 2019 - YoungJoon Yoo et al.~~ Titan X 환경에서 5 ~ 25FPS : 부적합
-* [PFLD - a practical facial landmark detector](https://paperswithcode.com/paper/pfld-a-practical-facial-landmark-detector)  
-arXiv 2019 - Xiaojie Guo et al.
-* [EfficientFAN - deep knowledge transfer for face alignment](https://dl.acm.org/doi/10.1145/3372278.3390692)  
-ICMR 2020 - Pengcheng Gao et al.
+* [시각 및 눈 인지모델 이슈](https://13.125.91.162/swmaestro/183-2/issues/5)  
+* [얼굴 탐지모델 이슈](https://13.125.91.162/swmaestro/183-2/issues/1)
 
-##### 시선 인식
-TODO
-
-##### 얼굴 특징점 추출
-TODO
-
-##### 얼굴 특징 추출
-TODO
-
-##### 얼굴 표정 인식
-TODO
 
 #### Downstream
+* [집중력 엔진 위키](https://13.125.91.162/swmaestro/183-2/-/wikis/faceAPI%EA%B8%B0%EB%B0%98-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EC%97%94%EC%A7%84-%EA%B5%AC%ED%98%84)
 * [Concentration analysis by detecting face features of learners](https://ieeexplore.ieee.org/document/7334807)  
 IEEE PACRIM 2015 - Seunghui Cha et al.
 * [Measuring Student Engagement Level Using Facial Information](https://ieeexplore.ieee.org/document/8803590)  
