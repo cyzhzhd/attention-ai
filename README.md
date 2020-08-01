@@ -48,10 +48,8 @@ npm start
 
 #### Downstream
 * [집중력 엔진 위키](https://13.125.91.162/swmaestro/183-2/-/wikis/faceAPI%EA%B8%B0%EB%B0%98-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EC%97%94%EC%A7%84-%EA%B5%AC%ED%98%84)
-* [Concentration analysis by detecting face features of learners](https://ieeexplore.ieee.org/document/7334807)  
-IEEE PACRIM 2015 - Seunghui Cha et al.
-* [Measuring Student Engagement Level Using Facial Information](https://ieeexplore.ieee.org/document/8803590)  
-IEEE ICIP 2019 - Islam Alkabbany et al.
+* [집중력 엔진 개발 이슈](https://13.125.91.162/swmaestro/183-2/issues/7)  
+
 
 ### Datasets
 * TBD
