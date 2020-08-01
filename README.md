@@ -49,7 +49,7 @@ nodejs v14.5.0
 
 ### 참고문헌
 #### Upstream
-* [시각 및 눈 인지모델 이슈](https://13.125.91.162/swmaestro/183-2/issues/5)  
+* [시각 및 눈(랜드마크) 인지모델 이슈](https://13.125.91.162/swmaestro/183-2/issues/5)  
 * [얼굴 탐지모델 이슈](https://13.125.91.162/swmaestro/183-2/issues/1)
 
 
