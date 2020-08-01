@@ -44,6 +44,7 @@ npm start
 
 ### 참고문헌
 #### Upstream
+##### 얼굴 탐지
 * ~~[EXTD - Extremely Tiny Face Detector via Iterative Filter Reuse](https://arxiv.org/abs/1906.06579)  
 arXiv 2019 - YoungJoon Yoo et al.~~ Titan X 환경에서 5 ~ 25FPS : 부적합
 * [PFLD - a practical facial landmark detector](https://paperswithcode.com/paper/pfld-a-practical-facial-landmark-detector)  
@@ -51,9 +52,23 @@ arXiv 2019 - Xiaojie Guo et al.
 * [EfficientFAN - deep knowledge transfer for face alignment](https://dl.acm.org/doi/10.1145/3372278.3390692)  
 ICMR 2020 - Pengcheng Gao et al.
 
+##### 시선 인식
+TODO
+
+##### 얼굴 특징점 추출
+TODO
+
+##### 얼굴 특징 추출
+TODO
+
+##### 얼굴 표정 인식
+TODO
+
 #### Downstream
 * [Concentration analysis by detecting face features of learners](https://ieeexplore.ieee.org/document/7334807)  
 IEEE PACRIM 2015 - Seunghui Cha et al.
+* [Measuring Student Engagement Level Using Facial Information](https://ieeexplore.ieee.org/document/8803590)  
+IEEE ICIP 2019 - Islam Alkabbany et al.
 
 ### Datasets
 * TBD
