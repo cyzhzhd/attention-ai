@@ -6,8 +6,8 @@ before_script:
 
 build:
   script: npm run build
-    only:
-      changes:
-        - ./src/*
+  only:
+    changes:
+      - ./src/*
 
 
