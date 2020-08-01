@@ -7,6 +7,13 @@ npm run build
 npm start
 ~~~
 
+### Dependencies
+~~~
+npm v6.14.5  
+yarn v1.22.4  
+nodejs v14.5.0  
+~~~
+
 ### Upstream task
 * 얼굴 탐지, 전처리
 * 얼굴 인식 / 랜드마크 탐지 / 표정 분류
