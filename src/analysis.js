@@ -1,19 +1,26 @@
-let prevExpression = "neutral";
-
-export const status = {
+export let status = {
   turned: false,
+  turnedFactor: 0,
   bowed: false,
-  expressionChange: false,
+  bowedFactor: 0,
+  eyesClosed: false,
+  eyesClosedFactor: 0,
 };
 
-export function analyze(detections) {
-  if (detections[0]) {
-    let landmarks = detections[0].landmarks._positions;
-    [status.turned, status.bowed] = analyzeLandmark(landmarks);
+const weights = { turned: 30, bowed: 40, eyesClosed: 50 };
+const eyeFactor = 6.2; // higher -> need to close eye harder to trigger true
+const turnFactor = 3.5; // higher -> need more turn to trigger true
+const bowFactor = -0.1; // higher -> need more bow to trigger true
 
-    let expressions = detections[0].expressions;
-    analyzeExpression(expressions);
+export function analyze(landmarks) {
+  if (landmarks) {
+    status = analyzeLandmark(landmarks);
   }
+
+  // weighted sum of score to produce overall score.
+  return Object.keys(weights).reduce((acc, key) => {
+    return acc + status[key] * weights[key];
+  }, 0);
 }
 
 function calcDist(p1, p2) {
@@ -26,34 +33,45 @@ function diffBigger(l1, l2, ratio) {
     l1 = l2;
     l2 = t;
   }
-  return l2 < l1 * ratio;
+  return [l2 * ratio < l1, `${(l1 / l2).toFixed(2)}>${turnFactor}`];
 }
 
 function analyzeLandmark(landmarks) {
-  let lcheek = calcDist(landmarks[33], landmarks[3]);
-  let rcheek = calcDist(landmarks[33], landmarks[13]);
-  let turned = diffBigger(lcheek, rcheek, 0.4);
+  // turned face
+  const lcheek = calcDist(landmarks[33], landmarks[3]);
+  const rcheek = calcDist(landmarks[33], landmarks[13]);
+  const [turned, turnedFactor] = diffBigger(lcheek, rcheek, turnFactor);
 
-  let facehigh = (landmarks[1]._y + landmarks[15]._y) / 2;
-  let eyelow = (landmarks[39]._y + landmarks[42]._y) / 2;
-  let bowed = facehigh < eyelow;
+  // bowed face
+  const facehigh = (landmarks[1]._y + landmarks[15]._y) / 2;
+  const eyelow = (landmarks[39]._y + landmarks[42]._y) / 2;
+  const distance =
+    (calcDist(landmarks[0], landmarks[1]) +
+      calcDist(landmarks[15], landmarks[16])) /
+    2;
+  const bowed = facehigh < eyelow + distance * -bowFactor;
+  const bowedFactor = `${(-(facehigh - eyelow) / distance).toFixed(
+    2
+  )}>${bowFactor}`;
 
-  return [turned, bowed];
-}
+  // eyes closed
+  const leyeHeight = calcDist(landmarks[38], landmarks[40]);
+  const reyeHeight = calcDist(landmarks[43], landmarks[47]);
+  const avgeyeHeight = (leyeHeight + reyeHeight) / 2;
+  const leyeWidth = calcDist(landmarks[36], landmarks[39]);
+  const reyeWidth = calcDist(landmarks[42], landmarks[45]);
+  const avgeyeWidth = (leyeWidth + reyeWidth) / 2;
+  const eyesClosed = avgeyeHeight * eyeFactor < avgeyeWidth;
+  const eyesClosedFactor = `${(avgeyeWidth / avgeyeHeight).toFixed(
+    2
+  )}>${eyeFactor}`;
 
-function analyzeExpression(expressions) {
-  let curExpression = "neutral";
-  Object.keys(expressions).forEach((key) => {
-    if (expressions[curExpression] < expressions[key]) curExpression = key;
-  });
-  if (prevExpression != curExpression && status.expressionChange != true) {
-    status.expressionChange = true;
-    setTimeout(
-      (status) => {
-        status.expressionChange = false;
-      },
-      1500,
-      status
-    );
-  }
+  return {
+    turned,
+    turnedFactor,
+    bowed,
+    bowedFactor,
+    eyesClosed,
+    eyesClosedFactor,
+  };
 }
