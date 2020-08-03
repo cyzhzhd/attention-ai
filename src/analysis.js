@@ -1,4 +1,5 @@
 export let status = {
+  undetected: false,
   turned: false,
   turnedFactor: 0,
   bowed: false,
@@ -7,19 +8,23 @@ export let status = {
   eyesClosedFactor: 0,
 };
 
-const weights = { turned: 30, bowed: 40, eyesClosed: 50 };
-const eyeFactor = 6.2; // higher -> need to close eye harder to trigger true
+const weights = { undetected: 50, turned: 30, bowed: 40, eyesClosed: 50 };
+const eyeFactor = 6.0; // higher -> need to close eye harder to trigger true
 const turnFactor = 3.5; // higher -> need more turn to trigger true
 const bowFactor = -0.1; // higher -> need more bow to trigger true
 
-export function analyze(landmarks) {
+export function analyze(detection, landmarks) {
+  status = {};
+  status.undetected = detection ? false : true;
+
   if (landmarks) {
-    status = analyzeLandmark(landmarks);
+    status = { ...status, ...analyzeLandmark(landmarks) };
   }
 
   // weighted sum of score to produce overall score.
   return Object.keys(weights).reduce((acc, key) => {
-    return acc + status[key] * weights[key];
+    const returnVal = status[key] ? acc + status[key] * weights[key] : acc;
+    return returnVal;
   }, 0);
 }
 

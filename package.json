@@ -1,6 +1,6 @@
 {
   "name": "183-2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Face Analysis model",
   "scripts": {
     "start": "electron ./dist/electron.js",

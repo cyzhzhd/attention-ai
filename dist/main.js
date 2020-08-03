@@ -55,7 +55,7 @@
   function (t, e, n) {
     "use strict";
     n.d(e, "i", function () {
-      return Zo;
+      return ts;
     }),
       n.d(e, "l", function () {
         return N.a;
@@ -63,131 +63,128 @@
       n.d(e, "m", function () {
         return N.b;
       }),
-      n.d(e, "ld", function () {
-        return ss.a;
+      n.d(e, "md", function () {
+        return us.a;
       }),
-      n.d(e, "Ad", function () {
-        return ss.b;
+      n.d(e, "Bd", function () {
+        return us.b;
       }),
       n.d(e, "r", function () {
         return k;
       }),
       n.d(e, "s", function () {
-        return ua;
-      }),
-      n.d(e, "A", function () {
         return ca;
       }),
-      n.d(e, "C", function () {
+      n.d(e, "A", function () {
         return la;
       }),
-      n.d(e, "D", function () {
+      n.d(e, "C", function () {
         return ha;
+      }),
+      n.d(e, "D", function () {
+        return da;
       }),
       n.d(e, "K", function () {
         return yn;
       }),
       n.d(e, "G", function () {
-        return pa;
-      }),
-      n.d(e, "H", function () {
         return fa;
       }),
-      n.d(e, "I", function () {
+      n.d(e, "H", function () {
         return ma;
       }),
-      n.d(e, "J", function () {
+      n.d(e, "I", function () {
         return ga;
       }),
+      n.d(e, "J", function () {
+        return ba;
+      }),
       n.d(e, "L", function () {
-        return va;
+        return ya;
       }),
       n.d(e, "R", function () {
-        return ya.a;
+        return xa.a;
       }),
       n.d(e, "S", function () {
         return D;
       }),
       n.d(e, "T", function () {
-        return xa;
-      }),
-      n.d(e, "U", function () {
         return wa;
       }),
-      n.d(e, "V", function () {
+      n.d(e, "U", function () {
         return Ca;
       }),
-      n.d(e, "W", function () {
+      n.d(e, "V", function () {
         return Oa;
       }),
-      n.d(e, "X", function () {
+      n.d(e, "W", function () {
         return Ea;
+      }),
+      n.d(e, "X", function () {
+        return Sa;
       }),
       n.d(e, "Y", function () {
         return we;
       }),
       n.d(e, "Z", function () {
-        return Sa;
+        return Ia;
       }),
       n.d(e, "ab", function () {
-        return Ia;
+        return ka;
       }),
       n.d(e, "db", function () {
         return ke;
       }),
       n.d(e, "eb", function () {
-        return Na;
+        return Ra;
       }),
       n.d(e, "fb", function () {
-        return Ra;
+        return Aa;
       }),
       n.d(e, "ib", function () {
         return U;
       }),
       n.d(e, "jb", function () {
-        return Ta;
+        return _a;
       }),
       n.d(e, "lb", function () {
-        return Da;
-      }),
-      n.d(e, "ob", function () {
         return Fa;
       }),
-      n.d(e, "tb", function () {
+      n.d(e, "pb", function () {
         return Ma;
       }),
-      n.d(e, "vb", function () {
+      n.d(e, "ub", function () {
         return ja;
       }),
-      n.d(e, "xb", function () {
+      n.d(e, "wb", function () {
+        return $a;
+      }),
+      n.d(e, "yb", function () {
         return V;
       }),
-      n.d(e, "Bb", function () {
+      n.d(e, "Cb", function () {
         return Ye;
       }),
-      n.d(e, "Cb", function () {
+      n.d(e, "Db", function () {
         return Ve;
       }),
-      n.d(e, "Eb", function () {
+      n.d(e, "Fb", function () {
         return Ba.a;
       }),
-      n.d(e, "Kb", function () {
+      n.d(e, "Lb", function () {
         return La;
       }),
-      n.d(e, "Lb", function () {
+      n.d(e, "Mb", function () {
         return Ue;
       }),
-      n.d(e, "Mb", function () {
+      n.d(e, "Nb", function () {
         return Je;
       }),
-      n.d(e, "Pb", function () {
-        return Pa;
-      }),
-      n.d(e, "Wb", function () {
-        return he;
+      n.d(e, "Qb", function () {
+        return za;
       }),
       n.d(e, "Xb", function () {
-        return za;
+        return he;
       }),
       n.d(e, "Yb", function () {
         return Wa;
@@ -199,90 +196,93 @@
         return Ua;
       }),
       n.d(e, "bc", function () {
-        return $a;
-      }),
-      n.d(e, "fc", function () {
         return Ga;
+      }),
+      n.d(e, "cc", function () {
+        return Pa;
       }),
       n.d(e, "gc", function () {
         return Ha;
       }),
-      n.d(e, "ic", function () {
-        return G;
-      }),
-      n.d(e, "jc", function () {
+      n.d(e, "hc", function () {
         return qa;
       }),
-      n.d(e, "mc", function () {
+      n.d(e, "jc", function () {
+        return G;
+      }),
+      n.d(e, "kc", function () {
         return Ka;
       }),
       n.d(e, "nc", function () {
+        return Xa;
+      }),
+      n.d(e, "oc", function () {
         return zr;
       }),
-      n.d(e, "qc", function () {
+      n.d(e, "rc", function () {
         return Sn;
       }),
-      n.d(e, "rc", function () {
+      n.d(e, "sc", function () {
         return hn;
       }),
-      n.d(e, "sc", function () {
-        return ei;
-      }),
-      n.d(e, "uc", function () {
-        return ui;
+      n.d(e, "tc", function () {
+        return ni;
       }),
       n.d(e, "vc", function () {
         return ci;
       }),
-      n.d(e, "xc", function () {
-        return li.a;
+      n.d(e, "wc", function () {
+        return li;
       }),
-      n.d(e, "Bc", function () {
-        return hi;
+      n.d(e, "yc", function () {
+        return hi.a;
       }),
-      n.d(e, "Jc", function () {
-        return pi;
+      n.d(e, "Cc", function () {
+        return di;
       }),
       n.d(e, "Kc", function () {
         return fi;
       }),
-      n.d(e, "ad", function () {
-        return pe;
-      }),
-      n.d(e, "cd", function () {
-        return ge;
-      }),
-      n.d(e, "ed", function () {
-        return pt;
-      }),
-      n.d(e, "fd", function () {
+      n.d(e, "Lc", function () {
         return mi;
       }),
-      n.d(e, "jd", function () {
-        return Me;
+      n.d(e, "bd", function () {
+        return pe;
       }),
-      n.d(e, "ud", function () {
-        return je;
+      n.d(e, "dd", function () {
+        return ge;
       }),
-      n.d(e, "yd", function () {
+      n.d(e, "fd", function () {
+        return pt;
+      }),
+      n.d(e, "gd", function () {
         return gi;
       }),
-      n.d(e, "Dc", function () {
-        return ki;
+      n.d(e, "kd", function () {
+        return Me;
       }),
-      n.d(e, "Sc", function () {
-        return Bn;
+      n.d(e, "vd", function () {
+        return je;
+      }),
+      n.d(e, "zd", function () {
+        return bi;
+      }),
+      n.d(e, "Ec", function () {
+        return Ni;
       }),
       n.d(e, "Tc", function () {
         return $n;
       }),
       n.d(e, "Uc", function () {
-        return Ln;
+        return Bn;
       }),
       n.d(e, "Vc", function () {
         return Pn;
       }),
       n.d(e, "Wc", function () {
+        return Ln;
+      }),
+      n.d(e, "Xc", function () {
         return zn;
       }),
       n.d(e, "o", function () {
@@ -318,58 +318,58 @@
       n.d(e, "cb", function () {
         return Et;
       }),
-      n.d(e, "pb", function () {
+      n.d(e, "qb", function () {
         return St;
       }),
-      n.d(e, "qb", function () {
+      n.d(e, "rb", function () {
         return It;
       }),
-      n.d(e, "sb", function () {
+      n.d(e, "tb", function () {
         return kt;
       }),
-      n.d(e, "wb", function () {
+      n.d(e, "xb", function () {
         return Nt;
       }),
-      n.d(e, "Qb", function () {
+      n.d(e, "Rb", function () {
         return Rt;
       }),
-      n.d(e, "Rb", function () {
+      n.d(e, "Sb", function () {
         return At;
       }),
-      n.d(e, "kc", function () {
+      n.d(e, "lc", function () {
         return _t;
       }),
-      n.d(e, "yc", function () {
+      n.d(e, "zc", function () {
         return Dt;
       }),
-      n.d(e, "Fc", function () {
+      n.d(e, "Gc", function () {
         return Ft;
       }),
-      n.d(e, "Gc", function () {
+      n.d(e, "Hc", function () {
         return Mt;
       }),
-      n.d(e, "Oc", function () {
+      n.d(e, "Pc", function () {
         return jt;
       }),
-      n.d(e, "Pc", function () {
-        return Bt;
-      }),
       n.d(e, "Qc", function () {
-        return zt;
+        return $t;
       }),
       n.d(e, "Rc", function () {
+        return zt;
+      }),
+      n.d(e, "Sc", function () {
         return Wt;
       }),
-      n.d(e, "Zc", function () {
+      n.d(e, "ad", function () {
         return Vt;
       }),
-      n.d(e, "dd", function () {
+      n.d(e, "ed", function () {
         return Ut;
       }),
-      n.d(e, "md", function () {
+      n.d(e, "nd", function () {
         return Ht;
       }),
-      n.d(e, "nd", function () {
+      n.d(e, "od", function () {
         return qt;
       }),
       n.d(e, "t", function () {
@@ -384,34 +384,34 @@
       n.d(e, "w", function () {
         return ot;
       }),
-      n.d(e, "cc", function () {
+      n.d(e, "dc", function () {
         return ut;
       }),
-      n.d(e, "ec", function () {
+      n.d(e, "fc", function () {
         return ct;
       }),
-      n.d(e, "hc", function () {
+      n.d(e, "ic", function () {
         return lt;
       }),
-      n.d(e, "kd", function () {
+      n.d(e, "ld", function () {
         return ht;
       }),
-      n.d(e, "tc", function () {
+      n.d(e, "uc", function () {
         return dt;
       }),
-      n.d(e, "Tb", function () {
+      n.d(e, "Ub", function () {
         return an;
       }),
-      n.d(e, "Ub", function () {
+      n.d(e, "Vb", function () {
         return on;
       }),
-      n.d(e, "Vb", function () {
+      n.d(e, "Wb", function () {
         return sn;
       }),
-      n.d(e, "Fd", function () {
+      n.d(e, "Gd", function () {
         return cn;
       }),
-      n.d(e, "Gd", function () {
+      n.d(e, "Hd", function () {
         return ln;
       }),
       n.d(e, "N", function () {
@@ -420,182 +420,185 @@
       n.d(e, "O", function () {
         return j;
       }),
-      n.d(e, "rb", function () {
-        return B;
-      }),
-      n.d(e, "Cc", function () {
+      n.d(e, "sb", function () {
         return $;
       }),
-      n.d(e, "gd", function () {
-        return L;
+      n.d(e, "Dc", function () {
+        return B;
       }),
       n.d(e, "hd", function () {
         return P;
       }),
-      n.d(e, "zd", function () {
+      n.d(e, "id", function () {
+        return L;
+      }),
+      n.d(e, "Ad", function () {
         return z;
       }),
-      n.d(e, "Nc", function () {
+      n.d(e, "Oc", function () {
         return W;
       }),
-      n.d(e, "Ob", function () {
+      n.d(e, "Pb", function () {
         return _.a;
       }),
-      n.d(e, "oc", function () {
+      n.d(e, "pc", function () {
         return _.b;
       }),
-      n.d(e, "wc", function () {
+      n.d(e, "xc", function () {
         return _.d;
       }),
-      n.d(e, "Hc", function () {
+      n.d(e, "Ic", function () {
         return _.e;
       }),
-      n.d(e, "od", function () {
+      n.d(e, "pd", function () {
         return _.f;
       }),
-      n.d(e, "pd", function () {
+      n.d(e, "qd", function () {
         return _.g;
       }),
-      n.d(e, "qd", function () {
+      n.d(e, "rd", function () {
         return _.h;
       }),
-      n.d(e, "rd", function () {
+      n.d(e, "sd", function () {
         return _.j;
       }),
-      n.d(e, "Cd", function () {
+      n.d(e, "Dd", function () {
         return _.m;
       }),
-      n.d(e, "Hd", function () {
+      n.d(e, "Id", function () {
         return _.n;
       }),
-      n.d(e, "pc", function () {
+      n.d(e, "qc", function () {
         return _.c;
       }),
-      n.d(e, "Id", function () {
+      n.d(e, "Jd", function () {
         return _.o;
       }),
-      n.d(e, "xd", function () {
+      n.d(e, "yd", function () {
         return Ie;
       }),
-      n.d(e, "Yc", function () {
-        return qi;
-      }),
-      n.d(e, "Sb", function () {
+      n.d(e, "Zc", function () {
         return Ki;
       }),
-      n.d(e, "zb", function () {
-        return Ei;
-      }),
-      n.d(e, "id", function () {
-        return Zi;
-      }),
-      n.d(e, "vd", function () {
-        return to;
-      }),
-      n.d(e, "Ic", function () {
-        return eo;
-      }),
-      n.d(e, "ub", function () {
-        return no;
-      }),
-      n.d(e, "Db", function () {
-        return ro;
-      }),
-      n.d(e, "Ec", function () {
-        return ao;
-      }),
-      n.d(e, "Hb", function () {
-        return io;
-      }),
-      n.d(e, "bd", function () {
-        return oo;
+      n.d(e, "Tb", function () {
+        return Xi;
       }),
       n.d(e, "Ab", function () {
-        return so;
+        return Si;
       }),
-      n.d(e, "kb", function () {
-        return uo;
-      }),
-      n.d(e, "Fb", function () {
-        return d;
-      }),
-      n.d(e, "Nb", function () {
-        return h;
-      }),
-      n.d(e, "yb", function () {
-        return p;
+      n.d(e, "jd", function () {
+        return to;
       }),
       n.d(e, "wd", function () {
-        return cs;
+        return eo;
       }),
-      n.d(e, "mb", function () {
-        return ta;
+      n.d(e, "Jc", function () {
+        return no;
       }),
-      n.d(e, "dc", function () {
-        return ea;
+      n.d(e, "vb", function () {
+        return ro;
       }),
-      n.d(e, "td", function () {
-        return na;
+      n.d(e, "Eb", function () {
+        return ao;
       }),
-      n.d(e, "hb", function () {
-        return ra;
+      n.d(e, "Fc", function () {
+        return io;
       }),
       n.d(e, "Ib", function () {
-        return aa;
+        return oo;
       }),
-      n.d(e, "Mc", function () {
-        return ia;
+      n.d(e, "cd", function () {
+        return so;
       }),
-      n.d(e, "zc", function () {
-        return oa;
+      n.d(e, "Bb", function () {
+        return uo;
       }),
-      n.d(e, "E", function () {
-        return sa;
+      n.d(e, "kb", function () {
+        return co;
       }),
-      n.d(e, "Ac", function () {
-        return Un.e;
+      n.d(e, "Gb", function () {
+        return d;
       }),
-      n.d(e, "Dd", function () {
-        return H;
+      n.d(e, "Ob", function () {
+        return h;
+      }),
+      n.d(e, "zb", function () {
+        return p;
+      }),
+      n.d(e, "xd", function () {
+        return ls;
+      }),
+      n.d(e, "mb", function () {
+        return Zr;
       }),
       n.d(e, "nb", function () {
-        return Hn.b;
+        return ea;
+      }),
+      n.d(e, "ec", function () {
+        return na;
+      }),
+      n.d(e, "ud", function () {
+        return ra;
+      }),
+      n.d(e, "hb", function () {
+        return aa;
+      }),
+      n.d(e, "Jb", function () {
+        return ia;
+      }),
+      n.d(e, "Nc", function () {
+        return oa;
+      }),
+      n.d(e, "Ac", function () {
+        return sa;
+      }),
+      n.d(e, "E", function () {
+        return ua;
+      }),
+      n.d(e, "Bc", function () {
+        return Un.e;
       }),
       n.d(e, "Ed", function () {
+        return H;
+      }),
+      n.d(e, "ob", function () {
+        return Hn.b;
+      }),
+      n.d(e, "Fd", function () {
         return Qr;
       }),
-      n.d(e, "lc", function () {
-        return ls.a;
+      n.d(e, "mc", function () {
+        return hs.a;
       }),
       n.d(e, "M", function () {
         return i;
       }),
-      n.d(e, "Gb", function () {
+      n.d(e, "Hb", function () {
         return a;
       }),
-      n.d(e, "Lc", function () {
+      n.d(e, "Mc", function () {
         return o;
       }),
-      n.d(e, "Bd", function () {
+      n.d(e, "Cd", function () {
         return R;
       }),
       n.d(e, "F", function () {
         return m;
       }),
-      n.d(e, "sd", function () {
+      n.d(e, "td", function () {
         return E;
       }),
-      n.d(e, "Xc", function () {
+      n.d(e, "Yc", function () {
         return r;
       }),
       n.d(e, "gb", function () {
-        return Ms;
+        return js;
       }),
-      n.d(e, "Jb", function () {
+      n.d(e, "Kb", function () {
         return g;
       }),
       n.d(e, "d", function () {
-        return Ps;
+        return zs;
       }),
       n.d(e, "a", function () {
         return Ls;
@@ -692,7 +695,7 @@
         return Kn.f;
       }),
       n.d(a, "fromMemory", function () {
-        return Lr;
+        return Pr;
       }),
       n.d(a, "getLoadHandlers", function () {
         return Zn;
@@ -722,7 +725,7 @@
         return Tr;
       }),
       n.d(a, "withSaveHandler", function () {
-        return Pr;
+        return Lr;
       });
     var i = {};
     n.r(i),
@@ -746,84 +749,84 @@
     var s = {};
     n.r(s),
       n.d(s, "segOpComputeOptimalWindowSize", function () {
-        return yi;
-      }),
-      n.d(s, "computeOutShape", function () {
         return xi;
       }),
-      n.d(s, "collectGatherOpShapeInfo", function () {
+      n.d(s, "computeOutShape", function () {
         return wi;
+      }),
+      n.d(s, "collectGatherOpShapeInfo", function () {
+        return Ci;
       });
     var u = {};
     n.r(u),
       n.d(u, "fft", function () {
-        return no;
-      }),
-      n.d(u, "ifft", function () {
         return ro;
       }),
-      n.d(u, "rfft", function () {
+      n.d(u, "ifft", function () {
         return ao;
       }),
-      n.d(u, "irfft", function () {
+      n.d(u, "rfft", function () {
         return io;
+      }),
+      n.d(u, "irfft", function () {
+        return oo;
       });
     var c = {};
     n.r(c),
       n.d(c, "hannWindow", function () {
-        return lo;
-      }),
-      n.d(c, "hammingWindow", function () {
         return ho;
       }),
-      n.d(c, "frame", function () {
+      n.d(c, "hammingWindow", function () {
         return po;
       }),
-      n.d(c, "stft", function () {
+      n.d(c, "frame", function () {
         return fo;
+      }),
+      n.d(c, "stft", function () {
+        return mo;
       });
     var l = {};
     n.r(l),
       n.d(l, "Reduction", function () {
-        return go;
-      }),
-      n.d(l, "absoluteDifference", function () {
         return bo;
       }),
-      n.d(l, "computeWeightedLoss", function () {
+      n.d(l, "absoluteDifference", function () {
         return vo;
       }),
-      n.d(l, "cosineDistance", function () {
+      n.d(l, "computeWeightedLoss", function () {
         return yo;
       }),
-      n.d(l, "hingeLoss", function () {
+      n.d(l, "cosineDistance", function () {
         return xo;
       }),
-      n.d(l, "huberLoss", function () {
+      n.d(l, "hingeLoss", function () {
         return wo;
       }),
-      n.d(l, "logLoss", function () {
+      n.d(l, "huberLoss", function () {
         return Co;
       }),
-      n.d(l, "meanSquaredError", function () {
+      n.d(l, "logLoss", function () {
         return Oo;
       }),
-      n.d(l, "sigmoidCrossEntropy", function () {
+      n.d(l, "meanSquaredError", function () {
         return Eo;
       }),
-      n.d(l, "softmaxCrossEntropy", function () {
+      n.d(l, "sigmoidCrossEntropy", function () {
         return So;
+      }),
+      n.d(l, "softmaxCrossEntropy", function () {
+        return Io;
       });
     var h = {};
     n.r(h),
       n.d(h, "bandPart", function () {
-        return ko;
-      }),
-      n.d(h, "gramSchmidt", function () {
         return No;
       }),
-      n.d(h, "qr", function () {
+      n.d(h, "gramSchmidt", function () {
         return Ro;
+      }),
+      n.d(h, "qr", function () {
+        return Ao;
       });
     var d = {};
     n.r(d),
@@ -831,33 +834,33 @@
         return Lo;
       }),
       n.d(d, "resizeBilinear", function () {
-        return Po;
-      }),
-      n.d(d, "resizeNearestNeighbor", function () {
         return zo;
       }),
-      n.d(d, "nonMaxSuppressionAsync", function () {
+      n.d(d, "resizeNearestNeighbor", function () {
         return Wo;
       }),
-      n.d(d, "nonMaxSuppressionWithScore", function () {
+      n.d(d, "nonMaxSuppressionAsync", function () {
         return Vo;
       }),
-      n.d(d, "nonMaxSuppressionWithScoreAsync", function () {
+      n.d(d, "nonMaxSuppressionWithScore", function () {
         return Uo;
       }),
-      n.d(d, "cropAndResize", function () {
+      n.d(d, "nonMaxSuppressionWithScoreAsync", function () {
         return Go;
+      }),
+      n.d(d, "cropAndResize", function () {
+        return Ho;
       });
     var p = {};
     n.r(p),
       n.d(p, "matMul", function () {
-        return Yo;
-      }),
-      n.d(p, "conv2d", function () {
         return Jo;
       }),
-      n.d(p, "depthwiseConv2d", function () {
+      n.d(p, "conv2d", function () {
         return Qo;
+      }),
+      n.d(p, "depthwiseConv2d", function () {
+        return Zo;
       });
     var f = {};
     n.r(f),
@@ -865,103 +868,103 @@
         return k;
       }),
       n.d(f, "addN", function () {
-        return ua;
-      }),
-      n.d(f, "atan2", function () {
         return ca;
       }),
-      n.d(f, "avgPool", function () {
+      n.d(f, "atan2", function () {
         return la;
       }),
-      n.d(f, "avgPool3d", function () {
+      n.d(f, "avgPool", function () {
         return ha;
+      }),
+      n.d(f, "avgPool3d", function () {
+        return da;
       }),
       n.d(f, "batchToSpaceND", function () {
         return yn;
       }),
       n.d(f, "batchNorm", function () {
-        return pa;
-      }),
-      n.d(f, "batchNorm2d", function () {
         return fa;
       }),
-      n.d(f, "batchNorm3d", function () {
+      n.d(f, "batchNorm2d", function () {
         return ma;
       }),
-      n.d(f, "batchNorm4d", function () {
+      n.d(f, "batchNorm3d", function () {
         return ga;
       }),
-      n.d(f, "broadcastTo", function () {
-        return va;
-      }),
-      n.d(f, "clone", function () {
+      n.d(f, "batchNorm4d", function () {
         return ba;
       }),
+      n.d(f, "broadcastTo", function () {
+        return ya;
+      }),
+      n.d(f, "clone", function () {
+        return va;
+      }),
       n.d(f, "complex", function () {
-        return ya.a;
+        return xa.a;
       }),
       n.d(f, "concat", function () {
         return D;
       }),
       n.d(f, "concat1d", function () {
-        return xa;
-      }),
-      n.d(f, "concat2d", function () {
         return wa;
       }),
-      n.d(f, "concat3d", function () {
+      n.d(f, "concat2d", function () {
         return Ca;
       }),
-      n.d(f, "concat4d", function () {
+      n.d(f, "concat3d", function () {
         return Oa;
       }),
-      n.d(f, "conv1d", function () {
+      n.d(f, "concat4d", function () {
         return Ea;
+      }),
+      n.d(f, "conv1d", function () {
+        return Sa;
       }),
       n.d(f, "conv2d", function () {
         return we;
       }),
       n.d(f, "conv2dTranspose", function () {
-        return Sa;
-      }),
-      n.d(f, "conv3d", function () {
         return Ia;
       }),
-      n.d(f, "conv3dTranspose", function () {
+      n.d(f, "conv3d", function () {
         return ka;
+      }),
+      n.d(f, "conv3dTranspose", function () {
+        return Na;
       }),
       n.d(f, "cumsum", function () {
         return ke;
       }),
       n.d(f, "depthToSpace", function () {
-        return Na;
-      }),
-      n.d(f, "depthwiseConv2d", function () {
         return Ra;
       }),
-      n.d(f, "diag", function () {
+      n.d(f, "depthwiseConv2d", function () {
         return Aa;
+      }),
+      n.d(f, "diag", function () {
+        return Ta;
       }),
       n.d(f, "div", function () {
         return U;
       }),
       n.d(f, "divNoNan", function () {
-        return Ta;
-      }),
-      n.d(f, "dot", function () {
         return _a;
       }),
-      n.d(f, "elu", function () {
+      n.d(f, "dot", function () {
         return Da;
       }),
-      n.d(f, "equal", function () {
+      n.d(f, "elu", function () {
         return Fa;
       }),
-      n.d(f, "eye", function () {
+      n.d(f, "equal", function () {
         return Ma;
       }),
-      n.d(f, "fill", function () {
+      n.d(f, "eye", function () {
         return ja;
+      }),
+      n.d(f, "fill", function () {
+        return $a;
       }),
       n.d(f, "floorDiv", function () {
         return V;
@@ -985,97 +988,97 @@
         return Je;
       }),
       n.d(f, "localResponseNormalization", function () {
-        return Pa;
+        return za;
       }),
       n.d(f, "matMul", function () {
         return he;
       }),
       n.d(f, "max", function () {
-        return za;
-      }),
-      n.d(f, "maxPool", function () {
         return Wa;
       }),
-      n.d(f, "maxPool3d", function () {
+      n.d(f, "maxPool", function () {
         return Va;
       }),
-      n.d(f, "maxPoolWithArgmax", function () {
+      n.d(f, "maxPool3d", function () {
         return Ua;
       }),
-      n.d(f, "maximum", function () {
-        return $a;
-      }),
-      n.d(f, "minimum", function () {
+      n.d(f, "maxPoolWithArgmax", function () {
         return Ga;
       }),
-      n.d(f, "mod", function () {
+      n.d(f, "maximum", function () {
+        return Pa;
+      }),
+      n.d(f, "minimum", function () {
         return Ha;
+      }),
+      n.d(f, "mod", function () {
+        return qa;
       }),
       n.d(f, "mul", function () {
         return G;
       }),
       n.d(f, "multinomial", function () {
-        return qa;
+        return Ka;
       }),
       n.d(f, "notEqual", function () {
-        return Ka;
+        return Xa;
       }),
       n.d(f, "oneHot", function () {
         return zr;
       }),
       n.d(f, "outerProduct", function () {
-        return Xa;
+        return Ya;
       }),
       n.d(f, "pad", function () {
         return Sn;
       }),
       n.d(f, "pad1d", function () {
-        return Ya;
-      }),
-      n.d(f, "pad2d", function () {
         return Ja;
       }),
-      n.d(f, "pad3d", function () {
+      n.d(f, "pad2d", function () {
         return Qa;
       }),
-      n.d(f, "pad4d", function () {
+      n.d(f, "pad3d", function () {
         return Za;
       }),
-      n.d(f, "pool", function () {
+      n.d(f, "pad4d", function () {
         return ti;
+      }),
+      n.d(f, "pool", function () {
+        return ei;
       }),
       n.d(f, "pow", function () {
         return hn;
       }),
       n.d(f, "prelu", function () {
-        return ei;
-      }),
-      n.d(f, "rand", function () {
         return ni;
       }),
-      n.d(f, "randomGamma", function () {
-        return si;
+      n.d(f, "rand", function () {
+        return ri;
       }),
-      n.d(f, "randomNormal", function () {
+      n.d(f, "randomGamma", function () {
         return ui;
       }),
-      n.d(f, "randomUniform", function () {
+      n.d(f, "randomNormal", function () {
         return ci;
       }),
+      n.d(f, "randomUniform", function () {
+        return li;
+      }),
       n.d(f, "real", function () {
-        return li.a;
+        return hi.a;
       }),
       n.d(f, "relu", function () {
-        return hi;
-      }),
-      n.d(f, "relu6", function () {
         return di;
       }),
-      n.d(f, "selu", function () {
+      n.d(f, "relu6", function () {
         return pi;
       }),
-      n.d(f, "separableConv2d", function () {
+      n.d(f, "selu", function () {
         return fi;
+      }),
+      n.d(f, "separableConv2d", function () {
+        return mi;
       }),
       n.d(f, "spaceToBatchND", function () {
         return pe;
@@ -1087,7 +1090,7 @@
         return pt;
       }),
       n.d(f, "squaredDifference", function () {
-        return mi;
+        return gi;
       }),
       n.d(f, "sub", function () {
         return Me;
@@ -1096,37 +1099,37 @@
         return je;
       }),
       n.d(f, "truncatedNormal", function () {
-        return gi;
+        return bi;
       }),
       n.d(f, "booleanMaskAsync", function () {
-        return Ii;
-      }),
-      n.d(f, "reverse", function () {
         return ki;
       }),
-      n.d(f, "reverse1d", function () {
+      n.d(f, "reverse", function () {
         return Ni;
       }),
-      n.d(f, "reverse2d", function () {
+      n.d(f, "reverse1d", function () {
         return Ri;
       }),
-      n.d(f, "reverse3d", function () {
+      n.d(f, "reverse2d", function () {
         return Ai;
       }),
-      n.d(f, "reverse4d", function () {
+      n.d(f, "reverse3d", function () {
         return Ti;
       }),
-      n.d(f, "slice", function () {
-        return Bn;
+      n.d(f, "reverse4d", function () {
+        return _i;
       }),
-      n.d(f, "slice1d", function () {
+      n.d(f, "slice", function () {
         return $n;
       }),
+      n.d(f, "slice1d", function () {
+        return Bn;
+      }),
       n.d(f, "slice2d", function () {
-        return Ln;
+        return Pn;
       }),
       n.d(f, "slice3d", function () {
-        return Pn;
+        return Ln;
       }),
       n.d(f, "slice4d", function () {
         return zn;
@@ -1201,16 +1204,16 @@
         return jt;
       }),
       n.d(f, "sign", function () {
-        return Bt;
-      }),
-      n.d(f, "isNaN", function () {
         return $t;
       }),
+      n.d(f, "isNaN", function () {
+        return Bt;
+      }),
       n.d(f, "isInf", function () {
-        return Lt;
+        return Pt;
       }),
       n.d(f, "isFinite", function () {
-        return Pt;
+        return Lt;
       }),
       n.d(f, "sin", function () {
         return zt;
@@ -1264,49 +1267,49 @@
         return dt;
       }),
       n.d(f, "equalStrict", function () {
-        return _i;
-      }),
-      n.d(f, "greaterEqualStrict", function () {
         return Di;
       }),
-      n.d(f, "greaterStrict", function () {
+      n.d(f, "greaterEqualStrict", function () {
         return Fi;
       }),
-      n.d(f, "lessEqualStrict", function () {
+      n.d(f, "greaterStrict", function () {
         return Mi;
       }),
-      n.d(f, "lessStrict", function () {
+      n.d(f, "lessEqualStrict", function () {
         return ji;
+      }),
+      n.d(f, "lessStrict", function () {
+        return $i;
       }),
       n.d(f, "notEqualStrict", function () {
         return Bi;
       }),
       n.d(f, "addStrict", function () {
-        return $i;
+        return Pi;
       }),
       n.d(f, "divStrict", function () {
         return Li;
       }),
       n.d(f, "maximumStrict", function () {
-        return Pi;
-      }),
-      n.d(f, "minimumStrict", function () {
         return zi;
       }),
-      n.d(f, "modStrict", function () {
+      n.d(f, "minimumStrict", function () {
         return Wi;
       }),
-      n.d(f, "mulStrict", function () {
+      n.d(f, "modStrict", function () {
         return Vi;
       }),
-      n.d(f, "powStrict", function () {
+      n.d(f, "mulStrict", function () {
         return Ui;
       }),
-      n.d(f, "squaredDifferenceStrict", function () {
+      n.d(f, "powStrict", function () {
         return Gi;
       }),
-      n.d(f, "subStrict", function () {
+      n.d(f, "squaredDifferenceStrict", function () {
         return Hi;
+      }),
+      n.d(f, "subStrict", function () {
+        return qi;
       }),
       n.d(f, "logicalAnd", function () {
         return an;
@@ -1336,16 +1339,16 @@
         return j;
       }),
       n.d(f, "expandDims", function () {
-        return B;
-      }),
-      n.d(f, "reshape", function () {
         return $;
       }),
+      n.d(f, "reshape", function () {
+        return B;
+      }),
       n.d(f, "squeeze", function () {
-        return L;
+        return P;
       }),
       n.d(f, "stack", function () {
-        return P;
+        return L;
       }),
       n.d(f, "unstack", function () {
         return z;
@@ -1402,73 +1405,73 @@
         return Ie;
       }),
       n.d(f, "softmax", function () {
-        return qi;
-      }),
-      n.d(f, "logSoftmax", function () {
         return Ki;
       }),
-      n.d(f, "norm", function () {
+      n.d(f, "logSoftmax", function () {
         return Xi;
       }),
-      n.d(f, "gather", function () {
-        return Ei;
-      }),
-      n.d(f, "unsortedSegmentSum", function () {
-        return Si;
-      }),
-      n.d(f, "basicLSTMCell", function () {
+      n.d(f, "norm", function () {
         return Yi;
       }),
-      n.d(f, "multiRNNCell", function () {
+      n.d(f, "gather", function () {
+        return Si;
+      }),
+      n.d(f, "unsortedSegmentSum", function () {
+        return Ii;
+      }),
+      n.d(f, "basicLSTMCell", function () {
         return Ji;
       }),
-      n.d(f, "movingAverage", function () {
+      n.d(f, "multiRNNCell", function () {
         return Qi;
       }),
-      n.d(f, "stridedSlice", function () {
+      n.d(f, "movingAverage", function () {
         return Zi;
       }),
-      n.d(f, "topk", function () {
+      n.d(f, "stridedSlice", function () {
         return to;
       }),
-      n.d(f, "scatterND", function () {
+      n.d(f, "topk", function () {
         return eo;
       }),
-      n.d(f, "fft", function () {
+      n.d(f, "scatterND", function () {
         return no;
       }),
-      n.d(f, "ifft", function () {
+      n.d(f, "fft", function () {
         return ro;
       }),
-      n.d(f, "rfft", function () {
+      n.d(f, "ifft", function () {
         return ao;
       }),
-      n.d(f, "irfft", function () {
+      n.d(f, "rfft", function () {
         return io;
       }),
-      n.d(f, "sparseToDense", function () {
+      n.d(f, "irfft", function () {
         return oo;
       }),
-      n.d(f, "gatherND", function () {
+      n.d(f, "sparseToDense", function () {
         return so;
       }),
-      n.d(f, "dropout", function () {
+      n.d(f, "gatherND", function () {
         return uo;
       }),
-      n.d(f, "hannWindow", function () {
-        return lo;
+      n.d(f, "dropout", function () {
+        return co;
       }),
-      n.d(f, "hammingWindow", function () {
+      n.d(f, "hannWindow", function () {
         return ho;
       }),
-      n.d(f, "frame", function () {
+      n.d(f, "hammingWindow", function () {
         return po;
       }),
-      n.d(f, "stft", function () {
+      n.d(f, "frame", function () {
         return fo;
       }),
-      n.d(f, "inTopKAsync", function () {
+      n.d(f, "stft", function () {
         return mo;
+      }),
+      n.d(f, "inTopKAsync", function () {
+        return go;
       }),
       n.d(f, "op", function () {
         return I.a;
@@ -1557,34 +1560,34 @@
         return oe;
       }),
       n.d(m, "PARALLELIZE_THRESHOLD", function () {
-        return bi;
-      }),
-      n.d(m, "computeOptimalWindowSize", function () {
         return vi;
       }),
-      n.d(m, "nonMaxSuppressionV3", function () {
-        return _o;
+      n.d(m, "computeOptimalWindowSize", function () {
+        return yi;
       }),
-      n.d(m, "nonMaxSuppressionV5", function () {
+      n.d(m, "nonMaxSuppressionV3", function () {
         return Do;
       }),
+      n.d(m, "nonMaxSuppressionV5", function () {
+        return Fo;
+      }),
       n.d(m, "upcastType", function () {
-        return ss.b;
+        return us.b;
       }),
       n.d(m, "getReshaped", function () {
-        return hs;
-      }),
-      n.d(m, "getPermuted", function () {
         return ds;
       }),
-      n.d(m, "getReshapedPermuted", function () {
+      n.d(m, "getPermuted", function () {
         return ps;
       }),
-      n.d(m, "getSliceBeginCoords", function () {
+      n.d(m, "getReshapedPermuted", function () {
         return fs;
       }),
-      n.d(m, "getSliceSize", function () {
+      n.d(m, "getSliceBeginCoords", function () {
         return ms;
+      }),
+      n.d(m, "getSliceSize", function () {
+        return gs;
       }),
       n.d(m, "prepareAndValidate", function () {
         return Gr;
@@ -1605,84 +1608,84 @@
         return bn;
       }),
       n.d(m, "shouldFuse", function () {
-        return Ho;
+        return qo;
       }),
       n.d(m, "ERF_P", function () {
-        return gs;
-      }),
-      n.d(m, "ERF_A1", function () {
         return bs;
       }),
-      n.d(m, "ERF_A2", function () {
+      n.d(m, "ERF_A1", function () {
         return vs;
       }),
-      n.d(m, "ERF_A3", function () {
+      n.d(m, "ERF_A2", function () {
         return ys;
       }),
-      n.d(m, "ERF_A4", function () {
+      n.d(m, "ERF_A3", function () {
         return xs;
       }),
-      n.d(m, "ERF_A5", function () {
+      n.d(m, "ERF_A4", function () {
         return ws;
       }),
-      n.d(m, "warn", function () {
+      n.d(m, "ERF_A5", function () {
         return Cs;
       }),
-      n.d(m, "log", function () {
+      n.d(m, "warn", function () {
         return Os;
       }),
-      n.d(m, "mergeRealAndImagArrays", function () {
+      n.d(m, "log", function () {
         return Es;
       }),
-      n.d(m, "splitRealAndImagArrays", function () {
+      n.d(m, "mergeRealAndImagArrays", function () {
         return Ss;
       }),
-      n.d(m, "complexWithEvenIndex", function () {
+      n.d(m, "splitRealAndImagArrays", function () {
         return Is;
       }),
-      n.d(m, "complexWithOddIndex", function () {
+      n.d(m, "complexWithEvenIndex", function () {
         return ks;
       }),
-      n.d(m, "getComplexWithIndex", function () {
+      n.d(m, "complexWithOddIndex", function () {
         return Ns;
       }),
-      n.d(m, "assignToTypedArray", function () {
+      n.d(m, "getComplexWithIndex", function () {
         return Rs;
       }),
-      n.d(m, "exponents", function () {
+      n.d(m, "assignToTypedArray", function () {
         return As;
       }),
-      n.d(m, "exponent", function () {
+      n.d(m, "exponents", function () {
         return Ts;
+      }),
+      n.d(m, "exponent", function () {
+        return _s;
       }),
       n.d(m, "segment_util", function () {
         return s;
       }),
       n.d(m, "castTensor", function () {
-        return _s;
-      }),
-      n.d(m, "reshapeTensor", function () {
         return Ds;
       }),
-      n.d(m, "linspaceImpl", function () {
+      n.d(m, "reshapeTensor", function () {
         return Fs;
+      }),
+      n.d(m, "linspaceImpl", function () {
+        return Ms;
       });
     var g = {};
     n.r(g),
       n.d(g, "nonMaxSuppressionV3", function () {
-        return _o;
-      }),
-      n.d(g, "nonMaxSuppressionV5", function () {
         return Do;
       }),
+      n.d(g, "nonMaxSuppressionV5", function () {
+        return Fo;
+      }),
       n.d(g, "split", function () {
-        return js;
+        return $s;
       }),
       n.d(g, "tile", function () {
         return Bs;
       }),
       n.d(g, "topkImpl", function () {
-        return $s;
+        return Ps;
       }),
       n.d(g, "whereImpl", function () {
         return rn;
@@ -1991,7 +1994,7 @@
           );
         },
       }),
-      B = Object(I.a)({
+      $ = Object(I.a)({
         expandDims_: function (t, e = 0) {
           const n = Object(S.a)(t, "x", "expandDims", null);
           R.assert(e <= n.rank, () => "Axis must be <= rank of the tensor");
@@ -2005,11 +2008,11 @@
               ),
               (e = n.rank + e + 1)),
             r.splice(e, 0, 1),
-            $(n, r)
+            B(n, r)
           );
         },
       }),
-      $ = Object(I.a)({
+      B = Object(I.a)({
         reshape_: function (t, e) {
           const n = Object(S.a)(t, "x", "reshape", null);
           (e = R.inferFromImplicitShape(e, n.size)),
@@ -2028,13 +2031,13 @@
           );
         },
       }),
-      L = Object(I.a)({
+      P = Object(I.a)({
         squeeze_: function (t, e) {
           const n = Object(S.a)(t, "x", "squeeze");
-          return $(n, R.squeezeShape(n.shape, e).newShape);
+          return B(n, R.squeezeShape(n.shape, e).newShape);
         },
       }),
-      P = Object(I.a)({
+      L = Object(I.a)({
         stack_: function (t, e = 0) {
           const n = Object(S.b)(t, "tensors", "stack");
           if (
@@ -2080,7 +2083,7 @@
           return b.a.runKernelFunc(
             (t) => t.unstack(n, e),
             { x: n },
-            (t) => ({ x: () => P(t, e) }),
+            (t) => ({ x: () => L(t, e) }),
             "Unpack",
             r
           );
@@ -3057,7 +3060,7 @@
           );
         },
       }),
-      Bt = Object(I.a)({
+      $t = Object(I.a)({
         sign_: function (t) {
           const e = Object(S.a)(t, "x", "sign");
           return b.a.runKernelFunc(
@@ -3067,7 +3070,7 @@
           );
         },
       }),
-      $t = Object(I.a)({
+      Bt = Object(I.a)({
         isNaN_: function (t) {
           const e = Object(S.a)(t, "x", "isNaN");
           return b.a.runKernelFunc(
@@ -3077,7 +3080,7 @@
           );
         },
       }),
-      Lt = Object(I.a)({
+      Pt = Object(I.a)({
         isInf_: function (t) {
           const e = Object(S.a)(t, "x", "isInf");
           return b.a.runKernelFunc(
@@ -3087,7 +3090,7 @@
           );
         },
       }),
-      Pt = Object(I.a)({
+      Lt = Object(I.a)({
         isFinite_: function (t) {
           const e = Object(S.a)(t, "x", "isFinite");
           return b.a.runKernelFunc(
@@ -3224,13 +3227,13 @@
               const e = k(pt(n), pt(r));
               let i = G(t, U(r, e));
               const o = x(n.shape, a);
-              return o.length > 0 && (i = ht(i, o)), $(i, n.shape);
+              return o.length > 0 && (i = ht(i, o)), B(i, n.shape);
             },
             b: () => {
               const e = k(pt(n), pt(r));
               let i = _t(G(t, U(n, e)));
               const o = x(r.shape, a);
-              return o.length > 0 && (i = ht(i, o)), $(i, r.shape);
+              return o.length > 0 && (i = ht(i, o)), B(i, r.shape);
             },
           };
         },
@@ -3595,8 +3598,8 @@
             h = !1;
           4 === u.rank &&
             ((h = !0),
-            (c = $(s, [1, s.shape[0], s.shape[1], s.shape[2], s.shape[3]])),
-            (l = $(u, [1, u.shape[0], u.shape[1], u.shape[2], u.shape[3]]))),
+            (c = B(s, [1, s.shape[0], s.shape[1], s.shape[2], s.shape[3]])),
+            (l = B(u, [1, u.shape[0], u.shape[1], u.shape[2], u.shape[3]]))),
             R.assert(
               5 === c.rank,
               () =>
@@ -3640,7 +3643,7 @@
               v.f,
               p
             );
-          return h ? $(f, [f.shape[1], f.shape[2], f.shape[3], f.shape[4]]) : f;
+          return h ? B(f, [f.shape[1], f.shape[2], f.shape[3], f.shape[4]]) : f;
         },
       }),
       ue = {
@@ -3705,8 +3708,8 @@
               c = !1;
             3 === o.rank &&
               ((c = !0),
-              (s = $(o, [1, o.shape[0], o.shape[1], o.shape[2]])),
-              (u = $(i, [1, i.shape[0], i.shape[1], i.shape[2]]))),
+              (s = B(o, [1, o.shape[0], o.shape[1], o.shape[2]])),
+              (u = B(i, [1, i.shape[0], i.shape[1], i.shape[2]]))),
               R.assert(
                 4 === u.rank,
                 () =>
@@ -3733,7 +3736,7 @@
                 v.g,
                 h
               );
-            return c ? $(d, [d.shape[1], d.shape[2], d.shape[3]]) : d;
+            return c ? B(d, [d.shape[1], d.shape[2], d.shape[3]]) : d;
           },
       }),
       le = {
@@ -3808,8 +3811,8 @@
                   `Error in matMul: inner shapes (${o}) and (${s}) of Tensors with shapes ${a.shape} and ${i.shape} and transposeA=${n} and transposeB=${r} must match.`
               );
             const f = a.shape.slice(0, -2).concat([u, c]),
-              m = $(a, n ? [d, o, u] : [d, u, o]),
-              g = $(i, r ? [p, c, s] : [p, s, c]),
+              m = B(a, n ? [d, o, u] : [d, u, o]),
+              g = B(i, r ? [p, c, s] : [p, s, c]),
               y = { a: m, b: g },
               x = { transposeA: n, transposeB: r },
               w = b.a.runKernelFunc(
@@ -3819,7 +3822,7 @@
                 v.h,
                 x
               );
-            return $(w, f);
+            return B(w, f);
           },
       }),
       de = {
@@ -4037,9 +4040,9 @@
          */
         function (t, e, n, r, a, i = "NHWC", o) {
           let s = t;
-          3 === t.rank && (s = $(t, [1, t.shape[0], t.shape[1], t.shape[2]]));
+          3 === t.rank && (s = B(t, [1, t.shape[0], t.shape[1], t.shape[2]]));
           let u = e;
-          3 === u.rank && (u = $(e, [1, e.shape[0], e.shape[1], e.shape[2]])),
+          3 === u.rank && (u = B(e, [1, e.shape[0], e.shape[1], e.shape[2]])),
             R.assert(
               4 === s.rank,
               () =>
@@ -4121,7 +4124,7 @@
             c = !1;
           3 === e.rank &&
             ((c = !0),
-            (u = $(e, [1, e.shape[0], e.shape[1], e.shape[2]])),
+            (u = B(e, [1, e.shape[0], e.shape[1], e.shape[2]])),
             (s = [1, t[0], t[1], t[2]])),
             R.assert(
               4 === s.length,
@@ -4174,7 +4177,7 @@
               v.o,
               p
             );
-          return c ? $(f, [f.shape[1], f.shape[2], f.shape[3]]) : f;
+          return c ? B(f, [f.shape[1], f.shape[2], f.shape[3]]) : f;
         },
       }),
       xe = {
@@ -4235,7 +4238,7 @@
             let c = s,
               l = !1;
             3 === s.rank &&
-              ((l = !0), (c = $(s, [1, s.shape[0], s.shape[1], s.shape[2]]))),
+              ((l = !0), (c = B(s, [1, s.shape[0], s.shape[1], s.shape[2]]))),
               R.assert(
                 4 === c.rank,
                 () =>
@@ -4285,7 +4288,7 @@
                 v.m,
                 p
               );
-            return l ? $(f, [f.shape[1], f.shape[2], f.shape[3]]) : f;
+            return l ? B(f, [f.shape[1], f.shape[2], f.shape[3]]) : f;
           },
       }),
       Ce = {
@@ -4336,10 +4339,10 @@
         function (t, e, n, r, a) {
           let i = t;
           4 === t.rank &&
-            (i = $(t, [1, t.shape[0], t.shape[1], t.shape[2], t.shape[3]]));
+            (i = B(t, [1, t.shape[0], t.shape[1], t.shape[2], t.shape[3]]));
           let o = e;
           4 === o.rank &&
-            (o = $(e, [1, e.shape[0], e.shape[1], e.shape[2], e.shape[3]])),
+            (o = B(e, [1, e.shape[0], e.shape[1], e.shape[2], e.shape[3]])),
             R.assert(
               5 === i.rank,
               () =>
@@ -4412,7 +4415,7 @@
             s = !1;
           4 === e.rank &&
             ((s = !0),
-            (o = $(e, [1, e.shape[0], e.shape[1], e.shape[2], e.shape[3]])),
+            (o = B(e, [1, e.shape[0], e.shape[1], e.shape[2], e.shape[3]])),
             (i = [1, t[0], t[1], t[2], t[3]]));
           const u = i[4],
             c = o.shape[4];
@@ -4457,7 +4460,7 @@
               v.r,
               h
             );
-          return s ? $(d, [d.shape[1], d.shape[2], d.shape[3], d.shape[4]]) : d;
+          return s ? B(d, [d.shape[1], d.shape[2], d.shape[3], d.shape[4]]) : d;
         },
       }),
       Se = {
@@ -4628,9 +4631,9 @@
          */
         function (t, e, n, r) {
           let a = t;
-          3 === t.rank && (a = $(t, [1, t.shape[0], t.shape[1], t.shape[2]]));
+          3 === t.rank && (a = B(t, [1, t.shape[0], t.shape[1], t.shape[2]]));
           let i = e;
-          3 === i.rank && (i = $(e, [1, e.shape[0], e.shape[1], e.shape[2]]));
+          3 === i.rank && (i = B(e, [1, e.shape[0], e.shape[1], e.shape[2]]));
           const o = { x: a, dy: i };
           return b.a.runKernelFunc(
             (t) => t.depthwiseConv2DDerFilter(a, i, r),
@@ -4660,7 +4663,7 @@
           let a = e,
             i = !1;
           3 === e.rank &&
-            ((i = !0), (a = $(e, [1, e.shape[0], e.shape[1], e.shape[2]])));
+            ((i = !0), (a = B(e, [1, e.shape[0], e.shape[1], e.shape[2]])));
           const o = { dy: a },
             s = b.a.runKernelFunc(
               (t) => t.depthwiseConv2DDerInput(a, n, r),
@@ -4668,7 +4671,7 @@
               null,
               v.w
             );
-          return i ? $(s, [s.shape[1], s.shape[2], s.shape[3]]) : s;
+          return i ? B(s, [s.shape[1], s.shape[2], s.shape[3]]) : s;
         },
       }),
       Te = {
@@ -4731,7 +4734,7 @@
             b: () => {
               let e = G(t, n.toFloat());
               const i = x(r.shape, a);
-              i.length > 0 && (e = $(ht(e, i), r.shape));
+              i.length > 0 && (e = B(ht(e, i), r.shape));
               const o = pt(r);
               return _t(U(e, o.toFloat()));
             },
@@ -4858,7 +4861,7 @@
           );
         },
       }),
-      Be = {
+      $e = {
         kernelName: v.F,
         inputsToSave: ["x", "mean", "variance", "scale"],
         gradFunc: (t, e, n) => {
@@ -4878,29 +4881,29 @@
           return {
             x: () =>
               1 === i.rank
-                ? $(G(G(t, je(p.as4D(1, 1, 1, i.shape[0]), l)), u), a.shape)
-                : $(G(G(t, p), u), a.shape),
+                ? B(G(G(t, je(p.as4D(1, 1, 1, i.shape[0]), l)), u), a.shape)
+                : B(G(G(t, p), u), a.shape),
             mean: () => {
               let t = G(G(p, Object(_.e)(-1)), d);
-              return 1 === i.rank && (t = ht(t, c)), $(t, i.shape);
+              return 1 === i.rank && (t = ht(t, c)), B(t, i.shape);
             },
             variance: () => {
               let t = G(G(f, h), d);
-              return 1 === i.rank && (t = ht(t, c)), $(t, i.shape);
+              return 1 === i.rank && (t = ht(t, c)), B(t, i.shape);
             },
             scale: () => {
               const e = G(h, p);
               let n = G(t, e);
-              return 1 === i.rank && (n = ht(n, c)), $(n, i.shape);
+              return 1 === i.rank && (n = ht(n, c)), B(n, i.shape);
             },
             offset: () => {
               let e = t;
-              return 1 === i.rank && (e = ht(e, c)), $(e, i.shape);
+              return 1 === i.rank && (e = ht(e, c)), B(e, i.shape);
             },
           };
         },
       },
-      $e = {
+      Be = {
         kernelName: v.I,
         inputsToSave: ["a", "b"],
         gradFunc: (t, e) => {
@@ -4908,7 +4911,7 @@
           return { a: () => Object(_.o)(n), b: () => Object(_.o)(r) };
         },
       },
-      Le = { kernelName: v.J, gradFunc: (t) => ({ x: () => t.toFloat() }) };
+      Pe = { kernelName: v.J, gradFunc: (t) => ({ x: () => t.toFloat() }) };
     /**
      * @license
      * Copyright 2020 Google Inc. All Rights Reserved.
@@ -4924,7 +4927,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Pe = Object(I.a)({
+     */ const Le = Object(I.a)({
         localResponseNormalizationBackprop_:
           /**
            * @license
@@ -4961,7 +4964,7 @@
         gradFunc: (t, e, n) => {
           const [r, a] = e,
             { depthRadius: i, bias: o, alpha: s, beta: u } = n;
-          return { x: () => Pe(r, a, t, i, o, s, u) };
+          return { x: () => Le(r, a, t, i, o, s, u) };
         },
       },
       We = {
@@ -5110,9 +5113,9 @@
               f = !1;
             4 === c.rank &&
               ((f = !0),
-              (h = $(u, [1, u.shape[0], u.shape[1], u.shape[2], u.shape[3]])),
-              (d = $(c, [1, c.shape[0], c.shape[1], c.shape[2], c.shape[3]])),
-              (p = $(l, [1, l.shape[0], l.shape[1], l.shape[2], l.shape[3]]))),
+              (h = B(u, [1, u.shape[0], u.shape[1], u.shape[2], u.shape[3]])),
+              (d = B(c, [1, c.shape[0], c.shape[1], c.shape[2], c.shape[3]])),
+              (p = B(l, [1, l.shape[0], l.shape[1], l.shape[2], l.shape[3]]))),
               R.assert(
                 5 === h.rank,
                 () =>
@@ -5164,7 +5167,7 @@
                 g
               );
             return f
-              ? $(y, [y.shape[1], y.shape[2], y.shape[3], y.shape[4]])
+              ? B(y, [y.shape[1], y.shape[2], y.shape[3], y.shape[4]])
               : y;
           },
       }),
@@ -5364,12 +5367,12 @@
           return {
             a: () => {
               const e = x(n.shape, a);
-              return e.length > 0 ? $(ht(t, e), n.shape) : t;
+              return e.length > 0 ? B(ht(t, e), n.shape) : t;
             },
             b: () => {
               const e = G(t, _t(Nt(U(n, r)))),
                 i = x(r.shape, a);
-              return i.length > 0 ? $(ht(e, i), r.shape) : e;
+              return i.length > 0 ? B(ht(e, i), r.shape) : e;
             },
           };
         },
@@ -5384,12 +5387,12 @@
             a: () => {
               const e = G(t, j(r, "float32")),
                 i = x(n.shape, a);
-              return i.length > 0 ? $(ht(e, i), n.shape) : e;
+              return i.length > 0 ? B(ht(e, i), n.shape) : e;
             },
             b: () => {
               const e = G(t, j(n, "float32")),
                 i = x(r.shape, a);
-              return i.length > 0 ? $(ht(e, i), r.shape) : e;
+              return i.length > 0 ? B(ht(e, i), r.shape) : e;
             },
           };
         },
@@ -5601,14 +5604,14 @@
               const e = j(o, "float32");
               let n = G(t, G(e, hn(i, Me(e, Object(_.e)(1)))));
               const r = x(i.shape, s);
-              return r.length > 0 && (n = ht(n, r)), $(n, i.shape);
+              return r.length > 0 && (n = ht(n, r)), B(n, i.shape);
             },
             b: () => {
               const e = Ye(i, 0),
                 n = cn(e, Rt(i), Object(_.o)(i));
               let r = G(t, G(a, n));
               const u = x(o.shape, s);
-              return u.length > 0 && (r = ht(r, u)), $(r, o.shape);
+              return u.length > 0 && (r = ht(r, u)), B(r, o.shape);
             },
           };
         },
@@ -5624,7 +5627,7 @@
             alpha: () => {
               let e = cn(a, Object(_.o)(t), G(t, n));
               const i = x(r.shape, t.shape);
-              return i.length > 0 && (e = ht(e, i)), $(e, r.shape);
+              return i.length > 0 && (e = ht(e, i)), B(e, r.shape);
             },
           };
         },
@@ -5775,12 +5778,12 @@
             a: () => {
               let e = t;
               const r = x(n.shape, a);
-              return r.length > 0 && (e = ht(e, r)), $(e, n.shape);
+              return r.length > 0 && (e = ht(e, r)), B(e, n.shape);
             },
             b: () => {
               let e = t;
               const n = x(r.shape, a);
-              return n.length > 0 && (e = ht(e, n)), $(_t(e), r.shape);
+              return n.length > 0 && (e = ht(e, n)), B(_t(e), r.shape);
             },
           };
         },
@@ -5957,7 +5960,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Bn = Object(I.a)({
+     */ const $n = Object(I.a)({
         slice_: function (t, e, n) {
           const r = Object(S.a)(t, "x", "slice");
           if (0 === r.rank) throw new Error("Slicing scalar is not possible");
@@ -6009,7 +6012,7 @@
           );
         },
       }),
-      $n = Object(I.a)({
+      Bn = Object(I.a)({
         slice1d_: function (t, e, n) {
           const r = Object(S.a)(t, "x", "slice1d");
           return (
@@ -6018,11 +6021,11 @@
               () =>
                 `slice1d expects a rank-1 tensor, but got a rank-${r.rank} tensor`
             ),
-            Bn(r, [e], [n])
+            $n(r, [e], [n])
           );
         },
       }),
-      Ln = Object(I.a)({
+      Pn = Object(I.a)({
         slice2d_: function (t, e, n) {
           const r = Object(S.a)(t, "x", "slice2d");
           return (
@@ -6031,11 +6034,11 @@
               () =>
                 `slice2d expects a rank-2 tensor, but got a rank-${r.rank} tensor`
             ),
-            Bn(r, e, n)
+            $n(r, e, n)
           );
         },
       }),
-      Pn = Object(I.a)({
+      Ln = Object(I.a)({
         slice3d_: function (t, e, n) {
           const r = Object(S.a)(t, "x", "slice3d");
           return (
@@ -6044,7 +6047,7 @@
               () =>
                 `slice3d expects a rank-3 tensor, but got a rank-${r.rank} tensor`
             ),
-            Bn(r, e, n)
+            $n(r, e, n)
           );
         },
       }),
@@ -6057,7 +6060,7 @@
               () =>
                 `slice4d expects a rank-4 tensor, but got a rank-${r.rank} tensor`
             ),
-            Bn(r, e, n)
+            $n(r, e, n)
           );
         },
       }),
@@ -6072,13 +6075,13 @@
               let e = Object(_.o)(r);
               if (1 === r.rank)
                 for (let n = 0; n < a[0]; ++n)
-                  e = k(e, Bn(t, [n * r.shape[0]], [r.shape[0]]));
+                  e = k(e, $n(t, [n * r.shape[0]], [r.shape[0]]));
               else if (2 === r.rank)
                 for (let n = 0; n < a[0]; ++n)
                   for (let i = 0; i < a[1]; ++i)
                     e = k(
                       e,
-                      Bn(
+                      $n(
                         t,
                         [n * r.shape[0], i * r.shape[1]],
                         [r.shape[0], r.shape[1]]
@@ -6090,7 +6093,7 @@
                     for (let o = 0; o < a[2]; ++o)
                       e = k(
                         e,
-                        Bn(
+                        $n(
                           t,
                           [n * r.shape[0], i * r.shape[1], o * r.shape[2]],
                           [r.shape[0], r.shape[1], r.shape[2]]
@@ -6109,7 +6112,7 @@
                       for (let s = 0; s < a[3]; ++s)
                         e = k(
                           e,
-                          Bn(
+                          $n(
                             t,
                             [
                               n * r.shape[0],
@@ -6169,9 +6172,9 @@
       _e,
       De,
       Fe,
-      Be,
       $e,
-      Le,
+      Be,
+      Pe,
       ze,
       en,
       nn,
@@ -7346,7 +7349,7 @@
      * limitations under the License.
      * =============================================================================
      */ Xn.registerSaveRouter(Fr), Xn.registerLoadRouter(Fr);
-    class Br {
+    class $r {
       constructor(t) {
         this.modelArtifacts = t;
       }
@@ -7354,7 +7357,7 @@
         return this.modelArtifacts;
       }
     }
-    class $r {
+    class Br {
       constructor(t) {
         this.saveHandler = t;
       }
@@ -7362,20 +7365,20 @@
         return this.saveHandler(t);
       }
     }
-    function Lr(t, e, n, r) {
+    function Pr(t, e, n, r) {
       if (1 === arguments.length) {
         return null != t.modelTopology || null != t.weightSpecs
-          ? new Br(t)
+          ? new $r(t)
           : (console.warn(
               "Please call tf.io.fromMemory() with only one argument. The argument should be of type ModelArtifacts. The multi-argument signature of tf.io.fromMemory() has been deprecated and will be removed in a future release."
             ),
-            new Br({ modelTopology: t }));
+            new $r({ modelTopology: t }));
       }
       return (
         console.warn(
           "Please call tf.io.fromMemory() with only one argument. The argument should be of type ModelArtifacts. The multi-argument signature of tf.io.fromMemory() has been deprecated and will be removed in a future release."
         ),
-        new Br({
+        new $r({
           modelTopology: t,
           weightSpecs: e,
           weightData: n,
@@ -7383,8 +7386,8 @@
         })
       );
     }
-    function Pr(t) {
-      return new $r(t);
+    function Lr(t) {
+      return new Br(t);
     }
     /**
      * @license
@@ -7427,7 +7430,7 @@
         const o = { indices: a },
           s = { depth: e, onValue: n, offValue: r };
         return b.a.runKernelFunc(
-          (t, o) => (o([a]), $(t.oneHot(a, e, n, r), i)),
+          (t, o) => (o([a]), B(t.oneHot(a, e, n, r), i)),
           o,
           null,
           v.cb,
@@ -7854,39 +7857,42 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function Zr(t) {
+     */ function Zr() {
+      Object(Hn.b)().set("PROD", !0);
+    }
+    function ta(t) {
       Object(Hn.b)().getBool("DEPRECATION_WARNINGS_ENABLED") &&
         console.warn(
           t +
             " You can disable deprecation warnings with tf.disableDeprecationWarnings()."
         );
     }
-    function ta() {
+    function ea() {
       return b.a;
     }
-    function ea() {
+    function na() {
       return b.a.memory();
     }
-    function na(t, e) {
+    function ra(t, e) {
       return b.a.tidy(t, e);
     }
-    function ra(t) {
+    function aa(t) {
       Object(E.getTensorsInContainer)(t).forEach((t) => t.dispose());
     }
-    function aa(t) {
+    function ia(t) {
       return b.a.keep(t);
     }
-    function ia(t) {
+    function oa(t) {
       return b.a.setBackend(t);
     }
-    function oa(t, e, n = 1) {
+    function sa(t, e, n = 1) {
       return b.a.registerBackend(t, e, n);
     }
-    function sa() {
+    function ua() {
       return b.a.backend;
     }
-    Object(N.d)(Zr);
-    const ua = Object(I.a)({
+    Object(N.d)(ta);
+    const ca = Object(I.a)({
       addN_:
         /**
          * @license
@@ -7956,7 +7962,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ca = Object(I.a)({
+     */ const la = Object(I.a)({
       atan2_: function (t, e) {
         let n = Object(S.a)(t, "a", "atan2"),
           r = Object(S.a)(e, "b", "atan2");
@@ -7988,7 +7994,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const la = Object(I.a)({
+     */ const ha = Object(I.a)({
       avgPool_: function (t, e, n, r, a) {
         const i = Object(S.a)(t, "x", "avgPool", "float32");
         R.assert(
@@ -7999,7 +8005,7 @@
         let o = i,
           s = !1;
         3 === i.rank &&
-          ((s = !0), (o = $(i, [1, i.shape[0], i.shape[1], i.shape[2]]))),
+          ((s = !0), (o = B(i, [1, i.shape[0], i.shape[1], i.shape[2]]))),
           R.assert(
             4 === o.rank,
             () => `Error in avgPool: x must be rank 4 but got rank ${o.rank}.`
@@ -8050,17 +8056,17 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ha = Object(I.a)({
+     */ const da = Object(I.a)({
       avgPool3d_: function (t, e, n, r, a, i = "NDHWC", o) {
         null == o
           ? (o = [1, 1, 1])
-          : Zr("dilations is deprecated, this field will be gone in v3.0.0.");
+          : ta("dilations is deprecated, this field will be gone in v3.0.0.");
         const s = Object(S.a)(t, "x", "avgPool3d", "float32");
         let u = s,
           c = !1;
         4 === s.rank &&
           ((c = !0),
-          (u = $(s, [1, s.shape[0], s.shape[1], s.shape[2], s.shape[3]]))),
+          (u = B(s, [1, s.shape[0], s.shape[1], s.shape[2], s.shape[3]]))),
           R.assert(
             5 === u.rank,
             () => `Error in avgPool3d: x must be rank 5 but got rank ${u.rank}.`
@@ -8108,7 +8114,7 @@
         );
       },
     });
-    function da(t) {
+    function pa(t) {
       return null == t
         ? null
         : 0 === t.rank
@@ -8121,7 +8127,7 @@
         ? t.as4D(1, t.shape[0], t.shape[1], t.shape[2])
         : t;
     }
-    const pa = Object(I.a)({
+    const fa = Object(I.a)({
       batchNorm_:
         /**
          * @license
@@ -8180,17 +8186,17 @@
             p = { varianceEpsilon: i },
             f = b.a.runKernelFunc(
               (t, e) => (
-                e([h, s, u, c]), t.batchNorm(h, da(s), da(u), da(l), da(c), i)
+                e([h, s, u, c]), t.batchNorm(h, pa(s), pa(u), pa(l), pa(c), i)
               ),
               d,
               null,
               v.F,
               p
             );
-          return $(f, o.shape);
+          return B(f, o.shape);
         },
     });
-    const fa = Object(I.a)({
+    const ma = Object(I.a)({
       batchNorm2d_: function (t, e, n, r, a, i) {
         const o = Object(S.a)(t, "x", "batchNorm"),
           s = Object(S.a)(e, "mean", "batchNorm"),
@@ -8228,11 +8234,11 @@
               () =>
                 `Error in batchNorm2D: offset must be rank 2 or rank 1 but got rank ${l.rank}.`
             ),
-          pa(o, s, u, l, c, i)
+          fa(o, s, u, l, c, i)
         );
       },
     });
-    const ma = Object(I.a)({
+    const ga = Object(I.a)({
       batchNorm3d_: function (t, e, n, r, a, i) {
         const o = Object(S.a)(t, "x", "batchNorm"),
           s = Object(S.a)(e, "mean", "batchNorm"),
@@ -8270,11 +8276,11 @@
               () =>
                 `Error in batchNorm3D: offset must be rank 3 or rank 1 but got rank ${l.rank}.`
             ),
-          pa(o, s, u, l, c, i)
+          fa(o, s, u, l, c, i)
         );
       },
     });
-    const ga = Object(I.a)({
+    const ba = Object(I.a)({
       batchNorm4d_: function (t, e, n, r, a, i) {
         const o = Object(S.a)(t, "x", "batchNorm"),
           s = Object(S.a)(e, "mean", "batchNorm"),
@@ -8312,7 +8318,7 @@
               () =>
                 `Error in batchNorm4D: offset must be rank 4 or rank 1 but got rank ${l.rank}.`
             ),
-          pa(o, s, u, l, c, i)
+          fa(o, s, u, l, c, i)
         );
       },
     });
@@ -8331,7 +8337,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ba = Object(I.a)({
+     */ const va = Object(I.a)({
       clone_: function (t) {
         const e = Object(S.a)(t, "x", "clone", null);
         return b.a.runKernelFunc(
@@ -8357,7 +8363,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const va = Object(I.a)({
+     */ const ya = Object(I.a)({
       broadcastTo_: function (t, e) {
         let n = Object(S.a)(t, "broadcastTo", "x");
         const r = n.shape;
@@ -8370,7 +8376,7 @@
         if (e.length > n.rank) {
           const t = n.shape.slice();
           for (; t.length < e.length; ) t.unshift(1);
-          n = $(n, t);
+          n = B(n, t);
         }
         const a = n.shape,
           i = Array.from(e);
@@ -8383,40 +8389,40 @@
         if (
           0 === i.map((t, e) => (t > 1 ? e : -1)).filter((t) => t >= 0).length
         )
-          return ba(n);
+          return va(n);
         const o = { x: n },
           s = { shape: e, inputShape: a };
         return b.a.runKernelFunc((t) => t.tile(n, i), o, null, v.j, s);
       },
     });
-    var ya = n(18);
-    const xa = Object(I.a)({
+    var xa = n(18);
+    const wa = Object(I.a)({
       concat1d_: function (t) {
         return D(t, 0);
       },
     });
-    const wa = Object(I.a)({
+    const Ca = Object(I.a)({
       concat2d_: function (t, e) {
         return D(t, e);
       },
     });
-    const Ca = Object(I.a)({
+    const Oa = Object(I.a)({
       concat3d_: function (t, e) {
         return D(t, e);
       },
     });
-    const Oa = Object(I.a)({
+    const Ea = Object(I.a)({
       concat4d_: function (t, e) {
         return D(t, e);
       },
     });
-    const Ea = Object(I.a)({
+    const Sa = Object(I.a)({
       conv1d_: function (t, e, n, r, a = "NWC", i = 1, o) {
         const s = Object(S.a)(t, "x", "conv1d"),
           u = Object(S.a)(e, "filter", "conv1d");
         let c = s,
           l = !1;
-        2 === s.rank && ((l = !0), (c = $(s, [1, s.shape[0], s.shape[1]]))),
+        2 === s.rank && ((l = !0), (c = B(s, [1, s.shape[0], s.shape[1]]))),
           R.assert(
             3 === c.rank,
             () =>
@@ -8450,16 +8456,16 @@
             () =>
               `Error in conv1d: got dataFormat of ${a} but only NWC is currently supported.`
           );
-        const h = $(u, [1, u.shape[0], u.shape[1], u.shape[2]]),
-          d = $(c, [c.shape[0], 1, c.shape[1], c.shape[2]]),
+        const h = B(u, [1, u.shape[0], u.shape[1], u.shape[2]]),
+          d = B(c, [c.shape[0], 1, c.shape[1], c.shape[2]]),
           p = we(d, h, [1, n], r, "NHWC", [1, i], o);
-        return $(
+        return B(
           p,
           l ? [p.shape[2], p.shape[3]] : [p.shape[0], p.shape[2], p.shape[3]]
         );
       },
     });
-    const Sa = Object(I.a)({
+    const Ia = Object(I.a)({
       conv2dTranspose_: function (t, e, n, r, a, i) {
         const o = Object(S.a)(t, "x", "conv2dTranspose"),
           s = Object(S.a)(e, "filter", "conv2dTranspose");
@@ -8481,7 +8487,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Ia = Object(I.a)({
+     */ const ka = Object(I.a)({
       conv3d_: function (t, e, n, r, a = "NDHWC", i = [1, 1, 1]) {
         const o = Object(S.a)(t, "x", "conv3d"),
           s = Object(S.a)(e, "filter", "conv3d");
@@ -8489,7 +8495,7 @@
           c = !1;
         4 === o.rank &&
           ((c = !0),
-          (u = $(o, [1, o.shape[0], o.shape[1], o.shape[2], o.shape[3]]))),
+          (u = B(o, [1, o.shape[0], o.shape[1], o.shape[2], o.shape[3]]))),
           R.assert(
             5 === u.rank,
             () =>
@@ -8533,7 +8539,7 @@
         return c ? d.as4D(d.shape[1], d.shape[2], d.shape[3], d.shape[4]) : d;
       },
     });
-    const ka = Object(I.a)({
+    const Na = Object(I.a)({
       conv3dTranspose_: function (t, e, n, r, a) {
         const i = Object(S.a)(t, "x", "conv3dTranspose"),
           o = Object(S.a)(e, "filter", "conv3dTranspose");
@@ -8555,7 +8561,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Na = Object(I.a)({
+     */ const Ra = Object(I.a)({
       depthToSpace_: function (t, e, n = "NHWC") {
         const r = Object(S.a)(t, "x", "depthToSpace"),
           a = "NHWC" === n ? r.shape[1] : r.shape[2],
@@ -8604,14 +8610,14 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Ra = Object(I.a)({
+     */ const Aa = Object(I.a)({
       depthwiseConv2d_: function (t, e, n, r, a = "NHWC", i = [1, 1], o) {
         const s = Object(S.a)(t, "x", "depthwiseConv2d"),
           u = Object(S.a)(e, "filter", "depthwiseConv2d");
         let c = s,
           l = !1;
         3 === s.rank &&
-          ((l = !0), (c = $(s, [1, s.shape[0], s.shape[1], s.shape[2]]))),
+          ((l = !0), (c = B(s, [1, s.shape[0], s.shape[1], s.shape[2]]))),
           R.assert(
             4 === c.rank,
             () =>
@@ -8660,7 +8666,7 @@
             v.u,
             d
           );
-        return l ? $(p, [p.shape[1], p.shape[2], p.shape[3]]) : p;
+        return l ? B(p, [p.shape[1], p.shape[2], p.shape[3]]) : p;
       },
     });
     /**
@@ -8678,7 +8684,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Aa = Object(I.a)({
+     */ const Ta = Object(I.a)({
       diag_: function (t) {
         const e = Object(S.a)(t, "x", "diag").flatten(),
           n = { x: e };
@@ -8686,7 +8692,7 @@
           (n) => {
             const r = n.diag(e),
               a = [...t.shape, ...t.shape];
-            return $(r, a);
+            return B(r, a);
           },
           n,
           null,
@@ -8709,7 +8715,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Ta = Object(I.a)({
+     */ const _a = Object(I.a)({
       divNoNan_: function (t, e) {
         let n = Object(S.a)(t, "a", "div"),
           r = Object(S.a)(e, "b", "div");
@@ -8735,7 +8741,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const _a = Object(I.a)({
+     */ const Da = Object(I.a)({
       dot_: function (t, e) {
         const n = Object(S.a)(t, "t1", "dot"),
           r = Object(S.a)(e, "t2", "dot");
@@ -8754,24 +8760,24 @@
           ),
           1 === n.rank && 1 === r.rank)
         ) {
-          const t = $(n, [1, -1]),
-            e = $(r, [-1, 1]),
+          const t = B(n, [1, -1]),
+            e = B(r, [-1, 1]),
             a = he(t, e);
-          return $(a, []);
+          return B(a, []);
         }
         if (1 === n.rank && 2 === r.rank) {
-          const t = $(n, [1, -1]),
-            e = $(r, [r.shape[0], r.shape[1]]),
+          const t = B(n, [1, -1]),
+            e = B(r, [r.shape[0], r.shape[1]]),
             a = he(t, e);
-          return $(a, [a.size]);
+          return B(a, [a.size]);
         }
         if (2 === n.rank && 1 === r.rank) {
-          const t = $(r, [-1, 1]),
+          const t = B(r, [-1, 1]),
             e = he(n, t);
-          return $(e, [e.size]);
+          return B(e, [e.size]);
         }
         {
-          const t = $(r, [r.shape[0], r.shape[1]]);
+          const t = B(r, [r.shape[0], r.shape[1]]);
           return he(n, t);
         }
       },
@@ -8791,7 +8797,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Da = Object(I.a)({
+     */ const Fa = Object(I.a)({
       elu_: function (t) {
         const e = Object(S.a)(t, "x", "elu"),
           n = { x: e };
@@ -8821,7 +8827,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Fa = Object(I.a)({
+     */ const Ma = Object(I.a)({
       equal_: function (t, e) {
         let n = Object(S.a)(t, "a", "equal"),
           r = Object(S.a)(e, "b", "equal");
@@ -8845,7 +8851,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Ma = Object(I.a)({
+     */ const ja = Object(I.a)({
       eye_: function (t, e, n, r = "float32") {
         null == e && (e = t);
         const a = F([t, e], r),
@@ -8853,10 +8859,10 @@
         for (let t = 0; t < i; ++t) a.set(1, t, t);
         const o = a.toTensor().as2D(t, e);
         if (null == n) return o;
-        if (1 === n.length) return je(B(o, 0), [n[0], 1, 1]);
-        if (2 === n.length) return je(B(B(o, 0), 0), [n[0], n[1], 1, 1]);
+        if (1 === n.length) return je($(o, 0), [n[0], 1, 1]);
+        if (2 === n.length) return je($($(o, 0), 0), [n[0], n[1], 1, 1]);
         if (3 === n.length)
-          return je(B(B(B(o, 0), 0), 0), [n[0], n[1], n[2], 1, 1]);
+          return je($($($(o, 0), 0), 0), [n[0], n[1], n[2], 1, 1]);
         throw new Error(
           `eye() currently supports only 1D and 2D batchShapes, but received ${n.length}D.`
         );
@@ -8877,7 +8883,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function ja(t, e, n) {
+     */ function $a(t, e, n) {
       const r = { shape: t, value: e, dtype: n };
       return b.a.runKernelFunc((r) => r.fill(t, e, n), {}, null, v.C, r);
     }
@@ -8897,7 +8903,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const $a = Object(I.a)({
+     */ const Pa = Object(I.a)({
       maximum_: function (t, e) {
         let n = Object(S.a)(t, "a", "maximum"),
           r = Object(S.a)(e, "b", "maximum");
@@ -8934,7 +8940,7 @@
      */ const La = Object(I.a)({
       leakyRelu_: function (t, e = 0.2) {
         const n = Object(S.a)(t, "x", "leakyRelu");
-        return $a(G(Object(_.e)(e), n), n);
+        return Pa(G(Object(_.e)(e), n), n);
       },
     });
     /**
@@ -8952,7 +8958,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Pa = Object(I.a)({
+     */ const za = Object(I.a)({
       localResponseNormalization_: function (t, e = 5, n = 1, r = 1, a = 0.5) {
         const i = Object(S.a)(t, "x", "localResponseNormalization");
         R.assert(
@@ -8968,7 +8974,7 @@
         let o = i,
           s = !1;
         3 === i.rank &&
-          ((s = !0), (o = $(i, [1, i.shape[0], i.shape[1], i.shape[2]])));
+          ((s = !0), (o = B(i, [1, i.shape[0], i.shape[1], i.shape[2]])));
         const u = { x: o },
           c = { depthRadius: e, bias: n, alpha: r, beta: a },
           l = b.a.runKernelFunc(
@@ -8999,7 +9005,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const za = Object(I.a)({
+     */ const Wa = Object(I.a)({
       max_: function (t, e = null, n = !1) {
         const r = Object(S.a)(t, "x", "max"),
           a = { x: r },
@@ -9018,7 +9024,7 @@
             v.P,
             i
           );
-        return n ? $(o, J(o.shape, R.parseAxisParam(e, r.shape))) : o;
+        return n ? B(o, J(o.shape, R.parseAxisParam(e, r.shape))) : o;
       },
     });
     /**
@@ -9036,13 +9042,13 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Wa = Object(I.a)({
+     */ const Va = Object(I.a)({
       maxPool_: function (t, e, n, r, a) {
         const i = Object(S.a)(t, "x", "maxPool");
         let o = i,
           s = !1;
         3 === i.rank &&
-          ((s = !0), (o = $(i, [1, i.shape[0], i.shape[1], i.shape[2]]))),
+          ((s = !0), (o = B(i, [1, i.shape[0], i.shape[1], i.shape[2]]))),
           R.assert(
             4 === o.rank,
             () =>
@@ -9081,7 +9087,7 @@
             v.Q,
             c
           );
-        return s ? $(l, [l.shape[1], l.shape[2], l.shape[3]]) : l;
+        return s ? B(l, [l.shape[1], l.shape[2], l.shape[3]]) : l;
       },
     });
     /**
@@ -9099,11 +9105,11 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Va = Object(I.a)({
+     */ const Ua = Object(I.a)({
       maxPool3d_: function (t, e = [1, 1, 1], n, r, a, i = "NDHWC", o) {
         null == o
           ? (o = [1, 1, 1])
-          : Zr("dilations is deprecated, this field will be gone in v3.0.0.");
+          : ta("dilations is deprecated, this field will be gone in v3.0.0.");
         const s = Object(S.a)(t, "x", "maxPool3d");
         let u = s,
           c = !1;
@@ -9152,7 +9158,7 @@
             v.R,
             h
           );
-        return c ? $(d, [d.shape[1], d.shape[2], d.shape[3], d.shape[4]]) : d;
+        return c ? B(d, [d.shape[1], d.shape[2], d.shape[3], d.shape[4]]) : d;
       },
     });
     /**
@@ -9170,7 +9176,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Ua = Object(I.a)({
+     */ const Ga = Object(I.a)({
       maxPoolWithArgmax_: function (t, e, n, r, a = !1) {
         const i = { x: Object(S.a)(t, "x", "maxPoolWithArgmax") },
           o = { filterSize: e, strides: n, pad: r, includeBatchInIndex: a },
@@ -9193,7 +9199,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Ga = Object(I.a)({
+     */ const Ha = Object(I.a)({
       minimum_: function (t, e) {
         let n = Object(S.a)(t, "a", "minimum"),
           r = Object(S.a)(e, "b", "minimum");
@@ -9227,7 +9233,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Ha = Object(I.a)({
+     */ const qa = Object(I.a)({
       mod_: function (t, e) {
         let n = Object(S.a)(t, "a", "mod"),
           r = Object(S.a)(e, "b", "mod");
@@ -9259,7 +9265,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const qa = Object(I.a)({
+     */ const Ka = Object(I.a)({
       multinomial_: function (t, e, n, r = !1) {
         const a = Object(S.a)(t, "logits", "multinomial"),
           i = a.size,
@@ -9295,7 +9301,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Ka = Object(I.a)({
+     */ const Xa = Object(I.a)({
       notEqual_: function (t, e) {
         let n = Object(S.a)(t, "a", "notEqual"),
           r = Object(S.a)(e, "b", "notEqual");
@@ -9304,7 +9310,7 @@
         return b.a.runKernelFunc((t) => t.notEqual(n, r), a, null, v.bb);
       },
     });
-    const Xa = Object(I.a)({
+    const Ya = Object(I.a)({
       outerProduct_: function (t, e) {
         const n = Object(S.a)(t, "v1", "outerProduct"),
           r = Object(S.a)(e, "v2", "outerProduct");
@@ -9313,12 +9319,12 @@
           () =>
             `Error in outerProduct: inputs must be rank 1, but got ranks ${n.rank} and ${r.rank}.`
         );
-        const a = $(n, [-1, 1]),
-          i = $(r, [1, -1]);
+        const a = B(n, [-1, 1]),
+          i = B(r, [1, -1]);
         return he(a, i);
       },
     });
-    const Ya = Object(I.a)({
+    const Ja = Object(I.a)({
       pad1d_: function (t, e, n = 0) {
         return (
           Object(R.assert)(
@@ -9329,7 +9335,7 @@
         );
       },
     });
-    const Ja = Object(I.a)({
+    const Qa = Object(I.a)({
       pad2d_: function (t, e, n = 0) {
         return (
           Object(R.assert)(
@@ -9340,7 +9346,7 @@
         );
       },
     });
-    const Qa = Object(I.a)({
+    const Za = Object(I.a)({
       pad3d_: function (t, e, n = 0) {
         return (
           Object(R.assert)(
@@ -9354,7 +9360,7 @@
         );
       },
     });
-    const Za = Object(I.a)({
+    const ti = Object(I.a)({
       pad4d_: function (t, e, n = 0) {
         return (
           Object(R.assert)(
@@ -9384,7 +9390,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ti = Object(I.a)({
+     */ const ei = Object(I.a)({
       pool_: function (t, e, n, r, a, i) {
         null == a && (a = [1, 1]),
           null == i && (i = 1),
@@ -9393,7 +9399,7 @@
         let s = o,
           u = !1;
         3 === o.rank &&
-          ((u = !0), (s = $(o, [1, o.shape[0], o.shape[1], o.shape[2]]))),
+          ((u = !0), (s = B(o, [1, o.shape[0], o.shape[1], o.shape[2]]))),
           R.assert(
             ie(i, a),
             () =>
@@ -9429,9 +9435,9 @@
           })([c.inHeight, c.inWidth], l, h),
           m = d ? r : "valid",
           g = d ? s : pe(s, l, p),
-          b = ("avg" === n ? () => la(g, e, i, m) : () => Wa(g, e, i, m))(),
+          b = ("avg" === n ? () => ha(g, e, i, m) : () => Va(g, e, i, m))(),
           v = d ? b : yn(b, l, f);
-        return u ? $(v, [v.shape[1], v.shape[2], v.shape[3]]) : v;
+        return u ? B(v, [v.shape[1], v.shape[2], v.shape[3]]) : v;
       },
     });
     /**
@@ -9449,7 +9455,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ei = Object(I.a)({
+     */ const ni = Object(I.a)({
       prelu_: function (t, e) {
         const n = Object(S.a)(t, "x", "prelu"),
           r = Object(S.a)(e, "alpha", "prelu"),
@@ -9480,7 +9486,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ni = Object(I.a)({
+     */ const ri = Object(I.a)({
       rand_: function (t, e, n) {
         const r = Object(R.sizeFromShape)(t);
         let a = null;
@@ -9494,7 +9500,7 @@
         return b.a.makeTensor(a, t, n);
       },
     });
-    var ri = n(20);
+    var ai = n(20);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -9510,7 +9516,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ class ai {
+     */ class ii {
       constructor(t, e, n, r, a) {
         (this.mean = t),
           (this.stdDev = e),
@@ -9521,7 +9527,7 @@
             ((this.upper = this.mean + 2 * this.stdDev),
             (this.lower = this.mean - 2 * this.stdDev));
         const i = a || Math.random();
-        this.random = ri.alea(i.toString());
+        this.random = ai.alea(i.toString());
       }
       nextValue() {
         if (!isNaN(this.nextVal)) {
@@ -9558,12 +9564,12 @@
         return t <= this.upper && t >= this.lower;
       }
     }
-    class ii {
+    class oi {
       constructor(t, e, n, r) {
         (this.alpha = t), (this.beta = 1 / e), (this.dtype = n);
         const a = r || Math.random();
-        (this.randu = ri.alea(a.toString())),
-          (this.randn = new ai(0, 1, n, !1, this.randu())),
+        (this.randu = ai.alea(a.toString())),
+          (this.randn = new ii(0, 1, n, !1, this.randu())),
           (this.d = t < 1 ? t + 2 / 3 : t - 1 / 3),
           (this.c = 1 / Math.sqrt(9 * this.d));
       }
@@ -9593,7 +9599,7 @@
         return "float32" === this.dtype ? t : Math.round(t);
       }
     }
-    class oi {
+    class si {
       constructor(t = 0, e = 1, n, r) {
         if (
           ((this.canReturnFloat = () =>
@@ -9608,7 +9614,7 @@
           throw new Error(
             `The difference between ${t} - ${e} <= 1 and dtype is not float`
           );
-        this.random = ri.alea(r);
+        this.random = ai.alea(r);
       }
       convertValue(t) {
         return this.canReturnFloat() ? t : Math.round(t);
@@ -9617,7 +9623,7 @@
         return this.convertValue(this.min + this.range * this.random());
       }
     }
-    const si = Object(I.a)({
+    const ui = Object(I.a)({
       randomGamma_:
         /**
          * @license
@@ -9642,7 +9648,7 @@
             "float32" !== r && "int32" !== r)
           )
             throw new Error("Unsupported data type " + r);
-          const i = new ii(e, n, r, a),
+          const i = new oi(e, n, r, a),
             o = F(t, r);
           for (let t = 0; t < o.values.length; t++) o.values[t] = i.nextValue();
           return o.toTensor();
@@ -9663,11 +9669,11 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ui = Object(I.a)({
+     */ const ci = Object(I.a)({
       randomNormal_: function (t, e = 0, n = 1, r, a) {
         if (null != r && "bool" === r)
           throw new Error("Unsupported data type " + r);
-        const i = new ai(e, n, r, !1, a),
+        const i = new ii(e, n, r, !1, a),
           o = F(t, r);
         for (let t = 0; t < o.values.length; t++) o.values[t] = i.nextValue();
         return o.toTensor();
@@ -9688,15 +9694,15 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ci = Object(I.a)({
+     */ const li = Object(I.a)({
       randomUniform_: function (t, e = 0, n = 1, r = "float32", a) {
         const i = F(t, r),
-          o = new oi(e, n, null, a);
+          o = new si(e, n, null, a);
         for (let t = 0; t < i.values.length; t++) i.values[t] = o.nextValue();
         return i.toTensor();
       },
     });
-    var li = n(22);
+    var hi = n(22);
     /**
      * @license
      * Copyright 2020 Google LLC. All Rights Reserved.
@@ -9712,7 +9718,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const hi = Object(I.a)({
+     */ const di = Object(I.a)({
       relu_: function (t) {
         const e = Object(S.a)(t, "x", "relu"),
           n = { x: e };
@@ -9739,7 +9745,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const di = Object(I.a)({
+     */ const pi = Object(I.a)({
       relu6_: function (t) {
         const e = Object(S.a)(t, "x", "relu6"),
           n = { x: e };
@@ -9766,7 +9772,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const pi = Object(I.a)({
+     */ const fi = Object(I.a)({
       selu_: function (t) {
         const e = Object(S.a)(t, "x", "selu"),
           n = { x: e };
@@ -9781,7 +9787,7 @@
         );
       },
     });
-    const fi = Object(I.a)({
+    const mi = Object(I.a)({
       separableConv2d_: function (t, e, n, r, a, i = [1, 1], o = "NHWC") {
         const s = Object(S.a)(t, "x", "separableConv2d"),
           u = Object(S.a)(e, "depthwiseFilter", "separableConv2d"),
@@ -9830,7 +9836,7 @@
               d * p
             }, but got ${c.shape[2]}.`
         );
-        const f = Ra(l, u, r, a, o, i),
+        const f = Aa(l, u, r, a, o, i),
           m = we(f, c, 1, "valid", o);
         return h ? m.as3D(m.shape[1], m.shape[2], m.shape[3]) : m;
       },
@@ -9850,7 +9856,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const mi = Object(I.a)({
+     */ const gi = Object(I.a)({
       squaredDifference_: function (t, e) {
         let n = Object(S.a)(t, "a", "squaredDifference"),
           r = Object(S.a)(e, "b", "squaredDifference");
@@ -9883,17 +9889,17 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const gi = Object(I.a)({
+     */ const bi = Object(I.a)({
         truncatedNormal_: function (t, e = 0, n = 1, r, a) {
           if (null != r && "bool" === r)
             throw new Error("Unsupported data type $ { dtype }");
-          const i = new ai(e, n, r, !0, a),
+          const i = new ii(e, n, r, !0, a),
             o = F(t, r);
           for (let t = 0; t < o.values.length; t++) o.values[t] = i.nextValue();
           return o.toTensor();
         },
       }),
-      bi = 30;
+      vi = 30;
     /**
      * @license
      * Copyright 2017 Google Inc. All Rights Reserved.
@@ -9909,8 +9915,8 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function vi(t) {
-      return t <= bi
+     */ function yi(t) {
+      return t <= vi
         ? t
         : Object(R.nearestDivisor)(t, Math.floor(Math.sqrt(t)));
     }
@@ -9929,11 +9935,11 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function yi(t, e) {
+     */ function xi(t, e) {
       let n,
         r = !1;
       for (
-        t <= bi
+        t <= vi
           ? ((n = t), (r = !0))
           : (n = Object(R.nearestDivisor)(t, Math.floor(Math.sqrt(t))));
         !r;
@@ -9942,13 +9948,13 @@
         n > e || n === t ? (r = !0) : (n = Object(R.nearestDivisor)(t, n + 1));
       return n;
     }
-    function xi(t, e, n) {
+    function wi(t, e, n) {
       const r = [],
         a = t.length;
       for (let i = 0; i < a; i++) i !== e ? r.push(t[i]) : r.push(n);
       return r;
     }
-    function wi(t, e, n) {
+    function Ci(t, e, n) {
       const r = t.shape[n],
         a = [];
       let i = 1,
@@ -9974,23 +9980,23 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function Ci(t, e) {
+     */ function Oi(t, e) {
       const n = [];
       for (let r = t; r < e; ++r) n.push(r);
       return n;
     }
-    function Oi(t) {
+    function Ei(t) {
       const e = [];
       for (let n = 0; n < t.length; ++n)
         for (let r = 0; r < t[n].length; ++r) e.push(t[n][r]);
       return e;
     }
-    const Ei = Object(I.a)({
+    const Si = Object(I.a)({
         gather_: function (t, e, n = 0) {
           const r = Object(S.a)(t, "x", "gather"),
             a = Object(S.a)(e, "indices", "gather", "int32");
           n = Object(R.parseAxisParam)(n, r.shape)[0];
-          const i = wi(r, a, n);
+          const i = Ci(r, a, n);
           return b.a
             .runKernelFunc(
               (t, e) => {
@@ -10008,14 +10014,14 @@
                       s = o.length,
                       u = e.slice(n, e.length).slice(1),
                       c = u.length,
-                      l = Ci(0, s),
-                      h = Ci(s + 1, s + 1 + c),
-                      d = Oi([o, [i], u]),
+                      l = Oi(0, s),
+                      h = Oi(s + 1, s + 1 + c),
+                      d = Ei([o, [i], u]),
                       p = t.reshape(d),
                       f = a.reshape([i]),
-                      m = Oi([[s], l, h]),
+                      m = Ei([[s], l, h]),
                       g = p.transpose(m);
-                    let b = Si(g, f, r.shape[n]);
+                    let b = Ii(g, f, r.shape[n]);
                     const v = tt(m);
                     return (b = b.transpose(v)), b;
                   },
@@ -10028,7 +10034,7 @@
             .reshape(i.outputShape);
         },
       }),
-      Si = Object(I.a)({
+      Ii = Object(I.a)({
         unsortedSegmentSum_: function (t, e, n) {
           const r = Object(S.a)(t, "x", "unsortedSegmentSum"),
             a = Object(S.a)(e, "segmentIds", "unsortedSegmentSum", "int32");
@@ -10048,11 +10054,11 @@
                 return {
                   $x: () =>
                     (function (t, e) {
-                      const n = $a(e, Object(_.o)(e)),
-                        r = Ei(t, n);
+                      const n = Pa(e, Object(_.o)(e)),
+                        r = Si(t, n);
                       let a = Ve(e, Object(_.e)(0, "int32"));
                       const i = r.rank - a.rank;
-                      for (let t = 0; t < i; ++t) a = B(a, t + 1);
+                      for (let t = 0; t < i; ++t) a = $(a, t + 1);
                       a = an(a, Object(_.b)(r.shape, "bool"));
                       const o = Object(_.o)(r);
                       return cn(a, r, o);
@@ -10063,7 +10069,7 @@
           );
         },
       });
-    const Ii =
+    const ki =
       /**
        * @license
        * Copyright 2018 Google Inc. All Rights Reserved.
@@ -10099,7 +10105,7 @@
           h = a.reshape([-1]),
           d = await ln(h),
           p = d.squeeze([1]),
-          f = Ei(l, p, i);
+          f = Si(l, p, i);
         return (
           t !== r && r.dispose(),
           e !== a && a.dispose(),
@@ -10125,7 +10131,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const ki = Object(I.a)({
+     */ const Ni = Object(I.a)({
         reverse_: function (t, e) {
           const n = Object(S.a)(t, "x", "reverse");
           if (0 === n.rank) return n.clone();
@@ -10139,7 +10145,7 @@
             .reshapeAs(n);
         },
       }),
-      Ni = Object(I.a)({
+      Ri = Object(I.a)({
         reverse1d_: function (t) {
           const e = Object(S.a)(t, "x", "reverse");
           return (
@@ -10148,11 +10154,11 @@
               () =>
                 `Error in reverse1D: x must be rank 1 but got rank ${e.rank}.`
             ),
-            ki(e, 0)
+            Ni(e, 0)
           );
         },
       }),
-      Ri = Object(I.a)({
+      Ai = Object(I.a)({
         reverse2d_: function (t, e) {
           const n = Object(S.a)(t, "x", "reverse");
           return (
@@ -10161,11 +10167,11 @@
               () =>
                 `Error in reverse2D: x must be rank 2 but got rank ${n.rank}.`
             ),
-            ki(n, e)
+            Ni(n, e)
           );
         },
       }),
-      Ai = Object(I.a)({
+      Ti = Object(I.a)({
         reverse3d_: function (t, e) {
           const n = Object(S.a)(t, "x", "reverse");
           return (
@@ -10174,11 +10180,11 @@
               () =>
                 `Error in reverse3D: x must be rank 3 but got rank ${n.rank}.`
             ),
-            ki(n, e)
+            Ni(n, e)
           );
         },
       }),
-      Ti = Object(I.a)({
+      _i = Object(I.a)({
         reverse4d_: function (t, e) {
           const n = Object(S.a)(t, "x", "reverse");
           return (
@@ -10187,13 +10193,13 @@
               () =>
                 `Error in reverse4D: x must be rank 4 but got rank ${n.rank}.`
             ),
-            ki(n, e)
+            Ni(n, e)
           );
         },
       });
-    const _i = Object(I.a)({
+    const Di = Object(I.a)({
         equalStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "equalStrict"),
@@ -10208,9 +10214,9 @@
           );
         },
       }),
-      Di = Object(I.a)({
+      Fi = Object(I.a)({
         greaterEqualStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "greaterEqualStrict"),
@@ -10225,9 +10231,9 @@
           );
         },
       }),
-      Fi = Object(I.a)({
+      Mi = Object(I.a)({
         greaterStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "greaterStrict"),
@@ -10242,9 +10248,9 @@
           );
         },
       }),
-      Mi = Object(I.a)({
+      ji = Object(I.a)({
         lessEqualStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "lessEqualStrict"),
@@ -10259,9 +10265,9 @@
           );
         },
       }),
-      ji = Object(I.a)({
+      $i = Object(I.a)({
         lessStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "lessStrict"),
@@ -10295,7 +10301,7 @@
            * =============================================================================
            */
           function (t, e) {
-            Zr(
+            ta(
               "strict variants of ops have been deprecated and will be removed in future"
             );
             const n = Object(S.a)(t, "a", "notEqualStrict"),
@@ -10310,7 +10316,7 @@
             );
           },
       });
-    const $i = Object(I.a)({
+    const Pi = Object(I.a)({
         addStrict_:
           /**
            * @license
@@ -10329,7 +10335,7 @@
            * =============================================================================
            */
           function (t, e) {
-            Zr(
+            ta(
               "strict variants of ops have been deprecated and will be removed in future"
             );
             const n = Object(S.a)(t, "a", "addStrict"),
@@ -10342,7 +10348,7 @@
       }),
       Li = Object(I.a)({
         divStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "div"),
@@ -10353,9 +10359,9 @@
           );
         },
       }),
-      Pi = Object(I.a)({
+      zi = Object(I.a)({
         maximumStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "maximumStrict"),
@@ -10366,9 +10372,9 @@
           );
         },
       }),
-      zi = Object(I.a)({
+      Wi = Object(I.a)({
         minimumStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "minimumStrict"),
@@ -10379,9 +10385,9 @@
           );
         },
       }),
-      Wi = Object(I.a)({
+      Vi = Object(I.a)({
         modStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "modStrict"),
@@ -10392,9 +10398,9 @@
           );
         },
       }),
-      Vi = Object(I.a)({
+      Ui = Object(I.a)({
         mulStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "mul"),
@@ -10405,10 +10411,10 @@
           );
         },
       }),
-      Ui = Object(I.a)({
+      Gi = Object(I.a)({
         powStrict_: function (t, e) {
           return (
-            Zr(
+            ta(
               "strict variants of ops have been deprecated and will be removed in future"
             ),
             R.assertShapesMatch(t.shape, e.shape, "Error in powStrict: "),
@@ -10416,9 +10422,9 @@
           );
         },
       }),
-      Gi = Object(I.a)({
+      Hi = Object(I.a)({
         squaredDifferenceStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "squaredDifferenceStrict"),
@@ -10433,9 +10439,9 @@
           );
         },
       }),
-      Hi = Object(I.a)({
+      qi = Object(I.a)({
         subStrict_: function (t, e) {
-          Zr(
+          ta(
             "strict variants of ops have been deprecated and will be removed in future"
           );
           const n = Object(S.a)(t, "a", "subStrict"),
@@ -10446,7 +10452,7 @@
           );
         },
       });
-    const qi = Object(I.a)({
+    const Ki = Object(I.a)({
         softmax_:
           /**
            * @license
@@ -10488,7 +10494,7 @@
             );
           },
       }),
-      Ki = Object(I.a)({
+      Xi = Object(I.a)({
         logSoftmax_: function (t, e = -1) {
           const n = Object(S.a)(t, "logits", "logSoftmax");
           if ((-1 === e && (e = n.rank - 1), e !== n.rank - 1))
@@ -10511,7 +10517,7 @@
           })(n);
         },
       });
-    const Xi = Object(I.a)({
+    const Yi = Object(I.a)({
       norm_:
         /**
          * @license
@@ -10582,7 +10588,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Yi = Object(I.a)({
+     */ const Ji = Object(I.a)({
         basicLSTMCell_: function (t, e, n, r, a, i) {
           const o = Object(S.a)(t, "forgetBias", "basicLSTMCell"),
             s = Object(S.a)(e, "lstmKernel", "basicLSTMCell"),
@@ -10606,7 +10612,7 @@
           return [x, w];
         },
       }),
-      Ji = Object(I.a)({
+      Qi = Object(I.a)({
         multiRNNCell_: function (t, e, n, r) {
           const a = Object(S.a)(e, "data", "multiRNNCell"),
             i = Object(S.b)(n, "c", "multiRNNCell"),
@@ -10623,7 +10629,7 @@
           return [c, l];
         },
       });
-    const Qi = Object(I.a)({
+    const Zi = Object(I.a)({
       movingAverage_:
         /**
          * @license
@@ -10679,7 +10685,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Zi = Object(I.a)({
+     */ const to = Object(I.a)({
       stridedSlice_: function (t, e, n, r, a = 0, i = 0, o = 0, s = 0, u = 0) {
         null == r && (r = new Array(e.length));
         const c = kn(o);
@@ -10717,7 +10723,7 @@
         const m = Nn(e, n, r),
           g = m.filter((t, e) => -1 === f.indexOf(e));
         return r.every((t) => 1 === t)
-          ? Bn(l, e, m).reshape(g)
+          ? $n(l, e, m).reshape(g)
           : b.a
               .runKernelFunc((t) => t.stridedSlice(l, e, n, r), { $x: l })
               .reshape(g);
@@ -10738,7 +10744,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const to = Object(I.a)({
+     */ const eo = Object(I.a)({
       topk_: function (t, e = 1, n = !0) {
         const r = Object(S.a)(t, "x", "topk");
         if (0 === r.rank)
@@ -10768,7 +10774,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const eo = Object(I.a)({
+     */ const no = Object(I.a)({
       scatterND_: function (t, e, n) {
         const r = Object(S.a)(t, "indices", "scatterND", "int32"),
           a = Object(S.a)(e, "updates", "scatterND");
@@ -10799,7 +10805,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const no = Object(I.a)({
+     */ const ro = Object(I.a)({
         fft_: function (t) {
           Object(R.assert)(
             "complex64" === t.dtype,
@@ -10814,7 +10820,7 @@
             .reshape(t.shape);
         },
       }),
-      ro = Object(I.a)({
+      ao = Object(I.a)({
         ifft_: function (t) {
           Object(R.assert)(
             "complex64" === t.dtype,
@@ -10829,7 +10835,7 @@
             .reshape(t.shape);
         },
       }),
-      ao = Object(I.a)({
+      io = Object(I.a)({
         rfft_: function (t, e) {
           Object(R.assert)(
             "float32" === t.dtype,
@@ -10849,31 +10855,31 @@
               (n = e);
           } else a = t;
           const i = a.zerosLike(),
-            o = Object(ya.a)(a, i).as2D(r, n),
-            s = no(o),
+            o = Object(xa.a)(a, i).as2D(r, n),
+            s = ro(o),
             u = Math.floor(n / 2) + 1,
-            c = Object(li.a)(s),
+            c = Object(hi.a)(s),
             l = Object(Ba.a)(s),
             h = c.split([u, n - u], c.shape.length - 1),
             d = l.split([u, n - u], l.shape.length - 1),
             p = a.shape.slice();
           return (
-            (p[a.shape.length - 1] = u), Object(ya.a)(h[0], d[0]).reshape(p)
+            (p[a.shape.length - 1] = u), Object(xa.a)(h[0], d[0]).reshape(p)
           );
         },
       }),
-      io = Object(I.a)({
+      oo = Object(I.a)({
         irfft_: function (t) {
           const e = t.shape[t.shape.length - 1],
             n = t.size / e;
           if (e <= 2) {
             const r = t.as2D(n, e),
-              a = ro(r);
-            return Object(li.a)(a);
+              a = ao(r);
+            return Object(hi.a)(a);
           }
           {
             const r = [n, 2 * (e - 1)],
-              a = Object(li.a)(t).as2D(n, e),
+              a = Object(hi.a)(t).as2D(n, e),
               i = Object(Ba.a)(t).as2D(n, e),
               o = a.slice([0, 1], [n, e - 2]).reverse(1),
               s = i
@@ -10882,13 +10888,13 @@
                 .mul(Object(_.e)(-1)),
               u = a.concat(o, 1),
               c = i.concat(s, 1),
-              l = Object(ya.a)(u, c).as2D(r[0], r[1]),
-              h = ro(l);
-            return Object(li.a)(h);
+              l = Object(xa.a)(u, c).as2D(r[0], r[1]),
+              h = ao(l);
+            return Object(hi.a)(h);
           }
         },
       });
-    const oo = Object(I.a)({
+    const so = Object(I.a)({
       sparseToDense_:
         /**
          * @license
@@ -10959,7 +10965,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const so = Object(I.a)({
+     */ const uo = Object(I.a)({
       gatherND_: function (t, e) {
         const n = Object(S.a)(e, "indices", "gatherND", "int32"),
           r = Object(S.a)(t, "x", "gatherND"),
@@ -10982,7 +10988,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const uo = Object(I.a)({
+     */ const co = Object(I.a)({
       dropout_:
         /**
          * @license
@@ -11029,7 +11035,7 @@
               return e;
             })(a, n),
             o = 1 - e,
-            s = ci(i, 0, 1, "float32", r).add(o).floor().div(o);
+            s = li(i, 0, 1, "float32", r).add(o).floor().div(o);
           return a.mul(s);
         },
     });
@@ -11048,7 +11054,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function co(t, e, n) {
+     */ function lo(t, e, n) {
       const r = 1 - (t % 2),
         a = new Float32Array(t);
       for (let i = 0; i < t; ++i) {
@@ -11057,25 +11063,25 @@
       }
       return Object(_.g)(a, "float32");
     }
-    const lo = Object(I.a)({
+    const ho = Object(I.a)({
         hannWindow_: function (t) {
-          return co(t, 0.5, 0.5);
-        },
-      }),
-      ho = Object(I.a)({
-        hammingWindow_: function (t) {
-          return co(t, 0.54, 0.46);
+          return lo(t, 0.5, 0.5);
         },
       }),
       po = Object(I.a)({
+        hammingWindow_: function (t) {
+          return lo(t, 0.54, 0.46);
+        },
+      }),
+      fo = Object(I.a)({
         frame_: function (t, e, n, r = !1, a = 0) {
           let i = 0;
           const o = [];
-          for (; i + e <= t.size; ) o.push(Bn(t, i, e)), (i += n);
+          for (; i + e <= t.size; ) o.push($n(t, i, e)), (i += n);
           if (r)
             for (; i < t.size; ) {
               const r = i + e - t.size,
-                s = D([Bn(t, i, e - r), ja([r], a)]);
+                s = D([$n(t, i, e - r), $a([r], a)]);
               o.push(s), (i += n);
             }
           return 0 === o.length
@@ -11083,23 +11089,23 @@
             : D(o).as2D(o.length, e);
         },
       }),
-      fo = Object(I.a)({
-        stft_: function (t, e, n, r, a = lo) {
+      mo = Object(I.a)({
+        stft_: function (t, e, n, r, a = ho) {
           var i;
           null == r &&
             ((i = e),
             (r = Math.floor(
               Math.pow(2, Math.ceil(Math.log(i) / Math.log(2)))
             )));
-          const o = po(t, e, n),
+          const o = fo(t, e, n),
             s = G(o, a(e)),
             u = [];
           for (let t = 0; t < o.shape[0]; t++)
-            u.push(ao(s.slice([t, 0], [1, e]), r));
+            u.push(io(s.slice([t, 0], [1, e]), r));
           return D(u);
         },
       });
-    const mo =
+    const go =
       /**
        * @license
        * Copyright 2019 Google LLC. All Rights Reserved.
@@ -11178,15 +11184,15 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ var go;
+     */ var bo;
     !(function (t) {
       (t[(t.NONE = 0)] = "NONE"),
         (t[(t.MEAN = 1)] = "MEAN"),
         (t[(t.SUM = 2)] = "SUM"),
         (t[(t.SUM_BY_NONZERO_WEIGHTS = 3)] = "SUM_BY_NONZERO_WEIGHTS");
-    })(go || (go = {}));
-    const bo = Object(I.a)({
-        absoluteDifference_: function (t, e, n, r = go.SUM_BY_NONZERO_WEIGHTS) {
+    })(bo || (bo = {}));
+    const vo = Object(I.a)({
+        absoluteDifference_: function (t, e, n, r = bo.SUM_BY_NONZERO_WEIGHTS) {
           const a = Object(S.a)(t, "labels", "absoluteDifference"),
             i = Object(S.a)(e, "predictions", "absoluteDifference");
           let o = null;
@@ -11197,18 +11203,18 @@
               "Error in absoluteDifference: "
             );
           const s = a.sub(i).abs();
-          return vo(s, o, r);
+          return yo(s, o, r);
         },
       }),
-      vo = Object(I.a)({
-        computeWeightedLoss_: function (t, e, n = go.SUM_BY_NONZERO_WEIGHTS) {
+      yo = Object(I.a)({
+        computeWeightedLoss_: function (t, e, n = bo.SUM_BY_NONZERO_WEIGHTS) {
           const r = Object(S.a)(t, "losses", "computeWeightedLoss");
           let a = null;
           null != e && (a = Object(S.a)(e, "weights", "computeWeightedLoss"));
           const i = null == a ? r : r.mul(a);
-          if (n === go.NONE) return i;
-          if (n === go.SUM) return i.sum();
-          if (n === go.MEAN) {
+          if (n === bo.NONE) return i;
+          if (n === bo.SUM) return i.sum();
+          if (n === bo.MEAN) {
             if (null == a) return i.mean();
             {
               const t = r.size / a.size,
@@ -11216,7 +11222,7 @@
               return t > 1 ? e.div(Object(_.e)(t)) : e;
             }
           }
-          if (n === go.SUM_BY_NONZERO_WEIGHTS) {
+          if (n === bo.SUM_BY_NONZERO_WEIGHTS) {
             if (null == a) return i.sum().div(Object(_.e)(r.size));
             {
               const t = a
@@ -11230,8 +11236,8 @@
           throw Error("Unknown reduction: " + n);
         },
       }),
-      yo = Object(I.a)({
-        cosineDistance_: function (t, e, n, r, a = go.SUM_BY_NONZERO_WEIGHTS) {
+      xo = Object(I.a)({
+        cosineDistance_: function (t, e, n, r, a = bo.SUM_BY_NONZERO_WEIGHTS) {
           const i = Object(S.a)(t, "labels", "cosineDistance"),
             o = Object(S.a)(e, "predictions", "cosineDistance");
           let s = null;
@@ -11242,11 +11248,11 @@
               "Error in cosineDistance: "
             );
           const u = Object(_.e)(1).sub(i.mul(o).sum(n, !0));
-          return vo(u, s, a);
+          return yo(u, s, a);
         },
       }),
-      xo = Object(I.a)({
-        hingeLoss_: function (t, e, n, r = go.SUM_BY_NONZERO_WEIGHTS) {
+      wo = Object(I.a)({
+        hingeLoss_: function (t, e, n, r = bo.SUM_BY_NONZERO_WEIGHTS) {
           let a = Object(S.a)(t, "labels", "hingeLoss");
           const i = Object(S.a)(e, "predictions", "hingeLoss");
           let o = null;
@@ -11259,11 +11265,11 @@
           const s = Object(_.e)(1);
           a = Object(_.e)(2).mul(a).sub(s);
           const u = s.sub(a.mul(i)).relu();
-          return vo(u, o, r);
+          return yo(u, o, r);
         },
       }),
-      wo = Object(I.a)({
-        huberLoss_: function (t, e, n, r = 1, a = go.SUM_BY_NONZERO_WEIGHTS) {
+      Co = Object(I.a)({
+        huberLoss_: function (t, e, n, r = 1, a = bo.SUM_BY_NONZERO_WEIGHTS) {
           const i = Object(S.a)(t, "labels", "huberLoss"),
             o = Object(S.a)(e, "predictions", "huberLoss");
           let s = null;
@@ -11275,14 +11281,14 @@
             );
           const u = Object(_.e)(r),
             c = o.sub(i).abs(),
-            l = Ga(c, u),
+            l = Ha(c, u),
             h = c.sub(l),
             d = Object(_.e)(0.5).mul(l.square()).add(u.mul(h));
-          return vo(d, s, a);
+          return yo(d, s, a);
         },
       }),
-      Co = Object(I.a)({
-        logLoss_: function (t, e, n, r = 1e-7, a = go.SUM_BY_NONZERO_WEIGHTS) {
+      Oo = Object(I.a)({
+        logLoss_: function (t, e, n, r = 1e-7, a = bo.SUM_BY_NONZERO_WEIGHTS) {
           const i = Object(S.a)(t, "labels", "logLoss"),
             o = Object(S.a)(e, "predictions", "logLoss");
           let s = null;
@@ -11294,11 +11300,11 @@
               .mul(o.add(c).log())
               .neg()
               .sub(u.sub(i).mul(u.sub(o).add(c).log()));
-          return vo(l, s, a);
+          return yo(l, s, a);
         },
       }),
-      Oo = Object(I.a)({
-        meanSquaredError_: function (t, e, n, r = go.SUM_BY_NONZERO_WEIGHTS) {
+      Eo = Object(I.a)({
+        meanSquaredError_: function (t, e, n, r = bo.SUM_BY_NONZERO_WEIGHTS) {
           const a = Object(S.a)(t, "labels", "meanSquaredError"),
             i = Object(S.a)(e, "predictions", "meanSquaredError");
           let o = null;
@@ -11309,16 +11315,16 @@
               "Error in meanSquaredError: "
             );
           const s = a.squaredDifference(i);
-          return vo(s, o, r);
+          return yo(s, o, r);
         },
       }),
-      Eo = Object(I.a)({
+      So = Object(I.a)({
         sigmoidCrossEntropy_: function (
           t,
           e,
           n,
           r = 0,
-          a = go.SUM_BY_NONZERO_WEIGHTS
+          a = bo.SUM_BY_NONZERO_WEIGHTS
         ) {
           let i = Object(S.a)(t, "multiClassLabels", "sigmoidCrossEntropy");
           const o = Object(S.a)(e, "logits", "sigmoidCrossEntropy");
@@ -11351,16 +11357,16 @@
               o = r.abs().neg().exp().log1p();
             return a.sub(i).add(o);
           })(i, o);
-          return vo(u, s, a);
+          return yo(u, s, a);
         },
       }),
-      So = Object(I.a)({
+      Io = Object(I.a)({
         softmaxCrossEntropy_: function (
           t,
           e,
           n,
           r = 0,
-          a = go.SUM_BY_NONZERO_WEIGHTS
+          a = bo.SUM_BY_NONZERO_WEIGHTS
         ) {
           let i = Object(S.a)(t, "onehotLabels", "softmaxCrossEntropy");
           const o = Object(S.a)(e, "logits", "softmaxCrossEntropy");
@@ -11403,10 +11409,10 @@
               };
             })(t, e);
           })(i, o);
-          return vo(u, s, a);
+          return yo(u, s, a);
         },
       });
-    function Io(t, e = !1) {
+    function ko(t, e = !1) {
       return b.a.tidy(() => {
         if (2 !== t.shape.length)
           throw new Error(
@@ -11414,7 +11420,7 @@
           );
         const n = t.shape[0],
           r = t.shape[1];
-        let a = Ma(n),
+        let a = ja(n),
           i = t.clone();
         const o = Object(_.h)([[1]], [1, 1]);
         let s = o.clone();
@@ -11452,7 +11458,7 @@
             }
             return [s, i, a];
           })),
-            ra([e, u, c]);
+            aa([e, u, c]);
         }
         return (
           !e &&
@@ -11462,7 +11468,7 @@
         );
       });
     }
-    const ko = Object(I.a)({
+    const No = Object(I.a)({
         bandPart_:
           /**
            * @license
@@ -11513,12 +11519,12 @@
                 c.greaterEqual(Object(_.e)(-n, "int32"))
               ),
               h = Object(_.n)([i, o], r.dtype);
-            return P(z(r.reshape([-1, i, o])).map((t) => cn(l, t, h))).reshape(
+            return L(z(r.reshape([-1, i, o])).map((t) => cn(l, t, h))).reshape(
               a
             );
           },
       }),
-      No = Object(I.a)({
+      Ro = Object(I.a)({
         gramSchmidt_: function (t) {
           let e;
           if (Array.isArray(t)) {
@@ -11535,7 +11541,7 @@
                 () =>
                   `Gram-Schmidt: Non-unique lengths found in the input vectors: (${t[e].shape[0]} vs. ${n})`
               );
-          } else (e = !0), (t = ge(t, t.shape[0], 0).map((t) => L(t, [0])));
+          } else (e = !0), (t = ge(t, t.shape[0], 0).map((t) => P(t, [0])));
           Object(R.assert)(
             t.length <= t[0].shape[0],
             () =>
@@ -11552,20 +11558,20 @@
                     const e = ht(n[r].mul(t)).mul(n[r]);
                     t = t.sub(e);
                   }
-                return t.div(Xi(t, "euclidean"));
+                return t.div(Yi(t, "euclidean"));
               })
             );
-          return e ? P(n, 0) : n;
+          return e ? L(n, 0) : n;
         },
       }),
-      Ro = Object(I.a)({
+      Ao = Object(I.a)({
         qr_: function (t, e = !1) {
           if (t.rank < 2)
             throw new Error(
               "qr() requires input tensor to have a rank >= 2, but got rank " +
                 t.rank
             );
-          if (2 === t.rank) return Io(t, e);
+          if (2 === t.rank) return ko(t, e);
           {
             const n = t.shape
                 .slice(0, t.shape.length - 2)
@@ -11581,10 +11587,10 @@
               a = [],
               i = [];
             r.forEach((t) => {
-              const [n, r] = Io(t, e);
+              const [n, r] = ko(t, e);
               a.push(n), i.push(r);
             });
-            return [P(a, 0).reshape(t.shape), P(i, 0).reshape(t.shape)];
+            return [L(a, 0).reshape(t.shape), L(i, 0).reshape(t.shape)];
           }
         },
       });
@@ -11604,7 +11610,7 @@
      * limitations under the License.
      * =============================================================================
      */
-    function Ao(t, e, n) {
+    function To(t, e, n) {
       const r = (function (t, e, n) {
           return (function (t, e, n) {
             let r = 0,
@@ -11635,31 +11641,31 @@
              * =============================================================================
              */ t,
             e,
-            n || To
+            n || _o
           );
         })(t, e, n),
         a = r < 0 ? -(r + 1) : r;
       t.splice(a, 0, e);
     }
-    function To(t, e) {
+    function _o(t, e) {
       return t > e ? 1 : t < e ? -1 : 0;
     }
-    function _o(t, e, n, r, a) {
-      const i = Fo(t, e, n, r, a, 0);
+    function Do(t, e, n, r, a) {
+      const i = Mo(t, e, n, r, a, 0);
       return (
         i.selectedScores.dispose(),
         i.numValidOutputs.dispose(),
         i.selectedIndices
       );
     }
-    function Do(t, e, n, r, a, i) {
-      const o = Fo(t, e, n, r, a, i, !0);
+    function Fo(t, e, n, r, a, i) {
+      const o = Mo(t, e, n, r, a, i, !0);
       return (
         o.numValidOutputs.dispose(),
         { selectedIndices: o.selectedIndices, selectedScores: o.selectedScores }
       );
     }
-    function Fo(t, e, n, r, a, i, o = !1, s = !1) {
+    function Mo(t, e, n, r, a, i, o = !1, s = !1) {
       const u = [];
       for (let t = 0; t < e.length; t++)
         e[t] > a && u.push({ score: e[t], boxIndex: t, suppressBeginIndex: 0 });
@@ -11673,18 +11679,18 @@
         if (n < a) break;
         let s = !1;
         for (let n = l.length - 1; n >= o; --n) {
-          const o = Mo(t, i, l[n]);
+          const o = jo(t, i, l[n]);
           if (o >= r) {
             s = !0;
             break;
           }
-          if (((e.score = e.score * jo(r, c, o)), e.score <= a)) break;
+          if (((e.score = e.score * $o(r, c, o)), e.score <= a)) break;
         }
         (e.suppressBeginIndex = l.length),
           s ||
             (e.score === n
               ? (l.push(i), h.push(e.score))
-              : e.score > a && Ao(u, e, Bo));
+              : e.score > a && To(u, e, Bo));
       }
       const d = l.length;
       return (
@@ -11696,7 +11702,7 @@
         }
       );
     }
-    function Mo(t, e, n) {
+    function jo(t, e, n) {
       const r = t.subarray(4 * e, 4 * e + 4),
         a = t.subarray(4 * n, 4 * n + 4),
         i = Math.min(r[0], r[2]),
@@ -11717,7 +11723,7 @@
         y = Math.max(b - m, 0) * Math.max(v - g, 0);
       return y / (p + f - y);
     }
-    function jo(t, e, n) {
+    function $o(t, e, n) {
       const r = Math.exp(e * n * n);
       return n <= t ? r : 0;
     }
@@ -11741,7 +11747,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function $o(t, e, n, r, a, i) {
+     */ function Po(t, e, n, r, a, i) {
       null == r && (r = 0.5),
         null == a && (a = Number.NEGATIVE_INFINITY),
         null == i && (i = 0);
@@ -11804,7 +11810,7 @@
       ) {
         const i = Object(S.a)(t, "boxes", "nonMaxSuppression"),
           o = Object(S.a)(e, "scores", "nonMaxSuppression"),
-          s = $o(i, o, n, r, a);
+          s = Po(i, o, n, r, a);
         (n = s.maxOutputSize), (r = s.iouThreshold), (a = s.scoreThreshold);
         const u = { maxOutputSize: n, iouThreshold: r, scoreThreshold: a };
         return b.a.runKernelFunc(
@@ -11831,7 +11837,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const Po = Object(I.a)({
+     */ const zo = Object(I.a)({
         resizeBilinear_: function (t, e, n = !1) {
           const r = Object(S.a)(t, "images", "resizeBilinear");
           R.assert(
@@ -11867,7 +11873,7 @@
           return i ? u.as3D(u.shape[1], u.shape[2], u.shape[3]) : u;
         },
       }),
-      zo = Object(I.a)({
+      Wo = Object(I.a)({
         resizeNearestNeighbor_: function (t, e, n = !1) {
           const r = Object(S.a)(t, "images", "resizeNearestNeighbor");
           R.assert(
@@ -11905,16 +11911,16 @@
           return i ? u.as3D(u.shape[1], u.shape[2], u.shape[3]) : u;
         },
       }),
-      Wo = async function (t, e, n, r = 0.5, a = Number.NEGATIVE_INFINITY) {
+      Vo = async function (t, e, n, r = 0.5, a = Number.NEGATIVE_INFINITY) {
         const i = Object(S.a)(t, "boxes", "nonMaxSuppressionAsync"),
           o = Object(S.a)(e, "scores", "nonMaxSuppressionAsync"),
-          s = $o(i, o, n, r, a);
+          s = Po(i, o, n, r, a);
         (n = s.maxOutputSize), (r = s.iouThreshold), (a = s.scoreThreshold);
         const u = await Promise.all([i.data(), o.data()]),
-          c = _o(u[0], u[1], n, r, a);
+          c = Do(u[0], u[1], n, r, a);
         return i !== t && i.dispose(), o !== e && o.dispose(), c;
       },
-      Vo = Object(I.a)({
+      Uo = Object(I.a)({
         nonMaxSuppressionWithScore_: function (
           t,
           e,
@@ -11925,7 +11931,7 @@
         ) {
           const o = Object(S.a)(t, "boxes", "nonMaxSuppression"),
             s = Object(S.a)(e, "scores", "nonMaxSuppression"),
-            u = $o(o, s, n, r, a, i),
+            u = Po(o, s, n, r, a, i),
             c = {
               maxOutputSize: (n = u.maxOutputSize),
               iouThreshold: (r = u.iouThreshold),
@@ -11940,7 +11946,7 @@
           return { selectedIndices: l[0], selectedScores: l[1] };
         },
       }),
-      Uo = async function (
+      Go = async function (
         t,
         e,
         n,
@@ -11950,16 +11956,16 @@
       ) {
         const o = Object(S.a)(t, "boxes", "nonMaxSuppressionAsync"),
           s = Object(S.a)(e, "scores", "nonMaxSuppressionAsync"),
-          u = $o(o, s, n, r, a, i);
+          u = Po(o, s, n, r, a, i);
         (n = u.maxOutputSize),
           (r = u.iouThreshold),
           (a = u.scoreThreshold),
           (i = u.softNmsSigma);
         const c = await Promise.all([o.data(), s.data()]),
-          l = Do(c[0], c[1], n, r, a, i);
+          l = Fo(c[0], c[1], n, r, a, i);
         return o !== t && o.dispose(), s !== e && s.dispose(), l;
       },
-      Go = Object(I.a)({
+      Ho = Object(I.a)({
         cropAndResize_: function (t, e, n, r, a, i) {
           const o = Object(S.a)(t, "image", "cropAndResize"),
             s = Object(S.a)(e, "boxes", "cropAndResize", "float32"),
@@ -12005,28 +12011,28 @@
           );
         },
       }),
-      Ho = (t, e) => !(t > 0) || "linear" === e,
-      qo = (t, e, n) => {
+      qo = (t, e) => !(t > 0) || "linear" === e,
+      Ko = (t, e, n) => {
         if (null == n || "linear" === n) return t;
         if ("relu" === n) return t.mul(e.step());
         throw new Error(
           `Gradient for activation ${n} has not been implemented yet.`
         );
       },
-      Ko = (t, e) => {
+      Xo = (t, e) => {
         let n = e;
         const r = x(t.shape, e.shape);
         return r.length > 0 && (n = n.sum(r)), n.reshape(t.shape);
       },
-      Xo = (t, e, n) => {
+      Yo = (t, e, n) => {
         if ("linear" === e) return t;
-        if ("relu" === e) return hi(t);
-        if ("elu" === e) return Da(t);
-        if ("relu6" === e) return di(t);
-        if ("prelu" === e) return ei(t, n);
+        if ("relu" === e) return di(t);
+        if ("elu" === e) return Fa(t);
+        if ("relu6" === e) return pi(t);
+        if ("prelu" === e) return ni(t, n);
         throw new Error(`Unknown fused activation ${e}.`);
       };
-    const Yo = Object(I.a)({
+    const Jo = Object(I.a)({
         fusedMatMul_: function ({
           a: t,
           b: e,
@@ -12036,9 +12042,9 @@
           activation: i = "linear",
           preluActivationWeights: o,
         }) {
-          if (!1 === Ho(b.a.state.gradientDepth, i)) {
+          if (!1 === qo(b.a.state.gradientDepth, i)) {
             let s = he(t, e, n, r);
-            return null != a && (s = k(s, a)), Xo(s, i, o);
+            return null != a && (s = k(s, a)), Yo(s, i, o);
           }
           let s = Object(S.a)(t, "a", "fused matMul"),
             u = Object(S.a)(e, "b", "fused matMul");
@@ -12098,10 +12104,10 @@
               I,
               (t, e) => {
                 const [o, s, u] = e,
-                  c = qo(t, u, i);
+                  c = Ko(t, u, i);
                 let l = {};
                 return (
-                  null != a && (l = { bias: () => Ko(C, c) }),
+                  null != a && (l = { bias: () => Xo(C, c) }),
                   n || r
                     ? !n && r
                       ? Object.assign(
@@ -12143,7 +12149,7 @@
             .reshape(v);
         },
       }),
-      Jo = Object(I.a)({
+      Qo = Object(I.a)({
         fusedConv2d_: function ({
           x: t,
           filter: e,
@@ -12156,9 +12162,9 @@
           activation: u = "linear",
           preluActivationWeights: c,
         }) {
-          if (((u = u || "linear"), !1 === Ho(b.a.state.gradientDepth, u))) {
+          if (((u = u || "linear"), !1 === qo(b.a.state.gradientDepth, u))) {
             let l = we(t, e, n, r, a, i, o);
-            return null != s && (l = k(l, s)), Xo(l, u, c);
+            return null != s && (l = k(l, s)), Yo(l, u, c);
           }
           const l = Object(S.a)(t, "x", "conv2d"),
             h = Object(S.a)(e, "filter", "conv2d");
@@ -12227,7 +12233,7 @@
               v,
               (t, e) => {
                 const [a, o, c] = e,
-                  l = qo(t, c, u);
+                  l = Ko(t, c, u);
                 R.assert(
                   ae(i),
                   () =>
@@ -12235,7 +12241,7 @@
                 );
                 let h = {};
                 return (
-                  null != s && (h = { bias: () => Ko(m, l) }),
+                  null != s && (h = { bias: () => Xo(m, l) }),
                   Object.assign(
                     {
                       x: () => ye(o.shape, l, a, n, r),
@@ -12253,7 +12259,7 @@
           return p ? x.as3D(x.shape[1], x.shape[2], x.shape[3]) : x;
         },
       }),
-      Qo = Object(I.a)({
+      Zo = Object(I.a)({
         fusedDepthwiseConv2d_: function ({
           x: t,
           filter: e,
@@ -12266,9 +12272,9 @@
           activation: u = "linear",
           preluActivationWeights: c,
         }) {
-          if (!1 === Ho(b.a.state.gradientDepth, u)) {
-            let l = Ra(t, e, n, r, a, i, o);
-            return null != s && (l = k(l, s)), Xo(l, u, c);
+          if (!1 === qo(b.a.state.gradientDepth, u)) {
+            let l = Aa(t, e, n, r, a, i, o);
+            return null != s && (l = k(l, s)), Yo(l, u, c);
           }
           const l = Object(S.a)(t, "x", "depthwiseConv2d"),
             h = Object(S.a)(e, "filter", "depthwiseConv2d");
@@ -12335,10 +12341,10 @@
                     `Error in gradient of fused depthwiseConv2d: dilation rates greater than 1 are not yet supported. Got dilations '${i}'`
                 );
                 const [n, r, a] = e,
-                  o = qo(t, a, u);
+                  o = Ko(t, a, u);
                 let c = {};
                 return (
-                  null != s && (c = { bias: () => Ko(m, o) }),
+                  null != s && (c = { bias: () => Xo(m, o) }),
                   Object.assign(
                     {
                       x: () => Ae(r.shape, o, n, f),
@@ -12388,14 +12394,14 @@
      * limitations under the License.
      * =============================================================================
      */
-    class Zo extends Xr {
+    class ts extends Xr {
       minimize(t, e = !1, n) {
         const { value: r, grads: a } = this.computeGradients(t, n);
         if (null != n) {
           const t = n.map((t) => ({ name: t.name, tensor: a[t.name] }));
           this.applyGradients(t);
         } else this.applyGradients(a);
-        return ra(a), e ? r : (r.dispose(), null);
+        return aa(a), e ? r : (r.dispose(), null);
       }
       get iterations() {
         return (
@@ -12409,7 +12415,7 @@
         return H(t, e);
       }
       dispose() {
-        null != this.iterations_ && ra(this.iterations_);
+        null != this.iterations_ && aa(this.iterations_);
       }
       async saveIterations() {
         return (
@@ -12432,7 +12438,7 @@
         return (this.iterations_ = (await t[0].tensor.data())[0]), t.slice(1);
       }
     }
-    Object.defineProperty(Zo, Symbol.hasInstance, {
+    Object.defineProperty(ts, Symbol.hasInstance, {
       value: (t) =>
         null != t.minimize &&
         null != t.computeGradients &&
@@ -12454,7 +12460,7 @@
      * limitations under the License.
      * =============================================================================
      */
-    class ts extends Zo {
+    class es extends ts {
       constructor(t, e, n = null) {
         super(),
           (this.learningRate = t),
@@ -12471,18 +12477,18 @@
             null == this.accumulatedGrads[n] &&
               (this.accumulatedGrads[n] = {
                 originalName: e + "/accum_grad",
-                variable: na(() => Object(_.o)(r).variable(!1)),
+                variable: ra(() => Object(_.o)(r).variable(!1)),
               }),
               null == this.accumulatedUpdates[n] &&
                 (this.accumulatedUpdates[n] = {
                   originalName: e + "/accum_var",
-                  variable: na(() => Object(_.o)(r).variable(!1)),
+                  variable: ra(() => Object(_.o)(r).variable(!1)),
                 });
             const a = Array.isArray(t) ? t[n].tensor : t[e];
             if (null == a) return;
             const i = this.accumulatedGrads[n].variable,
               o = this.accumulatedUpdates[n].variable;
-            na(() => {
+            ra(() => {
               const t = i.mul(this.rho).add(a.square().mul(1 - this.rho)),
                 e = o
                   .add(this.epsilon)
@@ -12500,8 +12506,8 @@
       }
       dispose() {
         null != this.accumulatedUpdates &&
-          (ra(this.accumulatedGrads.map((t) => t.variable)),
-          ra(this.accumulatedUpdates.map((t) => t.variable)));
+          (aa(this.accumulatedGrads.map((t) => t.variable)),
+          aa(this.accumulatedUpdates.map((t) => t.variable)));
       }
       async getWeights() {
         const t = [...this.accumulatedGrads, ...this.accumulatedUpdates];
@@ -12535,7 +12541,7 @@
         return new t(e.learningRate, e.rho, e.epsilon);
       }
     }
-    (ts.className = "Adadelta"), Jr(ts);
+    (es.className = "Adadelta"), Jr(es);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -12552,7 +12558,7 @@
      * limitations under the License.
      * =============================================================================
      */
-    class es extends Zo {
+    class ns extends ts {
       constructor(t, e = 0.1) {
         super(),
           (this.learningRate = t),
@@ -12567,15 +12573,15 @@
               const t = !1;
               this.accumulatedGrads[n] = {
                 originalName: e + "/accumulator",
-                variable: na(() =>
-                  ja(r.shape, this.initialAccumulatorValue).variable(t)
+                variable: ra(() =>
+                  $a(r.shape, this.initialAccumulatorValue).variable(t)
                 ),
               };
             }
             const a = Array.isArray(t) ? t[n].tensor : t[e];
             if (null == a) return;
             const i = this.accumulatedGrads[n].variable;
-            na(() => {
+            ra(() => {
               const t = i.add(a.square());
               i.assign(t);
               const e = a
@@ -12590,7 +12596,7 @@
       }
       dispose() {
         null != this.accumulatedGrads &&
-          ra(this.accumulatedGrads.map((t) => t.variable));
+          aa(this.accumulatedGrads.map((t) => t.variable));
       }
       async getWeights() {
         return [await this.saveIterations()].concat(
@@ -12617,7 +12623,7 @@
         return new t(e.learningRate, e.initialAccumulatorValue);
       }
     }
-    (es.className = "Adagrad"), Jr(es);
+    (ns.className = "Adagrad"), Jr(ns);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -12634,7 +12640,7 @@
      * limitations under the License.
      * =============================================================================
      */
-    class ns extends Zo {
+    class rs extends ts {
       constructor(t, e, n, r = null) {
         super(),
           (this.learningRate = t),
@@ -12643,7 +12649,7 @@
           (this.epsilon = r),
           (this.accumulatedFirstMoment = []),
           (this.accumulatedSecondMoment = []),
-          na(() => {
+          ra(() => {
             (this.accBeta1 = Object(_.e)(e).variable()),
               (this.accBeta2 = Object(_.e)(n).variable());
           }),
@@ -12651,7 +12657,7 @@
       }
       applyGradients(t) {
         const e = Array.isArray(t) ? t.map((t) => t.name) : Object.keys(t);
-        na(() => {
+        ra(() => {
           const n = Me(1, this.accBeta1),
             r = Me(1, this.accBeta2);
           e.forEach((e, a) => {
@@ -12659,12 +12665,12 @@
             null == this.accumulatedFirstMoment[a] &&
               (this.accumulatedFirstMoment[a] = {
                 originalName: e + "/m",
-                variable: na(() => Object(_.o)(i).variable(!1)),
+                variable: ra(() => Object(_.o)(i).variable(!1)),
               }),
               null == this.accumulatedSecondMoment[a] &&
                 (this.accumulatedSecondMoment[a] = {
                   originalName: e + "/v",
-                  variable: na(() => Object(_.o)(i).variable(!1)),
+                  variable: ra(() => Object(_.o)(i).variable(!1)),
                 });
             const o = Array.isArray(t) ? t[a].tensor : t[e];
             if (null == o) return;
@@ -12690,9 +12696,9 @@
         this.accBeta1.dispose(),
           this.accBeta2.dispose(),
           null != this.accumulatedFirstMoment &&
-            ra(this.accumulatedFirstMoment.map((t) => t.variable)),
+            aa(this.accumulatedFirstMoment.map((t) => t.variable)),
           null != this.accumulatedSecondMoment &&
-            ra(this.accumulatedSecondMoment.map((t) => t.variable));
+            aa(this.accumulatedSecondMoment.map((t) => t.variable));
       }
       async getWeights() {
         const t = [
@@ -12705,7 +12711,7 @@
       }
       async setWeights(t) {
         (t = await this.extractIterations(t)),
-          na(() => {
+          ra(() => {
             this.accBeta1.assign(hn(this.beta1, this.iterations_ + 1)),
               this.accBeta2.assign(hn(this.beta2, this.iterations_ + 1));
           });
@@ -12735,7 +12741,7 @@
         return new t(e.learningRate, e.beta1, e.beta2, e.epsilon);
       }
     }
-    (ns.className = "Adam"), Jr(ns);
+    (rs.className = "Adam"), Jr(rs);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -12752,7 +12758,7 @@
      * limitations under the License.
      * =============================================================================
      */
-    class rs extends Zo {
+    class as extends ts {
       constructor(t, e, n, r = null, a = 0) {
         super(),
           (this.learningRate = t),
@@ -12762,7 +12768,7 @@
           (this.decay = a),
           (this.accumulatedFirstMoment = []),
           (this.accumulatedWeightedInfNorm = []),
-          na(() => {
+          ra(() => {
             (this.iteration = Object(_.e)(0).variable()),
               (this.accBeta1 = Object(_.e)(e).variable());
           }),
@@ -12770,7 +12776,7 @@
       }
       applyGradients(t) {
         const e = Array.isArray(t) ? t.map((t) => t.name) : Object.keys(t);
-        na(() => {
+        ra(() => {
           const n = Me(1, this.accBeta1),
             r = U(-this.learningRate, this.iteration.mul(this.decay).add(1));
           e.forEach((e, a) => {
@@ -12809,9 +12815,9 @@
         this.accBeta1.dispose(),
           this.iteration.dispose(),
           null != this.accumulatedFirstMoment &&
-            ra(this.accumulatedFirstMoment.map((t) => t.variable)),
+            aa(this.accumulatedFirstMoment.map((t) => t.variable)),
           null != this.accumulatedWeightedInfNorm &&
-            ra(this.accumulatedWeightedInfNorm.map((t) => t.variable));
+            aa(this.accumulatedWeightedInfNorm.map((t) => t.variable));
       }
       async getWeights() {
         throw new Error("getWeights() is not implemented for Adamax yet.");
@@ -12832,7 +12838,7 @@
         return new t(e.learningRate, e.beta1, e.beta2, e.epsilon, e.decay);
       }
     }
-    (rs.className = "Adamax"), Jr(rs);
+    (as.className = "Adamax"), Jr(as);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -12849,7 +12855,7 @@
      * limitations under the License.
      * =============================================================================
      */
-    class as extends Zo {
+    class is extends ts {
       constructor(t) {
         super(), (this.learningRate = t), this.setLearningRate(t);
       }
@@ -12859,7 +12865,7 @@
             const r = Array.isArray(t) ? t[n].tensor : t[e];
             if (null == r) return;
             const a = b.a.registeredVariables[e];
-            na(() => {
+            ra(() => {
               const t = this.c.mul(r).add(a);
               a.assign(t);
             });
@@ -12870,7 +12876,7 @@
       setLearningRate(t) {
         (this.learningRate = t),
           null != this.c && this.c.dispose(),
-          (this.c = aa(Object(_.e)(-t)));
+          (this.c = ia(Object(_.e)(-t)));
       }
       dispose() {
         this.c.dispose();
@@ -12889,7 +12895,7 @@
         return new t(e.learningRate);
       }
     }
-    (as.className = "SGD"), Jr(as);
+    (is.className = "SGD"), Jr(is);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -12906,7 +12912,7 @@
      * limitations under the License.
      * =============================================================================
      */
-    class is extends as {
+    class os extends is {
       constructor(t, e, n = !1) {
         super(t),
           (this.learningRate = t),
@@ -12923,13 +12929,13 @@
               const t = !1;
               this.accumulations[n] = {
                 originalName: e + "/momentum",
-                variable: na(() => Object(_.o)(r).variable(t)),
+                variable: ra(() => Object(_.o)(r).variable(t)),
               };
             }
             const a = this.accumulations[n].variable,
               i = Array.isArray(t) ? t[n].tensor : t[e];
             null != i &&
-              na(() => {
+              ra(() => {
                 let t;
                 const e = this.m.mul(a).add(i);
                 (t = this.useNesterov
@@ -12945,7 +12951,7 @@
       dispose() {
         this.m.dispose(),
           null != this.accumulations &&
-            ra(this.accumulations.map((t) => t.variable));
+            aa(this.accumulations.map((t) => t.variable));
       }
       setMomentum(t) {
         this.momentum = t;
@@ -12976,7 +12982,7 @@
         return new t(e.learningRate, e.momentum, e.useNesterov);
       }
     }
-    (is.className = "Momentum"), Jr(is);
+    (os.className = "Momentum"), Jr(os);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -12993,7 +12999,7 @@
      * limitations under the License.
      * =============================================================================
      */
-    class os extends Zo {
+    class ss extends ts {
       constructor(t, e = 0.9, n = 0, r = null, a = !1) {
         if (
           (super(),
@@ -13017,24 +13023,24 @@
             null == this.accumulatedMeanSquares[n] &&
               (this.accumulatedMeanSquares[n] = {
                 originalName: e + "/rms",
-                variable: na(() => Object(_.o)(r).variable(!1)),
+                variable: ra(() => Object(_.o)(r).variable(!1)),
               }),
               null == this.accumulatedMoments[n] &&
                 (this.accumulatedMoments[n] = {
                   originalName: e + "/momentum",
-                  variable: na(() => Object(_.o)(r).variable(!1)),
+                  variable: ra(() => Object(_.o)(r).variable(!1)),
                 }),
               null == this.accumulatedMeanGrads[n] &&
                 this.centered &&
                 (this.accumulatedMeanGrads[n] = {
                   originalName: e + "/mg",
-                  variable: na(() => Object(_.o)(r).variable(!1)),
+                  variable: ra(() => Object(_.o)(r).variable(!1)),
                 });
             const a = Array.isArray(t) ? t[n].tensor : t[e];
             if (null == a) return;
             const i = this.accumulatedMeanSquares[n].variable,
               o = this.accumulatedMoments[n].variable;
-            na(() => {
+            ra(() => {
               const t = i.mul(this.decay).add(a.square().mul(1 - this.decay));
               if (this.centered) {
                 const e = this.accumulatedMeanGrads[n].variable,
@@ -13067,12 +13073,12 @@
       }
       dispose() {
         null != this.accumulatedMeanSquares &&
-          ra(this.accumulatedMeanSquares.map((t) => t.variable)),
+          aa(this.accumulatedMeanSquares.map((t) => t.variable)),
           null != this.accumulatedMeanGrads &&
             this.centered &&
-            ra(this.accumulatedMeanGrads.map((t) => t.variable)),
+            aa(this.accumulatedMeanGrads.map((t) => t.variable)),
           null != this.accumulatedMoments &&
-            ra(this.accumulatedMoments.map((t) => t.variable));
+            aa(this.accumulatedMoments.map((t) => t.variable));
       }
       async getWeights() {
         const t = [...this.accumulatedMeanSquares, ...this.accumulatedMoments];
@@ -13125,8 +13131,8 @@
         );
       }
     }
-    (os.className = "RMSProp"), Jr(os);
-    var ss = n(23);
+    (ss.className = "RMSProp"), Jr(ss);
+    var us = n(23);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -13142,27 +13148,27 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ class us {
+     */ class cs {
       static sgd(t) {
-        return new as(t);
+        return new is(t);
       }
       static momentum(t, e, n = !1) {
-        return new is(t, e, n);
+        return new os(t, e, n);
       }
       static rmsprop(t, e = 0.9, n = 0, r = null, a = !1) {
-        return new os(t, e, n, r, a);
+        return new ss(t, e, n, r, a);
       }
       static adam(t = 0.001, e = 0.9, n = 0.999, r = null) {
-        return new ns(t, e, n, r);
+        return new rs(t, e, n, r);
       }
       static adadelta(t = 0.001, e = 0.95, n = null) {
-        return new ts(t, e, n);
+        return new es(t, e, n);
       }
       static adamax(t = 0.002, e = 0.9, n = 0.999, r = null, a = 0) {
-        return new rs(t, e, n, r, a);
+        return new as(t, e, n, r, a);
       }
       static adagrad(t, e = 0.1) {
-        return new es(t, e);
+        return new ns(t, e);
       }
     }
     /**
@@ -13180,16 +13186,16 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const cs = {
-      sgd: us.sgd,
-      momentum: us.momentum,
-      adadelta: us.adadelta,
-      adagrad: us.adagrad,
-      rmsprop: us.rmsprop,
-      adamax: us.adamax,
-      adam: us.adam,
+     */ const ls = {
+      sgd: cs.sgd,
+      momentum: cs.momentum,
+      adadelta: cs.adadelta,
+      adagrad: cs.adagrad,
+      rmsprop: cs.rmsprop,
+      adamax: cs.adamax,
+      adam: cs.adam,
     };
-    var ls = n(38);
+    var hs = n(38);
     /**
      * @license
      * Copyright 2018 Google LLC. All Rights Reserved.
@@ -13205,7 +13211,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function hs(t, e, n, r = !0) {
+     */ function ds(t, e, n, r = !0) {
       let a = [];
       if (r)
         (a = a.concat(e.slice(0))),
@@ -13219,7 +13225,7 @@
       }
       return a;
     }
-    function ds(t, e, n = !0) {
+    function ps(t, e, n = !0) {
       const r = [];
       if (n) {
         r.push(e);
@@ -13234,7 +13240,7 @@
       }
       return r;
     }
-    function ps(t, e, n, r = !0) {
+    function fs(t, e, n, r = !0) {
       const a = [];
       r ? a.push(t[0] / n) : a.push(t[0] * n);
       for (let n = 1; n < t.length; ++n)
@@ -13245,12 +13251,12 @@
           : a.push(t[n]);
       return a;
     }
-    function fs(t, e) {
+    function ms(t, e) {
       const n = [0];
       for (let r = 0; r < e; ++r) n.push(t[r][0]);
       return n;
     }
-    function ms(t, e, n) {
+    function gs(t, e, n) {
       const r = t.slice(0, 1);
       for (let a = 0; a < n; ++a) r.push(t[a + 1] - e[a][0] - e[a][1]);
       return r;
@@ -13270,12 +13276,12 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const gs = 0.3275911,
-      bs = 0.254829592,
-      vs = -0.284496736,
-      ys = 1.421413741,
-      xs = -1.453152027,
-      ws = 1.061405429;
+     */ const bs = 0.3275911,
+      vs = 0.254829592,
+      ys = -0.284496736,
+      xs = 1.421413741,
+      ws = -1.453152027,
+      Cs = 1.061405429;
     /**
      * @license
      * Copyright 2018 Google LLC. All Rights Reserved.
@@ -13292,10 +13298,10 @@
      * limitations under the License.
      * =============================================================================
      */
-    function Cs(...t) {
+    function Os(...t) {
       Object(Hn.b)().getBool("IS_TEST") || console.warn(...t);
     }
-    function Os(...t) {
+    function Es(...t) {
       Object(Hn.b)().getBool("IS_TEST") || console.log(...t);
     }
     /**
@@ -13313,7 +13319,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function Es(t, e) {
+     */ function Ss(t, e) {
       if (t.length !== e.length)
         throw new Error(
           `Cannot merge real and imag arrays of different lengths. real:${t.length}, imag: ${e.length}.`
@@ -13323,14 +13329,14 @@
         (n[r] = t[r / 2]), (n[r + 1] = e[r / 2]);
       return n;
     }
-    function Ss(t) {
+    function Is(t) {
       const e = new Float32Array(t.length / 2),
         n = new Float32Array(t.length / 2);
       for (let r = 0; r < t.length; r += 2)
         (e[r / 2] = t[r]), (n[r / 2] = t[r + 1]);
       return { real: e, imag: n };
     }
-    function Is(t) {
+    function ks(t) {
       const e = Math.ceil(t.length / 4),
         n = new Float32Array(e),
         r = new Float32Array(e);
@@ -13338,7 +13344,7 @@
         (n[Math.floor(e / 4)] = t[e]), (r[Math.floor(e / 4)] = t[e + 1]);
       return { real: n, imag: r };
     }
-    function ks(t) {
+    function Ns(t) {
       const e = Math.floor(t.length / 4),
         n = new Float32Array(e),
         r = new Float32Array(e);
@@ -13346,13 +13352,13 @@
         (n[Math.floor(e / 4)] = t[e]), (r[Math.floor(e / 4)] = t[e + 1]);
       return { real: n, imag: r };
     }
-    function Ns(t, e) {
+    function Rs(t, e) {
       return { real: t[2 * e], imag: t[2 * e + 1] };
     }
-    function Rs(t, e, n, r) {
+    function As(t, e, n, r) {
       (t[2 * r] = e), (t[2 * r + 1] = n);
     }
-    function As(t, e) {
+    function Ts(t, e) {
       const n = new Float32Array(t / 2),
         r = new Float32Array(t / 2);
       for (let a = 0; a < Math.ceil(t / 2); a++) {
@@ -13361,7 +13367,7 @@
       }
       return { real: n, imag: r };
     }
-    function Ts(t, e, n) {
+    function _s(t, e, n) {
       const r = (n ? 2 : -2) * Math.PI * (t / e);
       return { real: Math.cos(r), imag: Math.sin(r) };
     }
@@ -13380,7 +13386,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function _s(t, e, n) {
+     */ function Ds(t, e, n) {
       if ("complex64" === e) {
         if ("complex64" === t.dtype) return t.clone();
         const e = Object(_.n)(t.shape),
@@ -13403,17 +13409,17 @@
       }
       throw new Error(`Error in Cast: failed to cast ${t.dtype} to ${e}`);
     }
-    function Ds(t, e) {
+    function Fs(t, e) {
       return b.a.makeTensorFromDataId(t.dataId, e, t.dtype);
     }
-    function Fs(t, e, n) {
+    function Ms(t, e, n) {
       const r = (e - t) / (n - 1),
         a = Object(R.makeZerosTypedArray)(n, "float32");
       a[0] = t;
       for (let t = 1; t < a.length; t++) a[t] = a[t - 1] + r;
       return Object(_.g)(a, "float32");
     }
-    var Ms = n(33);
+    var js = n(33);
     /**
      * @license
      * Copyright 2018 Google Inc. All Rights Reserved.
@@ -13429,7 +13435,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function js(t, e, n) {
+     */ function $s(t, e, n) {
       const r = new Array(t.rank).fill(0),
         a = t.shape.slice();
       return e.map((e) => {
@@ -13482,7 +13488,7 @@
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function $s(t, e, n, r, a) {
+     */ function Ps(t, e, n, r, a) {
       const i = e[e.length - 1],
         [o, s] = [t.length / i, i],
         u = Object(R.getTypedArrayFromDType)(n, o * r),
@@ -13561,39 +13567,39 @@
         return this.dataIdsCount;
       }
     }
-    class Ps {
+    class zs {
       time(t) {
-        return zs("time");
+        return Ws("time");
       }
       read(t) {
-        return zs("read");
+        return Ws("read");
       }
       readSync(t) {
-        return zs("readSync");
+        return Ws("readSync");
       }
       numDataIds() {
-        return zs("numDataIds");
+        return Ws("numDataIds");
       }
       disposeData(t) {
-        return zs("disposeData");
+        return Ws("disposeData");
       }
       write(t, e, n) {
-        return zs("write");
+        return Ws("write");
       }
       move(t, e, n, r) {
-        return zs("move");
+        return Ws("move");
       }
       memory() {
-        return zs("memory");
+        return Ws("memory");
       }
       floatPrecision() {
-        return zs("floatPrecision");
+        return Ws("floatPrecision");
       }
       epsilon() {
         return 32 === this.floatPrecision() ? 1e-7 : 1e-4;
       }
       batchMatMul(t, e, n, r) {
-        return zs("batchMatMul");
+        return Ws("batchMatMul");
       }
       fusedBatchMatMul({
         a: t,
@@ -13604,250 +13610,250 @@
         activation: i,
         preluActivationWeights: o,
       }) {
-        return zs("fusedBatchMatMul");
+        return Ws("fusedBatchMatMul");
       }
       slice(t, e, n) {
-        return zs("slice");
+        return Ws("slice");
       }
       stridedSlice(t, e, n, r) {
-        return zs("stridedSlice");
+        return Ws("stridedSlice");
       }
       unstack(t, e) {
-        return zs("unstack");
+        return Ws("unstack");
       }
       reverse(t, e) {
-        return zs("reverse");
+        return Ws("reverse");
       }
       concat(t, e) {
-        return zs("concat");
+        return Ws("concat");
       }
       neg(t) {
-        return zs("neg");
+        return Ws("neg");
       }
       add(t, e) {
-        return zs("add");
+        return Ws("add");
       }
       addN(t) {
-        return zs("addN");
+        return Ws("addN");
       }
       subtract(t, e) {
-        return zs("subtract");
+        return Ws("subtract");
       }
       multiply(t, e) {
-        return zs("multiply");
+        return Ws("multiply");
       }
       realDivide(t, e) {
-        return zs("realDivide");
+        return Ws("realDivide");
       }
       floorDiv(t, e) {
-        return zs("floorDiv");
+        return Ws("floorDiv");
       }
       sum(t, e) {
-        return zs("sum");
+        return Ws("sum");
       }
       prod(t, e) {
-        return zs("prod");
+        return Ws("prod");
       }
       unsortedSegmentSum(t, e, n) {
-        return zs("unsortedSegmentSum");
+        return Ws("unsortedSegmentSum");
       }
       argMin(t, e) {
-        return zs("argMin");
+        return Ws("argMin");
       }
       argMax(t, e) {
-        return zs("argMax");
+        return Ws("argMax");
       }
       equal(t, e) {
-        return zs("equal");
+        return Ws("equal");
       }
       notEqual(t, e) {
-        return zs("notEqual");
+        return Ws("notEqual");
       }
       less(t, e) {
-        return zs("less");
+        return Ws("less");
       }
       lessEqual(t, e) {
-        return zs("lessEqual");
+        return Ws("lessEqual");
       }
       greater(t, e) {
-        return zs("greater");
+        return Ws("greater");
       }
       greaterEqual(t, e) {
-        return zs("greaterEqual");
+        return Ws("greaterEqual");
       }
       logicalNot(t) {
-        return zs("logicalNot");
+        return Ws("logicalNot");
       }
       logicalAnd(t, e) {
-        return zs("logicalAnd");
+        return Ws("logicalAnd");
       }
       logicalOr(t, e) {
-        return zs("logicalOr");
+        return Ws("logicalOr");
       }
       where(t) {
-        return zs("where");
+        return Ws("where");
       }
       select(t, e, n) {
-        return zs("select");
+        return Ws("select");
       }
       topk(t, e, n) {
-        return zs("topk");
+        return Ws("topk");
       }
       min(t, e) {
-        return zs("min");
+        return Ws("min");
       }
       minimum(t, e) {
-        return zs("minimum");
+        return Ws("minimum");
       }
       mod(t, e) {
-        return zs("mod");
+        return Ws("mod");
       }
       max(t, e) {
-        return zs("max");
+        return Ws("max");
       }
       maximum(t, e) {
-        return zs("maximum");
+        return Ws("maximum");
       }
       all(t, e) {
-        return zs("all");
+        return Ws("all");
       }
       any(t, e) {
-        return zs("any");
+        return Ws("any");
       }
       squaredDifference(t, e) {
-        return zs("squaredDifference");
+        return Ws("squaredDifference");
       }
       ceil(t) {
-        return zs("ceil");
+        return Ws("ceil");
       }
       floor(t) {
-        return zs("floor");
+        return Ws("floor");
       }
       round(t) {
-        return zs("round");
+        return Ws("round");
       }
       sign(t) {
-        return zs("sign");
+        return Ws("sign");
       }
       isNaN(t) {
-        return zs("isNaN");
+        return Ws("isNaN");
       }
       isInf(t) {
-        return zs("isInf");
+        return Ws("isInf");
       }
       isFinite(t) {
-        return zs("isFinite");
+        return Ws("isFinite");
       }
       pow(t, e) {
-        return zs("pow");
+        return Ws("pow");
       }
       exp(t) {
-        return zs("exp");
+        return Ws("exp");
       }
       expm1(t) {
-        return zs("expm1");
+        return Ws("expm1");
       }
       softmax(t, e) {
-        return zs("softmax");
+        return Ws("softmax");
       }
       log(t) {
-        return zs("log");
+        return Ws("log");
       }
       log1p(t) {
-        return zs("log1p");
+        return Ws("log1p");
       }
       sqrt(t) {
-        return zs("sqrt");
+        return Ws("sqrt");
       }
       rsqrt(t) {
-        return zs("rsqrt");
+        return Ws("rsqrt");
       }
       square(t) {
-        return zs("square");
+        return Ws("square");
       }
       reciprocal(t) {
-        return zs("reciprocal");
+        return Ws("reciprocal");
       }
       relu(t) {
-        return zs("relu");
+        return Ws("relu");
       }
       relu6(t) {
-        return zs("relu6");
+        return Ws("relu6");
       }
       prelu(t, e) {
-        return zs("prelu");
+        return Ws("prelu");
       }
       elu(t) {
-        return zs("elu");
+        return Ws("elu");
       }
       eluDer(t, e) {
-        return zs("eluDer");
+        return Ws("eluDer");
       }
       selu(t) {
-        return zs("selu");
+        return Ws("selu");
       }
       int(t) {
-        return zs("int");
+        return Ws("int");
       }
       clip(t, e, n) {
-        return zs("clip");
+        return Ws("clip");
       }
       abs(t) {
-        return zs("abs");
+        return Ws("abs");
       }
       complexAbs(t) {
-        return zs("complexAbs");
+        return Ws("complexAbs");
       }
       sigmoid(t) {
-        return zs("sigmoid");
+        return Ws("sigmoid");
       }
       softplus(t) {
-        return zs("softplus");
+        return Ws("softplus");
       }
       sin(t) {
-        return zs("sin");
+        return Ws("sin");
       }
       cos(t) {
-        return zs("cos");
+        return Ws("cos");
       }
       tan(t) {
-        return zs("tan");
+        return Ws("tan");
       }
       asin(t) {
-        return zs("asin");
+        return Ws("asin");
       }
       acos(t) {
-        return zs("acos");
+        return Ws("acos");
       }
       atan(t) {
-        return zs("atan");
+        return Ws("atan");
       }
       atan2(t, e) {
-        return zs("atan2");
+        return Ws("atan2");
       }
       sinh(t) {
-        return zs("sinh");
+        return Ws("sinh");
       }
       cosh(t) {
-        return zs("cosh");
+        return Ws("cosh");
       }
       tanh(t) {
-        return zs("tanh");
+        return Ws("tanh");
       }
       asinh(t) {
-        return zs("asinh");
+        return Ws("asinh");
       }
       acosh(t) {
-        return zs("acosh");
+        return Ws("acosh");
       }
       atanh(t) {
-        return zs("atanh");
+        return Ws("atanh");
       }
       erf(t) {
-        return zs("erf");
+        return Ws("erf");
       }
       step(t, e) {
-        return zs("step");
+        return Ws("step");
       }
       fusedConv2d({
         input: t,
@@ -13857,16 +13863,16 @@
         activation: a,
         preluActivationWeights: i,
       }) {
-        return zs("fusedConv2d");
+        return Ws("fusedConv2d");
       }
       conv2d(t, e, n) {
-        return zs("conv2d");
+        return Ws("conv2d");
       }
       conv2dDerInput(t, e, n) {
-        return zs("conv2dDerInput");
+        return Ws("conv2dDerInput");
       }
       conv2dDerFilter(t, e, n) {
-        return zs("conv2dDerFilter");
+        return Ws("conv2dDerFilter");
       }
       fusedDepthwiseConv2D({
         input: t,
@@ -13876,160 +13882,160 @@
         activation: a,
         preluActivationWeights: i,
       }) {
-        return zs("fusedDepthwiseConv2D");
+        return Ws("fusedDepthwiseConv2D");
       }
       depthwiseConv2D(t, e, n) {
-        return zs("depthwiseConv2D");
+        return Ws("depthwiseConv2D");
       }
       depthwiseConv2DDerInput(t, e, n) {
-        return zs("depthwiseConv2DDerInput");
+        return Ws("depthwiseConv2DDerInput");
       }
       depthwiseConv2DDerFilter(t, e, n) {
-        return zs("depthwiseConv2DDerFilter");
+        return Ws("depthwiseConv2DDerFilter");
       }
       conv3d(t, e, n) {
-        return zs("conv3d");
+        return Ws("conv3d");
       }
       conv3dDerInput(t, e, n) {
-        return zs("conv3dDerInput");
+        return Ws("conv3dDerInput");
       }
       conv3dDerFilter(t, e, n) {
-        return zs("conv3dDerFilter");
+        return Ws("conv3dDerFilter");
       }
       maxPool(t, e) {
-        return zs("maxPool");
+        return Ws("maxPool");
       }
       maxPoolBackprop(t, e, n, r) {
-        return zs("maxPoolBackprop");
+        return Ws("maxPoolBackprop");
       }
       avgPool(t, e) {
-        return zs("avgPool");
+        return Ws("avgPool");
       }
       avgPoolBackprop(t, e, n) {
-        return zs("avgPoolBackprop");
+        return Ws("avgPoolBackprop");
       }
       avgPool3d(t, e) {
-        return zs("avgPool3d");
+        return Ws("avgPool3d");
       }
       avgPool3dBackprop(t, e, n) {
-        return zs("avgPool3dBackprop");
+        return Ws("avgPool3dBackprop");
       }
       maxPool3d(t, e) {
-        return zs("maxPool3d");
+        return Ws("maxPool3d");
       }
       maxPool3dBackprop(t, e, n, r) {
-        return zs("maxPool3dBackprop");
+        return Ws("maxPool3dBackprop");
       }
       reshape(t, e) {
-        return zs("reshape");
+        return Ws("reshape");
       }
       cast(t, e) {
-        return zs("cast");
+        return Ws("cast");
       }
       tile(t, e) {
-        return zs("tile");
+        return Ws("tile");
       }
       pad(t, e, n) {
-        return zs("pad");
+        return Ws("pad");
       }
       transpose(t, e) {
-        return zs("transpose");
+        return Ws("transpose");
       }
       gather(t, e, n) {
-        return zs("gather");
+        return Ws("gather");
       }
       gatherND(t, e) {
-        return zs("gatherND");
+        return Ws("gatherND");
       }
       scatterND(t, e, n) {
-        return zs("scatterND");
+        return Ws("scatterND");
       }
       batchToSpaceND(t, e, n) {
-        return zs("batchToSpaceND");
+        return Ws("batchToSpaceND");
       }
       spaceToBatchND(t, e, n) {
-        return zs("spaceToBatchND");
+        return Ws("spaceToBatchND");
       }
       resizeBilinear(t, e, n, r) {
-        return zs("resizeBilinear");
+        return Ws("resizeBilinear");
       }
       resizeBilinearBackprop(t, e, n) {
-        return zs("resizeBilinearBackprop");
+        return Ws("resizeBilinearBackprop");
       }
       resizeNearestNeighbor(t, e, n, r) {
-        return zs("resizeNearestNeighbor");
+        return Ws("resizeNearestNeighbor");
       }
       resizeNearestNeighborBackprop(t, e, n) {
-        return zs("resizeNearestNeighborBackprop");
+        return Ws("resizeNearestNeighborBackprop");
       }
       batchNorm(t, e, n, r, a, i) {
-        return zs("batchNorm");
+        return Ws("batchNorm");
       }
       localResponseNormalization4D(t, e, n, r, a) {
-        return zs("localResponseNormalization4D");
+        return Ws("localResponseNormalization4D");
       }
       LRNGrad(t, e, n, r, a, i, o) {
-        return zs("LRNGrad");
+        return Ws("LRNGrad");
       }
       multinomial(t, e, n, r) {
-        return zs("multinomial");
+        return Ws("multinomial");
       }
       oneHot(t, e, n, r) {
-        return zs("oneHot");
+        return Ws("oneHot");
       }
       cumsum(t, e, n, r) {
-        return zs("cumsum");
+        return Ws("cumsum");
       }
       nonMaxSuppression(t, e, n, r, a) {
-        return zs("nonMaxSuppression");
+        return Ws("nonMaxSuppression");
       }
       fft(t) {
-        return zs("fft");
+        return Ws("fft");
       }
       ifft(t) {
-        return zs("ifft");
+        return Ws("ifft");
       }
       complex(t, e) {
-        return zs("complex");
+        return Ws("complex");
       }
       real(t) {
-        return zs("real");
+        return Ws("real");
       }
       imag(t) {
-        return zs("imag");
+        return Ws("imag");
       }
       cropAndResize(t, e, n, r, a, i) {
-        return zs("cropAndResize");
+        return Ws("cropAndResize");
       }
       depthToSpace(t, e, n) {
-        return zs("depthToSpace");
+        return Ws("depthToSpace");
       }
       split(t, e, n) {
-        return zs("split");
+        return Ws("split");
       }
       sparseToDense(t, e, n, r) {
-        return zs("sparseToDense");
+        return Ws("sparseToDense");
       }
       diag(t) {
-        return zs("diag");
+        return Ws("diag");
       }
       fill(t, e, n) {
-        return zs("fill");
+        return Ws("fill");
       }
       onesLike(t) {
-        return zs("onesLike");
+        return Ws("onesLike");
       }
       zerosLike(t) {
-        return zs("zerosLike");
+        return Ws("zerosLike");
       }
       linspace(t, e, n) {
-        return zs("linspace");
+        return Ws("linspace");
       }
       dispose() {
-        return zs("dispose");
+        return Ws("dispose");
       }
     }
-    function zs(t) {
+    function Ws(t) {
       throw new Error(
         `'${t}' not yet implemented or not found in the registry. Did you forget to import the kernel?`
       );
@@ -14069,7 +14075,7 @@
        * =============================================================================
        */
       (N.a.prototype.atan2 = function (t) {
-        return this.throwIfDisposed(), ca(this, t);
+        return this.throwIfDisposed(), la(this, t);
       }),
       /**
        * @license
@@ -14088,7 +14094,7 @@
        * =============================================================================
        */
       (N.a.prototype.avgPool = function (t, e, n, r) {
-        return this.throwIfDisposed(), la(this, t, e, n, r);
+        return this.throwIfDisposed(), ha(this, t, e, n, r);
       }),
       /**
        * @license
@@ -14107,7 +14113,7 @@
        * =============================================================================
        */
       (N.a.prototype.batchNorm = function (t, e, n, r, a) {
-        return this.throwIfDisposed(), pa(this, t, e, n, r, a);
+        return this.throwIfDisposed(), fa(this, t, e, n, r, a);
       }),
       /**
        * @license
@@ -14126,7 +14132,7 @@
        * =============================================================================
        */
       (N.a.prototype.broadcastTo = function (t) {
-        return this.throwIfDisposed(), va(this, t);
+        return this.throwIfDisposed(), ya(this, t);
       }),
       /**
        * @license
@@ -14187,7 +14193,7 @@
        * =============================================================================
        */
       (N.a.prototype.conv1d = function (t, e, n, r, a, i) {
-        return this.throwIfDisposed(), Ea(this, t, e, n, r, a, i);
+        return this.throwIfDisposed(), Sa(this, t, e, n, r, a, i);
       }),
       /**
        * @license
@@ -14225,7 +14231,7 @@
        * =============================================================================
        */
       (N.a.prototype.conv2dTranspose = function (t, e, n, r, a) {
-        return this.throwIfDisposed(), Sa(this, t, e, n, r, a);
+        return this.throwIfDisposed(), Ia(this, t, e, n, r, a);
       }),
       /**
        * @license
@@ -14263,7 +14269,7 @@
        * =============================================================================
        */
       (N.a.prototype.depthToSpace = function (t, e) {
-        return this.throwIfDisposed(), Na(this, t, e);
+        return this.throwIfDisposed(), Ra(this, t, e);
       }),
       /**
        * @license
@@ -14282,7 +14288,7 @@
        * =============================================================================
        */
       (N.a.prototype.depthwiseConv2d = function (t, e, n, r, a, i) {
-        return this.throwIfDisposed(), Ra(this, t, e, n, r, a, i);
+        return this.throwIfDisposed(), Aa(this, t, e, n, r, a, i);
       }),
       /**
        * @license
@@ -14302,9 +14308,9 @@
        */
       (N.a.prototype.depthwiseConv2D = function (t, e, n, r, a, i) {
         return (
-          Zr("depthwiseConv2D is deprecated, use depthwiseConv2d instead"),
+          ta("depthwiseConv2D is deprecated, use depthwiseConv2d instead"),
           this.throwIfDisposed(),
-          Ra(this, t, e, n, r, a, i)
+          Aa(this, t, e, n, r, a, i)
         );
       }),
       /**
@@ -14343,25 +14349,6 @@
        * =============================================================================
        */
       (N.a.prototype.divNoNan = function (t) {
-        return this.throwIfDisposed(), Ta(this, t);
-      }),
-      /**
-       * @license
-       * Copyright 2020 Google LLC. All Rights Reserved.
-       * Licensed under the Apache License, Version 2.0 (the "License");
-       * you may not use this file except in compliance with the License.
-       * You may obtain a copy of the License at
-       *
-       * http://www.apache.org/licenses/LICENSE-2.0
-       *
-       * Unless required by applicable law or agreed to in writing, software
-       * distributed under the License is distributed on an "AS IS" BASIS,
-       * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-       * See the License for the specific language governing permissions and
-       * limitations under the License.
-       * =============================================================================
-       */
-      (N.a.prototype.dot = function (t) {
         return this.throwIfDisposed(), _a(this, t);
       }),
       /**
@@ -14380,8 +14367,27 @@
        * limitations under the License.
        * =============================================================================
        */
+      (N.a.prototype.dot = function (t) {
+        return this.throwIfDisposed(), Da(this, t);
+      }),
+      /**
+       * @license
+       * Copyright 2020 Google LLC. All Rights Reserved.
+       * Licensed under the Apache License, Version 2.0 (the "License");
+       * you may not use this file except in compliance with the License.
+       * You may obtain a copy of the License at
+       *
+       * http://www.apache.org/licenses/LICENSE-2.0
+       *
+       * Unless required by applicable law or agreed to in writing, software
+       * distributed under the License is distributed on an "AS IS" BASIS,
+       * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       * See the License for the specific language governing permissions and
+       * limitations under the License.
+       * =============================================================================
+       */
       (N.a.prototype.elu = function () {
-        return this.throwIfDisposed(), Da(this);
+        return this.throwIfDisposed(), Fa(this);
       }),
       /**
        * @license
@@ -14400,7 +14406,7 @@
        * =============================================================================
        */
       (N.a.prototype.equal = function (t) {
-        return this.throwIfDisposed(), Fa(this, t);
+        return this.throwIfDisposed(), Ma(this, t);
       }),
       /**
        * @license
@@ -14533,7 +14539,7 @@
        * =============================================================================
        */
       (N.a.prototype.localResponseNormalization = function (t, e, n, r) {
-        return this.throwIfDisposed(), Pa(this, t, e, n, r);
+        return this.throwIfDisposed(), za(this, t, e, n, r);
       }),
       /**
        * @license
@@ -14571,7 +14577,7 @@
        * =============================================================================
        */
       (N.a.prototype.max = function (t, e) {
-        return this.throwIfDisposed(), za(this, t, e);
+        return this.throwIfDisposed(), Wa(this, t, e);
       }),
       /**
        * @license
@@ -14590,7 +14596,7 @@
        * =============================================================================
        */
       (N.a.prototype.maxPool = function (t, e, n, r) {
-        return this.throwIfDisposed(), Wa(this, t, e, n, r);
+        return this.throwIfDisposed(), Va(this, t, e, n, r);
       }),
       /**
        * @license
@@ -14609,7 +14615,7 @@
        * =============================================================================
        */
       (N.a.prototype.maximum = function (t) {
-        return this.throwIfDisposed(), $a(this, t);
+        return this.throwIfDisposed(), Pa(this, t);
       }),
       /**
        * @license
@@ -14628,7 +14634,7 @@
        * =============================================================================
        */
       (N.a.prototype.minimum = function (t) {
-        return this.throwIfDisposed(), Ga(this, t);
+        return this.throwIfDisposed(), Ha(this, t);
       }),
       /**
        * @license
@@ -14647,7 +14653,7 @@
        * =============================================================================
        */
       (N.a.prototype.mod = function (t) {
-        return this.throwIfDisposed(), Ha(this, t);
+        return this.throwIfDisposed(), qa(this, t);
       }),
       /**
        * @license
@@ -14685,7 +14691,7 @@
        * =============================================================================
        */
       (N.a.prototype.notEqual = function (t) {
-        return this.throwIfDisposed(), Ka(this, t);
+        return this.throwIfDisposed(), Xa(this, t);
       }),
       /**
        * @license
@@ -14742,7 +14748,7 @@
        * =============================================================================
        */
       (N.a.prototype.pool = function (t, e, n, r, a) {
-        return this.throwIfDisposed(), ti(this, t, e, n, r, a);
+        return this.throwIfDisposed(), ei(this, t, e, n, r, a);
       }),
       /**
        * @license
@@ -14780,7 +14786,7 @@
        * =============================================================================
        */
       (N.a.prototype.prelu = function (t) {
-        return this.throwIfDisposed(), ei(this, t);
+        return this.throwIfDisposed(), ni(this, t);
       }),
       /**
        * @license
@@ -14799,25 +14805,6 @@
        * =============================================================================
        */
       (N.a.prototype.relu = function () {
-        return this.throwIfDisposed(), hi(this);
-      }),
-      /**
-       * @license
-       * Copyright 2020 Google LLC. All Rights Reserved.
-       * Licensed under the Apache License, Version 2.0 (the "License");
-       * you may not use this file except in compliance with the License.
-       * You may obtain a copy of the License at
-       *
-       * http://www.apache.org/licenses/LICENSE-2.0
-       *
-       * Unless required by applicable law or agreed to in writing, software
-       * distributed under the License is distributed on an "AS IS" BASIS,
-       * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-       * See the License for the specific language governing permissions and
-       * limitations under the License.
-       * =============================================================================
-       */
-      (N.a.prototype.relu6 = function () {
         return this.throwIfDisposed(), di(this);
       }),
       /**
@@ -14836,7 +14823,7 @@
        * limitations under the License.
        * =============================================================================
        */
-      (N.a.prototype.selu = function () {
+      (N.a.prototype.relu6 = function () {
         return this.throwIfDisposed(), pi(this);
       }),
       /**
@@ -14855,8 +14842,27 @@
        * limitations under the License.
        * =============================================================================
        */
+      (N.a.prototype.selu = function () {
+        return this.throwIfDisposed(), fi(this);
+      }),
+      /**
+       * @license
+       * Copyright 2020 Google LLC. All Rights Reserved.
+       * Licensed under the Apache License, Version 2.0 (the "License");
+       * you may not use this file except in compliance with the License.
+       * You may obtain a copy of the License at
+       *
+       * http://www.apache.org/licenses/LICENSE-2.0
+       *
+       * Unless required by applicable law or agreed to in writing, software
+       * distributed under the License is distributed on an "AS IS" BASIS,
+       * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       * See the License for the specific language governing permissions and
+       * limitations under the License.
+       * =============================================================================
+       */
       (N.a.prototype.separableConv2d = function (t, e, n, r, a, i) {
-        return this.throwIfDisposed(), fi(this, t, e, n, r, a, i);
+        return this.throwIfDisposed(), mi(this, t, e, n, r, a, i);
       }),
       /**
        * @license
@@ -14894,7 +14900,7 @@
        * =============================================================================
        */
       (N.a.prototype.squaredDifference = function (t) {
-        return this.throwIfDisposed(), mi(this, t);
+        return this.throwIfDisposed(), gi(this, t);
       }),
       /**
        * @license
@@ -15109,16 +15115,16 @@
         return j;
       }),
       n.d(e, "inferDtype", function () {
-        return B;
-      }),
-      n.d(e, "isFunction", function () {
         return $;
       }),
+      n.d(e, "isFunction", function () {
+        return B;
+      }),
       n.d(e, "nearestDivisor", function () {
-        return L;
+        return P;
       }),
       n.d(e, "computeStrides", function () {
-        return P;
+        return L;
       }),
       n.d(e, "toTypedArray", function () {
         return z;
@@ -15411,9 +15417,9 @@
     function j(t) {
       return "number" == typeof t;
     }
-    function B(t) {
+    function $(t) {
       return Array.isArray(t)
-        ? B(t[0])
+        ? $(t[0])
         : t instanceof Float32Array
         ? "float32"
         : t instanceof Int32Array || t instanceof Uint8Array
@@ -15426,14 +15432,14 @@
         ? "bool"
         : "float32";
     }
-    function $(t) {
+    function B(t) {
       return !!(t && t.constructor && t.call && t.apply);
     }
-    function L(t, e) {
+    function P(t, e) {
       for (let n = e; n < t; ++n) if (t % n == 0) return n;
       return t;
     }
-    function P(t) {
+    function L(t) {
       const e = t.length;
       if (e < 2) return [];
       const n = new Array(e - 1);
@@ -15773,7 +15779,7 @@
           return Cn;
         }),
         n.d(e, "i", function () {
-          return Pu;
+          return Lu;
         }),
         n.d(e, "j", function () {
           return Uu;
@@ -16320,7 +16326,7 @@
         var i = t.slice();
         return (i[r] = e / n), i;
       }
-      function B(t, e) {
+      function $(t, e) {
         var n = e.length;
         return (
           S(
@@ -16358,12 +16364,12 @@
           })
         );
       }
-      function $(t, e) {
+      function B(t, e) {
         for (
           var n = [],
             r = [],
             a = null != e && Array.isArray(e) && 0 === e.length,
-            i = null == e || a ? null : B(e, t).sort(),
+            i = null == e || a ? null : $(e, t).sort(),
             o = 0,
             s = 0;
           s < t.length;
@@ -16387,7 +16393,7 @@
         }
         return { newShape: n, keptDims: r };
       }
-      function L(t, e) {
+      function P(t, e) {
         var n = null;
         if (null == t || "float32" === t) n = new Float32Array(e);
         else if ("int32" === t) n = new Int32Array(e);
@@ -16397,7 +16403,7 @@
         }
         return n;
       }
-      function P(t, e) {
+      function L(t, e) {
         var n = null;
         if (null == t || "float32" === t) n = new Float32Array(e);
         else if ("int32" === t) n = new Int32Array(e);
@@ -16632,10 +16638,10 @@
         rightPad: F,
         repeatedTry: M,
         inferFromImplicitShape: j,
-        parseAxisParam: B,
-        squeezeShape: $,
-        getTypedArrayFromDType: L,
-        getArrayFromDType: P,
+        parseAxisParam: $,
+        squeezeShape: B,
+        getTypedArrayFromDType: P,
+        getArrayFromDType: L,
         checkConversionForErrors: z,
         isValidDtype: W,
         hasEncodingLoss: V,
@@ -16793,7 +16799,7 @@
               throw new Error(
                 "complex64 dtype TensorBuffers are not supported. Please create a TensorBuffer for the real and imaginary parts separately and call tf.complex(real, imag)."
               );
-            (this.values = n || P(e, this.size)), (this.strides = Z(t));
+            (this.values = n || L(e, this.size)), (this.strides = Z(t));
           }
           return (
             (t.prototype.set = function (t) {
@@ -18861,8 +18867,8 @@
           "undefined" != typeof WorkerGlobalScope
         );
       }
-      var Bt = d();
-      Bt.registerFlag(
+      var $t = d();
+      $t.registerFlag(
         "DEBUG",
         function () {
           return !1;
@@ -18874,15 +18880,15 @@
             );
         }
       ),
-        Bt.registerFlag("IS_BROWSER", function () {
+        $t.registerFlag("IS_BROWSER", function () {
           return jt();
         }),
-        Bt.registerFlag("IS_NODE", function () {
+        $t.registerFlag("IS_NODE", function () {
           return (
             void 0 !== r && void 0 !== r.versions && void 0 !== r.versions.node
           );
         }),
-        Bt.registerFlag("IS_CHROME", function () {
+        $t.registerFlag("IS_CHROME", function () {
           return (
             "undefined" != typeof navigator &&
             null != navigator &&
@@ -18891,21 +18897,21 @@
             /Google Inc/.test(navigator.vendor)
           );
         }),
-        Bt.registerFlag("PROD", function () {
+        $t.registerFlag("PROD", function () {
           return !1;
         }),
-        Bt.registerFlag("TENSORLIKE_CHECK_SHAPE_CONSISTENCY", function () {
-          return Bt.getBool("DEBUG");
+        $t.registerFlag("TENSORLIKE_CHECK_SHAPE_CONSISTENCY", function () {
+          return $t.getBool("DEBUG");
         }),
-        Bt.registerFlag("DEPRECATION_WARNINGS_ENABLED", function () {
+        $t.registerFlag("DEPRECATION_WARNINGS_ENABLED", function () {
           return !0;
         }),
-        Bt.registerFlag("IS_TEST", function () {
+        $t.registerFlag("IS_TEST", function () {
           return !1;
         });
-      var $t,
-        Lt,
+      var Bt,
         Pt,
+        Lt,
         zt = {},
         Wt = {
           alpha: !1,
@@ -19030,20 +19036,20 @@
       !(function (t) {
         (t[(t.DENSE = 0)] = "DENSE"),
           (t[(t.SHARED_BATCH = 1)] = "SHARED_BATCH");
-      })($t || ($t = {})),
+      })(Bt || (Bt = {})),
         (function (t) {
           (t[(t.RENDER = 0)] = "RENDER"),
             (t[(t.UPLOAD = 1)] = "UPLOAD"),
             (t[(t.PIXELS = 2)] = "PIXELS"),
             (t[(t.DOWNLOAD = 3)] = "DOWNLOAD");
-        })(Lt || (Lt = {})),
+        })(Pt || (Pt = {})),
         (function (t) {
           (t[(t.UNPACKED_FLOAT16 = 0)] = "UNPACKED_FLOAT16"),
             (t[(t.UNPACKED_FLOAT32 = 1)] = "UNPACKED_FLOAT32"),
             (t[(t.PACKED_4X1_UNSIGNED_BYTE = 2)] = "PACKED_4X1_UNSIGNED_BYTE"),
             (t[(t.PACKED_2X2_FLOAT32 = 3)] = "PACKED_2X2_FLOAT32"),
             (t[(t.PACKED_2X2_FLOAT16 = 4)] = "PACKED_2X2_FLOAT16");
-        })(Pt || (Pt = {}));
+        })(Lt || (Lt = {}));
       function Yt(t) {
         return !!(
           d().getBool("WEBGL_RENDER_FLOAT32_ENABLED") ||
@@ -19412,7 +19418,7 @@
               })).length && (t = [2, t[0]])),
           2 !== t.length)
         ) {
-          var a = $(t);
+          var a = B(t);
           t = a.newShape;
         }
         var i = R(t);
@@ -19581,10 +19587,10 @@
           a
         );
       }
-      function Be(t) {
+      function $e(t) {
         return 2 === t && null != Ut(t).fenceSync;
       }
-      var $e = Object.freeze({
+      var Be = Object.freeze({
           callAndCheck: Xt,
           canBeRepresented: Yt,
           getWebGLErrorMessage: Jt,
@@ -19649,10 +19655,10 @@
           isWebGLVersionEnabled: De,
           isCapableOfRenderingToFloatTexture: Fe,
           isDownloadFloatTextureEnabled: Me,
-          isWebGLFenceEnabled: Be,
+          isWebGLFenceEnabled: $e,
         }),
-        Le = d();
-      function Pe(t) {
+        Pe = d();
+      function Le(t) {
         d().getBool("DEPRECATION_WARNINGS_ENABLED") &&
           console.warn(
             t +
@@ -19930,72 +19936,72 @@
           Object.defineProperty(a, "name", { value: n, configurable: !0 }), a
         );
       }
-      Le.registerFlag("HAS_WEBGL", function () {
-        return Le.getNumber("WEBGL_VERSION") > 0;
+      Pe.registerFlag("HAS_WEBGL", function () {
+        return Pe.getNumber("WEBGL_VERSION") > 0;
       }),
-        Le.registerFlag("WEBGL_VERSION", function () {
+        Pe.registerFlag("WEBGL_VERSION", function () {
           return De(2) ? 2 : De(1) ? 1 : 0;
         }),
-        Le.registerFlag("WEBGL_BUFFER_SUPPORTED", function () {
-          return 2 === Le.get("WEBGL_VERSION");
+        Pe.registerFlag("WEBGL_BUFFER_SUPPORTED", function () {
+          return 2 === Pe.get("WEBGL_VERSION");
         }),
-        Le.registerFlag("WEBGL_CPU_FORWARD", function () {
+        Pe.registerFlag("WEBGL_CPU_FORWARD", function () {
           return !0;
         }),
-        Le.registerFlag("WEBGL_FORCE_F16_TEXTURES", function () {
+        Pe.registerFlag("WEBGL_FORCE_F16_TEXTURES", function () {
           return !1;
         }),
-        Le.registerFlag("WEBGL_PACK", function () {
-          return Le.getBool("HAS_WEBGL");
+        Pe.registerFlag("WEBGL_PACK", function () {
+          return Pe.getBool("HAS_WEBGL");
         }),
-        Le.registerFlag("WEBGL_PACK_NORMALIZATION", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_PACK_NORMALIZATION", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_PACK_CLIP", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_PACK_CLIP", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_PACK_DEPTHWISECONV", function () {
+        Pe.registerFlag("WEBGL_PACK_DEPTHWISECONV", function () {
           return !1;
         }),
-        Le.registerFlag("WEBGL_PACK_BINARY_OPERATIONS", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_PACK_BINARY_OPERATIONS", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_PACK_UNARY_OPERATIONS", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_PACK_UNARY_OPERATIONS", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_PACK_ARRAY_OPERATIONS", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_PACK_ARRAY_OPERATIONS", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_PACK_IMAGE_OPERATIONS", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_PACK_IMAGE_OPERATIONS", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_PACK_REDUCE", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_PACK_REDUCE", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_LAZILY_UNPACK", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_LAZILY_UNPACK", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_CONV_IM2COL", function () {
-          return Le.getBool("WEBGL_PACK");
+        Pe.registerFlag("WEBGL_CONV_IM2COL", function () {
+          return Pe.getBool("WEBGL_PACK");
         }),
-        Le.registerFlag("WEBGL_MAX_TEXTURE_SIZE", function () {
-          return Re(Le.getNumber("WEBGL_VERSION"));
+        Pe.registerFlag("WEBGL_MAX_TEXTURE_SIZE", function () {
+          return Re(Pe.getNumber("WEBGL_VERSION"));
         }),
-        Le.registerFlag("WEBGL_MAX_TEXTURES_IN_SHADER", function () {
-          return Ae(Le.getNumber("WEBGL_VERSION"));
+        Pe.registerFlag("WEBGL_MAX_TEXTURES_IN_SHADER", function () {
+          return Ae(Pe.getNumber("WEBGL_VERSION"));
         }),
-        Le.registerFlag(
+        Pe.registerFlag(
           "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION",
           function () {
-            var t = Le.getNumber("WEBGL_VERSION");
+            var t = Pe.getNumber("WEBGL_VERSION");
             return 0 === t ? 0 : Te(t);
           }
         ),
-        Le.registerFlag(
+        Pe.registerFlag(
           "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_RELIABLE",
           function () {
             return (
-              Le.getNumber("WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION") >
+              Pe.getNumber("WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION") >
                 0 &&
               ((t = navigator.userAgent || navigator.vendor || window.opera),
               !(
@@ -20010,25 +20016,25 @@
             var t;
           }
         ),
-        Le.registerFlag("WEBGL_RENDER_FLOAT32_CAPABLE", function () {
-          return Fe(Le.getNumber("WEBGL_VERSION"));
+        Pe.registerFlag("WEBGL_RENDER_FLOAT32_CAPABLE", function () {
+          return Fe(Pe.getNumber("WEBGL_VERSION"));
         }),
-        Le.registerFlag("WEBGL_RENDER_FLOAT32_ENABLED", function () {
+        Pe.registerFlag("WEBGL_RENDER_FLOAT32_ENABLED", function () {
           return (
-            !Le.getBool("WEBGL_FORCE_F16_TEXTURES") &&
-            Le.getBool("WEBGL_RENDER_FLOAT32_CAPABLE")
+            !Pe.getBool("WEBGL_FORCE_F16_TEXTURES") &&
+            Pe.getBool("WEBGL_RENDER_FLOAT32_CAPABLE")
           );
         }),
-        Le.registerFlag("WEBGL_DOWNLOAD_FLOAT_ENABLED", function () {
-          return Me(Le.getNumber("WEBGL_VERSION"));
+        Pe.registerFlag("WEBGL_DOWNLOAD_FLOAT_ENABLED", function () {
+          return Me(Pe.getNumber("WEBGL_VERSION"));
         }),
-        Le.registerFlag("WEBGL_FENCE_API_ENABLED", function () {
-          return Be(Le.getNumber("WEBGL_VERSION"));
+        Pe.registerFlag("WEBGL_FENCE_API_ENABLED", function () {
+          return $e(Pe.getNumber("WEBGL_VERSION"));
         }),
-        Le.registerFlag("WEBGL_SIZE_UPLOAD_UNIFORM", function () {
-          return Le.getBool("WEBGL_RENDER_FLOAT32_ENABLED") ? 4 : 0;
+        Pe.registerFlag("WEBGL_SIZE_UPLOAD_UNIFORM", function () {
+          return Pe.getBool("WEBGL_RENDER_FLOAT32_ENABLED") ? 4 : 0;
         }),
-        (vt = Pe);
+        (vt = Le);
       var on = an({
           complex_: function (t, e) {
             var n = He(t, "real", "complex"),
@@ -20276,7 +20282,7 @@
                       ". "
                   );
               }),
-              (e = B(e, n[0].shape)[0]);
+              (e = $(e, n[0].shape)[0]);
             var r = rn(
               n.map(function (t) {
                 return t.shape;
@@ -20343,7 +20349,7 @@
             var r,
               a = He(t, "x", "split");
             return (
-              (n = B(n, a.shape)[0]),
+              (n = $(n, a.shape)[0]),
               "number" == typeof e
                 ? (S(a.shape[n] % e == 0, function () {
                     return "Number of splits must evenly divide the axis.";
@@ -20922,7 +20928,7 @@
         (Mn.xor4096 = Dn),
         (Mn.tychei = Fn);
       var jn = Mn.alea,
-        Bn = (function () {
+        $n = (function () {
           function t(t, e, n, r, a) {
             (this.mean = t),
               (this.stdDev = e),
@@ -20972,12 +20978,12 @@
             t
           );
         })(),
-        $n = (function () {
+        Bn = (function () {
           function t(t, e, n, r) {
             (this.alpha = t), (this.beta = 1 / e), (this.dtype = n);
             var a = r || Math.random();
             (this.randu = jn(a.toString())),
-              (this.randn = new Bn(0, 1, n, !1, this.randu())),
+              (this.randn = new $n(0, 1, n, !1, this.randu())),
               (this.d = t < 1 ? t + 2 / 3 : t - 1 / 3),
               (this.c = 1 / Math.sqrt(9 * this.d));
           }
@@ -21007,7 +21013,7 @@
             t
           );
         })(),
-        Ln = (function () {
+        Pn = (function () {
           function t(t, e, n, r) {
             var a = this;
             if (
@@ -21042,7 +21048,7 @@
             t
           );
         })();
-      function Pn(t, e, n) {
+      function Ln(t, e, n) {
         return (
           void 0 === e && (e = "float32"),
           (e = e || "float32"),
@@ -21303,7 +21309,7 @@
         Kn = an({
           eye_: function (t, e, n, r) {
             void 0 === r && (r = "float32"), null == e && (e = t);
-            for (var a = Pn([t, e], r), i = t <= e ? t : e, o = 0; o < i; ++o)
+            for (var a = Ln([t, e], r), i = t <= e ? t : e, o = 0; o < i; ++o)
               a.set(1, o, o);
             var s = a.toTensor().as2D(t, e);
             if (null == n) return s;
@@ -21483,7 +21489,7 @@
             )
               throw new Error("Unsupported data type " + r);
             for (
-              var i = new Bn(e, n, r, !1, a), o = Pn(t, r), s = 0;
+              var i = new $n(e, n, r, !1, a), o = Ln(t, r), s = 0;
               s < o.values.length;
               s++
             )
@@ -21502,7 +21508,7 @@
             )
               throw new Error("Unsupported data type " + r);
             for (
-              var i = new $n(e, n, r, a), o = Pn(t, r), s = 0;
+              var i = new Bn(e, n, r, a), o = Ln(t, r), s = 0;
               s < o.values.length;
               s++
             )
@@ -21516,7 +21522,7 @@
               void 0 === n && (n = 1),
               void 0 === r && (r = "float32");
             for (
-              var i = Pn(t, r), o = new Ln(e, n, null, a), s = 0;
+              var i = Ln(t, r), o = new Pn(e, n, null, a), s = 0;
               s < i.values.length;
               s++
             )
@@ -21605,7 +21611,7 @@
         ur = an({
           squeeze_: function (t, e) {
             var n = He(t, "x", "squeeze");
-            return or(n, $(n.shape, e).newShape);
+            return or(n, B(n.shape, e).newShape);
           },
         }),
         cr = an({
@@ -21741,7 +21747,7 @@
             )
               throw new Error("Unsupported data type " + r);
             for (
-              var i = new Bn(e, n, r, !0, a), o = Pn(t, r), s = 0;
+              var i = new $n(e, n, r, !0, a), o = Ln(t, r), s = 0;
               s < o.values.length;
               s++
             )
@@ -22686,7 +22692,7 @@
         }
         return r;
       }
-      function Br(t, e) {
+      function $r(t, e) {
         for (var n = [], r = 0; r < e.length; r++) {
           var a = t[t.length - r - 1],
             i = e.length - r - 1,
@@ -22695,7 +22701,7 @@
         }
         return n;
       }
-      function $r(t, e) {
+      function Br(t, e) {
         for (var n = [], r = Math.max(t.length, e.length), a = 0; a < r; a++) {
           var i = t[t.length - a - 1];
           null == i && (i = 1);
@@ -22716,7 +22722,7 @@
         }
         return n;
       }
-      function Lr(t, e, n, r, a, i, o) {
+      function Pr(t, e, n, r, a, i, o) {
         void 0 === o && (o = "channelsLast");
         var s,
           u = Ur(e),
@@ -22729,7 +22735,7 @@
         }
         return zr(t, s, n, r, a, i, !1, o);
       }
-      function Pr(t, e, n, r, a, i, o) {
+      function Lr(t, e, n, r, a, i, o) {
         void 0 === o && (o = "NDHWC");
         var s,
           u,
@@ -22965,11 +22971,11 @@
           F = _.outDepth,
           M = _.outHeight,
           j = _.outWidth,
-          B = i ? v * p : v;
+          $ = i ? v * p : v;
         return (
           "channelsFirst" === o
-            ? (f = [c, B, F, M, j])
-            : "channelsLast" === o && (f = [c, F, M, j, B]),
+            ? (f = [c, $, F, M, j])
+            : "channelsLast" === o && (f = [c, F, M, j, $]),
           {
             batchSize: c,
             dataFormat: o,
@@ -22980,7 +22986,7 @@
             outDepth: F,
             outHeight: M,
             outWidth: j,
-            outChannels: B,
+            outChannels: $,
             padInfo: D,
             strideDepth: x,
             strideHeight: w,
@@ -23093,12 +23099,12 @@
         getUndoAxesPermutation: tn,
         getInnerMostAxes: en,
         getBroadcastDims: jr,
-        getReductionAxes: Br,
-        assertAndGetBroadcastShape: $r,
+        getReductionAxes: $r,
+        assertAndGetBroadcastShape: Br,
         assertParamsConsistent: nn,
         computeOutShape: rn,
-        computePool2DInfo: Lr,
-        computePool3DInfo: Pr,
+        computePool2DInfo: Pr,
+        computePool3DInfo: Lr,
         computeConv2DInfo: zr,
         computeConv3DInfo: Wr,
         computeDefaultPad: Vr,
@@ -23252,7 +23258,7 @@
       function pa(t, e) {
         for (var n = new Array(t.rank), r = 0; r < n.length; r++)
           n[r] = t.shape[r] * e[r];
-        var a = Pn(n, t.dtype);
+        var a = Ln(n, t.dtype);
         for (r = 0; r < a.values.length; ++r) {
           for (
             var i = a.indexToLoc(r), o = new Array(t.rank), s = 0;
@@ -23271,8 +23277,8 @@
             o = [t.length / i, i],
             s = o[0],
             u = o[1],
-            c = L(n, s * r),
-            l = L("int32", s * r),
+            c = P(n, s * r),
+            l = P("int32", s * r),
             h = 0;
           h < s;
           h++
@@ -23296,8 +23302,8 @@
       }
       function ma(t, e) {
         for (var n = [], r = 0; r < e.length; r++) e[r] && n.push(r);
-        var a = Pn(t, "int32"),
-          i = Pn([n.length, t.length], "int32");
+        var a = Ln(t, "int32"),
+          i = Ln([n.length, t.length], "int32");
         for (r = 0; r < n.length; r++) {
           var o = a.indexToLoc(n[r]),
             s = r * t.length;
@@ -23776,7 +23782,7 @@
                                 ", uv);\n    }\n  "
                               );
                             }
-                            var s = $(n),
+                            var s = B(n),
                               u = s.newShape,
                               c = s.keptDims,
                               l = u;
@@ -23853,7 +23859,7 @@
                                 "get" + r.charAt(0).toUpperCase() + r.slice(1),
                               i = n[1] * n[2],
                               o = n[2],
-                              s = $(n),
+                              s = B(n),
                               u = s.newShape,
                               c = s.keptDims,
                               l = u;
@@ -23936,7 +23942,7 @@
                               i = n[3],
                               o = n[2] * i,
                               s = n[1] * o,
-                              u = $(n),
+                              u = B(n),
                               c = u.newShape,
                               l = u.keptDims;
                             if (c.length < n.length) {
@@ -24027,7 +24033,7 @@
                               o = n[3] * i,
                               s = n[2] * o,
                               u = n[1] * s,
-                              c = $(n),
+                              c = B(n),
                               l = c.newShape,
                               h = c.keptDims;
                             if (l.length < n.length) {
@@ -24125,7 +24131,7 @@
                               r = e.name,
                               a =
                                 "get" + r.charAt(0).toUpperCase() + r.slice(1),
-                              i = $(n),
+                              i = B(n),
                               o = i.newShape,
                               s = i.keptDims;
                             if (o.length < n.length) {
@@ -24917,7 +24923,7 @@
             t.outWidth +
             ".0 ||\n                fract(dyC) > 0.0) {\n              continue;\n            }\n            int idyC = int(dyC);\n\n            float dyValue = getDy(b, idyR, idyC, d);\n\n            dotProd += dyValue * avgMultiplier;\n          }\n        }\n        setOutput(dotProd);\n      }\n    ";
         },
-        Ba = function (t) {
+        $a = function (t) {
           (this.variableNames = ["dy"]), (this.outputShape = t.inShape);
           var e = t.filterDepth,
             n = t.filterHeight,
@@ -24970,19 +24976,19 @@
             t.outWidth +
             ".0 ||\n                  fract(dyC) > 0.0) {\n                continue;\n              }\n              int idyC = int(dyC);\n\n              float dyValue = getDy(batch, idyD, idyR, idyC, ch);\n\n              dotProd += dyValue * avgMultiplier;\n            }\n          }\n        }\n        setOutput(dotProd);\n      }\n    ";
         },
-        $a = function (t, e, n, r, a, i) {
+        Ba = function (t, e, n, r, a, i) {
           (this.outputShape = []),
             (this.variableNames = ["x", "mean", "variance"]),
-            $r(t, e),
-            $r(t, n);
+            Br(t, e),
+            Br(t, n);
           var o = "0.0";
           null != r &&
-            ($r(t, r),
+            (Br(t, r),
             this.variableNames.push("offset"),
             (o = "getOffsetAtOutCoords()"));
           var s = "1.0";
           null != a &&
-            ($r(t, a),
+            (Br(t, a),
             this.variableNames.push("scale"),
             (s = "getScaleAtOutCoords()")),
             (this.outputShape = t),
@@ -24995,20 +25001,20 @@
               i +
               "));\n        setOutput(dot(vec3(x, -mean, offset), vec3(inv, inv, 1)));\n      }\n    ");
         },
-        La = function (t, e, n, r, a, i) {
+        Pa = function (t, e, n, r, a, i) {
           (this.packedInputs = !0),
             (this.packedOutput = !0),
             (this.variableNames = ["x", "mean", "variance"]),
-            $r(t, e),
-            $r(t, n);
+            Br(t, e),
+            Br(t, n);
           var o = "vec4(0.0)";
           null != r &&
-            ($r(t, r),
+            (Br(t, r),
             this.variableNames.push("offset"),
             (o = "getOffsetAtOutCoords()"));
           var s = "vec4(1.0)";
           null != a &&
-            ($r(t, a),
+            (Br(t, a),
             this.variableNames.push("scale"),
             (s = "getScaleAtOutCoords()")),
             (this.outputShape = t),
@@ -25021,9 +25027,9 @@
               i +
               "));\n\n        setOutput((x - mean) * inv + offset);\n      }\n    ");
         },
-        Pa = function (t, e, n) {
+        La = function (t, e, n) {
           (this.variableNames = ["AReal", "AImag", "BReal", "BImag"]),
-            (this.outputShape = $r(e, n)),
+            (this.outputShape = Br(e, n)),
             (this.userCode =
               "\n      float binaryOpComplex(\n          float areal, float aimag, float breal, float bimag) {\n        " +
               t +
@@ -25035,7 +25041,7 @@
         Ua = "return (a < 0.) ? b * a : a;",
         Ga = function (t, e, n) {
           (this.variableNames = ["A", "B"]),
-            (this.outputShape = $r(e, n)),
+            (this.outputShape = Br(e, n)),
             (this.userCode =
               "\n      float binaryOperation(float a, float b) {\n        " +
               t +
@@ -25049,7 +25055,7 @@
             (this.supportsBroadcasting = !0),
             (this.packedInputs = !0),
             (this.packedOutput = !0),
-            (this.outputShape = $r(e, n));
+            (this.outputShape = Br(e, n));
           var a = this.outputShape.length,
             i = "";
           if (r)
@@ -26259,7 +26265,7 @@
           (this.variableNames = ["A"]),
             (this.packedInputs = !1),
             (this.packedOutput = !0),
-            (this.outPackingScheme = $t.DENSE);
+            (this.outPackingScheme = Bt.DENSE);
           var e = Ht(t),
             n = wa();
           (this.outputShape = t),
@@ -26280,7 +26286,7 @@
           (this.variableNames = ["A"]),
             (this.packedInputs = !0),
             (this.packedOutput = !0),
-            (this.outPackingScheme = $t.DENSE);
+            (this.outPackingScheme = Bt.DENSE);
           var e = Ht(t),
             n = wa();
           (this.outputShape = t),
@@ -26357,7 +26363,7 @@
               "\n      void main() {\n          ivec2 coords = getOutputCoords();\n          float val = coords[0] == coords[1] ? getX(coords[0]) : 0.0;\n          setOutput(val);\n      }\n    ");
         },
         bi = function (t) {
-          (this.variableNames = ["A"]), (this.outTexUsage = Lt.DOWNLOAD);
+          (this.variableNames = ["A"]), (this.outTexUsage = Pt.DOWNLOAD);
           var e = wa();
           (this.outputShape = t),
             (this.userCode =
@@ -26371,7 +26377,7 @@
           (this.variableNames = ["A"]),
             (this.packedInputs = !0),
             (this.packedOutput = !1),
-            (this.outTexUsage = Lt.DOWNLOAD);
+            (this.outTexUsage = Pt.DOWNLOAD);
           var e = wa();
           (this.outputShape = t),
             (this.userCode =
@@ -26746,7 +26752,7 @@
             return t.bindTexture(t.TEXTURE_2D, null);
           });
       }
-      function Bi(t, e, n, r, a) {
+      function $i(t, e, n, r, a) {
         var i = t.createBuffer();
         Xt(t, e, function () {
           return t.bindBuffer(t.PIXEL_PACK_BUFFER, i);
@@ -26765,7 +26771,7 @@
           i
         );
       }
-      function $i(t, e, n) {
+      function Bi(t, e, n) {
         var r = t,
           a = new Float32Array(n);
         return (
@@ -26775,7 +26781,7 @@
           a
         );
       }
-      function Li(t, e, n, r, a) {
+      function Pi(t, e, n, r, a) {
         var i = Gt(n, r),
           o = i[0],
           s = i[1],
@@ -26795,7 +26801,7 @@
           new Float32Array(u.buffer)
         );
       }
-      function Pi(t, e, n, r, a, i, o, s) {
+      function Li(t, e, n, r, a, i, o, s) {
         var u = t,
           c = new Float32Array(
             (function (t, e) {
@@ -26831,10 +26837,10 @@
           bindVertexProgramAttributeStreams: Fi,
           uploadDenseMatrixToTexture: Mi,
           uploadPixelDataToTexture: ji,
-          createBufferFromOutputTexture: Bi,
-          downloadFloat32MatrixFromBuffer: $i,
-          downloadByteEncodedFloatMatrixFromOutputTexture: Li,
-          downloadPackedMatrixFromBuffer: Pi,
+          createBufferFromOutputTexture: $i,
+          downloadFloat32MatrixFromBuffer: Bi,
+          downloadByteEncodedFloatMatrixFromOutputTexture: Pi,
+          downloadPackedMatrixFromBuffer: Li,
           downloadMatrixFromPackedOutputTexture: zi,
         }),
         Vi = (function () {
@@ -26992,7 +26998,7 @@
             ) {
               var r = this;
               return this.downloadMatrixDriver(t, function () {
-                return Li(r.gl, r.debug, e, n, r.textureConfig);
+                return Pi(r.gl, r.debug, e, n, r.textureConfig);
               });
             }),
             (t.prototype.downloadPackedMatrixFromBuffer = function (
@@ -27003,14 +27009,14 @@
               a,
               i
             ) {
-              return Pi(this.gl, t, 0, 0, 0, a, i, this.textureConfig);
+              return Li(this.gl, t, 0, 0, 0, a, i, this.textureConfig);
             }),
             (t.prototype.downloadFloat32MatrixFromBuffer = function (t, e) {
-              return $i(this.gl, t, e);
+              return Bi(this.gl, t, e);
             }),
             (t.prototype.createBufferFromTexture = function (t, e, n) {
               this.bindTextureToFrameBuffer(t);
-              var r = Bi(this.gl, this.debug, e, n, this.textureConfig);
+              var r = $i(this.gl, this.debug, e, n, this.textureConfig);
               return this.unbindTextureToFrameBuffer(), r;
             }),
             (t.prototype.createAndWaitForFence = function () {
@@ -29009,18 +29015,18 @@
               return (
                 this.numUsedTextures++,
                 this.log(),
-                a === Pt.PACKED_2X2_FLOAT32
+                a === Lt.PACKED_2X2_FLOAT32
                   ? (r = this.gpgpu.createPackedMatrixTexture(t[0], t[1]))
-                  : a === Pt.PACKED_2X2_FLOAT16
+                  : a === Lt.PACKED_2X2_FLOAT16
                   ? (r = this.gpgpu.createFloat16PackedMatrixTexture(
                       t[0],
                       t[1]
                     ))
-                  : a === Pt.UNPACKED_FLOAT32
+                  : a === Lt.UNPACKED_FLOAT32
                   ? (r = this.gpgpu.createFloat32MatrixTexture(t[0], t[1]))
-                  : a === Pt.UNPACKED_FLOAT16
+                  : a === Lt.UNPACKED_FLOAT16
                   ? (r = this.gpgpu.createFloat16MatrixTexture(t[0], t[1]))
-                  : a === Pt.PACKED_4X1_UNSIGNED_BYTE &&
+                  : a === Lt.PACKED_4X1_UNSIGNED_BYTE &&
                     (r = this.gpgpu.createUnsignedBytesMatrixTexture(
                       t[0],
                       t[1]
@@ -29082,19 +29088,19 @@
           );
         })();
       function Oo(t, e) {
-        if (t === Lt.UPLOAD) return Pt.PACKED_2X2_FLOAT32;
-        if (t === Lt.RENDER || null == t)
+        if (t === Pt.UPLOAD) return Lt.PACKED_2X2_FLOAT32;
+        if (t === Pt.RENDER || null == t)
           return (function (t) {
             return d().getBool("WEBGL_RENDER_FLOAT32_ENABLED")
               ? t
-                ? Pt.PACKED_2X2_FLOAT32
-                : Pt.UNPACKED_FLOAT32
+                ? Lt.PACKED_2X2_FLOAT32
+                : Lt.UNPACKED_FLOAT32
               : t
-              ? Pt.PACKED_2X2_FLOAT16
-              : Pt.UNPACKED_FLOAT16;
+              ? Lt.PACKED_2X2_FLOAT16
+              : Lt.UNPACKED_FLOAT16;
           })(e);
-        if (t === Lt.DOWNLOAD || t === Lt.PIXELS)
-          return Pt.PACKED_4X1_UNSIGNED_BYTE;
+        if (t === Pt.DOWNLOAD || t === Pt.PIXELS)
+          return Lt.PACKED_4X1_UNSIGNED_BYTE;
         throw new Error("Unknown logical texture type " + t);
       }
       function Eo(t, e, n) {
@@ -29222,10 +29228,10 @@
         Fo = To + "\n  return (x < 0.0) ? 0.0 : min(6.0, x);\n",
         Mo = "return (x >= 0.0) ? x : (exp(x) - 1.0);",
         jo = "return -x;",
-        Bo = "return ceil(x);",
-        $o = "return floor(x);",
-        Lo = "return exp(x);",
-        Po = "return exp(x) - 1.0;",
+        $o = "return ceil(x);",
+        Bo = "return floor(x);",
+        Po = "return exp(x);",
+        Lo = "return exp(x) - 1.0;",
         zo = "return x;",
         Wo =
           "\n  vec4 result = x * vec4(greaterThanEqual(x, vec4(0.0)));\n  bvec4 isNaN = isnan(x);\n\n  result.r = isNaN.r ? x.r : result.r;\n  result.g = isNaN.g ? x.g : result.g;\n  result.b = isNaN.b ? x.b : result.b;\n  result.a = isNaN.a ? x.a : result.a;\n\n  return result;\n",
@@ -29347,7 +29353,7 @@
                 shape: e,
                 dtype: n,
                 values: t,
-                usage: Lt.UPLOAD,
+                usage: Pt.UPLOAD,
               }),
               r
             );
@@ -29364,7 +29370,7 @@
               shape: n,
               dtype: r,
               values: e,
-              usage: Lt.UPLOAD,
+              usage: Pt.UPLOAD,
             });
           }),
           (e.prototype.readSync = function (t) {
@@ -29888,12 +29894,12 @@
             if ("complex64" === t.dtype) {
               var n = this.texData.get(t.dataId),
                 r = this.texData.get(e.dataId),
-                a = new Pa(
+                a = new La(
                   "return areal * breal - aimag * bimag;",
                   t.shape,
                   e.shape
                 ),
-                i = new Pa(
+                i = new La(
                   "return areal * bimag + aimag * breal;",
                   t.shape,
                   e.shape
@@ -29925,10 +29931,10 @@
               (null != a && ((u = a.shape), o.push(a)),
               d().getBool("WEBGL_PACK_NORMALIZATION"))
             ) {
-              var c = new La(t.shape, e.shape, n.shape, s, u, r);
+              var c = new Pa(t.shape, e.shape, n.shape, s, u, r);
               return this.compileAndRun(c, o);
             }
-            var l = new $a(t.shape, e.shape, n.shape, s, u, r);
+            var l = new Ba(t.shape, e.shape, n.shape, s, u, r);
             return this.compileAndRun(l, o);
           }),
           (e.prototype.localResponseNormalization4D = function (t, e, n, r, a) {
@@ -29946,7 +29952,7 @@
               var n = this.readSync(t.dataId).map(function (t) {
                 return st(t);
               });
-              return pa(Pn(t.shape, t.dtype, n), e);
+              return pa(Ln(t.shape, t.dtype, n), e);
             }
             var r = new So(t.shape, e);
             return this.compileAndRun(r, [t]);
@@ -30450,15 +30456,15 @@
           (e.prototype.ceil = function (t) {
             if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.ceil(t);
             if (d().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
-              return this.packedUnaryOp(t, Bo, t.dtype);
-            var e = new Ao(t.shape, Bo);
+              return this.packedUnaryOp(t, $o, t.dtype);
+            var e = new Ao(t.shape, $o);
             return this.compileAndRun(e, [t]);
           }),
           (e.prototype.floor = function (t) {
             if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.floor(t);
             if (d().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
-              return this.packedUnaryOp(t, $o, t.dtype);
-            var e = new Ao(t.shape, $o);
+              return this.packedUnaryOp(t, Bo, t.dtype);
+            var e = new Ao(t.shape, Bo);
             return this.compileAndRun(e, [t]);
           }),
           (e.prototype.sign = function (t) {
@@ -30490,19 +30496,19 @@
           (e.prototype.exp = function (t) {
             if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.exp(t);
             if (d().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
-              return this.packedUnaryOp(t, Lo, t.dtype);
-            var e = new Ao(t.shape, Lo);
+              return this.packedUnaryOp(t, Po, t.dtype);
+            var e = new Ao(t.shape, Po);
             return this.compileAndRun(e, [t]);
           }),
           (e.prototype.expm1 = function (t) {
             if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.expm1(t);
             if (d().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
-              return this.packedUnaryOp(t, Po, t.dtype);
-            var e = new Ao(t.shape, Po);
+              return this.packedUnaryOp(t, Lo, t.dtype);
+            var e = new Ao(t.shape, Lo);
             return this.compileAndRun(e, [t]);
           }),
           (e.prototype.softmax = function (t, e) {
-            var n = B([e], t.shape),
+            var n = $([e], t.shape),
               r = this.max(t, n),
               a = Je(r.shape, n),
               i = this.subtract(t, r.reshape(a)),
@@ -30978,7 +30984,7 @@
             return this.compileAndRun(n, [t], "float32");
           }),
           (e.prototype.avgPool3dBackprop = function (t, e, n) {
-            var r = new Ba(n);
+            var r = new $a(n);
             return this.compileAndRun(r, [t], e.dtype);
           }),
           (e.prototype.maxPool3d = function (t, e) {
@@ -31125,7 +31131,7 @@
           }),
           (e.prototype.fill = function (t, e, n) {
             if ("string" === (n = n || Y(e))) {
-              var r = P(n, R(t));
+              var r = L(n, R(t));
               return r.fill(e), Mt.makeTensor(r, t, n, this);
             }
             var a = new Ci(t, e),
@@ -31199,7 +31205,7 @@
               s = this.texData.get(o.dataId);
             if (
               (t.packedOutput && (s.isPacked = !0),
-              t.outPackingScheme === $t.DENSE)
+              t.outPackingScheme === Bt.DENSE)
             ) {
               var u = Ht(t.outputShape);
               s.texShape = u.map(function (t) {
@@ -31210,7 +31216,7 @@
               (null != t.outTexUsage && (s.usage = t.outTexUsage),
               0 === R(o.shape))
             )
-              return (s.values = L(o.dtype, 0)), o;
+              return (s.values = P(o.dtype, 0)), o;
             var c = [],
               l = e.map(function (e) {
                 if ("complex64" === e.dtype)
@@ -31453,7 +31459,7 @@
                     (p = new xi(d, [m, f], g)))
                   : (p = new yi(d, [m, f], g));
                 var b = this.makeTensorInfo([m, f], a);
-                (this.texData.get(b.dataId).usage = g ? Lt.PIXELS : Lt.UPLOAD),
+                (this.texData.get(b.dataId).usage = g ? Pt.PIXELS : Pt.UPLOAD),
                   this.gpgpu.uploadDenseMatrixToTexture(
                     this.getTexture(b.dataId),
                     f,
@@ -31555,7 +31561,7 @@
             var n,
               r = He(t, "a", "squaredDifference"),
               a = He(e, "b", "squaredDifference");
-            (n = Rt(r, a)), (r = n[0]), (a = n[1]), $r(r.shape, a.shape);
+            (n = Rt(r, a)), (r = n[0]), (a = n[1]), Br(r.shape, a.shape);
             var i = { a: r, b: a },
               o = [r, a];
             return Mt.runKernelFunc(
@@ -32491,7 +32497,7 @@
         var d = [c, l, h, o];
         return Mt.runKernelFunc(
           function (t, e) {
-            var n = t.batchNormalization(u, Bs(l), Bs(h), i, Bs(o), Bs(s));
+            var n = t.batchNormalization(u, $s(l), $s(h), i, $s(o), $s(s));
             return e([c, l, h, o]), n;
           },
           { x: c, mean: l, variance: h, scale: o, offset: s },
@@ -32502,7 +32508,7 @@
               o = n[2],
               s = n[3],
               c = null == s ? hn(1) : s,
-              l = Br(a.shape, u.shape),
+              l = $r(a.shape, u.shape),
               h = [];
             if (1 === a.rank) {
               for (var d = 0; d < u.shape.length - 1; ++d) h.push(u.shape[d]);
@@ -32545,7 +32551,7 @@
           d
         ).reshape(c.shape);
       }
-      function Bs(t) {
+      function $s(t) {
         return null == t
           ? null
           : 0 === t.rank
@@ -32558,29 +32564,29 @@
           ? t.as4D(1, t.shape[0], t.shape[1], t.shape[2])
           : t;
       }
-      function $s() {
-        Pe(
+      function Bs() {
+        Le(
           "tf.batchNormalization() is going away. Use tf.batchNorm() instead, and note the positional argument change of scale, offset, and varianceEpsilon"
         );
       }
-      var Ls = an({
+      var Ps = an({
           batchNormalization2d_: function (t, e, n, r, a, i) {
-            return void 0 === r && (r = 0.001), $s(), Ds(t, e, n, i, a, r);
+            return void 0 === r && (r = 0.001), Bs(), Ds(t, e, n, i, a, r);
           },
         }),
-        Ps = an({
+        Ls = an({
           batchNormalization3d_: function (t, e, n, r, a, i) {
-            return void 0 === r && (r = 0.001), $s(), Fs(t, e, n, i, a, r);
+            return void 0 === r && (r = 0.001), Bs(), Fs(t, e, n, i, a, r);
           },
         }),
         zs = an({
           batchNormalization4d_: function (t, e, n, r, a, i) {
-            return void 0 === r && (r = 0.001), $s(), Ms(t, e, n, i, a, r);
+            return void 0 === r && (r = 0.001), Bs(), Ms(t, e, n, i, a, r);
           },
         }),
         Ws = an({
           batchNormalization_: function (t, e, n, r, a, i) {
-            return void 0 === r && (r = 0.001), $s(), js(t, e, n, i, a, r);
+            return void 0 === r && (r = 0.001), Bs(), js(t, e, n, i, a, r);
           },
         }),
         Vs = an({ batchNorm_: js }),
@@ -32592,7 +32598,7 @@
             var n = He(t, "a", "logicalAnd", "bool"),
               r = He(e, "b", "logicalAnd", "bool");
             return (
-              $r(n.shape, r.shape),
+              Br(n.shape, r.shape),
               Mt.runKernelFunc(
                 function (t) {
                   return t.logicalAnd(n, r);
@@ -32620,7 +32626,7 @@
             var n = He(t, "a", "logicalOr", "bool"),
               r = He(e, "b", "logicalOr", "bool");
             return (
-              $r(n.shape, r.shape),
+              Br(n.shape, r.shape),
               Mt.runKernelFunc(
                 function (t) {
                   return t.logicalOr(n, r);
@@ -32635,7 +32641,7 @@
             var n = He(t, "a", "logicalXor", "bool"),
               r = He(e, "b", "logicalXor", "bool");
             return (
-              $r(n.shape, r.shape), Xs(t, e).logicalAnd(qs(t, e).logicalNot())
+              Br(n.shape, r.shape), Xs(t, e).logicalAnd(qs(t, e).logicalNot())
             );
           },
         }),
@@ -32702,7 +32708,7 @@
               r = He(t, "a", "add"),
               a = He(e, "b", "add");
             (n = Rt(r, a)), (r = n[0]), (a = n[1]);
-            var i = $r(r.shape, a.shape);
+            var i = Br(r.shape, a.shape);
             return Mt.runKernelFunc(
               function (t) {
                 return t.add(r, a);
@@ -32712,12 +32718,12 @@
                 return {
                   a: function () {
                     var e = t,
-                      n = Br(r.shape, i);
+                      n = $r(r.shape, i);
                     return n.length > 0 && (e = e.sum(n)), e.reshape(r.shape);
                   },
                   b: function () {
                     var e = t,
-                      n = Br(a.shape, i);
+                      n = $r(a.shape, i);
                     return n.length > 0 && (e = e.sum(n)), e.reshape(a.shape);
                   },
                 };
@@ -32787,7 +32793,7 @@
               r = He(t, "a", "atan2"),
               a = He(e, "b", "atan2");
             (n = Rt(r, a)), (r = n[0]), (a = n[1]);
-            var i = $r(r.shape, a.shape);
+            var i = Br(r.shape, a.shape);
             return Mt.runKernelFunc(
               function (t, e) {
                 var n = t.atan2(r, a);
@@ -32801,13 +32807,13 @@
                   $a: function () {
                     var e = Zs(n.square(), r.square()),
                       a = t.mul(r.div(e)),
-                      o = Br(n.shape, i);
+                      o = $r(n.shape, i);
                     return o.length > 0 && (a = a.sum(o)), a.reshape(n.shape);
                   },
                   $b: function () {
                     var e = Zs(n.square(), r.square()),
                       a = bs(t.mul(n.div(e))),
-                      o = Br(r.shape, i);
+                      o = $r(r.shape, i);
                     return o.length > 0 && (a = a.sum(o)), a.reshape(r.shape);
                   },
                 };
@@ -32827,7 +32833,7 @@
               "int32" === r.dtype && "int32" === a.dtype)
             )
               return ou(r, a);
-            var i = $r(r.shape, a.shape);
+            var i = Br(r.shape, a.shape);
             return Mt.runKernelFunc(
               function (t, e) {
                 var n = t.realDivide(r, a);
@@ -32840,12 +32846,12 @@
                 return {
                   a: function () {
                     var e = t.div(r.toFloat()),
-                      a = Br(n.shape, i);
+                      a = $r(n.shape, i);
                     return a.length > 0 ? e.sum(a).reshape(n.shape) : e;
                   },
                   b: function () {
                     var e = t.mul(n.toFloat()),
-                      a = Br(r.shape, i);
+                      a = $r(r.shape, i);
                     a.length > 0 && (e = e.sum(a).reshape(r.shape));
                     var o = r.square();
                     return e.div(o.toFloat()).neg();
@@ -32881,7 +32887,7 @@
               r = He(t, "a", "floorDiv"),
               a = He(e, "b", "floorDiv");
             (n = Rt(r, a)), (r = n[0]), (a = n[1]);
-            var i = $r(r.shape, a.shape);
+            var i = Br(r.shape, a.shape);
             return Mt.runKernelFunc(
               function (t, e) {
                 var n = t.floorDiv(r, a);
@@ -32894,12 +32900,12 @@
                 return {
                   a: function () {
                     var e = t.div(r.toFloat()),
-                      a = Br(n.shape, i);
+                      a = $r(n.shape, i);
                     return a.length > 0 ? e.sum(a).reshape(n.shape) : e;
                   },
                   b: function () {
                     var e = t.mul(n.toFloat()),
-                      a = Br(r.shape, i);
+                      a = $r(r.shape, i);
                     a.length > 0 && (e = e.sum(a).reshape(r.shape));
                     var o = r.square();
                     return e.div(o.toFloat()).neg();
@@ -32920,7 +32926,7 @@
               (r = n[0]),
               (a = n[1]),
               "bool" === r.dtype && ((r = r.toInt()), (a = a.toInt())),
-              $r(r.shape, a.shape),
+              Br(r.shape, a.shape),
               Mt.runKernelFunc(
                 function (t, e) {
                   var n = t.maximum(r, a);
@@ -32963,7 +32969,7 @@
               (r = n[0]),
               (a = n[1]),
               "bool" === r.dtype && ((r = r.toInt()), (a = a.toInt())),
-              $r(r.shape, a.shape),
+              Br(r.shape, a.shape),
               Mt.runKernelFunc(
                 function (t, e) {
                   var n = t.minimum(r, a);
@@ -33002,7 +33008,7 @@
               r = He(t, "a", "mod"),
               a = He(e, "b", "mod");
             (n = Rt(r, a)), (r = n[0]), (a = n[1]);
-            var i = $r(r.shape, a.shape);
+            var i = Br(r.shape, a.shape);
             return Mt.runKernelFunc(
               function (t, e) {
                 var n = t.mod(r, a);
@@ -33014,12 +33020,12 @@
                   r = e[1];
                 return {
                   $a: function () {
-                    var e = Br(n.shape, i);
+                    var e = $r(n.shape, i);
                     return e.length > 0 ? t.sum(e).reshape(n.shape) : t;
                   },
                   $b: function () {
                     var e = t.mul(n.div(r).floor().neg()),
-                      a = Br(r.shape, i);
+                      a = $r(r.shape, i);
                     return a.length > 0 ? e.sum(a).reshape(r.shape) : e;
                   },
                 };
@@ -33040,7 +33046,7 @@
               r = He(t, "a", "mul"),
               a = He(e, "b", "mul");
             (n = Rt(r, a)), (r = n[0]), (a = n[1]);
-            var i = $r(r.shape, a.shape);
+            var i = Br(r.shape, a.shape);
             return Mt.runKernelFunc(
               function (t, e) {
                 var n = t.multiply(r, a);
@@ -33053,12 +33059,12 @@
                 return {
                   a: function () {
                     var e = t.mul(r.toFloat()),
-                      a = Br(n.shape, i);
+                      a = $r(n.shape, i);
                     return a.length > 0 ? e.sum(a).reshape(n.shape) : e;
                   },
                   b: function () {
                     var e = t.mul(n.toFloat()),
-                      a = Br(r.shape, i);
+                      a = $r(r.shape, i);
                     return a.length > 0 ? e.sum(a).reshape(r.shape) : e;
                   },
                 };
@@ -33080,7 +33086,7 @@
               r = He(t, "base", "pow"),
               a = He(e, "exp", "pow");
             (n = Rt(r, a)), (r = n[0]), (a = n[1]);
-            var i = $r(r.shape, a.shape),
+            var i = Br(r.shape, a.shape),
               o = [r, a];
             return Mt.runKernelFunc(
               function (t, e) {
@@ -33096,14 +33102,14 @@
                   a: function () {
                     var e = r.toFloat(),
                       a = t.mul(e.mul(n.pow(e.sub(hn(1))))),
-                      o = Br(n.shape, i);
+                      o = $r(n.shape, i);
                     return o.length > 0 && (a = a.sum(o)), a.reshape(n.shape);
                   },
                   b: function () {
                     var e = n.greater(0),
                       o = n.log().where(e, wn(n)),
                       s = t.mul(a.mul(o)),
-                      u = Br(r.shape, i);
+                      u = $r(r.shape, i);
                     return u.length > 0 && (s = s.sum(u)), s.reshape(r.shape);
                   },
                 };
@@ -33136,7 +33142,7 @@
               r = He(t, "a", "sub"),
               a = He(e, "b", "sub");
             (n = Rt(r, a)), (r = n[0]), (a = n[1]);
-            var i = $r(r.shape, a.shape);
+            var i = Br(r.shape, a.shape);
             return Mt.runKernelFunc(
               function (t) {
                 return t.subtract(r, a);
@@ -33146,12 +33152,12 @@
                 return {
                   a: function () {
                     var e = t,
-                      n = Br(r.shape, i);
+                      n = $r(r.shape, i);
                     return n.length > 0 && (e = e.sum(n)), e.reshape(r.shape);
                   },
                   b: function () {
                     var e = t,
-                      n = Br(a.shape, i);
+                      n = $r(a.shape, i);
                     return (
                       n.length > 0 && (e = e.sum(n)), e.neg().reshape(a.shape)
                     );
@@ -33178,7 +33184,7 @@
               (n = Rt(r, a)),
               (r = n[0]),
               (a = n[1]),
-              $r(r.shape, a.shape),
+              Br(r.shape, a.shape),
               Mt.runKernelFunc(
                 function (t) {
                   return t.equal(r, a);
@@ -33204,7 +33210,7 @@
               (n = Rt(r, a)),
               (r = n[0]),
               (a = n[1]),
-              $r(r.shape, a.shape),
+              Br(r.shape, a.shape),
               Mt.runKernelFunc(
                 function (t) {
                   return t.greater(r, a);
@@ -33225,7 +33231,7 @@
               (n = Rt(r, a)),
               (r = n[0]),
               (a = n[1]),
-              $r(r.shape, a.shape),
+              Br(r.shape, a.shape),
               Mt.runKernelFunc(
                 function (t, e) {
                   var n = t.greaterEqual(r, a);
@@ -33277,7 +33283,7 @@
               (n = Rt(r, a)),
               (r = n[0]),
               (a = n[1]),
-              $r(r.shape, a.shape),
+              Br(r.shape, a.shape),
               Mt.runKernelFunc(
                 function (t) {
                   return t.less(r, a);
@@ -33298,7 +33304,7 @@
               (n = Rt(r, a)),
               (r = n[0]),
               (a = n[1]),
-              $r(r.shape, a.shape),
+              Br(r.shape, a.shape),
               Mt.runKernelFunc(
                 function (t, e) {
                   var n = t.lessEqual(r, a);
@@ -33336,7 +33342,7 @@
               (n = Rt(r, a)),
               (r = n[0]),
               (a = n[1]),
-              $r(r.shape, a.shape),
+              Br(r.shape, a.shape),
               Mt.runKernelFunc(
                 function (t) {
                   return t.notEqual(r, a);
@@ -33371,7 +33377,7 @@
             void 0 === n && (n = 0);
             var r = He(t, "x", "gather"),
               a = He(e, "indices", "gather", "int32");
-            n = B(n, r.shape)[0];
+            n = $(n, r.shape)[0];
             var i = (function (t, e, n) {
               for (var r = t.shape[n], a = [], i = 1, o = 1, s = 0; s < n; s++)
                 a.push(t.shape[s]), (i *= t.shape[s]);
@@ -33537,7 +33543,7 @@
                 s = e[1];
               return {
                 dy4D: function () {
-                  return Pu(t, n, r, a, i, 1, o);
+                  return Lu(t, n, r, a, i, 1, o);
                 },
                 filter: function () {
                   return Wu(t, s, n.shape, r, a, i, o);
@@ -33547,7 +33553,7 @@
           );
         return c ? f.as3D(f.shape[1], f.shape[2], f.shape[3]) : f;
       }
-      function Bu(t) {
+      function $u(t) {
         var e = (function (t) {
             return "number" == typeof t
               ? [t, t, t]
@@ -33560,7 +33566,7 @@
           a = e[2];
         return 1 === n && 1 === r && 1 === a;
       }
-      function $u(t, e, n, r, a) {
+      function Bu(t, e, n, r, a) {
         S(t.length === e.rank, function () {
           return (
             "Length of inShape (" +
@@ -33625,7 +33631,7 @@
           );
         return s ? h.as4D(h.shape[1], h.shape[2], h.shape[3], h.shape[4]) : h;
       }
-      var Lu = an({
+      var Pu = an({
           conv1d_: function (t, e, n, r, a, i, o) {
             void 0 === a && (a = "NWC"), void 0 === i && (i = 1);
             var s = He(t, "x", "conv1d"),
@@ -33684,13 +33690,13 @@
               });
             var h = u.as4D(1, u.shape[0], u.shape[1], u.shape[2]),
               d = c.as4D(c.shape[0], 1, c.shape[1], c.shape[2]),
-              p = Pu(d, h, [1, n], r, "NHWC", [1, i], o);
+              p = Lu(d, h, [1, n], r, "NHWC", [1, i], o);
             return l
               ? p.as2D(p.shape[2], p.shape[3])
               : p.as3D(p.shape[0], p.shape[2], p.shape[3]);
           },
         }),
-        Pu = an({
+        Lu = an({
           conv2d_: function (t, e, n, r, a, i, o) {
             void 0 === a && (a = "NHWC"), void 0 === i && (i = [1, 1]);
             var s = He(t, "x", "conv2d"),
@@ -33815,7 +33821,7 @@
               }),
               S(
                 (function (t, e) {
-                  return Bu(t) || Bu(e);
+                  return $u(t) || $u(e);
                 })(n, i),
                 function () {
                   return (
@@ -33842,7 +33848,7 @@
                 },
                 { x: u, $filter: s },
                 function (t, e) {
-                  S(Bu(i), function () {
+                  S($u(i), function () {
                     return (
                       "Error in gradient of conv3D: dilation rates greater than 1 are not yet supported in gradients. Got dilations '" +
                       i +
@@ -33853,7 +33859,7 @@
                     o = e[1];
                   return {
                     x: function () {
-                      return $u(a.shape, t, o, n, r);
+                      return Bu(a.shape, t, o, n, r);
                     },
                     $filter: function () {
                       return (function (t, e, n, r, a) {
@@ -34181,7 +34187,7 @@
               );
             });
             var f = Uu(l, u, r, a, o, i),
-              m = Pu(f, c, 1, "valid", o);
+              m = Lu(f, c, 1, "valid", o);
             return h ? m.as3D(m.shape[1], m.shape[2], m.shape[3]) : m;
           },
         }),
@@ -34200,7 +34206,7 @@
         }),
         Xu = an({
           conv3dTranspose_: function (t, e, n, r, a) {
-            return $u(
+            return Bu(
               n,
               He(t, "x", "conv3dTranspose"),
               He(e, "filter", "conv3dTranspose"),
@@ -34381,7 +34387,7 @@
           reverse_: function (t, e) {
             var n = He(t, "x", "reverse");
             if (0 === n.rank) return n.clone();
-            var r = B(e, n.shape);
+            var r = $(e, n.shape);
             return Mt.runKernelFunc(
               function (t) {
                 return t.reverse(n, r);
@@ -34490,7 +34496,7 @@
                 "."
               );
             });
-        var c = Lr(s.shape, e, n, r, a, i);
+        var c = Pr(s.shape, e, n, r, a, i);
         if (
           1 === c.filterWidth &&
           1 === c.filterHeight &&
@@ -34546,7 +34552,7 @@
                           "."
                         );
                       });
-                    var h = Lr(c.shape, r, a, i, o, s);
+                    var h = Pr(c.shape, r, a, i, o, s);
                     return Mt.runKernelFunc(
                       function (t) {
                         return t.maxPoolBackprop(u, c, l, h);
@@ -34594,7 +34600,7 @@
                 "."
               );
             });
-        var c = Lr(s.shape, e, n, r, a, i);
+        var c = Pr(s.shape, e, n, r, a, i);
         if (
           1 === c.filterWidth &&
           1 === c.filterHeight &&
@@ -34652,7 +34658,7 @@
                         "."
                       );
                     });
-                  var h = Lr(u.shape, n, r, a, i),
+                  var h = Pr(u.shape, n, r, a, i),
                     d = Mt.runKernelFunc(
                       function (t) {
                         return t.avgPoolBackprop(c, u, h);
@@ -34702,7 +34708,7 @@
                 );
               });
             var c,
-              l = Lr(s.shape, e, i, a, r),
+              l = Pr(s.shape, e, i, a, r),
               h = [l.dilationHeight, l.dilationWidth];
             c =
               "same" === r
@@ -34809,7 +34815,7 @@
                     "."
                   );
                 });
-            var l = Pr(u.shape, e, n, o, r, a, i),
+            var l = Lr(u.shape, e, n, o, r, a, i),
               h = Mt.runKernelFunc(
                 function (t, e) {
                   var n = t.maxPool3d(u, l);
@@ -34893,7 +34899,7 @@
                                 "."
                               );
                             });
-                        var m = Pr(d.shape, r, a, i, o, s),
+                        var m = Lr(d.shape, r, a, i, o, s),
                           g = Mt.runKernelFunc(
                             function (t) {
                               return t.maxPool3dBackprop(h, d, p, m);
@@ -34960,7 +34966,7 @@
                     "."
                   );
                 });
-            var l = Pr(u.shape, e, n, o, r, a, i),
+            var l = Lr(u.shape, e, n, o, r, a, i),
               h = Mt.runKernelFunc(
                 function (t) {
                   return t.avgPool3d(u, l);
@@ -35025,7 +35031,7 @@
                                 "."
                               );
                             });
-                        var d = Pr(l.shape, n, r, a, i, o),
+                        var d = Lr(l.shape, n, r, a, i, o),
                           p = Mt.runKernelFunc(
                             function (t) {
                               return t.avgPool3dBackprop(c, l, d);
@@ -35186,7 +35192,7 @@
           all_: function (t, e, n) {
             void 0 === e && (e = null), void 0 === n && (n = !1);
             var r = He(t, "x", "all", "bool"),
-              a = B(e, r.shape),
+              a = $(e, r.shape),
               i = a,
               o = Ze(i, r.rank);
             null != o && ((r = r.transpose(o)), (i = en(i.length, r.rank)));
@@ -35207,7 +35213,7 @@
           any_: function (t, e, n) {
             void 0 === e && (e = null), void 0 === n && (n = !1);
             var r = He(t, "x", "any", "bool"),
-              a = B(e, r.shape),
+              a = $(e, r.shape),
               i = a,
               o = Ze(i, r.rank);
             null != o && ((r = r.transpose(o)), (i = en(i.length, r.rank)));
@@ -35229,7 +35235,7 @@
             void 0 === e && (e = 0);
             var n = He(t, "x", "argMax");
             null == e && (e = 0);
-            var r = B(e, n.shape),
+            var r = $(e, n.shape),
               a = Ze(r, n.rank);
             null != a && ((n = n.transpose(a)), (r = en(r.length, n.rank)));
             var i = { axis: r[0] },
@@ -35259,7 +35265,7 @@
             void 0 === e && (e = 0);
             var n = He(t, "x", "argMin");
             null == e && (e = 0);
-            var r = B(e, n.shape),
+            var r = $(e, n.shape),
               a = Ze(r, n.rank);
             return (
               null != a && ((n = n.transpose(a)), (r = en(r.length, n.rank))),
@@ -35285,7 +35291,7 @@
           logSumExp_: function (t, e, n) {
             void 0 === e && (e = null), void 0 === n && (n = !1);
             var r = He(t, "x", "logSumExp"),
-              a = B(e, r.shape),
+              a = $(e, r.shape),
               i = r.max(a, !0),
               o = r.sub(i).exp().sum(a).log(),
               s = i.reshape(o.shape).add(o);
@@ -35301,7 +35307,7 @@
             void 0 === e && (e = null), void 0 === n && (n = !1);
             var r = He(t, "x", "max"),
               a = r,
-              i = B(e, r.shape),
+              i = $(e, r.shape),
               o = i,
               s = Ze(o, r.rank);
             null != s && ((r = r.transpose(s)), (o = en(o.length, r.rank)));
@@ -35331,7 +35337,7 @@
           mean_: function (t, e, n) {
             void 0 === e && (e = null), void 0 === n && (n = !1);
             var r = He(t, "x", "mean"),
-              a = B(e, r.shape),
+              a = $(e, r.shape),
               i = R(Ye(r.shape, a)[1]);
             return Ar(function (t) {
               var r = hn(i);
@@ -35357,7 +35363,7 @@
             void 0 === e && (e = null), void 0 === n && (n = !1);
             var r = He(t, "x", "min"),
               a = r,
-              i = B(e, r.shape),
+              i = $(e, r.shape),
               o = i,
               s = Ze(o, r.rank);
             null != s && ((r = r.transpose(s)), (o = en(o.length, r.rank)));
@@ -35386,7 +35392,7 @@
         Sc = an({
           moments_: function (t, e, n) {
             void 0 === e && (e = null), void 0 === n && (n = !1);
-            var r = B(e, (t = He(t, "x", "moments")).shape),
+            var r = $(e, (t = He(t, "x", "moments")).shape),
               a = t.mean(r, n),
               i = a.shape;
             n || (i = Je(a.shape, r));
@@ -35399,7 +35405,7 @@
             void 0 === e && (e = null), void 0 === n && (n = !1);
             var r = He(t, "x", "sum");
             "bool" === r.dtype && (r = r.toInt());
-            var a = B(e, r.shape);
+            var a = $(e, r.shape);
             return Ar(function (t) {
               var e = Ze(a, t.rank),
                 r = a,
@@ -35443,7 +35449,7 @@
             void 0 === e && (e = null), void 0 === n && (n = !1);
             var r = He(t, "x", "prod");
             "bool" === r.dtype && (r = r.toInt());
-            var a = B(e, r.shape),
+            var a = $(e, r.shape),
               i = Ze(a, r.rank),
               o = a,
               s = r;
@@ -35513,7 +35519,7 @@
                   },
                   alpha: function () {
                     var e = Js(a, wn(t), t.mul(n)),
-                      i = Br(r.shape, t.shape);
+                      i = $r(r.shape, t.shape);
                     return i.length > 0 && (e = e.sum(i)), e.reshape(r.shape);
                   },
                 };
@@ -35727,13 +35733,13 @@
               })((t = He(t, "x", "norm")), e, n),
               i = a.shape;
             if (r) {
-              var o = B(n, t.shape);
+              var o = $(n, t.shape);
               i = Je(a.shape, o);
             }
             return a.reshape(i);
           },
         }),
-        Bc = an({
+        $c = an({
           basicLSTMCell_: function (t, e, n, r, a, i) {
             var o = He(t, "forgetBias", "basicLSTMCell"),
               s = He(e, "lstmKernel", "basicLSTMCell"),
@@ -35757,7 +35763,7 @@
             return [x, w];
           },
         }),
-        $c = an({
+        Bc = an({
           multiRNNCell_: function (t, e, n, r) {
             for (
               var a = He(e, "data", "multiRNNCell"),
@@ -35778,7 +35784,7 @@
             return [h, d];
           },
         }),
-        Lc = an({
+        Pc = an({
           movingAverage_: function (t, e, n, r, a) {
             void 0 === a && (a = !0);
             var i = He(t, "v", "movingAverage"),
@@ -35801,7 +35807,7 @@
             return i.add(l);
           },
         }),
-        Pc = an({
+        Lc = an({
           stridedSlice_: function (t, e, n, r, a, i, o, s, u) {
             if (
               (void 0 === a && (a = 0),
@@ -36903,7 +36909,7 @@
         },
         Rl = function (t, e) {
           var n = e,
-            r = Br(t.shape, e.shape);
+            r = $r(t.shape, e.shape);
           return r.length > 0 && (n = n.sum(r)), n.reshape(t.shape);
         },
         Al = function (t, e, n) {
@@ -36987,7 +36993,7 @@
               k = i ? p.as3D(w, m, b) : p.as3D(w, b, m),
               N = s ? f.as3D(C, v, g) : f.as3D(C, g, v);
             null != u &&
-              $r(I, (O = Rt((O = He(u, "bias", "fused matMul")), p)[0]).shape),
+              Br(I, (O = Rt((O = He(u, "bias", "fused matMul")), p)[0]).shape),
               null != h && (E = He(h, "prelu weights", "fused matMul"));
             var T = { a: k, b: N };
             null != u && (T.bias = O),
@@ -37092,7 +37098,7 @@
               d = void 0 === h ? "linear" : h,
               p = t.preluActivationWeights;
             if (((d = d || "linear"), !1 === kl(Mt.state.gradientDepth, d))) {
-              var f = Pu(e, n, r, a, o, u, c);
+              var f = Lu(e, n, r, a, o, u, c);
               return null != l && (f = Zs(f, l)), Al(f, d, p);
             }
             var m = He(e, "x", "conv2d"),
@@ -37155,7 +37161,7 @@
               w = zr(b.shape, g.shape, r, u, a, c);
             null != l &&
               ((y = Rt((y = He(l, "bias", "fused conv2d")), m)[0]),
-              $r(w.outShape, y.shape)),
+              Br(w.outShape, y.shape)),
               null != p && (x = He(p, "prelu weights", "fused conv2d"));
             var C = { x: b, filter: g };
             null != l && (C.bias = y),
@@ -37289,7 +37295,7 @@
               w = zr(b.shape, g.shape, r, u, a, c, !0);
             null != l &&
               ((y = Rt((y = He(l, "bias", "fused conv2d")), m)[0]),
-              $r(w.outShape, y.shape)),
+              Br(w.outShape, y.shape)),
               null != p &&
                 (x = He(p, "prelu weights", "fused depthwiseConv2d"));
             var C = { x: b, filter: g };
@@ -37360,16 +37366,16 @@
           signal: al,
           square: Yo,
           squaredDifference: Qo,
-          conv1d: Lu,
-          conv2d: Pu,
+          conv1d: Pu,
+          conv2d: Lu,
           conv3d: zu,
           depthwiseConv2d: Uu,
           separableConv2d: qu,
           conv2dTranspose: Ku,
           conv3dTranspose: Xu,
           op: an,
-          batchNormalization2d: Ls,
-          batchNormalization3d: Ps,
+          batchNormalization2d: Ps,
+          batchNormalization3d: Ls,
           batchNormalization4d: zs,
           batchNormalization: Ws,
           batchNorm: Vs,
@@ -37542,7 +37548,7 @@
           logicalXor: Ys,
           where: Js,
           whereAsync: Qs,
-          buffer: Pn,
+          buffer: Ln,
           print: function (t, e) {
             void 0 === e && (e = !1), console.log(t.toString(e));
           },
@@ -37683,10 +37689,10 @@
           norm: jc,
           gather: Fu,
           unsortedSegmentSum: Mu,
-          basicLSTMCell: Bc,
-          multiRNNCell: $c,
-          movingAverage: Lc,
-          stridedSlice: Pc,
+          basicLSTMCell: $c,
+          multiRNNCell: Bc,
+          movingAverage: Pc,
+          stridedSlice: Lc,
           topk: zc,
           scatterND: Wc,
           fft: Vc,
@@ -37749,7 +37755,7 @@
                         s = c.sent(),
                           u = [o.length / i, i],
                           h = u[1],
-                          d = L("bool", (l = u[0])),
+                          d = P("bool", (l = u[0])),
                           p = 0;
                         p < l;
                         p++
@@ -37794,7 +37800,7 @@
               });
           });
       }
-      function Bl(t, e, n, r) {
+      function $l(t, e, n, r) {
         if ("linear" === n) return t.linear(e);
         if ("relu" === n) return t.relu(e);
         if ("elu" === n) return t.elu(e);
@@ -37804,7 +37810,7 @@
           "Activation " + n + " has not been implemented for the CPU backend."
         );
       }
-      var $l = (function (t) {
+      var Bl = (function (t) {
         function e() {
           var e = t.call(this) || this;
           return (
@@ -37857,7 +37863,7 @@
                   "Failed to decode encoded string bytes into utf-8"
                 );
               }
-            return Pn(t.shape, t.dtype, n);
+            return Ln(t.shape, t.dtype, n);
           }),
           (e.prototype.makeOutput = function (t, e, n) {
             var r = this.write(t, e, n);
@@ -37909,7 +37915,7 @@
               return cn(this.readSync(t.dataId).subarray(r, r + a), n, t.dtype);
             }
             for (
-              var i = Pn(n, t.dtype), o = this.bufferSync(t), s = 0;
+              var i = Ln(n, t.dtype), o = this.bufferSync(t), s = 0;
               s < i.size;
               ++s
             ) {
@@ -37930,7 +37936,7 @@
             )
               return cn([], a);
             for (
-              var i = Pn(a, t.dtype), o = this.bufferSync(t), s = 0;
+              var i = Ln(a, t.dtype), o = this.bufferSync(t), s = 0;
               s < i.size;
               s++
             ) {
@@ -37947,7 +37953,7 @@
           (e.prototype.diag = function (t) {
             for (
               var e = this.readSync(t.dataId),
-                n = Pn([t.size, t.size], t.dtype),
+                n = Ln([t.size, t.size], t.dtype),
                 r = n.values,
                 a = 0;
               a < e.length;
@@ -37974,7 +37980,7 @@
           (e.prototype.reverse = function (t, e) {
             jl(t, "reverse");
             for (
-              var n = Pn(t.shape, t.dtype),
+              var n = Ln(t.shape, t.dtype),
                 r = this.bufferSync(t),
                 a = function (a) {
                   var i = n.indexToLoc(a),
@@ -38012,7 +38018,7 @@
                 }),
                 1
               ),
-              s = Pn(o, t[0].dtype).values;
+              s = Ln(o, t[0].dtype).values;
             if (1 === i[0].shape[0]) {
               var u = 0;
               i.forEach(function (t) {
@@ -38065,7 +38071,7 @@
               var n = t.map(function (t) {
                   return e.readSync(t.dataId);
                 }),
-                r = Pn(t[0].shape, t[0].dtype),
+                r = Ln(t[0].shape, t[0].dtype),
                 a = r.values,
                 i = 0;
               i < t.length;
@@ -38075,7 +38081,7 @@
             return r.toTensor();
           }),
           (e.prototype.softmax = function (t, e) {
-            var n = B([e], t.shape),
+            var n = $([e], t.shape),
               r = this.max(t, n),
               a = Je(r.shape, n),
               i = this.subtract(t, r.reshape(a)),
@@ -38129,7 +38135,7 @@
                 g = f[1],
                 b = f[2],
                 v = i * o,
-                y = Pn([s, i, o], t.dtype),
+                y = Ln([s, i, o], t.dtype),
                 x = y.values,
                 w = this.blockSize,
                 C = 0;
@@ -38164,7 +38170,7 @@
               o = t.activation,
               s = t.preluActivationWeights,
               u = this.batchMatMul(e, n, r, a);
-            return i && (u = this.add(u, i)), o && (u = Bl(this, u, o, s)), u;
+            return i && (u = this.add(u, i)), o && (u = $l(this, u, o, s)), u;
           }),
           (e.prototype.multiply = function (t, e) {
             return "complex64" === t.dtype || "complex64" === e.dtype
@@ -39103,7 +39109,7 @@
               i = t.activation,
               o = t.preluActivationWeights,
               s = this.conv2d(e, n, r);
-            return a && (s = this.add(s, a)), i && (s = Bl(this, s, i, o)), s;
+            return a && (s = this.add(s, a)), i && (s = $l(this, s, i, o)), s;
           }),
           (e.prototype.conv2d = function (t, e, n) {
             jl([t, e], "conv2d");
@@ -39115,7 +39121,7 @@
                 s = n.padInfo.left,
                 u = n.padInfo.top,
                 c = "channelsLast" === n.dataFormat,
-                l = Pn(n.outShape, t.dtype),
+                l = Ln(n.outShape, t.dtype),
                 h = t.strides[0],
                 d = c ? t.strides[1] : t.strides[2],
                 p = c ? t.strides[2] : 1,
@@ -39152,17 +39158,17 @@
                         var j = F + M * o;
                         if (!(j < 0 || j >= n.inWidth))
                           for (
-                            var B = T + j * p, $ = A + M * e.strides[1], L = 0;
-                            L < n.inChannels;
-                            ++L
+                            var $ = T + j * p, B = A + M * e.strides[1], P = 0;
+                            P < n.inChannels;
+                            ++P
                           ) {
                             for (
-                              var P = y[B + L * f], z = 0;
+                              var L = y[$ + P * f], z = 0;
                               z < n.outChannels;
                               ++z
                             )
-                              w[D + z * v] += P * x[$ + z];
-                            $ += n.outChannels;
+                              w[D + z * v] += L * x[B + z];
+                            B += n.outChannels;
                           }
                       }
                 }
@@ -39179,7 +39185,7 @@
                 c = n.padInfo.front,
                 l = n.padInfo.left,
                 h = n.padInfo.top,
-                d = Pn(n.outShape, t.dtype),
+                d = Ln(n.outShape, t.dtype),
                 p = this.readSync(t.dataId),
                 f = this.readSync(e.dataId),
                 m = d.values,
@@ -39229,23 +39235,23 @@
                               j < i;
                               j++
                             ) {
-                              var B = M + j * u;
-                              if (!(B < 0 || B >= n.inWidth))
+                              var $ = M + j * u;
+                              if (!($ < 0 || $ >= n.inWidth))
                                 for (
-                                  var $ = T + j * e.strides[2],
-                                    L = _ + B * n.inChannels,
-                                    P = $,
+                                  var B = T + j * e.strides[2],
+                                    P = _ + $ * n.inChannels,
+                                    L = B,
                                     z = 0;
                                   z < n.inChannels;
                                   ++z
                                 ) {
                                   for (
-                                    var W = p[L + z], V = 0;
+                                    var W = p[P + z], V = 0;
                                     V < n.outChannels;
                                     ++V
                                   )
-                                    m[F + V] += W * f[P + V];
-                                  P += n.outChannels;
+                                    m[F + V] += W * f[L + V];
+                                  L += n.outChannels;
                                 }
                             }
                       }
@@ -39255,7 +39261,7 @@
           (e.prototype.conv2dDerInput = function (t, e, n) {
             jl([t, e], "conv2dDerInput");
             for (
-              var r = Pn(n.inShape, "float32"),
+              var r = Ln(n.inShape, "float32"),
                 a = r.values,
                 i = this.readSync(t.dataId),
                 o = this.readSync(e.dataId),
@@ -39293,23 +39299,23 @@
               for (var M = 0; M < f; ++M)
                 for (var j = 0; j < m; ++j)
                   for (
-                    var B = j - O,
-                      $ = Math.max(0, Math.ceil(B / x)),
-                      L = Math.min(v, (d + B) / x),
-                      P = 0;
-                    P < g;
-                    ++P
+                    var $ = j - O,
+                      B = Math.max(0, Math.ceil($ / x)),
+                      P = Math.min(v, (d + $) / x),
+                      L = 0;
+                    L < g;
+                    ++L
                   ) {
                     for (
-                      var z = P - E,
+                      var z = L - E,
                         W = Math.max(0, Math.ceil(z / w)),
                         V = Math.min(y, (p + z) / w),
                         U = 0,
-                        G = $;
-                      G < L;
+                        G = B;
+                      G < P;
                       ++G
                     )
-                      for (var H = G * x - B, q = W; q < V; ++q)
+                      for (var H = G * x - $, q = W; q < V; ++q)
                         for (
                           var K = A * F + T * G + _ * q,
                             X =
@@ -39321,13 +39327,13 @@
                           ++Y
                         )
                           U += i[K + D * Y] * o[X + Y];
-                    a[I * F + k * j + N * P + R * M] = U;
+                    a[I * F + k * j + N * L + R * M] = U;
                   }
             return r.toTensor();
           }),
           (e.prototype.conv3dDerInput = function (t, e, n) {
             for (
-              var r = Pn(n.inShape, "float32"),
+              var r = Ln(n.inShape, "float32"),
                 a = r.values,
                 i = r.strides,
                 o = i[0],
@@ -39361,17 +39367,17 @@
                 F = n.strideDepth,
                 M = n.strideHeight,
                 j = n.strideWidth,
-                B = O - 1 - n.padInfo.front,
-                $ = E - 1 - n.padInfo.top,
-                L = S - 1 - n.padInfo.left,
-                P = 0;
-              P < C;
-              ++P
+                $ = O - 1 - n.padInfo.front,
+                B = E - 1 - n.padInfo.top,
+                P = S - 1 - n.padInfo.left,
+                L = 0;
+              L < C;
+              ++L
             )
               for (var z = 0; z < I; ++z)
                 for (var W = 0; W < k; ++W)
                   for (
-                    var V = W - B,
+                    var V = W - $,
                       U = Math.max(0, Math.ceil(V / F)),
                       G = Math.min(T, (O + V) / F),
                       H = 0;
@@ -39379,7 +39385,7 @@
                     ++H
                   )
                     for (
-                      var q = H - $,
+                      var q = H - B,
                         K = Math.max(0, Math.ceil(q / M)),
                         X = Math.min(_, (E + q) / M),
                         Y = 0;
@@ -39387,7 +39393,7 @@
                       ++Y
                     ) {
                       for (
-                        var J = Y - L,
+                        var J = Y - P,
                           Q = Math.max(0, Math.ceil(J / j)),
                           Z = Math.min(D, (S + J) / j),
                           tt = 0,
@@ -39398,7 +39404,7 @@
                         for (var nt = et * F - V, rt = K; rt < X; ++rt)
                           for (var at = rt * M - q, it = Q; it < Z; ++it)
                             for (
-                              var ot = d * P + p * et + f * rt + m * it,
+                              var ot = d * L + p * et + f * rt + m * it,
                                 st =
                                   v * (O - 1 - nt) +
                                   y * (E - 1 - at) +
@@ -39409,7 +39415,7 @@
                               ++ut
                             )
                               tt += l[ot + ut] * g[st + ut];
-                      a[o * P + s * W + u * H + c * Y + z] = tt;
+                      a[o * L + s * W + u * H + c * Y + z] = tt;
                     }
             return r.toTensor();
           }),
@@ -39421,7 +39427,7 @@
                 i = n.filterHeight,
                 o = n.filterWidth,
                 s = "channelsLast" === n.dataFormat,
-                u = Pn(n.filterShape, "float32"),
+                u = Ln(n.filterShape, "float32"),
                 c = n.padInfo.left,
                 l = n.padInfo.top,
                 h = this.bufferSync(t),
@@ -39465,7 +39471,7 @@
                 o = n.filterDepth,
                 s = n.filterHeight,
                 u = n.filterWidth,
-                c = Pn(n.filterShape, "float32"),
+                c = Ln(n.filterShape, "float32"),
                 l = c.values,
                 h = c.strides,
                 d = h[0],
@@ -39501,16 +39507,16 @@
               )
                 for (
                   var j = Math.max(0, Math.ceil((A - M) / a)),
-                    B = Math.min(n.outHeight, (n.inHeight + A - M) / a),
-                    $ = M * p + F,
-                    L = 0;
-                  L < u;
-                  ++L
+                    $ = Math.min(n.outHeight, (n.inHeight + A - M) / a),
+                    B = M * p + F,
+                    P = 0;
+                  P < u;
+                  ++P
                 )
                   for (
-                    var P = Math.max(0, Math.ceil((R - L) / i)),
-                      z = Math.min(n.outWidth, (n.inWidth + R - L) / i),
-                      W = L * f + $,
+                    var L = Math.max(0, Math.ceil((R - P) / i)),
+                      z = Math.min(n.outWidth, (n.inWidth + R - P) / i),
+                      W = P * f + B,
                       V = 0;
                     V < n.inChannels;
                     ++V
@@ -39522,18 +39528,18 @@
                             var J = (T + Y * r - N) * S + K,
                               Q = Y * y + X,
                               Z = j;
-                            Z < B;
+                            Z < $;
                             ++Z
                           )
                             for (
                               var tt = (M + Z * a - A) * I + J,
                                 et = Z * x + Q,
-                                nt = P;
+                                nt = L;
                               nt < z;
                               ++nt
                             ) {
                               var rt = nt * w + et;
-                              H += C[(L + nt * i - R) * k + tt + V] * g[rt + G];
+                              H += C[(P + nt * i - R) * k + tt + V] * g[rt + G];
                             }
                       l[U + G] = H;
                     }
@@ -39547,7 +39553,7 @@
               i = t.activation,
               o = t.preluActivationWeights,
               s = this.depthwiseConv2D(e, n, r);
-            return a && (s = this.add(s, a)), i && (s = Bl(this, s, i, o)), s;
+            return a && (s = this.add(s, a)), i && (s = $l(this, s, i, o)), s;
           }),
           (e.prototype.depthwiseConv2D = function (t, e, n) {
             jl([t, e], "depthwiseConv2D");
@@ -39559,7 +39565,7 @@
                 s = n.padInfo.left,
                 u = n.padInfo.top,
                 c = n.outChannels / n.inChannels,
-                l = Pn(n.outShape, t.dtype),
+                l = Ln(n.outShape, t.dtype),
                 h = this.readSync(t.dataId),
                 d = this.readSync(e.dataId),
                 p = l.values,
@@ -39615,7 +39621,7 @@
           (e.prototype.depthwiseConv2DDerInput = function (t, e, n) {
             jl([t, e], "depthwiseConv2DDerInput");
             for (
-              var r = Pn(n.inShape, "float32"),
+              var r = Ln(n.inShape, "float32"),
                 a = r.values,
                 i = r.strides,
                 o = i[0],
@@ -39653,19 +39659,19 @@
                 for (var M = 0; M < O; ++M)
                   for (
                     var j = M - A,
-                      B = Math.max(0, Math.ceil(j / N)),
-                      $ = Math.min(I, (x + j) / N),
-                      L = 0;
-                    L < E;
-                    ++L
+                      $ = Math.max(0, Math.ceil(j / N)),
+                      B = Math.min(I, (x + j) / N),
+                      P = 0;
+                    P < E;
+                    ++P
                   ) {
                     for (
-                      var P = L - T,
-                        z = Math.max(0, Math.ceil(P / R)),
-                        W = Math.min(k, (w + P) / R),
+                      var L = P - T,
+                        z = Math.max(0, Math.ceil(L / R)),
+                        W = Math.min(k, (w + L) / R),
                         V = 0,
-                        U = B;
-                      U < $;
+                        U = $;
+                      U < B;
                       ++U
                     )
                       for (var G = U * N - j, H = z; H < W; ++H)
@@ -39673,14 +39679,14 @@
                           var q = h * D + d * U + p * H,
                             K =
                               g * (x - 1 - G) +
-                              b * (w - 1 - (H * R - P)) +
+                              b * (w - 1 - (H * R - L)) +
                               v * F,
                             X = 0;
                           X < _;
                           ++X
                         )
                           V += c[q + (F * _ + X)] * f[K + X];
-                    a[o * D + s * M + u * L + F] = V;
+                    a[o * D + s * M + u * P + F] = V;
                   }
             return r.toTensor();
           }),
@@ -39691,7 +39697,7 @@
                 a = n.strideWidth,
                 i = n.filterHeight,
                 o = n.filterWidth,
-                s = Pn(n.filterShape, "float32"),
+                s = Ln(n.filterShape, "float32"),
                 u = n.padInfo.left,
                 c = n.padInfo.top,
                 l = n.outChannels / n.inChannels,
@@ -39741,7 +39747,7 @@
                 return t[0];
               }),
               i = this.bufferSync(t),
-              o = Pn(r, t.dtype);
+              o = Ln(r, t.dtype);
             0 !== n && o.values.fill(n);
             for (var s = 0; s < t.size; s++) {
               var u = i.indexToLoc(s),
@@ -39757,7 +39763,7 @@
             for (var n = new Array(t.rank), r = 0; r < n.length; r++)
               n[r] = t.shape[e[r]];
             var a = this.readSync(t.dataId),
-              i = Pn(n, t.dtype),
+              i = Ln(n, t.dtype),
               o = this.bufferSync(t);
             for (r = 0; r < t.size; ++r) {
               for (
@@ -39777,7 +39783,7 @@
               a = this.readSync(e.dataId);
             r[n] = a.length;
             for (
-              var i = Pn(r, t.dtype), o = this.bufferSync(t), s = 0;
+              var i = Ln(r, t.dtype), o = this.bufferSync(t), s = 0;
               s < i.size;
               ++s
             ) {
@@ -39831,7 +39837,7 @@
                     ? Number.NEGATIVE_INFINITY
                     : Number.POSITIVE_INFINITY,
                 d = this.readSync(t.dataId),
-                p = Pn(e.outShape, t.dtype),
+                p = Ln(e.outShape, t.dtype),
                 f = p.values,
                 m = e.outShape[1] * e.outShape[2] * e.outShape[3],
                 g = e.outShape[2] * e.outShape[3],
@@ -39867,10 +39873,10 @@
                       F += i
                     ) {
                       for (var M = x + F * t.strides[1], j = R; j < A; j += o) {
-                        var B = d[M + j * t.strides[2] + w];
-                        "max" === n && B > T
-                          ? (T = B)
-                          : "avg" === n && ((_ += B), D++);
+                        var $ = d[M + j * t.strides[2] + w];
+                        "max" === n && $ > T
+                          ? (T = $)
+                          : "avg" === n && ((_ += $), D++);
                       }
                       if (isNaN(T)) break;
                     }
@@ -39883,7 +39889,7 @@
           }),
           (e.prototype.maxPoolPositions = function (t, e) {
             for (
-              var n = Pn(e.outShape, "int32"),
+              var n = Ln(e.outShape, "int32"),
                 r = e.strideHeight,
                 a = e.strideWidth,
                 i = e.dilationHeight,
@@ -39936,7 +39942,7 @@
                 l = r.effectiveFilterWidth,
                 h = l - 1 - r.padInfo.left,
                 d = c - 1 - r.padInfo.top,
-                p = Pn(e.shape, "float32"),
+                p = Ln(e.shape, "float32"),
                 f = this.bufferSync(a),
                 m = this.bufferSync(t),
                 g = 0;
@@ -39983,7 +39989,7 @@
                 l = n.effectiveFilterWidth,
                 h = l - 1 - n.padInfo.left,
                 d = c - 1 - n.padInfo.top,
-                p = Pn(e.shape, "float32"),
+                p = Ln(e.shape, "float32"),
                 f = 1 / (i * o),
                 m = this.bufferSync(t),
                 g = 0;
@@ -40032,7 +40038,7 @@
                     ? Number.NEGATIVE_INFINITY
                     : Number.POSITIVE_INFINITY,
                 g = this.readSync(t.dataId),
-                b = Pn(e.outShape, t.dtype),
+                b = Ln(e.outShape, t.dtype),
                 v = b.values,
                 y =
                   e.outShape[1] * e.outShape[2] * e.outShape[3] * e.outShape[4],
@@ -40057,14 +40063,14 @@
                   ) {
                     for (var D = _ * a - p, F = D; F < 0; ) F += s;
                     for (
-                      var M = Math.min(e.inHeight, l + D), j = T + _ * w, B = 0;
-                      B < e.outWidth;
-                      ++B
+                      var M = Math.min(e.inHeight, l + D), j = T + _ * w, $ = 0;
+                      $ < e.outWidth;
+                      ++$
                     ) {
-                      for (var $ = B * i - f, L = $; L < 0; ) L += u;
+                      for (var B = $ * i - f, P = B; P < 0; ) P += u;
                       for (
-                        var P = Math.min(e.inWidth, h + $),
-                          z = j + B * C,
+                        var L = Math.min(e.inWidth, h + B),
+                          z = j + $ * C,
                           W = m,
                           V = 0,
                           U = 0,
@@ -40078,8 +40084,8 @@
                           q += s
                         ) {
                           for (
-                            var K = H + q * t.strides[2], X = L;
-                            X < P;
+                            var K = H + q * t.strides[2], X = P;
+                            X < L;
                             X += u
                           ) {
                             var Y = g[K + X * t.strides[3] + I];
@@ -40122,7 +40128,7 @@
                 m = d - 1 - n.padInfo.front,
                 g = f - 1 - n.padInfo.left,
                 b = p - 1 - n.padInfo.top,
-                v = Pn(e.shape, "float32"),
+                v = Ln(e.shape, "float32"),
                 y = 1 / (o * s * u),
                 x = this.bufferSync(t),
                 w = 0;
@@ -40167,7 +40173,7 @@
           }),
           (e.prototype.maxPool3dPositions = function (t, e) {
             for (
-              var n = Pn(e.outShape, "int32"),
+              var n = Ln(e.outShape, "int32"),
                 r = e.strideDepth,
                 a = e.strideHeight,
                 i = e.strideWidth,
@@ -40210,9 +40216,9 @@
                       )
                         for (var D = _ - y, F = E; F < S; F += s)
                           for (var M = F - O, j = N; j < R; j += u) {
-                            var B = j - k,
-                              $ = m.get(g, _, F, j, b);
-                            $ >= A && ((A = $), (T = D * l * h + M * l + B));
+                            var $ = j - k,
+                              B = m.get(g, _, F, j, b);
+                            B >= A && ((A = B), (T = D * l * h + M * l + $));
                           }
                       n.set(T, g, v, C, I, b);
                     }
@@ -40236,7 +40242,7 @@
                 f = h - 1 - r.padInfo.front,
                 m = p - 1 - r.padInfo.left,
                 g = d - 1 - r.padInfo.top,
-                b = Pn(e.shape, "float32"),
+                b = Ln(e.shape, "float32"),
                 v = this.bufferSync(a),
                 y = this.bufferSync(t),
                 x = 0;
@@ -40341,9 +40347,9 @@
                   ) {
                     var M = c[A + F],
                       j = c[T + F],
-                      B = M + (c[_ + F] - M) * k,
-                      $ = B + (j + (c[D + F] - j) * k - B) * x;
-                    l[p++] = $;
+                      $ = M + (c[_ + F] - M) * k,
+                      B = $ + (j + (c[D + F] - j) * k - $) * x;
+                    l[p++] = B;
                   }
             return cn(l, [i, e, n, u]);
           }),
@@ -40391,20 +40397,20 @@
                       F = E + A * e.strides[2],
                       M = E + T * e.strides[2],
                       j = S + A * e.strides[2],
-                      B = S + T * e.strides[2],
-                      $ = k * D,
-                      L = k * _,
-                      P = I * D,
+                      $ = S + T * e.strides[2],
+                      B = k * D,
+                      P = k * _,
+                      L = I * D,
                       z = I * _,
                       W = 0;
                     W < s;
                     W++
                   ) {
                     var V = g[b++];
-                    (h[F + W] += V * $),
-                      (h[M + W] += V * L),
-                      (h[j + W] += V * P),
-                      (h[B + W] += V * z);
+                    (h[F + W] += V * B),
+                      (h[M + W] += V * P),
+                      (h[j + W] += V * L),
+                      (h[$ + W] += V * z);
                   }
             return mn(h, [a, o, i, s], e.dtype);
           }),
@@ -40504,16 +40510,16 @@
                           O ===
                           Math.min(i - 1, n ? Math.round(j) : Math.floor(j))
                         )
-                          for (var B = 0; B < x; B++) {
-                            var $ = B + A;
-                            if (!($ < 0 || $ >= l)) {
-                              var L = M + $ * t.strides[2],
-                                P = $ * g;
+                          for (var $ = 0; $ < x; $++) {
+                            var B = $ + A;
+                            if (!(B < 0 || B >= l)) {
+                              var P = M + B * t.strides[2],
+                                L = B * g;
                               k ===
                                 Math.min(
                                   o - 1,
-                                  n ? Math.round(P) : Math.floor(P)
-                                ) && (_ += d[L + T]);
+                                  n ? Math.round(L) : Math.floor(L)
+                                ) && (_ += d[P + T]);
                             }
                           }
                       }
@@ -40662,8 +40668,8 @@
             for (
               var n = t.shape[0],
                 r = t.shape[1],
-                a = Pn(t.shape, "float32"),
-                i = Pn(t.shape, "float32"),
+                a = Ln(t.shape, "float32"),
+                i = Ln(t.shape, "float32"),
                 o = sn(t).as2D(n, r),
                 s = un(t).as2D(n, r),
                 u = 0;
@@ -40813,8 +40819,8 @@
             return mn(h, [r, s, u, c]);
           }),
           (e.prototype.broadcastedBinaryOp = function (t, e, n, r) {
-            var a = $r(t.shape, e.shape),
-              i = Pn(a, n),
+            var a = Br(t.shape, e.shape),
+              i = Ln(a, n),
               o = this.readSync(t.dataId),
               s = this.readSync(e.dataId),
               u = jr(t.shape, a),
@@ -40845,9 +40851,9 @@
             return i.toTensor();
           }),
           (e.prototype.broadcastedBinaryComplexOp = function (t, e, n) {
-            var r = $r(t.shape, e.shape),
-              a = Pn(r, "float32"),
-              i = Pn(r, "float32"),
+            var r = Br(t.shape, e.shape),
+              a = Ln(r, "float32"),
+              i = Ln(r, "float32"),
               o = this.readSync(t.dataId),
               s = this.readSync(e.dataId),
               u = jr(t.shape, r),
@@ -40907,7 +40913,7 @@
                 h = e.shape[0],
                 d = r[0],
                 p = r[1],
-                f = Pn([h, d, p, l], "float32"),
+                f = Ln([h, d, p, l], "float32"),
                 m = this.readSync(e.dataId),
                 g = this.readSync(n.dataId),
                 b = this.readSync(t.dataId),
@@ -40954,19 +40960,19 @@
                           (D = _ + T * y[2] + R * y[1] + x * y[0]),
                             (f.values[D] = i);
                       else {
-                        var B = Math.floor(G),
-                          $ = Math.ceil(G),
-                          L = G - B;
+                        var $ = Math.floor(G),
+                          B = Math.ceil(G),
+                          P = G - $;
                         for (_ = 0; _ < l; _++) {
-                          var P = b[(D = _ + B * v[2] + F * v[1] + I * v[0])],
-                            z = b[(D = _ + $ * v[2] + F * v[1] + I * v[0])],
-                            W = b[(D = _ + B * v[2] + M * v[1] + I * v[0])],
-                            V = P + (z - P) * L,
+                          var L = b[(D = _ + $ * v[2] + F * v[1] + I * v[0])],
+                            z = b[(D = _ + B * v[2] + F * v[1] + I * v[0])],
+                            W = b[(D = _ + $ * v[2] + M * v[1] + I * v[0])],
+                            V = L + (z - L) * P,
                             U =
                               W +
-                              (b[(D = _ + $ * v[2] + M * v[1] + I * v[0])] -
+                              (b[(D = _ + B * v[2] + M * v[1] + I * v[0])] -
                                 W) *
-                                L;
+                                P;
                           (D = _ + T * y[2] + R * y[1] + x * y[0]),
                             (f.values[D] = V + (U - V) * j);
                         }
@@ -41047,7 +41053,7 @@
             return this.scatter(t, e, n, u, o, i, a, s, c, !0);
           }),
           (e.prototype.fill = function (t, e, n) {
-            var r = P((n = n || Y(e)), R(t));
+            var r = L((n = n || Y(e)), R(t));
             return r.fill(e), Mt.makeTensor(r, t, n, this);
           }),
           (e.prototype.onesLike = function (t) {
@@ -41056,7 +41062,7 @@
             return this.fill(t.shape, 1, t.dtype);
           }),
           (e.prototype.zerosLike = function (t) {
-            var e = P(t.dtype, R(t.shape));
+            var e = L(t.dtype, R(t.shape));
             return this.makeOutput(e, t.shape, t.dtype);
           }),
           (e.prototype.linspace = function (t, e, n) {
@@ -41091,13 +41097,13 @@
       Mt.registerBackend(
         "cpu",
         function () {
-          return new $l();
+          return new Bl();
         },
         1
       );
       for (
-        var Ll = 0,
-          Pl = [
+        var Pl = 0,
+          Ll = [
             {
               kernelName: "NonMaxSuppressionV5",
               backendName: "cpu",
@@ -41166,10 +41172,10 @@
                 var s = o.data.get(a.dataId).values,
                   u = o.data.get(i.dataId).values,
                   c = (function (t, e, n, r, a, i) {
-                    var o = $r(t, e),
+                    var o = Br(t, e),
                       s = o.length,
                       u = Z(o),
-                      c = L(a, R(o)),
+                      c = P(a, R(o)),
                       l = t.length,
                       h = e.length,
                       d = Z(t),
@@ -41211,10 +41217,10 @@
               },
             },
           ];
-        Ll < Pl.length;
-        Ll++
+        Pl < Ll.length;
+        Pl++
       )
-        v(Pl[Ll]);
+        v(Ll[Pl]);
       for (
         var zl,
           Wl = function (t) {
@@ -41281,7 +41287,7 @@
                   zl.drawImage(a, 0, 0, c, l),
                   (a = zl.canvas));
                 var f = n.makeTensorInfo(h, "int32");
-                (n.texData.get(f.dataId).usage = Lt.PIXELS),
+                (n.texData.get(f.dataId).usage = Pt.PIXELS),
                   n.gpgpu.uploadPixelDataToTexture(n.getTexture(f.dataId), a);
                 var m = d().getBool("WEBGL_PACK") ? new Vl(p) : new Wl(p),
                   g = n.runWebGLProgram(m, [f], "int32");
@@ -42938,7 +42944,7 @@
       function jh(t) {
         return null != t.match(Mh.URL_SCHEME_REGEX);
       }
-      var Bh = function (t, e) {
+      var $h = function (t, e) {
         return "undefined" == typeof fetch
           ? null
           : (
@@ -42948,15 +42954,15 @@
                   })
                 : jh(t)
             )
-          ? $h(t, { onProgress: e })
+          ? Bh(t, { onProgress: e })
           : null;
       };
-      function $h(t, e) {
+      function Bh(t, e) {
         return new Mh(t, e);
       }
-      ih.registerSaveRouter(Bh), ih.registerLoadRouter(Bh);
-      var Lh,
-        Ph = (function () {
+      ih.registerSaveRouter($h), ih.registerLoadRouter($h);
+      var Ph,
+        Lh = (function () {
           function t(t) {
             this.modelArtifacts = t;
           }
@@ -42991,7 +42997,7 @@
             return new Th(t);
           },
           browserHTTPRequest: function (t, e) {
-            return $h(t, e);
+            return Bh(t, e);
           },
           concatenateArrayBuffers: nh,
           decodeWeights: Ql,
@@ -43084,15 +43090,15 @@
           fromMemory: function (t, e, n, r) {
             return 1 === arguments.length
               ? null != t.modelTopology || null != t.weightSpecs
-                ? new Ph(t)
+                ? new Lh(t)
                 : (console.warn(
                     "Please call tf.io.fromMemory() with only one argument. The argument should be of type ModelArtifacts. The multi-argument signature of tf.io.fromMemory() has been deprecated and will be removed in a future release."
                   ),
-                  new Ph({ modelTopology: t }))
+                  new Lh({ modelTopology: t }))
               : (console.warn(
                   "Please call tf.io.fromMemory() with only one argument. The argument should be of type ModelArtifacts. The multi-argument signature of tf.io.fromMemory() has been deprecated and will be removed in a future release."
                 ),
-                new Ph({
+                new Lh({
                   modelTopology: t,
                   weightSpecs: e,
                   weightData: n,
@@ -43106,7 +43112,7 @@
           getSaveHandlers: function (t) {
             return ih.getSaveHandlers(t);
           },
-          http: $h,
+          http: Bh,
           isHTTPScheme: jh,
           loadWeights: function (t, e, n, r) {
             return (
@@ -43284,12 +43290,12 @@
                   : r || n
                   ? (s = t.data)
                   : (i || a) &&
-                    (null == Lh &&
-                      (Lh = document.createElement("canvas").getContext("2d")),
-                    (Lh.canvas.width = l),
-                    (Lh.canvas.height = h),
-                    Lh.drawImage(t, 0, 0, l, h),
-                    (s = Lh.getImageData(0, 0, l, h).data)),
+                    (null == Ph &&
+                      (Ph = document.createElement("canvas").getContext("2d")),
+                    (Ph.canvas.width = l),
+                    (Ph.canvas.height = h),
+                    Ph.drawImage(t, 0, 0, l, h),
+                    (s = Ph.getImageData(0, 0, l, h).data)),
                 4 === e)
               )
                 u = new Int32Array(s);
@@ -43607,7 +43613,7 @@
       }),
         Object.freeze({
           gpgpu_util: Wi,
-          webgl_util: $e,
+          webgl_util: Be,
           forceHalfFloat: function () {
             d().set("WEBGL_FORCE_F16_TEXTURES", !0);
           },
@@ -46022,16 +46028,16 @@ PERFORMANCE OF THIS SOFTWARE.
         return j;
       }),
       n.d(e, "J", function () {
-        return B;
-      }),
-      n.d(e, "K", function () {
         return $;
       }),
+      n.d(e, "K", function () {
+        return B;
+      }),
       n.d(e, "N", function () {
-        return L;
+        return P;
       }),
       n.d(e, "O", function () {
-        return P;
+        return L;
       }),
       n.d(e, "L", function () {
         return z;
@@ -46163,10 +46169,10 @@ PERFORMANCE OF THIS SOFTWARE.
       F = "GatherNd",
       M = "Greater",
       j = "GreaterEqual",
-      B = "Identity",
-      $ = "Imag",
-      L = "Less",
-      P = "LessEqual",
+      $ = "Identity",
+      B = "Imag",
+      P = "Less",
+      L = "LessEqual",
       z = "LRN",
       W = "LRNBackprop",
       V = "Max",
@@ -48069,10 +48075,10 @@ PERFORMANCE OF THIS SOFTWARE.
       async next() {
         const t = await this.upstream.next();
         if (t.done) return { value: null, done: !0 };
-        const e = a.sd.getTensorsInContainer(t.value),
+        const e = a.td.getTensorsInContainer(t.value),
           n = this.transform(t.value),
-          r = a.sd.getTensorsInContainer(n);
-        for (const t of e) a.sd.isTensorInList(t, r) || t.dispose();
+          r = a.td.getTensorsInContainer(n);
+        for (const t of e) a.td.isTensorInList(t, r) || t.dispose();
         return { value: n, done: !1 };
       }
     }
@@ -48112,10 +48118,10 @@ PERFORMANCE OF THIS SOFTWARE.
       async next() {
         const t = await this.upstream.next();
         if (t.done) return { value: null, done: !0 };
-        const e = a.sd.getTensorsInContainer(t.value),
+        const e = a.td.getTensorsInContainer(t.value),
           n = await this.transform(t.value),
-          r = a.sd.getTensorsInContainer(n);
-        for (const t of e) a.sd.isTensorInList(t, r) || t.dispose();
+          r = a.td.getTensorsInContainer(n);
+        for (const t of e) a.td.isTensorInList(t, r) || t.dispose();
         return { value: n, done: !1 };
       }
     }
@@ -48147,11 +48153,11 @@ PERFORMANCE OF THIS SOFTWARE.
       async pump() {
         const t = await this.upstream.next();
         if (t.done) return !1;
-        const e = a.sd.getTensorsInContainer(t.value),
+        const e = a.td.getTensorsInContainer(t.value),
           n = this.transform(t.value),
-          r = a.sd.getTensorsInContainer(n);
+          r = a.td.getTensorsInContainer(n);
         this.outputQueue.pushAll(n);
-        for (const t of e) a.sd.isTensorInList(t, r) || t.dispose();
+        for (const t of e) a.td.isTensorInList(t, r) || t.dispose();
         return !0;
       }
     }
@@ -48260,7 +48266,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.upstream = t),
           (this.windowSize = e),
           (this.upstreamExhausted = !1),
-          (this.random = i.alea(n || a.Bd.now().toString())),
+          (this.random = i.alea(n || a.Cd.now().toString())),
           (this.lastRead = Promise.resolve({ value: null, done: !1 }));
       }
       async next() {
@@ -48324,7 +48330,7 @@ PERFORMANCE OF THIS SOFTWARE.
           return j;
         }),
         n.d(e, "b", function () {
-          return B;
+          return $;
         });
       var r = n(0),
         a = n(21),
@@ -48509,10 +48515,10 @@ PERFORMANCE OF THIS SOFTWARE.
                         (a = I(t.attr, n.tfDeprecatedName, n.defaultValue));
                     break;
                   case "bool[]":
-                    (a = B(t.attr, n.tfName, n.defaultValue)),
+                    (a = $(t.attr, n.tfName, n.defaultValue)),
                       void 0 === a &&
                         n.tfDeprecatedName &&
-                        (a = B(t.attr, n.tfDeprecatedName, n.defaultValue));
+                        (a = $(t.attr, n.tfDeprecatedName, n.defaultValue));
                     break;
                   case "shape":
                     (a = D(t.attr, n.tfName, n.defaultValue)),
@@ -48631,7 +48637,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const a = Array.isArray(e)
           ? String.fromCharCode.apply(null, e)
           : (function (e) {
-              const n = Object(r.nb)().global;
+              const n = Object(r.ob)().global;
               if (void 0 !== n.atob) return n.atob(e);
               if (void 0 !== t) return new t(e, "base64").toString();
               throw new Error(
@@ -48712,7 +48718,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const r = t[e];
         return r && r.list && r.list.shape ? r.list.shape.map((t) => _(t)) : n;
       }
-      function B(t, e, n) {
+      function $(t, e, n) {
         const r = t[e];
         return r && r.list && r.list.b ? r.list.b : n;
       }
@@ -48957,7 +48963,7 @@ PERFORMANCE OF THIS SOFTWARE.
         ("object" != typeof e && "function" != typeof e) ||
         Array.isArray(t) ||
         ("object" == typeof t && t instanceof r.l) ||
-        r.Bd.isTypedArray(t)
+        r.Cd.isTypedArray(t)
       );
       var e;
     }
@@ -49583,7 +49589,7 @@ PERFORMANCE OF THIS SOFTWARE.
             case "utf8":
             case "utf-8":
             case void 0:
-              return P(t).length;
+              return L(t).length;
             case "ucs2":
             case "ucs-2":
             case "utf16le":
@@ -49594,7 +49600,7 @@ PERFORMANCE OF THIS SOFTWARE.
             case "base64":
               return z(t).length;
             default:
-              if (r) return P(t).length;
+              if (r) return L(t).length;
               (e = ("" + e).toLowerCase()), (r = !0);
           }
       }
@@ -49715,7 +49721,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return o;
       }
       function x(t, e, n, r) {
-        return W(P(e, t.length - n), t, n, r);
+        return W(L(e, t.length - n), t, n, r);
       }
       function w(t, e, n, r) {
         return W(
@@ -50099,7 +50105,7 @@ PERFORMANCE OF THIS SOFTWARE.
       function R(t, e, n) {
         var r = t.length;
         (!e || e < 0) && (e = 0), (!n || n < 0 || n > r) && (n = r);
-        for (var a = "", i = e; i < n; ++i) a += L(t[i]);
+        for (var a = "", i = e; i < n; ++i) a += P(t[i]);
         return a;
       }
       function A(t, e, n) {
@@ -50137,7 +50143,7 @@ PERFORMANCE OF THIS SOFTWARE.
       function j(t, e, n, r, i) {
         return i || M(t, 0, n, 4), a.write(t, e, n, r, 23, 4), n + 4;
       }
-      function B(t, e, n, r, i) {
+      function $(t, e, n, r, i) {
         return i || M(t, 0, n, 8), a.write(t, e, n, r, 52, 8), n + 8;
       }
       (u.prototype.slice = function (t, e) {
@@ -50425,10 +50431,10 @@ PERFORMANCE OF THIS SOFTWARE.
           return j(this, t, e, !1, n);
         }),
         (u.prototype.writeDoubleLE = function (t, e, n) {
-          return B(this, t, e, !0, n);
+          return $(this, t, e, !0, n);
         }),
         (u.prototype.writeDoubleBE = function (t, e, n) {
-          return B(this, t, e, !1, n);
+          return $(this, t, e, !1, n);
         }),
         (u.prototype.copy = function (t, e, n, r) {
           if (
@@ -50484,17 +50490,17 @@ PERFORMANCE OF THIS SOFTWARE.
           )
             for (i = e; i < n; ++i) this[i] = t;
           else {
-            var o = u.isBuffer(t) ? t : P(new u(t, r).toString()),
+            var o = u.isBuffer(t) ? t : L(new u(t, r).toString()),
               s = o.length;
             for (i = 0; i < n - e; ++i) this[i + e] = o[i % s];
           }
           return this;
         });
-      var $ = /[^+\/0-9A-Za-z-_]/g;
-      function L(t) {
+      var B = /[^+\/0-9A-Za-z-_]/g;
+      function P(t) {
         return t < 16 ? "0" + t.toString(16) : t.toString(16);
       }
-      function P(t, e) {
+      function L(t, e) {
         var n;
         e = e || 1 / 0;
         for (var r = t.length, a = null, i = [], o = 0; o < r; ++o) {
@@ -50545,7 +50551,7 @@ PERFORMANCE OF THIS SOFTWARE.
             if (
               (t = (function (t) {
                 return t.trim ? t.trim() : t.replace(/^\s+|\s+$/g, "");
-              })(t).replace($, "")).length < 2
+              })(t).replace(B, "")).length < 2
             )
               return "";
             for (; t.length % 4 != 0; ) t += "=";
@@ -53382,7 +53388,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       class u extends a.b {
         constructor(t) {
-          if ((super(), (this.upstream = t), Object(r.nb)().get("IS_BROWSER")))
+          if ((super(), (this.upstream = t), Object(r.ob)().get("IS_BROWSER")))
             this.decoder = new TextDecoder("utf-8");
           else {
             const { StringDecoder: t } = n(79);
@@ -53398,7 +53404,7 @@ PERFORMANCE OF THIS SOFTWARE.
           return (
             !e.done &&
             ((n = e.value),
-            (a = Object(r.nb)().get("IS_BROWSER")
+            (a = Object(r.ob)().get("IS_BROWSER")
               ? this.decoder.decode(n, { stream: !0 })
               : this.decoder.write(t.from(n.buffer))),
             this.outputQueue.push(a),
@@ -54541,7 +54547,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return et;
       }),
       n.d(r, "drawFaceExpressions", function () {
-        return Pt;
+        return Lt;
       }),
       n.d(r, "DrawBoxOptions", function () {
         return Z;
@@ -54614,7 +54620,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return ju;
       }),
       n.d(i, "transposeImpl", function () {
-        return Bu;
+        return $u;
       });
     var o = n(39),
       s = n(4);
@@ -55484,14 +55490,14 @@ PERFORMANCE OF THIS SOFTWARE.
           configurable: !0,
         });
     })(M);
-    function B(t) {
+    function $(t) {
       return t.detection instanceof S;
     }
-    function $(t, e) {
+    function B(t, e) {
       var n = { detection: e };
       return Object.assign({}, t, n);
     }
-    function L() {
+    function P() {
       var t =
         window.fetch ||
         function () {
@@ -55519,7 +55525,7 @@ PERFORMANCE OF THIS SOFTWARE.
         },
       };
     }
-    var P = n(34),
+    var L = n(34),
       z = n(35);
     function W() {
       return (
@@ -55538,7 +55544,7 @@ PERFORMANCE OF THIS SOFTWARE.
       V = t;
     }
     function H() {
-      W() && G(L()), Object(U.a)() && G(Object(z.a)());
+      W() && G(P()), Object(U.a)() && G(Object(z.a)());
     }
     var q,
       K = {
@@ -55551,8 +55557,8 @@ PERFORMANCE OF THIS SOFTWARE.
         },
         setEnv: G,
         initialize: H,
-        createBrowserEnv: L,
-        createFileSystem: P.a,
+        createBrowserEnv: P,
+        createFileSystem: L.a,
         createNodejsEnv: z.a,
         monkeyPatch: function (t) {
           if ((V || H(), !V))
@@ -55740,8 +55746,8 @@ PERFORMANCE OF THIS SOFTWARE.
       })();
     function et(t, e) {
       (Array.isArray(e) ? e : [e]).forEach(function (e) {
-        var n = e instanceof S ? e.score : B(e) ? e.detection.score : void 0,
-          r = e instanceof S ? e.box : B(e) ? e.detection.box : new C(e),
+        var n = e instanceof S ? e.score : $(e) ? e.detection.score : void 0,
+          r = e instanceof S ? e.box : $(e) ? e.detection.box : new C(e),
           a = n ? "" + m(n) : void 0;
         new tt(r, { label: a }).draw(t);
       });
@@ -56843,7 +56849,7 @@ PERFORMANCE OF THIS SOFTWARE.
         "disgusted",
         "surprised",
       ],
-      Bt = (function () {
+      $t = (function () {
         function t(t) {
           var e = this;
           if (7 !== t.length)
@@ -56869,7 +56875,7 @@ PERFORMANCE OF THIS SOFTWARE.
           t
         );
       })(),
-      $t = (function (t) {
+      Bt = (function (t) {
         function e(e) {
           return (
             void 0 === e && (e = new _t()),
@@ -56937,7 +56943,7 @@ PERFORMANCE OF THIS SOFTWARE.
                       (r = o.sent()),
                       n.dispose(),
                       (a = r.map(function (t) {
-                        return new Bt(t);
+                        return new $t(t);
                       })),
                       [2, e.isBatchInput ? a : a[0]]
                     );
@@ -56957,17 +56963,17 @@ PERFORMANCE OF THIS SOFTWARE.
           e
         );
       })(Mt);
-    function Lt(t, e) {
+    function Pt(t, e) {
       var n = { expressions: e };
       return Object.assign({}, t, n);
     }
-    function Pt(t, e, n, r) {
+    function Lt(t, e, n, r) {
       void 0 === n && (n = 0.1),
         (Array.isArray(e) ? e : [e]).forEach(function (e) {
           var a =
-            e instanceof Bt
+            e instanceof $t
               ? e
-              : e.expressions instanceof Bt
+              : e.expressions instanceof $t
               ? e.expressions
               : void 0;
           if (!a)
@@ -56977,7 +56983,7 @@ PERFORMANCE OF THIS SOFTWARE.
           var i = a.asSortedArray().filter(function (t) {
               return t.probability > n;
             }),
-            o = B(e) ? e.detection.box.bottomLeft : r || new w(0, 0);
+            o = $(e) ? e.detection.box.bottomLeft : r || new w(0, 0);
           new Q(
             i.map(function (t) {
               return t.expression + " (" + m(t.probability) + ")";
@@ -56988,7 +56994,7 @@ PERFORMANCE OF THIS SOFTWARE.
     }
     function zt(t) {
       return (
-        B(t) &&
+        $(t) &&
         t.landmarks instanceof T &&
         t.unshiftedLandmarks instanceof T &&
         t.alignedRect instanceof S
@@ -59331,8 +59337,8 @@ PERFORMANCE OF THIS SOFTWARE.
                 F,
                 M,
                 j = this;
-              return Object(c.d)(this, function (B) {
-                switch (B.label) {
+              return Object(c.d)(this, function ($) {
+                switch ($.label) {
                   case 0:
                     return (
                       (r = e.width),
@@ -59365,15 +59371,15 @@ PERFORMANCE OF THIS SOFTWARE.
                       [4, f.array()]
                     );
                   case 1:
-                    return (b = B.sent()), [4, p.array()];
+                    return (b = $.sent()), [4, p.array()];
                   case 2:
-                    (v = B.sent()), (y = 0), (B.label = 3);
+                    (v = $.sent()), (y = 0), ($.label = 3);
                   case 3:
                     if (!(y < l)) return [3, 12];
-                    (x = 0), (B.label = 4);
+                    (x = 0), ($.label = 4);
                   case 4:
                     if (!(x < l)) return [3, 11];
-                    (w = 0), (B.label = 5);
+                    (w = 0), ($.label = 5);
                   case 5:
                     return w < h
                       ? ((C = R(b[y][x][w][0])),
@@ -59399,9 +59405,9 @@ PERFORMANCE OF THIS SOFTWARE.
                           : [3, 9])
                       : [3, 10];
                   case 6:
-                    return (M = B.sent()), [3, 8];
+                    return (M = $.sent()), [3, 8];
                   case 7:
-                    (M = { classScore: 1, label: 0 }), (B.label = 8);
+                    (M = { classScore: 1, label: 0 }), ($.label = 8);
                   case 8:
                     (D = (_ = M).classScore),
                       (F = _.label),
@@ -59416,7 +59422,7 @@ PERFORMANCE OF THIS SOFTWARE.
                           T
                         )
                       ),
-                      (B.label = 9);
+                      ($.label = 9);
                   case 9:
                     return w++, [3, 5];
                   case 10:
@@ -59464,7 +59470,7 @@ PERFORMANCE OF THIS SOFTWARE.
           e
         );
       })(gt),
-      Be = (function (t) {
+      $e = (function (t) {
         function e(e) {
           void 0 === e && (e = !0);
           var n = Object.assign(
@@ -59523,14 +59529,14 @@ PERFORMANCE OF THIS SOFTWARE.
           e
         );
       })(je);
-    var $e = (function (t) {
+    var Be = (function (t) {
         function e() {
           var e = (null !== t && t.apply(this, arguments)) || this;
           return (e._name = "TinyFaceDetectorOptions"), e;
         }
         return Object(c.c)(e, t), e;
       })(Me),
-      Le = (function () {
+      Pe = (function () {
         function t() {}
         return (
           (t.prototype.then = function (t) {
@@ -59556,7 +59562,7 @@ PERFORMANCE OF THIS SOFTWARE.
           t
         );
       })();
-    function Pe(t, e, n, r, a) {
+    function Le(t, e, n, r, a) {
       return (
         void 0 === a &&
           (a = function (t) {
@@ -59602,7 +59608,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object(c.d)(this, function (o) {
           return [
             2,
-            Pe(
+            Le(
               [t],
               e,
               function (t) {
@@ -60363,7 +60369,7 @@ PERFORMANCE OF THIS SOFTWARE.
                         (a.total_stage3 = Date.now() - x),
                         (I = E.boxes.map(function (t, e) {
                           return Wt(
-                            $(
+                            B(
                               {},
                               new S(
                                 E.scores[e],
@@ -60501,12 +60507,12 @@ PERFORMANCE OF THIS SOFTWARE.
       rn = {
         ssdMobilenetv1: new Ee(),
         tinyFaceDetector: new nn(),
-        tinyYolov2: new Be(),
+        tinyYolov2: new $e(),
         mtcnn: new Ze(),
         faceLandmark68Net: new te(),
         faceLandmark68TinyNet: new ne(),
         faceRecognitionNet: new he(),
-        faceExpressionNet: new $t(),
+        faceExpressionNet: new Bt(),
         ageGenderNet: new Qt(),
       },
       an = (function (t) {
@@ -60515,7 +60521,7 @@ PERFORMANCE OF THIS SOFTWARE.
           return (a.parentTask = e), (a.input = n), (a.extractedFaces = r), a;
         }
         return Object(c.c)(e, t), e;
-      })(Le),
+      })(Pe),
       on = (function (t) {
         function e() {
           return (null !== t && t.apply(this, arguments)) || this;
@@ -60534,7 +60540,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   case 1:
                     return [
                       4,
-                      Pe(
+                      Le(
                         (t = r.sent()),
                         this.input,
                         function (t) {
@@ -60567,7 +60573,7 @@ PERFORMANCE OF THIS SOFTWARE.
                       [
                         2,
                         t.map(function (t, n) {
-                          return Lt(t, e[n]);
+                          return Pt(t, e[n]);
                         }),
                       ]
                     );
@@ -60609,7 +60615,7 @@ PERFORMANCE OF THIS SOFTWARE.
                         ]
                       : [2];
                   case 2:
-                    return (e = n.sent()), [2, Lt(t, e)];
+                    return (e = n.sent()), [2, Pt(t, e)];
                 }
               });
             });
@@ -60656,7 +60662,7 @@ PERFORMANCE OF THIS SOFTWARE.
           return (a.parentTask = e), (a.input = n), (a.extractedFaces = r), a;
         }
         return Object(c.c)(e, t), e;
-      })(Le),
+      })(Pe),
       hn = (function (t) {
         function e() {
           return (null !== t && t.apply(this, arguments)) || this;
@@ -60675,7 +60681,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   case 1:
                     return [
                       4,
-                      Pe(
+                      Le(
                         (t = r.sent()),
                         this.input,
                         function (t) {
@@ -60805,7 +60811,7 @@ PERFORMANCE OF THIS SOFTWARE.
           return (r.parentTask = e), (r.input = n), r;
         }
         return Object(c.c)(e, t), e;
-      })(Le),
+      })(Pe),
       gn = (function (t) {
         function e() {
           return (null !== t && t.apply(this, arguments)) || this;
@@ -60822,7 +60828,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   case 1:
                     return [
                       4,
-                      Pe(
+                      Le(
                         (t = e.sent()),
                         this.input,
                         function (t) {
@@ -60931,7 +60937,7 @@ PERFORMANCE OF THIS SOFTWARE.
           }),
           e
         );
-      })(Le),
+      })(Pe),
       yn = (function (t) {
         function e() {
           return (null !== t && t.apply(this, arguments)) || this;
@@ -61066,7 +61072,7 @@ PERFORMANCE OF THIS SOFTWARE.
           return (r.input = e), (r.options = n), r;
         }
         return Object(c.c)(e, t), e;
-      })(Le),
+      })(Pe),
       Cn = (function (t) {
         function e() {
           return (null !== t && t.apply(this, arguments)) || this;
@@ -61095,7 +61101,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   case 2:
                     if (
                       !(r =
-                        n instanceof $e
+                        n instanceof Be
                           ? function (t) {
                               return rn.tinyFaceDetector.locateFaces(t, n);
                             }
@@ -61133,7 +61139,7 @@ PERFORMANCE OF THIS SOFTWARE.
                           2,
                           e(
                             t.map(function (t) {
-                              return $({}, t);
+                              return B({}, t);
                             })
                           ),
                         ]
@@ -61194,7 +61200,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     case 0:
                       return [4, this.run()];
                     case 1:
-                      return (t = n.sent()), [2, e(t ? $({}, t) : void 0)];
+                      return (t = n.sent()), [2, e(t ? B({}, t) : void 0)];
                   }
                 });
               });
@@ -61394,20 +61400,20 @@ PERFORMANCE OF THIS SOFTWARE.
     function jn(t) {
       return Array.isArray(t) ? t : [t];
     }
-    function Bn(t) {
+    function $n(t) {
       const e = t
         .replace(/(.)([A-Z][a-z0-9]+)/g, "$1_$2")
         .replace(/([a-z])([A-Z])/g, "$1_$2")
         .toLowerCase();
       return "_" !== e[0] ? e : "private" + e;
     }
-    function $n(t) {
+    function Bn(t) {
       return t.length <= 1 || -1 === t.indexOf("_")
         ? t
         : t.replace(/[_]+(\w|$)/g, (t, e) => e.toUpperCase());
     }
-    let Ln = {};
-    function Pn(t) {
+    let Pn = {};
+    function Ln(t) {
       if (null == t) return null;
       const e = {};
       return (e.className = t.getClassName()), (e.config = t.getConfig()), e;
@@ -61417,7 +61423,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const a = t;
         let i;
         if (a in n) i = n[a];
-        else if (a in Ln) i = Ln[a];
+        else if (a in Pn) i = Pn[a];
         else if (((i = e[a]), null == i))
           throw new Rn(
             `Unknown ${r}: ${t}. This may be due to one of the following reasons:\n1. The ${r} is defined in Python, in which case it needs to be ported to TensorFlow.js or your JavaScript code.\n2. The custom ${r} is defined in JavaScript, but is not registered properly with tf.serialization.registerClass().`
@@ -61438,8 +61444,8 @@ PERFORMANCE OF THIS SOFTWARE.
         if (
           (o in n
             ? ([s, u] = n[o])
-            : o in Ln
-            ? ([s, u] = Ln.className)
+            : o in Pn
+            ? ([s, u] = Pn.className)
             : o in e && ([s, u] = e[o]),
           null == s)
         )
@@ -61448,11 +61454,11 @@ PERFORMANCE OF THIS SOFTWARE.
           );
         if (null != u) {
           const t = {};
-          for (const e of Object.keys(Ln)) t[e] = Ln[e];
+          for (const e of Object.keys(Pn)) t[e] = Pn[e];
           for (const e of Object.keys(n)) t[e] = n[e];
           i.config.customObjects = t;
-          const e = Object.assign({}, Ln);
-          for (const t of Object.keys(n)) Ln[t] = n[t];
+          const e = Object.assign({}, Pn);
+          for (const t of Object.keys(n)) Pn[t] = n[t];
           !(function t(e) {
             if (null != e && "object" == typeof e)
               if (Array.isArray(e)) e.forEach((e) => t(e));
@@ -61471,13 +61477,13 @@ PERFORMANCE OF THIS SOFTWARE.
               }
           })(i.config);
           const r = u(s, i.config, n, a);
-          return (Ln = Object.assign({}, e)), r;
+          return (Pn = Object.assign({}, e)), r;
         }
         {
-          const t = Object.assign({}, Ln);
-          for (const t of Object.keys(n)) Ln[t] = n[t];
+          const t = Object.assign({}, Pn);
+          for (const t of Object.keys(n)) Pn[t] = n[t];
           const e = new s(i.config);
-          return (Ln = Object.assign({}, t)), e;
+          return (Pn = Object.assign({}, t)), e;
         }
       }
     }
@@ -61518,12 +61524,12 @@ PERFORMANCE OF THIS SOFTWARE.
     }
     function qn(t, e) {
       Array.isArray(t)
-        ? (En.Bd.assert(
+        ? (En.Cd.assert(
             t.length > 0,
             () => e + " is unexpectedly an empty array."
           ),
           t.forEach((t, n) => qn(t, `element ${n + 1} of ${e}`)))
-        : En.Bd.assert(
+        : En.Cd.assert(
             Number.isInteger(t) && t > 0,
             () =>
               `Expected ${e} to be a positive integer, but got ` +
@@ -61557,9 +61563,9 @@ PERFORMANCE OF THIS SOFTWARE.
      * https://opensource.org/licenses/MIT.
      * =============================================================================
      */ function Xn(t, e) {
-      return Object(En.td)(() => En.dd(En.kd(En.ic(t, t), e, !0)));
+      return Object(En.ud)(() => En.ed(En.ld(En.jc(t, t), e, !0)));
     }
-    class Yn extends En.Lc.Serializable {
+    class Yn extends En.Mc.Serializable {
       getConfig() {
         return {};
       }
@@ -61574,17 +61580,17 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.axis = null != t.axis ? t.axis : this.defaultAxis);
       }
       apply(t) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const e = Xn(t, this.axis),
             n = En.Q(e, 0, this.maxValue);
-          return En.ic(t, En.ib(n, En.r(In(), e)));
+          return En.jc(t, En.ib(n, En.r(In(), e)));
         });
       }
       getConfig() {
         return { maxValue: this.maxValue, axis: this.axis };
       }
     }
-    (Jn.className = "MaxNorm"), En.Lc.registerClass(Jn);
+    (Jn.className = "MaxNorm"), En.Mc.registerClass(Jn);
     class Qn extends Yn {
       constructor(t) {
         super(),
@@ -61592,19 +61598,19 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.axis = null != t.axis ? t.axis : this.defaultAxis);
       }
       apply(t) {
-        return Object(En.td)(() => En.ib(t, En.r(In(), Xn(t, this.axis))));
+        return Object(En.ud)(() => En.ib(t, En.r(In(), Xn(t, this.axis))));
       }
       getConfig() {
         return { axis: this.axis };
       }
     }
-    (Qn.className = "UnitNorm"), En.Lc.registerClass(Qn);
+    (Qn.className = "UnitNorm"), En.Mc.registerClass(Qn);
     class Zn extends Yn {
       apply(t) {
-        return En.Bc(t);
+        return En.Cc(t);
       }
     }
-    (Zn.className = "NonNeg"), En.Lc.registerClass(Zn);
+    (Zn.className = "NonNeg"), En.Mc.registerClass(Zn);
     class tr extends Yn {
       constructor(t) {
         super(),
@@ -61620,13 +61626,13 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.axis = null != t.axis ? t.axis : this.defaultAxis);
       }
       apply(t) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const e = Xn(t, this.axis),
             n = En.r(
-              En.ic(this.rate, En.Q(e, this.minValue, this.maxValue)),
-              En.ic(1 - this.rate, e)
+              En.jc(this.rate, En.Q(e, this.minValue, this.maxValue)),
+              En.jc(1 - this.rate, e)
             );
-          return En.ic(t, En.ib(n, En.r(In(), e)));
+          return En.jc(t, En.ib(n, En.r(In(), e)));
         });
       }
       getConfig() {
@@ -61638,7 +61644,7 @@ PERFORMANCE OF THIS SOFTWARE.
         };
       }
     }
-    (tr.className = "MinMaxNorm"), En.Lc.registerClass(tr);
+    (tr.className = "MinMaxNorm"), En.Mc.registerClass(tr);
     const er = {
       maxNorm: "MaxNorm",
       minMaxNorm: "MinMaxNorm",
@@ -61646,12 +61652,12 @@ PERFORMANCE OF THIS SOFTWARE.
       unitNorm: "UnitNorm",
     };
     function nr(t) {
-      return Pn(t);
+      return Ln(t);
     }
     function rr(t, e = {}) {
       return zn(
         t,
-        En.Lc.SerializationMap.getMap().classNameMap,
+        En.Mc.SerializationMap.getMap().classNameMap,
         e,
         "constraint"
       );
@@ -61738,13 +61744,13 @@ PERFORMANCE OF THIS SOFTWARE.
       return r;
     }
     function xr(t) {
-      return (t = Array.isArray(t) ? new Float32Array(t) : t), Object(En.pd)(t);
+      return (t = Array.isArray(t) ? new Float32Array(t) : t), Object(En.qd)(t);
     }
     function wr(t) {
-      return En.ec(xr(t)).dataSync()[0];
+      return En.fc(xr(t)).dataSync()[0];
     }
     function Cr(t) {
-      return En.Xb(xr(t)).dataSync()[0];
+      return En.Yb(xr(t)).dataSync()[0];
     }
     function Or(t, e) {
       if (e < t) throw new Rn(`end (${e}) < begin (${t}) is forbidden.`);
@@ -61768,28 +61774,28 @@ PERFORMANCE OF THIS SOFTWARE.
       return e < 0 && (e = n.length + e + 1), n.splice(e, 0, 1), t.reshape(n);
     }
     function Ir(t, e, n) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         switch (t.rank) {
           case 1:
-            return En.Tc(t, e, n);
+            return En.Uc(t, e, n);
           case 2:
-            return En.Uc(t, [e, 0], [n, t.shape[1]]);
+            return En.Vc(t, [e, 0], [n, t.shape[1]]);
           case 3:
-            return En.Vc(t, [e, 0, 0], [n, t.shape[1], t.shape[2]]);
+            return En.Wc(t, [e, 0, 0], [n, t.shape[1], t.shape[2]]);
           case 4:
-            return En.Wc(
+            return En.Xc(
               t,
               [e, 0, 0, 0],
               [n, t.shape[1], t.shape[2], t.shape[3]]
             );
           case 5:
-            return En.Sc(
+            return En.Tc(
               t,
               [e, 0, 0, 0, 0],
               [n, t.shape[1], t.shape[2], t.shape[3], t.shape[4]]
             );
           case 6:
-            return En.Sc(
+            return En.Tc(
               t,
               [e, 0, 0, 0, 0, 0],
               [n, t.shape[1], t.shape[2], t.shape[3], t.shape[4], t.shape[5]]
@@ -61803,16 +61809,16 @@ PERFORMANCE OF THIS SOFTWARE.
       });
     }
     function kr(t, e, n) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         switch (t.rank) {
           case 1:
-            return En.Tc(t, e, n);
+            return En.Uc(t, e, n);
           case 2:
-            return En.Uc(t, [0, e], [t.shape[0], n]);
+            return En.Vc(t, [0, e], [t.shape[0], n]);
           case 3:
-            return En.Vc(t, [0, 0, e], [t.shape[0], t.shape[1], n]);
+            return En.Wc(t, [0, 0, e], [t.shape[0], t.shape[1], n]);
           case 4:
-            return En.Wc(
+            return En.Xc(
               t,
               [0, 0, 0, e],
               [t.shape[0], t.shape[1], t.shape[2], n]
@@ -61826,10 +61832,10 @@ PERFORMANCE OF THIS SOFTWARE.
       });
     }
     function Nr(t, e, n, r) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         switch (t.rank) {
           case 1:
-            return En.Tc(t, e, n);
+            return En.Uc(t, e, n);
           case 2:
             switch (r) {
               case 1:
@@ -61846,7 +61852,7 @@ PERFORMANCE OF THIS SOFTWARE.
               case 1:
                 return Ir(t, e, n);
               case 2:
-                return En.Vc(t, [0, e, 0], [t.shape[0], n, t.shape[2]]);
+                return En.Wc(t, [0, e, 0], [t.shape[0], n, t.shape[2]]);
               case 3:
                 return kr(t, e, n);
               default:
@@ -61859,13 +61865,13 @@ PERFORMANCE OF THIS SOFTWARE.
               case 1:
                 return Ir(t, e, n);
               case 2:
-                return En.Wc(
+                return En.Xc(
                   t,
                   [0, e, 0, 0],
                   [t.shape[0], n, t.shape[2], t.shape[3]]
                 );
               case 3:
-                return En.Wc(
+                return En.Xc(
                   t,
                   [0, 0, e, 0],
                   [t.shape[0], t.shape[1], n, t.shape[3]]
@@ -61915,10 +61921,10 @@ PERFORMANCE OF THIS SOFTWARE.
         throw new Rn(
           `The length of input n (${e.length}) does not match the number of dimensions in input x (${t.rank})`
         );
-      return En.ud(t, e);
+      return En.vd(t, e);
     }
     function _r(t, e = 0, n = 1, r, a) {
-      return En.uc(t, e, n, r, a);
+      return En.vc(t, e, n, r, a);
     }
     function Dr(t, e, n, r) {
       if (t.rank < 2 || e.rank < 2)
@@ -61935,7 +61941,7 @@ PERFORMANCE OF THIS SOFTWARE.
       if (2 === t.rank && 2 === e.rank) {
         const a = !1,
           i = !1;
-        return En.yb.matMul({
+        return En.zb.matMul({
           a: t,
           b: e,
           transposeA: a,
@@ -61959,7 +61965,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const h = [...a, ...c],
           d = !1,
           p = !1;
-        return En.yb
+        return En.zb
           .matMul({
             a: t,
             b: e,
@@ -61972,15 +61978,15 @@ PERFORMANCE OF THIS SOFTWARE.
       }
     }
     function Fr(t, e, n) {
-      return Object(En.td)(
+      return Object(En.ud)(
         () => (
-          (e = Array.isArray(e) ? Object(En.pd)(e, "int32") : e.toInt()),
-          En.zb(t, e, n)
+          (e = Array.isArray(e) ? Object(En.qd)(e, "int32") : e.toInt()),
+          En.Ab(t, e, n)
         )
       );
     }
     function Mr(t) {
-      return En.ic(t, t);
+      return En.jc(t, t);
     }
     function jr(t, e, n) {
       const r = e.shape;
@@ -62021,17 +62027,17 @@ PERFORMANCE OF THIS SOFTWARE.
       } else if (t < 3) return e;
       throw new Rn("Unsupported input rank by biasAdd: " + e.rank);
     }
-    function Br(t, e, n) {
-      return Object(En.td)(
+    function $r(t, e, n) {
+      return Object(En.ud)(
         () => (
           null == n && (n = "channelsLast"), lr(n), t.add(jr(t.rank, e, n))
         )
       );
     }
-    function $r(t, e, n, r) {
-      return Object(En.td)(() => En.kb(t, e, n, r));
+    function Br(t, e, n, r) {
+      return Object(En.ud)(() => En.kb(t, e, n, r));
     }
-    function Lr(t, e, n = !1) {
+    function Pr(t, e, n = !1) {
       return n ? t() : e();
     }
     /**
@@ -62042,9 +62048,9 @@ PERFORMANCE OF THIS SOFTWARE.
      * license that can be found in the LICENSE file or at
      * https://opensource.org/licenses/MIT.
      * =============================================================================
-     */ const Pr = ["fanIn", "fanOut", "fanAvg"],
+     */ const Lr = ["fanIn", "fanOut", "fanAvg"],
       zr = ["normal", "uniform", "truncatedNormal"];
-    class Wr extends En.Lc.Serializable {
+    class Wr extends En.Mc.Serializable {
       fromConfigUsesCustomObjects() {
         return !1;
       }
@@ -62054,16 +62060,16 @@ PERFORMANCE OF THIS SOFTWARE.
     }
     class Vr extends Wr {
       apply(t, e) {
-        return Object(En.Hd)(t, e);
+        return Object(En.Id)(t, e);
       }
     }
-    (Vr.className = "Zeros"), En.Lc.registerClass(Vr);
+    (Vr.className = "Zeros"), En.Mc.registerClass(Vr);
     class Ur extends Wr {
       apply(t, e) {
-        return Object(En.oc)(t, e);
+        return Object(En.pc)(t, e);
       }
     }
-    (Ur.className = "Ones"), En.Lc.registerClass(Ur);
+    (Ur.className = "Ones"), En.Mc.registerClass(Ur);
     class Gr extends Wr {
       constructor(t) {
         if ((super(), "object" != typeof t))
@@ -62073,15 +62079,15 @@ PERFORMANCE OF THIS SOFTWARE.
         this.value = t.value;
       }
       apply(t, e) {
-        return Object(En.td)(() =>
-          Object(En.ic)(Object(En.Hc)(this.value), Object(En.oc)(t, e))
+        return Object(En.ud)(() =>
+          Object(En.jc)(Object(En.Ic)(this.value), Object(En.pc)(t, e))
         );
       }
       getConfig() {
         return { value: this.value };
       }
     }
-    (Gr.className = "Constant"), En.Lc.registerClass(Gr);
+    (Gr.className = "Constant"), En.Mc.registerClass(Gr);
     class Hr extends Wr {
       constructor(t) {
         super(),
@@ -62092,13 +62098,13 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.seed = t.seed);
       }
       apply(t, e) {
-        return Object(En.vc)(t, this.minval, this.maxval, e);
+        return Object(En.wc)(t, this.minval, this.maxval, e);
       }
       getConfig() {
         return { minval: this.minval, maxval: this.maxval, seed: this.seed };
       }
     }
-    (Hr.className = "RandomUniform"), En.Lc.registerClass(Hr);
+    (Hr.className = "RandomUniform"), En.Mc.registerClass(Hr);
     class qr extends Wr {
       constructor(t) {
         super(),
@@ -62117,7 +62123,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return { mean: this.mean, stddev: this.stddev, seed: this.seed };
       }
     }
-    (qr.className = "RandomNormal"), En.Lc.registerClass(qr);
+    (qr.className = "RandomNormal"), En.Mc.registerClass(qr);
     class Kr extends Wr {
       constructor(t) {
         super(),
@@ -62130,31 +62136,31 @@ PERFORMANCE OF THIS SOFTWARE.
       apply(t, e) {
         if ("float32" !== (e = e || "float32") && "int32" !== e)
           throw new An(`truncatedNormal does not support dType ${e}.`);
-        return Object(En.yd)(t, this.mean, this.stddev, e, this.seed);
+        return Object(En.zd)(t, this.mean, this.stddev, e, this.seed);
       }
       getConfig() {
         return { mean: this.mean, stddev: this.stddev, seed: this.seed };
       }
     }
-    (Kr.className = "TruncatedNormal"), En.Lc.registerClass(Kr);
+    (Kr.className = "TruncatedNormal"), En.Mc.registerClass(Kr);
     class Xr extends Wr {
       constructor(t) {
         super(), (this.gain = null != t.gain ? t.gain : 1);
       }
       apply(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           if (2 !== t.length || t[0] !== t[1])
             throw new Rn(
               "Identity matrix initializer can only be used for 2D square matrices."
             );
-          return Object(En.ic)(this.gain, Object(En.tb)(t[0]));
+          return Object(En.jc)(this.gain, Object(En.ub)(t[0]));
         });
       }
       getConfig() {
         return { gain: this.gain };
       }
     }
-    (Xr.className = "Identity"), En.Lc.registerClass(Xr);
+    (Xr.className = "Identity"), En.Mc.registerClass(Xr);
     class Yr extends Wr {
       constructor(t) {
         if ((super(), t.scale < 0))
@@ -62172,7 +62178,7 @@ PERFORMANCE OF THIS SOFTWARE.
         (this.scale = null == t.scale ? 1 : t.scale),
           (this.mode = null == t.mode ? "fanIn" : t.mode),
           (e = this.mode),
-          Gn(Pr, "FanMode", e),
+          Gn(Lr, "FanMode", e),
           (this.distribution =
             null == t.distribution ? "normal" : t.distribution),
           (function (t) {
@@ -62212,11 +62218,11 @@ PERFORMANCE OF THIS SOFTWARE.
           const n = Math.sqrt(i);
           if ("float32" !== (e = e || "float32") && "int32" !== e)
             throw new An(`${this.getClassName()} does not support dType ${e}.`);
-          return Object(En.yd)(t, 0, n, e, this.seed);
+          return Object(En.zd)(t, 0, n, e, this.seed);
         }
         {
           const n = Math.sqrt(3 * i);
-          return Object(En.vc)(t, -n, n, e);
+          return Object(En.wc)(t, -n, n, e);
         }
       }
       getConfig() {
@@ -62228,7 +62234,7 @@ PERFORMANCE OF THIS SOFTWARE.
         };
       }
     }
-    (Yr.className = "VarianceScaling"), En.Lc.registerClass(Yr);
+    (Yr.className = "VarianceScaling"), En.Mc.registerClass(Yr);
     class Jr extends Yr {
       constructor(t) {
         super({
@@ -62242,7 +62248,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Yr.className;
       }
     }
-    (Jr.className = "GlorotUniform"), En.Lc.registerClass(Jr);
+    (Jr.className = "GlorotUniform"), En.Mc.registerClass(Jr);
     class Qr extends Yr {
       constructor(t) {
         super({
@@ -62256,7 +62262,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Yr.className;
       }
     }
-    (Qr.className = "GlorotNormal"), En.Lc.registerClass(Qr);
+    (Qr.className = "GlorotNormal"), En.Mc.registerClass(Qr);
     class Zr extends Yr {
       constructor(t) {
         super({
@@ -62270,7 +62276,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Yr.className;
       }
     }
-    (Zr.className = "HeNormal"), En.Lc.registerClass(Zr);
+    (Zr.className = "HeNormal"), En.Mc.registerClass(Zr);
     class ta extends Yr {
       constructor(t) {
         super({
@@ -62284,7 +62290,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Yr.className;
       }
     }
-    (ta.className = "HeUniform"), En.Lc.registerClass(ta);
+    (ta.className = "HeUniform"), En.Mc.registerClass(ta);
     class ea extends Yr {
       constructor(t) {
         super({
@@ -62298,7 +62304,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Yr.className;
       }
     }
-    (ea.className = "LeCunNormal"), En.Lc.registerClass(ea);
+    (ea.className = "LeCunNormal"), En.Mc.registerClass(ea);
     class na extends Yr {
       constructor(t) {
         super({
@@ -62312,7 +62318,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Yr.className;
       }
     }
-    (na.className = "LeCunNormal"), En.Lc.registerClass(na);
+    (na.className = "LeCunNormal"), En.Mc.registerClass(na);
     class ra extends Wr {
       constructor(t) {
         if (
@@ -62327,7 +62333,7 @@ PERFORMANCE OF THIS SOFTWARE.
           );
       }
       apply(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           if (2 !== t.length)
             throw new An(
               "The Orthogonal Initializer does not support non-2D shapes yet."
@@ -62339,9 +62345,9 @@ PERFORMANCE OF THIS SOFTWARE.
               }) elements: Slowness may result.`
             );
           const e = _r(t[0] > t[1] ? [t[1], t[0]] : t, 0, 1, "float32");
-          let n = En.Nb.gramSchmidt(e);
+          let n = En.Ob.gramSchmidt(e);
           return (
-            t[0] > t[1] && (n = n.transpose()), Object(En.ic)(this.gain, n)
+            t[0] > t[1] && (n = n.transpose()), Object(En.jc)(this.gain, n)
           );
         });
       }
@@ -62349,7 +62355,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return { gain: this.gain, seed: this.seed };
       }
     }
-    (ra.className = "Orthogonal"), En.Lc.registerClass(ra);
+    (ra.className = "Orthogonal"), En.Mc.registerClass(ra);
     const aa = {
       constant: "Constant",
       glorotNormal: "GlorotNormal",
@@ -62370,13 +62376,13 @@ PERFORMANCE OF THIS SOFTWARE.
     function ia(t, e = {}) {
       return zn(
         t,
-        En.Lc.SerializationMap.getMap().classNameMap,
+        En.Mc.SerializationMap.getMap().classNameMap,
         e,
         "initializer"
       );
     }
     function oa(t) {
-      return Pn(t);
+      return Ln(t);
     }
     function sa(t) {
       if ("string" == typeof t) {
@@ -62484,7 +62490,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.name = gr(this.originalName)),
           (this.trainable_ = r),
           (this.constraint = a),
-          (this.val = En.Cd(t, this.trainable_, this.name, this.dtype));
+          (this.val = En.Dd(t, this.trainable_, this.name, this.dtype));
       }
       read() {
         return this.assertNotDisposed(), this.val;
@@ -62595,7 +62601,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
     }
     let Ea = 0;
-    class Sa extends En.Lc.Serializable {
+    class Sa extends En.Mc.Serializable {
       constructor(t = {}) {
         super(),
           (this._callHook = null),
@@ -62615,7 +62621,7 @@ PERFORMANCE OF THIS SOFTWARE.
         let e = t.name;
         if (!e) {
           const t = this.getClassName();
-          e = Bn(t) + "_" + ha(t);
+          e = $n(t) + "_" + ha(t);
         }
         if (
           ((this.name = e),
@@ -62931,7 +62937,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return va(t ? this.trainableWeights : this.weights);
       }
       setWeights(t) {
-        Object(En.td)(() => {
+        Object(En.ud)(() => {
           const e = this.weights;
           if (e.length !== t.length)
             throw new Rn(
@@ -62944,7 +62950,7 @@ PERFORMANCE OF THIS SOFTWARE.
             const i = r[a],
               o = e[a],
               s = t[a];
-            if (!En.Bd.arraysEqual(i.shape, s.shape))
+            if (!En.Cd.arraysEqual(i.shape, s.shape))
               throw new Rn(
                 `Layer weight shape ${i.shape} not compatible with provided weight shape ` +
                   s.shape
@@ -63213,7 +63219,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * =============================================================================
      */ var Aa;
     (Ia.className = "InputLayer"),
-      En.Lc.registerClass(Ia),
+      En.Mc.registerClass(Ia),
       (function (t) {
         (t[(t.SILENT = 0)] = "SILENT"), (t[(t.VERBOSE = 1)] = "VERBOSE");
       })(Aa || (Aa = {}));
@@ -63289,8 +63295,8 @@ PERFORMANCE OF THIS SOFTWARE.
           else {
             let e;
             t in this.totals ? (e = this.totals[t]) : (this.totals[t] = 0);
-            const a = Object(En.td)(() =>
-              Object(En.r)(this.totals[t], Object(En.ic)(r, n))
+            const a = Object(En.ud)(() =>
+              Object(En.r)(this.totals[t], Object(En.jc)(r, n))
             );
             (this.totals[t] = a), null != e && e.dispose();
           }
@@ -63302,12 +63308,12 @@ PERFORMANCE OF THIS SOFTWARE.
             null != this.totals[t] &&
               ("number" == typeof this.totals[t]
                 ? (e[t] = this.totals[t] / this.seen)
-                : Object(En.td)(() => {
-                    const n = Object(En.ic)(
+                : Object(En.ud)(() => {
+                    const n = Object(En.jc)(
                       Object(En.ib)(1, this.seen),
                       this.totals[t]
                     );
-                    (e[t] = n), this.totals[t].dispose(), Object(En.Ib)(e[t]);
+                    (e[t] = n), this.totals[t].dispose(), Object(En.Jb)(e[t]);
                   }));
       }
     }
@@ -63352,12 +63358,12 @@ PERFORMANCE OF THIS SOFTWARE.
           throw new Error(
             "yieldEvery is `never` but you provided an `onYield` callback. Either change `yieldEvery` or remove the callback"
           );
-        En.Bd.isNumber(this.yieldEvery) &&
+        En.Cd.isNumber(this.yieldEvery) &&
           (this.maybeWait = (function (t, e) {
             let n,
-              r = En.Bd.now();
+              r = En.Cd.now();
             return (...a) => {
-              const i = En.Bd.now();
+              const i = En.Cd.now();
               return i - r < e || ((r = i), (n = t(...a))), n;
             };
           })(this.maybeWait.bind(this), this.yieldEvery)),
@@ -63372,7 +63378,7 @@ PERFORMANCE OF THIS SOFTWARE.
       async maybeWait(t, e, n) {
         const r = [];
         null != this.yield && (await Na(n), r.push(this.yield(t, e, n))),
-          r.push(Object(En.lc)()),
+          r.push(Object(En.mc)()),
           await Promise.all(r);
       }
       async onEpochBegin(t, e) {
@@ -63382,7 +63388,7 @@ PERFORMANCE OF THIS SOFTWARE.
       async onEpochEnd(t, e) {
         const n = [];
         null != this.epochEnd && (await Na(e), n.push(this.epochEnd(t, e))),
-          "epoch" === this.yieldEvery && n.push(Object(En.lc)()),
+          "epoch" === this.yieldEvery && n.push(Object(En.mc)()),
           await Promise.all(n);
       }
       async onBatchBegin(t, e) {
@@ -63392,8 +63398,8 @@ PERFORMANCE OF THIS SOFTWARE.
         const n = [];
         null != this.batchEnd && (await Na(e), n.push(this.batchEnd(t, e))),
           "batch" === this.yieldEvery
-            ? n.push(Object(En.lc)())
-            : En.Bd.isNumber(this.yieldEvery) &&
+            ? n.push(Object(En.mc)())
+            : En.Cd.isNumber(this.yieldEvery) &&
               n.push(this.maybeWait(this.currentEpoch, t, e)),
           await Promise.all(n);
       }
@@ -63409,40 +63415,40 @@ PERFORMANCE OF THIS SOFTWARE.
       if (Array.isArray(t) && t[0] instanceof Ta) return t;
       return jn(t).map((t) => new Ma(t, e));
     }
-    class Ba {
+    class $a {
       constructor() {}
       static registerCallbackConstructor(t, e) {
-        En.Bd.assert(
+        En.Cd.assert(
           t >= 0 && Number.isInteger(t),
           () =>
             "Verbosity level is expected to be an integer >= 0, but got " + t
         ),
-          Ba.checkForDuplicate(e),
-          null == Ba.constructors[t] && (Ba.constructors[t] = []),
-          Ba.constructors[t].push(e);
+          $a.checkForDuplicate(e),
+          null == $a.constructors[t] && ($a.constructors[t] = []),
+          $a.constructors[t].push(e);
       }
       static checkForDuplicate(t) {
-        for (const e in Ba.constructors) {
-          Ba.constructors[+e].forEach((e) => {
+        for (const e in $a.constructors) {
+          $a.constructors[+e].forEach((e) => {
             if (e === t) throw new Rn("Duplicate callback constructor.");
           });
         }
       }
       static clear() {
-        Ba.constructors = {};
+        $a.constructors = {};
       }
       static createCallbacks(t) {
         const e = [];
-        for (const n in Ba.constructors) {
+        for (const n in $a.constructors) {
           const r = +n;
-          t >= r && e.push(...Ba.constructors[r]);
+          t >= r && e.push(...$a.constructors[r]);
         }
         return e.map((t) => new t());
       }
     }
-    function $a(t, e, n, r, a, i, o, s, u) {
+    function Ba(t, e, n, r, a, i, o, s, u) {
       const c = new Fa(),
-        l = [new Da(), ...Ba.createCallbacks(e)];
+        l = [new Da(), ...$a.createCallbacks(e)];
       null != t && l.push(...t), l.push(c);
       const h = new _a(l);
       return (
@@ -63467,8 +63473,8 @@ PERFORMANCE OF THIS SOFTWARE.
      * license that can be found in the LICENSE file or at
      * https://opensource.org/licenses/MIT.
      * =============================================================================
-     */ function La(t, e = {}, n = !1) {
-      return zn(t, En.Lc.SerializationMap.getMap().classNameMap, e, "layer", n);
+     */ function Pa(t, e = {}, n = !1) {
+      return zn(t, En.Mc.SerializationMap.getMap().classNameMap, e, "layer", n);
     }
     /**
      * @license
@@ -63478,78 +63484,78 @@ PERFORMANCE OF THIS SOFTWARE.
      * license that can be found in the LICENSE file or at
      * https://opensource.org/licenses/MIT.
      * =============================================================================
-     */ function Pa(t, e) {
-      return Object(En.td)(() => {
+     */ function La(t, e) {
+      return Object(En.ud)(() => {
         "float32" !== t.dtype && (t = t.asType("float32"));
-        const n = En.kd(Mr(t), e, !0),
-          r = En.vb(n.shape, In()),
-          a = En.dd(En.bc(n, r));
+        const n = En.ld(Mr(t), e, !0),
+          r = En.wb(n.shape, In()),
+          a = En.ed(En.cc(n, r));
         return En.ib(t, a);
       });
     }
     function za(t, e) {
-      return Object(En.td)(() => En.cc(Mr(En.jd(e, t)), -1));
+      return Object(En.ud)(() => En.dc(Mr(En.kd(e, t)), -1));
     }
     function Wa(t, e) {
-      return Object(En.td)(() => En.cc(En.o(En.jd(e, t)), -1));
+      return Object(En.ud)(() => En.dc(En.o(En.kd(e, t)), -1));
     }
     function Va(t, e) {
-      return Object(En.td)(() => {
-        const n = En.jd(t, e),
+      return Object(En.ud)(() => {
+        const n = En.kd(t, e),
           r = En.Q(En.o(t), In(), Number.MAX_VALUE),
           a = En.o(En.ib(n, r));
-        return En.ic(100, En.cc(a, -1));
+        return En.jc(100, En.dc(a, -1));
       });
     }
     function Ua(t, e) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         const n = En.Q(e, In(), Number.MAX_VALUE),
-          r = En.Qb(En.r(1, n)),
+          r = En.Rb(En.r(1, n)),
           a = En.Q(t, In(), Number.MAX_VALUE),
-          i = En.Qb(En.r(1, a));
-        return En.cc(Mr(En.jd(r, i)), -1);
+          i = En.Rb(En.r(1, a));
+        return En.dc(Mr(En.kd(r, i)), -1);
       });
     }
     function Ga(t, e, n = !1) {
-      return Object(En.td)(() => {
-        if (n) e = En.Yc(e);
+      return Object(En.ud)(() => {
+        if (n) e = En.Zc(e);
         else {
-          const t = En.kd(e, e.shape.length - 1, !0);
+          const t = En.ld(e, e.shape.length - 1, !0);
           e = En.ib(e, t);
         }
         return (
           (e = En.Q(e, In(), 1 - In())),
-          En.kc(En.kd(En.ic(t.toFloat(), En.Qb(e)), e.shape.length - 1))
+          En.lc(En.ld(En.jc(t.toFloat(), En.Rb(e)), e.shape.length - 1))
         );
       });
     }
     function Ha(t, e, n = !1) {
-      return Object(En.td)(() => {
-        const r = En.wb(
+      return Object(En.ud)(() => {
+        const r = En.xb(
             (function (t) {
               const e = [yr(t.shape)];
               return t.reshape(e);
             })(t)
           ).toInt(),
           a = (e = En.Q(e, In(), 1 - In())).shape;
-        return Ga(En.nc(r, a[a.length - 1]).reshape(a), e, n);
+        return Ga(En.oc(r, a[a.length - 1]).reshape(a), e, n);
       });
     }
     function qa(t, e) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         let n;
         return (
           (n = En.Q(e, In(), 1 - In())),
-          (n = En.Qb(En.ib(n, En.jd(1, n)))),
-          En.cc(
+          (n = En.Rb(En.ib(n, En.kd(1, n)))),
+          En.dc(
             (function (t, e) {
-              if (!En.Bd.arraysEqual(t.shape, e.shape))
+              if (!En.Cd.arraysEqual(t.shape, e.shape))
                 throw new Rn(
                   `logits and labels must have the same shape, but got shapes ${JSON.stringify(
                     t.shape
                   )} and ${JSON.stringify(e.shape)}`
                 );
-              return Object(En.td)(() => {
+              return Object(En.ud)(() => {
                 const n = e.relu(),
                   r = e.abs().neg();
                 return n.sub(e.mul(t)).add(r.exp().log1p());
@@ -63561,51 +63567,51 @@ PERFORMANCE OF THIS SOFTWARE.
       });
     }
     function Ka(t, e) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         const n = En.Q(t, In(), 1),
           r = En.Q(e, In(), 1);
-        return En.kd(En.ic(t, En.Qb(En.ib(n, r))), -1);
+        return En.ld(En.jc(t, En.Rb(En.ib(n, r))), -1);
       });
     }
     function Xa(t, e) {
-      return Object(En.td)(() => {
-        const n = Pa(t, -1),
-          r = Pa(e, -1),
-          a = En.ic(n, r);
-        return En.kc(En.kd(a, -1));
+      return Object(En.ud)(() => {
+        const n = La(t, -1),
+          r = La(e, -1),
+          a = En.jc(n, r);
+        return En.lc(En.ld(a, -1));
       });
     }
-    Ba.constructors = {};
+    $a.constructors = {};
     const Ya = {
       meanSquaredError: za,
       meanAbsoluteError: Wa,
       meanAbsolutePercentageError: Va,
       meanSquaredLogarithmicError: Ua,
       squaredHinge: function (t, e) {
-        return Object(En.td)(() => {
-          const n = En.bc(0, En.jd(1, En.ic(t, e)));
-          return En.cc(Mr(n), -1);
+        return Object(En.ud)(() => {
+          const n = En.cc(0, En.kd(1, En.jc(t, e)));
+          return En.dc(Mr(n), -1);
         });
       },
       hinge: function (t, e) {
-        return Object(En.td)(() => {
-          const n = En.bc(0, En.jd(1, En.ic(t, e)));
-          return En.cc(n, -1);
+        return Object(En.ud)(() => {
+          const n = En.cc(0, En.kd(1, En.jc(t, e)));
+          return En.dc(n, -1);
         });
       },
       categoricalHinge: function (t, e) {
-        return Object(En.td)(() => {
-          const n = En.kd(En.ic(t, e), -1),
-            r = En.Xb(En.ic(En.jd(1, t), e), -1);
-          return En.bc(0, En.r(1, En.jd(r, n)));
+        return Object(En.ud)(() => {
+          const n = En.ld(En.jc(t, e), -1),
+            r = En.Yb(En.jc(En.kd(1, t), e), -1);
+          return En.cc(0, En.r(1, En.kd(r, n)));
         });
       },
       logcosh: function (t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const n = Math.log(2),
-            r = En.jd(e, t),
-            a = En.jd(En.r(r, En.Zc(En.ic(-2, r))), n);
-          return En.cc(a, -1);
+            r = En.kd(e, t),
+            a = En.kd(En.r(r, En.ad(En.jc(-2, r))), n);
+          return En.dc(a, -1);
         });
       },
       categoricalCrossentropy: Ga,
@@ -63613,9 +63619,9 @@ PERFORMANCE OF THIS SOFTWARE.
       binaryCrossentropy: qa,
       kullbackLeiblerDivergence: Ka,
       poisson: function (t, e) {
-        return Object(En.td)(() => {
-          const n = En.Qb(En.r(In(), e));
-          return En.cc(En.jd(e, En.ic(t, n)), -1);
+        return Object(En.ud)(() => {
+          const n = En.Rb(En.r(In(), e));
+          return En.dc(En.kd(e, En.jc(t, n)), -1);
         });
       },
       cosineProximity: Xa,
@@ -63641,32 +63647,32 @@ PERFORMANCE OF THIS SOFTWARE.
      * https://opensource.org/licenses/MIT.
      * =============================================================================
      */ function Qa(t, e) {
-      return Object(En.td)(() => {
-        const n = En.ic(0.5, En.pc(e)),
-          r = Er(En.Bb(e, n), t.dtype);
-        return En.cc(En.ob(t, r), -1);
+      return Object(En.ud)(() => {
+        const n = En.jc(0.5, En.qc(e)),
+          r = Er(En.Cb(e, n), t.dtype);
+        return En.dc(En.pb(t, r), -1);
       });
     }
     function Za(t, e) {
-      return Object(En.td)(() =>
-        Er(En.ob(En.v(t, -1), En.v(e, -1)), "float32")
+      return Object(En.ud)(() =>
+        Er(En.pb(En.v(t, -1), En.v(e, -1)), "float32")
       );
     }
     function ti(t, e) {
-      return Object(En.td)(() =>
-        En.Tb(t.equal(1), e.equal(1)).sum().cast("float32")
+      return Object(En.ud)(() =>
+        En.Ub(t.equal(1), e.equal(1)).sum().cast("float32")
       );
     }
     function ei(t, e) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         const n = ti(t, e),
           r = (function (t, e) {
-            return Object(En.td)(() =>
-              En.Tb(t.equal(0), e.equal(1)).sum().cast("float32")
+            return Object(En.ud)(() =>
+              En.Ub(t.equal(0), e.equal(1)).sum().cast("float32")
             );
           })(t, e),
           a = n.add(r);
-        return En.Fd(En.Bb(a, 0), n.div(a), 0).cast("float32");
+        return En.Gd(En.Cb(a, 0), n.div(a), 0).cast("float32");
       });
     }
     function ni(t, e) {
@@ -63676,7 +63682,7 @@ PERFORMANCE OF THIS SOFTWARE.
       return (
         t.rank === e.rank && (t = t.squeeze([t.rank - 1])),
         (e = e.argMax(-1)).dtype !== t.dtype && (e = e.asType(t.dtype)),
-        En.ob(t, e).asType("float32")
+        En.pb(t, e).asType("float32")
       );
     }
     const ai = Ga,
@@ -63900,7 +63906,7 @@ PERFORMANCE OF THIS SOFTWARE.
     }
     function mi(t, e) {
       if (null === t) return null;
-      if ("string" == typeof t) return $n(t);
+      if ("string" == typeof t) return Bn(t);
       if ("number" == typeof t || "boolean" == typeof t) return t;
       if (t instanceof Array) {
         const n = [],
@@ -63917,7 +63923,7 @@ PERFORMANCE OF THIS SOFTWARE.
           const r = t[n];
           if ("name" === n && "string" == typeof r) e[n] = r;
           else {
-            const t = $n(n);
+            const t = Bn(n);
             e[t] = mi(r, t);
           }
         }
@@ -64024,7 +64030,7 @@ PERFORMANCE OF THIS SOFTWARE.
       let h, d;
       if (null == bi[l]) {
         const t = (function (t, e) {
-          En.Bd.assert(
+          En.Cd.assert(
             null != t && t.length > 0,
             () => "Expected at least one fetch, got none"
           );
@@ -64051,7 +64057,7 @@ PERFORMANCE OF THIS SOFTWARE.
       const p = new gi(e);
       for (let t = 0; t < h.length; ++t) {
         if (null != r) {
-          const t = Object(En.dc)().numTensors;
+          const t = Object(En.ec)().numTensors;
           t > r.maxNumTensors && (r.maxNumTensors = t),
             t < r.minNumTensors && (r.minNumTensors = t);
         }
@@ -64439,7 +64445,7 @@ PERFORMANCE OF THIS SOFTWARE.
       toJSON(t, e = !0) {
         const n = (function t(e, n) {
           if (null == e) return null;
-          if ("string" == typeof e) return Bn(e);
+          if ("string" == typeof e) return $n(e);
           if ("number" == typeof e || "boolean" == typeof e) return e;
           if (e instanceof Array) {
             const r = [],
@@ -64454,7 +64460,7 @@ PERFORMANCE OF THIS SOFTWARE.
             const n = {};
             for (const r of Object.keys(e)) {
               const a = e[r],
-                i = Bn(r);
+                i = $n(r);
               n[i] =
                 ("name" !== r && "className" !== r) || "string" != typeof a
                   ? t(a, r)
@@ -64466,7 +64472,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return e ? JSON.stringify(n) : n;
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           t = jn(t);
           const n = new gi();
           for (let e = 0; e < this.inputs.length; ++e)
@@ -64475,7 +64481,7 @@ PERFORMANCE OF THIS SOFTWARE.
         });
       }
       computeMask(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let n;
           return (
             (t = jn(t)),
@@ -64624,7 +64630,7 @@ PERFORMANCE OF THIS SOFTWARE.
         throw new Rn("No such layer: " + t);
       }
       calculateLosses() {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const t = [];
           for (const e of this.layers)
             for (let n = 0; n < e.inboundNodes.length; ++n) {
@@ -64728,7 +64734,7 @@ PERFORMANCE OF THIS SOFTWARE.
         }
         function u(t) {
           const n = t.name,
-            i = La(t, null != e.customObjects ? e.customObjects : {});
+            i = Pa(t, null != e.customObjects ? e.customObjects : {});
           i.setFastWeightInitDuringBuild(r), (a[n] = i);
           t.inboundNodes.forEach((t) => {
             if (!(t instanceof Array))
@@ -64781,7 +64787,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return !1;
       }
       resetStates() {
-        Object(En.td)(() => {
+        Object(En.ud)(() => {
           this.layers.forEach((t) => {
             t.stateful && t.resetStates();
           });
@@ -64839,7 +64845,7 @@ PERFORMANCE OF THIS SOFTWARE.
       if (null != e || null != r)
         throw new Error("Support sampleWeight is not implemented yet");
       if (null != n) {
-        const e = Object(En.td)(() => {
+        const e = Object(En.ud)(() => {
             if (1 === t.shape.length) return t.clone();
             if (2 === t.shape.length) {
               if (t.shape[1] > 1) {
@@ -64866,13 +64872,13 @@ PERFORMANCE OF THIS SOFTWARE.
               );
             a.push(n[t]);
           }),
-          Object(En.pd)(a, "float32")
+          Object(En.qd)(a, "float32")
         );
       }
       return null;
     }
     function ki(t, e) {
-      return Object(En.ic)(t, e);
+      return Object(En.jc)(t, e);
     }
     /**
      * @license
@@ -64887,7 +64893,7 @@ PERFORMANCE OF THIS SOFTWARE.
       const a = e;
       (n = a.xs),
         (r = a.ys),
-        En.Bd.assert(
+        En.Cd.assert(
           null != n && null != r,
           () =>
             "A Dataset iterator for fitDataset() is expected to generate objects of the form `{xs: xVal, ys: yVal}`, where the two values may be `tf.Tensor`, an array of Tensors, or a map of string to Tensor.  The provided Dataset instead generates " +
@@ -64896,14 +64902,14 @@ PERFORMANCE OF THIS SOFTWARE.
       const i = Ri("input", t.inputNames, n),
         o = Ri("output", t.outputNames, r),
         s = i[0].shape[0];
-      En.Bd.assert(
+      En.Cd.assert(
         i.length === t.inputs.length,
         () =>
           `LayersModel has ${t.inputs.length} inputs, but the dataset provides ${i.length} inputs.  (Expected input keys: ` +
           JSON.stringify(t.inputNames) +
           ")"
       ),
-        En.Bd.assert(
+        En.Cd.assert(
           o.length === t.outputs.length,
           () =>
             `LayersModel has ${t.outputs.length} outputs, but the dataset provides ${o.length} outputs.  (Expected output keys: ` +
@@ -64911,13 +64917,13 @@ PERFORMANCE OF THIS SOFTWARE.
             ")"
         );
       for (let e = 0; e < i.length; e++)
-        En.Bd.assert(
+        En.Cd.assert(
           i[e].shape[0] === s,
           () =>
             `Batch size mismatch: input ${t.inputNames[e]} has ${i[e].shape[0]}; expected  ${s} based on input ${t.inputNames[0]}.`
         );
       for (let e = 0; e < o.length; e++)
-        En.Bd.assert(
+        En.Cd.assert(
           o[e].shape[0] === s,
           () =>
             `Batch size mismatch: output ${t.outputNames[e]} has ${o[e].shape[0]}; expected  ${s} based on input ${t.inputNames[0]}.`
@@ -64928,7 +64934,7 @@ PERFORMANCE OF THIS SOFTWARE.
       if (n instanceof En.l) return [n];
       if (Array.isArray(n))
         return (
-          En.Bd.assert(
+          En.Cd.assert(
             n.length === e.length,
             () =>
               `Received an array of ${n.length} Tensors, but expected ${e.length} to match the ${t} keys ${e}.`
@@ -64950,29 +64956,29 @@ PERFORMANCE OF THIS SOFTWARE.
     async function Ai(t, e, n) {
       const r = null != n.batchesPerEpoch;
       if (
-        (En.Bd.assert(
+        (En.Cd.assert(
           null != t.optimizer,
           () =>
             "You must compile a model before training/testing. Use LayersModel.compile(modelCompileConfig)."
         ),
-        En.Bd.assert(
+        En.Cd.assert(
           null != n,
           () =>
             "For fitDataset(), the 2nd argument (config) is required, but it is not provided in this call."
         ),
-        En.Bd.assert(
+        En.Cd.assert(
           null != n.epochs && n.epochs > 0 && Number.isInteger(n.epochs),
           () =>
             "For fitDataset(), config.epochs is expected to be a positive integer, but got " +
             n.epochs
         ),
-        En.Bd.assert(
+        En.Cd.assert(
           !r || (n.batchesPerEpoch > 0 && Number.isInteger(n.batchesPerEpoch)),
           () =>
             "For fitDataset(), config.batchesPerEpoch is expected to be a positive integer if specified, but got " +
             n.batchesPerEpoch
         ),
-        En.Bd.assert(
+        En.Cd.assert(
           null == n.validationSplit,
           () =>
             "`validationSplit` is not supported by `fitDataset()`. Use validationData instead."
@@ -64988,7 +64994,7 @@ PERFORMANCE OF THIS SOFTWARE.
         let i, o;
         if (a)
           if (Ti(n.validationData))
-            En.Bd.assert(
+            En.Cd.assert(
               null == n.validationBatches ||
                 (n.validationBatches > 0 &&
                   Number.isInteger(n.validationBatches)),
@@ -65012,7 +65018,7 @@ PERFORMANCE OF THIS SOFTWARE.
         c = a ? u.slice().concat(u.map((t) => "val_" + t)) : u.slice();
         const l = ja(n.callbacks, n.yieldEvery),
           h = null == n.verbose ? 1 : n.verbose,
-          { callbackList: d, history: p } = $a(
+          { callbackList: d, history: p } = Ba(
             l,
             h,
             n.epochs,
@@ -65072,7 +65078,7 @@ PERFORMANCE OF THIS SOFTWARE.
               for (let t = 0; t < u.length; ++t) {
                 const e = u[t],
                   n = p[t];
-                (i[e] = n), En.Ib(n);
+                (i[e] = n), En.Jb(n);
               }
               await d.onBatchEnd(h, i), Ra(i), h++, l++;
             }
@@ -65121,7 +65127,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * =============================================================================
      */
     function _i(t) {
-      En.Bd.assert(
+      En.Cd.assert(
         t > 0 && Number.isInteger(t),
         () => "batchSize is required to be a positive integer, but got " + t
       );
@@ -65134,7 +65140,7 @@ PERFORMANCE OF THIS SOFTWARE.
         : Ir(t, e, n - e);
     }
     function Fi(t, e) {
-      return En.td(() =>
+      return En.ud(() =>
         null == t
           ? null
           : Array.isArray(t)
@@ -65243,7 +65249,7 @@ PERFORMANCE OF THIS SOFTWARE.
           const g = t.checkNumSamples(n, a, p, "steps_per_epoch");
           let b;
           null != g && (b = Or(0, g)), null == o && (o = 1);
-          const { callbackList: v, history: y } = $a(s, o, i, d, g, p, a, m, h);
+          const { callbackList: v, history: y } = Ba(s, o, i, d, g, p, a, m, h);
           v.setModel(t),
             (t.history = y),
             await v.onTrainBegin(),
@@ -65256,14 +65262,14 @@ PERFORMANCE OF THIS SOFTWARE.
             {
               if ("batch" === l)
                 throw new An("batch shuffling is not implemneted yet");
-              l && En.Bd.shuffle(b);
-              const o = Object(En.pd)(b),
+              l && En.Cd.shuffle(b);
+              const o = Object(En.qd)(b),
                 s = Mi(g, a);
               for (let l = 0; l < s.length; ++l) {
                 const h = {};
                 if (
                   (await v.onBatchBegin(l, h),
-                  En.td(() => {
+                  En.ud(() => {
                     const d = s[l][0],
                       p = s[l][1],
                       f = Ir(o, d, p - d);
@@ -65273,14 +65279,14 @@ PERFORMANCE OF THIS SOFTWARE.
                     for (let t = 0; t < r.length; ++t) {
                       const e = r[t],
                         n = b[t];
-                      (h[e] = n), En.Ib(n);
+                      (h[e] = n), En.Jb(n);
                     }
                     if (l === s.length - 1 && m) {
                       const e = t.testLoop(u, c, a);
                       for (let t = 0; t < r.length; ++t) {
                         const n = r[t],
                           a = e[t];
-                        En.Ib(a), (i["val_" + n] = a);
+                        En.Jb(a), (i["val_" + n] = a);
                       }
                     }
                   }),
@@ -65314,14 +65320,14 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       } finally {
         (t.isTraining = !1),
-          $i(a, e),
-          $i(i, n),
-          $i(u, o),
-          $i(c, s),
+          Bi(a, e),
+          Bi(i, n),
+          Bi(u, o),
+          Bi(c, s),
           null != l && En.hb(l);
       }
     }
-    function Bi(t) {
+    function $i(t) {
       const e = [];
       t instanceof En.l && (t = [t]);
       for (let n = 0; n < t.length; ++n) {
@@ -65337,7 +65343,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       return e;
     }
-    function $i(t, e) {
+    function Bi(t, e) {
       if (null == t) return;
       const n = [];
       if (e instanceof En.l) n.push(e.id);
@@ -65370,22 +65376,22 @@ PERFORMANCE OF THIS SOFTWARE.
      * license that can be found in the LICENSE file or at
      * https://opensource.org/licenses/MIT.
      * =============================================================================
-     */ function Li(t) {
+     */ function Pi(t) {
       return Array.isArray(t);
     }
-    function Pi(t) {
+    function Li(t) {
       return (
         !(function (t) {
           return t instanceof En.l;
-        })(t) && !Li(t)
+        })(t) && !Pi(t)
       );
     }
     function zi(t, e, n, r = !0, a = "") {
       if (null == e || 0 === e.length) {
         if (null != t) {
           let e = !1;
-          if (Li(t) && t.length > 0) e = !0;
-          else if (Pi(t)) {
+          if (Pi(t) && t.length > 0) e = !0;
+          else if (Li(t)) {
             for (const n in t)
               if (t.hasOwnProperty(n)) {
                 e = !0;
@@ -65401,7 +65407,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       if (null == t) return e.map((t) => null);
       let i;
-      if (Pi(t)) {
+      if (Li(t)) {
         (t = t), (i = []);
         for (const n of e) {
           if (null == t[n])
@@ -65410,7 +65416,7 @@ PERFORMANCE OF THIS SOFTWARE.
             );
           i.push(t[n]);
         }
-      } else if (Li(t)) {
+      } else if (Pi(t)) {
         if ((t = t).length !== e.length)
           throw new Rn(
             `Error when checking model ${a}: the Array of Tensors that you are passing to your model is not the size the model expected. Expected to see ${e.length} Tensor(s), but instead got the following list of Tensor(s): ` +
@@ -65425,7 +65431,7 @@ PERFORMANCE OF THIS SOFTWARE.
           );
         i = [t];
       }
-      if (((i = Bi(i)), null != n))
+      if (((i = $i(i)), null != n))
         for (let t = 0; t < e.length; ++t) {
           if (null == n[t]) continue;
           const o = i[t];
@@ -65506,12 +65512,12 @@ PERFORMANCE OF THIS SOFTWARE.
         )
           (this.optimizer_ = (function (t) {
             const e = {
-              Adagrad: () => En.wd.adagrad(0.01),
-              Adadelta: () => En.wd.adadelta(1, 0.95, In()),
-              Adam: () => En.wd.adam(0.001, 0.9, 0.999, In()),
-              Adamax: () => En.wd.adamax(0.002, 0.9, 0.999, In(), 0),
-              RMSProp: () => En.wd.rmsprop(0.001, 0.9, 0, In()),
-              SGD: () => En.wd.sgd(0.01),
+              Adagrad: () => En.xd.adagrad(0.01),
+              Adadelta: () => En.xd.adadelta(1, 0.95, In()),
+              Adam: () => En.xd.adam(0.001, 0.9, 0.999, In()),
+              Adamax: () => En.xd.adamax(0.002, 0.9, 0.999, In(), 0),
+              RMSProp: () => En.xd.rmsprop(0.001, 0.9, 0, In()),
+              SGD: () => En.xd.sgd(0.01),
             };
             if (
               ((e.adagrad = e.Adagrad),
@@ -65690,7 +65696,7 @@ PERFORMANCE OF THIS SOFTWARE.
           const o = this.testFunction;
           return Mn(this.testLoop(o, i, r, n.verbose, n.steps));
         } finally {
-          $i(a[0], t), $i(a[1], e);
+          Bi(a[0], t), Bi(a[1], e);
         }
       }
       async evaluateDataset(t, e) {
@@ -65702,7 +65708,7 @@ PERFORMANCE OF THIS SOFTWARE.
             let i = [];
             if (n.verbose > 0)
               throw new An("Verbose mode is not implemented yet.");
-            En.Bd.assert(
+            En.Cd.assert(
               !r || (n.batches > 0 && Number.isInteger(n.batches)),
               () =>
                 "Test loop expects `batches` to be a positive integer, but received " +
@@ -65714,19 +65720,19 @@ PERFORMANCE OF THIS SOFTWARE.
             for (; !r || u < n.batches; ) {
               const e = await o.next();
               if (
-                ((i = En.td(() => {
+                ((i = En.ud(() => {
                   if (e.value) {
                     const { xs: n, ys: r } = Ni(t, e.value),
                       o = n.concat(r),
-                      c = En.td(() => a(o));
+                      c = En.ud(() => a(o));
                     if ((En.hb(o), 0 === u))
                       for (let t = 0; t < c.length; ++t)
-                        i.push(Object(En.Hc)(0));
+                        i.push(Object(En.Ic)(0));
                     const l = o[0].shape[0];
                     for (let t = 0; t < c.length; ++t) {
                       const e = c[t],
                         n = i[t];
-                      (i[t] = En.td(() => En.r(i[t], En.ic(l, e)))),
+                      (i[t] = En.ud(() => En.r(i[t], En.jc(l, e)))),
                         u > 0 && En.hb(n);
                     }
                     En.hb(c), (s += l), ++u;
@@ -65822,13 +65828,13 @@ PERFORMANCE OF THIS SOFTWARE.
         return e;
       }
       predictLoop(t, e = 32, n = !1) {
-        return En.td(() => {
+        return En.ud(() => {
           const r = this.checkNumSamples(t);
           if (n) throw new An("Verbose predictLoop() is not implemented yet.");
           const a = Mi(r, e),
             i = this.outputs.map((t) => []);
           for (let e = 0; e < a.length; ++e) {
-            En.td(() => {
+            En.ud(() => {
               const n = a[e][0],
                 r = a[e][1],
                 i = Di(t, n, r),
@@ -65845,13 +65851,13 @@ PERFORMANCE OF THIS SOFTWARE.
         });
       }
       predict(t, e = {}) {
-        const n = Bi(t);
+        const n = $i(t);
         Wi(n, this.inputNames, this.feedInputShapes, !1);
         try {
           const r = null == e.batchSize ? 32 : e.batchSize;
           return _i(r), this.predictLoop(n, r);
         } finally {
-          $i(n, t);
+          Bi(n, t);
         }
       }
       predictOnBatch(t) {
@@ -65886,7 +65892,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 "All target Tensors (y) should have the same number of samples. Got array shapes: " +
                   JSON.stringify(e.map((t) => t.shape))
               );
-            if (r.length > 0 && a.length > 0 && !En.Bd.arraysEqual(r, a))
+            if (r.length > 0 && a.length > 0 && !En.Cd.arraysEqual(r, a))
               throw new Rn(
                 `Input Tensors should have the same number of samples as target Tensors. Found ${r[0]} input sample(s) and ${a[0]} target sample(s).`
               );
@@ -65939,7 +65945,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return [o, s, u];
       }
       testLoop(t, e, n, r = 0, a) {
-        return En.td(() => {
+        return En.ud(() => {
           const i = this.checkNumSamples(e, n, a, "steps"),
             o = [];
           if (r > 0) throw new An("Verbose mode is not implemented yet.");
@@ -65947,7 +65953,7 @@ PERFORMANCE OF THIS SOFTWARE.
             throw new An("steps mode in testLoop() is not implemented yet");
           {
             const r = Mi(i, n),
-              a = Object(En.pd)(Or(0, i));
+              a = Object(En.qd)(Or(0, i));
             for (let n = 0; n < r.length; ++n) {
               const i = r[n][0],
                 s = r[n][1],
@@ -65955,10 +65961,10 @@ PERFORMANCE OF THIS SOFTWARE.
                 c = Fi(e, u),
                 l = t(c);
               if (0 === n)
-                for (let t = 0; t < l.length; ++t) o.push(Object(En.Hc)(0));
+                for (let t = 0; t < l.length; ++t) o.push(Object(En.Ic)(0));
               for (let t = 0; t < l.length; ++t) {
                 const e = l[t];
-                o[t] = En.r(o[t], En.ic(s - i, e));
+                o[t] = En.r(o[t], En.jc(s - i, e));
               }
             }
             for (let t = 0; t < o.length; ++t) o[t] = En.ib(o[t], i);
@@ -66005,7 +66011,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 for (let t = 0; t < this.lossFunctions.length; ++t) {
                   let n = (0, this.lossFunctions[t])(r[t], s[t]);
                   null != a[t] && (n = ki(n, a[t]));
-                  const i = En.cc(n);
+                  const i = En.dc(n);
                   e.push(i), (u = 0 === t ? n : En.r(u, n));
                 }
                 for (let t = 0; t < this.metricsTensors.length; ++t) {
@@ -66015,12 +66021,12 @@ PERFORMANCE OF THIS SOFTWARE.
                   else {
                     const e = this.metricsTensors[t][0],
                       a = this.metricsTensors[t][1];
-                    n = En.cc(e(r[a], s[a]));
+                    n = En.dc(e(r[a], s[a]));
                   }
-                  En.Ib(n), i.push(n);
+                  En.Jb(n), i.push(n);
                 }
                 return (
-                  (u = En.cc(u)),
+                  (u = En.dc(u)),
                   this.calculateLosses().forEach((t) => {
                     u = En.r(u, t);
                   }),
@@ -66035,7 +66041,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       makeTestFunction() {
         this.testFunction = (t) =>
-          En.td(() => {
+          En.ud(() => {
             const e = [];
             let n;
             const r = t.slice(0, this.inputs.length),
@@ -66050,13 +66056,13 @@ PERFORMANCE OF THIS SOFTWARE.
               s = yi(this.outputs, o);
             for (let t = 0; t < this.lossFunctions.length; ++t) {
               const r = this.lossFunctions[t],
-                i = En.cc(r(a[t], s[t]));
+                i = En.dc(r(a[t], s[t]));
               (n = 0 === t ? i : En.r(n, i)), e.push(n);
             }
             for (let t = 0; t < this.metricsTensors.length; ++t) {
               const n = this.metricsTensors[t][0],
                 r = this.metricsTensors[t][1],
-                i = En.cc(n(a[r], s[r]));
+                i = En.dc(n(a[r], s[r]));
               e.push(i);
             }
             return e;
@@ -66110,22 +66116,22 @@ PERFORMANCE OF THIS SOFTWARE.
           null != this.optimizer &&
           this.isOptimizerOwned
         ) {
-          const e = En.dc().numTensors;
+          const e = En.ec().numTensors;
           this.optimizer_.dispose(),
-            (t.numDisposedVariables += e - En.dc().numTensors);
+            (t.numDisposedVariables += e - En.ec().numTensors);
         }
         return t;
       }
       getLossIdentifiers() {
         let t;
-        if ("string" == typeof this.loss) t = Bn(this.loss);
+        if ("string" == typeof this.loss) t = $n(this.loss);
         else if (Array.isArray(this.loss)) {
           for (const t of this.loss)
             if ("string" != typeof t)
               throw new Error(
                 "Serialization of non-string loss is not supported."
               );
-          t = this.loss.map((t) => Bn(t));
+          t = this.loss.map((t) => $n(t));
         } else {
           const e = Object.keys(this.loss);
           t = {};
@@ -66135,7 +66141,7 @@ PERFORMANCE OF THIS SOFTWARE.
               throw new Error(
                 "Serialization of non-string loss is not supported."
               );
-            t[r] = Bn(n[r]);
+            t[r] = $n(n[r]);
           }
         }
         return t;
@@ -66145,12 +66151,12 @@ PERFORMANCE OF THIS SOFTWARE.
           "string" == typeof this.metrics ||
           "function" == typeof this.metrics
         )
-          return [Bn(ui(this.metrics))];
+          return [$n(ui(this.metrics))];
         if (Array.isArray(this.metrics))
-          return this.metrics.map((t) => Bn(ui(t)));
+          return this.metrics.map((t) => $n(ui(t)));
         {
           const t = {};
-          for (const e in this.metrics) t[e] = Bn(ui(this.metrics[e]));
+          for (const e in this.metrics) t[e] = $n(ui(this.metrics[e]));
           return t;
         }
       }
@@ -66171,24 +66177,24 @@ PERFORMANCE OF THIS SOFTWARE.
           throw new Error("Loading loss_weights is not supported yet.");
         if (null != t.sample_weight_mode)
           throw new Error("Loading sample_weight_mode is not supported yet.");
-        const e = La(mi(t.optimizer_config));
+        const e = Pa(mi(t.optimizer_config));
         let n, r;
-        if ("string" == typeof t.loss) n = $n(t.loss);
-        else if (Array.isArray(t.loss)) n = t.loss.map((t) => $n(t));
+        if ("string" == typeof t.loss) n = Bn(t.loss);
+        else if (Array.isArray(t.loss)) n = t.loss.map((t) => Bn(t));
         else if (null != t.loss) {
           n = {};
-          for (const e in t.loss) n[e] = $n(t.loss[e]);
+          for (const e in t.loss) n[e] = Bn(t.loss[e]);
         }
-        if (Array.isArray(t.metrics)) r = t.metrics.map((t) => $n(t));
+        if (Array.isArray(t.metrics)) r = t.metrics.map((t) => Bn(t));
         else if (null != t.metrics) {
           r = {};
-          for (const e in t.metrics) r[e] = $n(t.metrics[e]);
+          for (const e in t.metrics) r[e] = Bn(t.metrics[e]);
         }
         this.compile({ loss: n, metrics: r, optimizer: e });
       }
       async save(t, e) {
         if ("string" == typeof t) {
-          const e = En.Gb.getSaveHandlers(t);
+          const e = En.Hb.getSaveHandlers(t);
           if (0 === e.length)
             throw new Rn(`Cannot find any save handlers for URL '${t}'`);
           if (e.length > 1)
@@ -66201,7 +66207,7 @@ PERFORMANCE OF THIS SOFTWARE.
           throw new Rn(
             "LayersModel.save() cannot proceed because the IOHandler provided does not have the `save` attribute defined."
           );
-        const n = await En.Gb.encodeWeights(this.getNamedWeights(e)),
+        const n = await En.Hb.encodeWeights(this.getNamedWeights(e)),
           r = {
             modelTopology: this.toJSON(null, !1),
             format: "layers-model",
@@ -66211,12 +66217,12 @@ PERFORMANCE OF THIS SOFTWARE.
         if (null != e && e.includeOptimizer && null != this.optimizer) {
           r.trainingConfig = this.getTrainingConfig();
           const t = "optimizer",
-            { data: e, specs: a } = await En.Gb.encodeWeights(
+            { data: e, specs: a } = await En.Hb.encodeWeights(
               await this.optimizer.getWeights(),
               t
             );
           n.specs.push(...a),
-            (n.data = En.Gb.concatenateArrayBuffers([n.data, e]));
+            (n.data = En.Hb.concatenateArrayBuffers([n.data, e]));
         }
         if (null != this.userDefinedMetadata) {
           const t = !0;
@@ -66232,7 +66238,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.userDefinedMetadata;
       }
     }
-    (Vi.className = "Model"), En.Lc.registerClass(Vi);
+    (Vi.className = "Model"), En.Mc.registerClass(Vi);
     class Ui extends Vi {
       constructor(t) {
         if (
@@ -66448,7 +66454,7 @@ PERFORMANCE OF THIS SOFTWARE.
             throw new Rn("Legacy serialization format not supported yet.");
           a = e;
         } else
-          En.Bd.assert(
+          En.Cd.assert(
             null != e.layers,
             () =>
               "When the config data for a Sequential model is not an Array, it must be an Object that contains the 'layers' field."
@@ -66462,7 +66468,7 @@ PERFORMANCE OF THIS SOFTWARE.
             "Sequential.fromConfig called on non-Sequential input: " + o
           );
         for (const t of a) {
-          const e = La(t, void 0, r);
+          const e = Pa(t, void 0, r);
           r && e.setFastWeightInitDuringBuild(!0), o.add(e);
         }
         return o;
@@ -66492,7 +66498,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return { name: this.name, layers: t };
       }
     }
-    (Ui.className = "Sequential"), En.Lc.registerClass(Ui);
+    (Ui.className = "Sequential"), En.Mc.registerClass(Ui);
     /**
      * @license
      * Copyright 2018 Google LLC
@@ -66502,7 +66508,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * https://opensource.org/licenses/MIT.
      * =============================================================================
      */
-    class Gi extends En.Lc.Serializable {
+    class Gi extends En.Mc.Serializable {
       getConfig() {
         return {};
       }
@@ -66518,77 +66524,77 @@ PERFORMANCE OF THIS SOFTWARE.
         })(t, e);
       }
     }
-    (Hi.className = "elu"), En.Lc.registerClass(Hi);
+    (Hi.className = "elu"), En.Mc.registerClass(Hi);
     class qi extends Gi {
       apply(t) {
-        return En.Jc(t);
+        return En.Kc(t);
       }
     }
-    (qi.className = "selu"), En.Lc.registerClass(qi);
+    (qi.className = "selu"), En.Mc.registerClass(qi);
     class Ki extends Gi {
       apply(t) {
-        return En.Bc(t);
+        return En.Cc(t);
       }
     }
-    (Ki.className = "relu"), En.Lc.registerClass(Ki);
+    (Ki.className = "relu"), En.Mc.registerClass(Ki);
     class Xi extends Gi {
       apply(t) {
-        return Object(En.td)(() => En.fc(6, En.Bc(t)));
+        return Object(En.ud)(() => En.gc(6, En.Cc(t)));
       }
     }
-    (Xi.className = "relu6"), En.Lc.registerClass(Xi);
+    (Xi.className = "relu6"), En.Mc.registerClass(Xi);
     class Yi extends Gi {
       apply(t) {
         return t;
       }
     }
-    (Yi.className = "linear"), En.Lc.registerClass(Yi);
+    (Yi.className = "linear"), En.Mc.registerClass(Yi);
     class Ji extends Gi {
       apply(t) {
-        return En.Oc(t);
+        return En.Pc(t);
       }
     }
-    (Ji.className = "sigmoid"), En.Lc.registerClass(Ji);
+    (Ji.className = "sigmoid"), En.Mc.registerClass(Ji);
     class Qi extends Gi {
       apply(t) {
         return (function (t) {
-          return Object(En.td)(() => {
-            const e = En.r(0.5, En.ic(0.2, t));
+          return Object(En.ud)(() => {
+            const e = En.r(0.5, En.jc(0.2, t));
             return En.Q(e, 0, 1);
           });
         })(t);
       }
     }
-    (Qi.className = "hardSigmoid"), En.Lc.registerClass(Qi);
+    (Qi.className = "hardSigmoid"), En.Mc.registerClass(Qi);
     class Zi extends Gi {
       apply(t) {
-        return En.Zc(t);
+        return En.ad(t);
       }
     }
-    (Zi.className = "softplus"), En.Lc.registerClass(Zi);
+    (Zi.className = "softplus"), En.Mc.registerClass(Zi);
     class to extends Gi {
       apply(t) {
         return (function (t) {
-          return Object(En.td)(() => En.ib(t, En.o(t).add(1)));
+          return Object(En.ud)(() => En.ib(t, En.o(t).add(1)));
         })(t);
       }
     }
-    (to.className = "softsign"), En.Lc.registerClass(to);
+    (to.className = "softsign"), En.Mc.registerClass(to);
     class eo extends Gi {
       apply(t) {
-        return En.nd(t);
+        return En.od(t);
       }
     }
-    (eo.className = "tanh"), En.Lc.registerClass(eo);
+    (eo.className = "tanh"), En.Mc.registerClass(eo);
     class no extends Gi {
       apply(t, e = -1) {
-        return En.Yc(t, e);
+        return En.Zc(t, e);
       }
     }
-    (no.className = "softmax"), En.Lc.registerClass(no);
+    (no.className = "softmax"), En.Mc.registerClass(no);
     class ro extends Gi {
       apply(t, e = -1) {
-        return En.Sb(t, e);
+        return En.Tb(t, e);
       }
     }
     function ao(t) {
@@ -66597,7 +66603,7 @@ PERFORMANCE OF THIS SOFTWARE.
     function io(t, e = {}) {
       return zn(
         t,
-        En.Lc.SerializationMap.getMap().classNameMap,
+        En.Mc.SerializationMap.getMap().classNameMap,
         e,
         "activation"
       );
@@ -66628,8 +66634,8 @@ PERFORMANCE OF THIS SOFTWARE.
             t
         );
     }
-    (ro.className = "logSoftmax"), En.Lc.registerClass(ro);
-    class uo extends En.Lc.Serializable {}
+    (ro.className = "logSoftmax"), En.Mc.registerClass(ro);
+    class uo extends En.Mc.Serializable {}
     class co extends uo {
       constructor(t) {
         super(),
@@ -66640,16 +66646,16 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.hasL2 = 0 !== this.l2);
       }
       apply(t) {
-        return Object(En.td)(() => {
-          let e = Object(En.Hd)([1]);
+        return Object(En.ud)(() => {
+          let e = Object(En.Id)([1]);
           return (
             this.hasL1 &&
               (e = Object(En.r)(
                 e,
-                Object(En.kd)(En.ic(this.l1, Object(En.o)(t)))
+                Object(En.ld)(En.jc(this.l1, Object(En.o)(t)))
               )),
             this.hasL2 &&
-              (e = Object(En.r)(e, Object(En.kd)(En.ic(this.l2, Mr(t))))),
+              (e = Object(En.r)(e, Object(En.ld)(En.jc(this.l2, Mr(t))))),
             e.asScalar()
           );
         });
@@ -66661,15 +66667,15 @@ PERFORMANCE OF THIS SOFTWARE.
         return new t({ l1: e.l1, l2: e.l2 });
       }
     }
-    (co.className = "L1L2"), En.Lc.registerClass(co);
+    (co.className = "L1L2"), En.Mc.registerClass(co);
     const lo = { l1l2: "L1L2" };
     function ho(t) {
-      return Pn(t);
+      return Ln(t);
     }
     function po(t, e = {}) {
       return zn(
         t,
-        En.Lc.SerializationMap.getMap().classNameMap,
+        En.Mc.SerializationMap.getMap().classNameMap,
         e,
         "regularizer"
       );
@@ -66697,7 +66703,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       call(t, e) {
         t = fa(t);
-        let n = Object(En.Bc)(t);
+        let n = Object(En.Cc)(t);
         return (
           null != this.maxValue && (n = Object(En.Q)(n, 0, this.maxValue)), n
         );
@@ -66711,7 +66717,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (mo.className = "ReLU"), En.Lc.registerClass(mo);
+    (mo.className = "ReLU"), En.Mc.registerClass(mo);
     class go extends Sa {
       constructor(t) {
         super(null == t ? {} : t),
@@ -66721,7 +66727,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       call(t, e) {
         const n = fa(t);
-        return Object(En.Kb)(n, this.alpha);
+        return Object(En.Lb)(n, this.alpha);
       }
       computeOutputShape(t) {
         return t;
@@ -66732,7 +66738,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (go.className = "LeakyReLU"), En.Lc.registerClass(go);
+    (go.className = "LeakyReLU"), En.Mc.registerClass(go);
     class bo extends Sa {
       constructor(t) {
         if (
@@ -66778,7 +66784,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.built = !0);
       }
       call(t, e) {
-        return (t = fa(t)), Object(En.sc)(t, this.alpha.read());
+        return (t = fa(t)), Object(En.tc)(t, this.alpha.read());
       }
       getConfig() {
         const t = {
@@ -66791,7 +66797,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (bo.className = "PReLU"), En.Lc.registerClass(bo);
+    (bo.className = "PReLU"), En.Mc.registerClass(bo);
     class vo extends Sa {
       constructor(t) {
         if (
@@ -66818,7 +66824,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (vo.className = "ELU"), En.Lc.registerClass(vo);
+    (vo.className = "ELU"), En.Mc.registerClass(vo);
     class yo extends Sa {
       constructor(t) {
         super(null == t ? {} : t),
@@ -66839,7 +66845,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (yo.className = "ThresholdedReLU"), En.Lc.registerClass(yo);
+    (yo.className = "ThresholdedReLU"), En.Mc.registerClass(yo);
     class xo extends Sa {
       constructor(t) {
         super(null == t ? {} : t),
@@ -66914,17 +66920,17 @@ PERFORMANCE OF THIS SOFTWARE.
      * https://opensource.org/licenses/MIT.
      * =============================================================================
      */ function Eo(t, e) {
-      return Object(En.td)(
-        () => (lr(e), "channelsFirst" === e ? En.xd(t, [0, 2, 3, 1]) : t)
+      return Object(En.ud)(
+        () => (lr(e), "channelsFirst" === e ? En.yd(t, [0, 2, 3, 1]) : t)
       );
     }
     function So(t, e) {
-      return Object(En.td)(
-        () => (lr(e), "channelsFirst" === e ? En.xd(t, [0, 2, 3, 4, 1]) : t)
+      return Object(En.ud)(
+        () => (lr(e), "channelsFirst" === e ? En.yd(t, [0, 2, 3, 4, 1]) : t)
       );
     }
     function Io(t, e, n, r = 1, a = "valid", i, o = 1) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         if ((null == i && (i = "channelsLast"), lr(i), 3 !== t.shape.length))
           throw new Rn(
             "The input of a conv1dWithBias operation should be 3, but is " +
@@ -66944,17 +66950,17 @@ PERFORMANCE OF THIS SOFTWARE.
               " instead"
           );
         if (
-          ("channelsFirst" === i && (t = En.xd(t, [0, 2, 1])), "causal" === a)
+          ("channelsFirst" === i && (t = En.yd(t, [0, 2, 1])), "causal" === a)
         )
           throw new An(
             "The support for CAUSAL padding mode in conv1dWithBias is not implemented yet."
           );
         let s = En.X(t, e, r, "same" === a ? "same" : "valid", "NWC", o);
-        return null != n && (s = Br(s, n)), s;
+        return null != n && (s = $r(s, n)), s;
       });
     }
     function ko(t, e, n, r = [1, 1], a = "valid", i, o, s = null) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         if (
           (null == i && (i = "channelsLast"),
           lr(i),
@@ -66973,7 +66979,7 @@ PERFORMANCE OF THIS SOFTWARE.
             "The support for CAUSAL padding mode in conv1dWithBias is not implemented yet."
           );
         return (
-          (u = En.yb.conv2d({
+          (u = En.zb.conv2d({
             x: u,
             filter: e,
             strides: r,
@@ -66983,13 +66989,13 @@ PERFORMANCE OF THIS SOFTWARE.
             bias: n,
             activation: s,
           })),
-          "channelsFirst" === i && (u = En.xd(u, [0, 3, 1, 2])),
+          "channelsFirst" === i && (u = En.yd(u, [0, 3, 1, 2])),
           u
         );
       });
     }
     function No(t, e, n, r = [1, 1, 1], a = "valid", i, o) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         if (
           (null == i && (i = "channelsLast"),
           lr(i),
@@ -67013,13 +67019,13 @@ PERFORMANCE OF THIS SOFTWARE.
           );
         return (
           (s = En.ab(s, e, r, "same" === a ? "same" : "valid", "NDHWC", o)),
-          null != n && (s = Br(s, n)),
-          "channelsFirst" === i && (s = En.xd(s, [0, 4, 1, 2, 3])),
+          null != n && (s = $r(s, n)),
+          "channelsFirst" === i && (s = En.yd(s, [0, 4, 1, 2, 3])),
           s
         );
       });
     }
-    (xo.className = "Softmax"), En.Lc.registerClass(xo);
+    (xo.className = "Softmax"), En.Mc.registerClass(xo);
     class Ro extends Sa {
       constructor(t, e) {
         if (
@@ -67160,7 +67166,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.built = !0);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let e;
           t = fa(t);
           const n = null == this.bias ? null : this.bias.read(),
@@ -67282,7 +67288,7 @@ PERFORMANCE OF THIS SOFTWARE.
           );
       }
     }
-    (To.className = "Conv2D"), En.Lc.registerClass(To);
+    (To.className = "Conv2D"), En.Mc.registerClass(To);
     class _o extends Ao {
       constructor(t) {
         super(3, t), _o.verifyArgs(t);
@@ -67304,7 +67310,7 @@ PERFORMANCE OF THIS SOFTWARE.
           );
       }
     }
-    (_o.className = "Conv3D"), En.Lc.registerClass(_o);
+    (_o.className = "Conv3D"), En.Mc.registerClass(_o);
     class Do extends To {
       constructor(t) {
         if (
@@ -67353,7 +67359,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.built = !0);
       }
       call(t, e) {
-        return En.td(() => {
+        return En.ud(() => {
           let e = fa(t);
           if (4 !== e.shape.length)
             throw new Rn(
@@ -67378,11 +67384,11 @@ PERFORMANCE OF THIS SOFTWARE.
               Oo(s, h, c, this.padding),
               this.filters,
             ];
-          "channelsLast" !== this.dataFormat && (e = En.xd(e, [0, 2, 3, 1]));
+          "channelsLast" !== this.dataFormat && (e = En.yd(e, [0, 2, 3, 1]));
           let p = En.Z(e, this.kernel.read(), d, this.strides, this.padding);
           return (
-            "channelsLast" !== this.dataFormat && (p = En.xd(p, [0, 3, 1, 2])),
-            null != this.bias && (p = Br(p, this.bias.read(), this.dataFormat)),
+            "channelsLast" !== this.dataFormat && (p = En.yd(p, [0, 3, 1, 2])),
+            null != this.bias && (p = $r(p, this.bias.read(), this.dataFormat)),
             null != this.activation && (p = this.activation.apply(p)),
             p
           );
@@ -67410,7 +67416,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return delete t.dilationRate, t;
       }
     }
-    (Do.className = "Conv2DTranspose"), En.Lc.registerClass(Do);
+    (Do.className = "Conv2DTranspose"), En.Mc.registerClass(Do);
     class Fo extends Ao {
       constructor(t, e) {
         if (
@@ -67504,15 +67510,15 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.built = !0);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let e;
           if (((t = fa(t)), 1 === this.rank))
             throw new An("1D separable convolution is not implemented yet.");
           return (
             2 === this.rank &&
               ("channelsFirst" === this.dataFormat &&
-                (t = En.xd(t, [0, 2, 3, 1])),
-              (e = En.Kc(
+                (t = En.yd(t, [0, 2, 3, 1])),
+              (e = En.Lc(
                 t,
                 this.depthwiseKernel.read(),
                 this.pointwiseKernel.read(),
@@ -67521,9 +67527,9 @@ PERFORMANCE OF THIS SOFTWARE.
                 this.dilationRate,
                 "NHWC"
               ))),
-            this.useBias && (e = Br(e, this.bias.read(), this.dataFormat)),
+            this.useBias && (e = $r(e, this.bias.read(), this.dataFormat)),
             null != this.activation && (e = this.activation.apply(e)),
-            "channelsFirst" === this.dataFormat && (e = En.xd(e, [0, 3, 1, 2])),
+            "channelsFirst" === this.dataFormat && (e = En.yd(e, [0, 3, 1, 2])),
             e
           );
         });
@@ -67551,7 +67557,7 @@ PERFORMANCE OF THIS SOFTWARE.
         super(2, t);
       }
     }
-    (Mo.className = "SeparableConv2D"), En.Lc.registerClass(Mo);
+    (Mo.className = "SeparableConv2D"), En.Mc.registerClass(Mo);
     class jo extends Ao {
       constructor(t) {
         super(1, t), jo.verifyArgs(t), (this.inputSpec = [{ ndim: 3 }]);
@@ -67572,8 +67578,8 @@ PERFORMANCE OF THIS SOFTWARE.
           );
       }
     }
-    (jo.className = "Conv1D"), En.Lc.registerClass(jo);
-    class Bo extends Sa {
+    (jo.className = "Conv1D"), En.Mc.registerClass(jo);
+    class $o extends Sa {
       constructor(t) {
         super(t),
           "number" == typeof t.cropping
@@ -67607,7 +67613,7 @@ PERFORMANCE OF THIS SOFTWARE.
             ];
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           if (((t = fa(t)), "channelsLast" === this.dataFormat)) {
             const e = Nr(
               t,
@@ -67644,8 +67650,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (Bo.className = "Cropping2D"), En.Lc.registerClass(Bo);
-    class $o extends Sa {
+    ($o.className = "Cropping2D"), En.Mc.registerClass($o);
+    class Bo extends Sa {
       constructor(t) {
         super(t),
           (this.DEFAULT_SIZE = [2, 2]),
@@ -67667,15 +67673,15 @@ PERFORMANCE OF THIS SOFTWARE.
         }
       }
       call(t, e) {
-        return En.td(() => {
+        return En.ud(() => {
           let e = fa(t);
           const n = e.shape;
           if ("channelsFirst" === this.dataFormat) {
-            e = En.xd(e, [0, 2, 3, 1]);
+            e = En.yd(e, [0, 2, 3, 1]);
             const t = this.size[0] * n[2],
               r = this.size[1] * n[3],
               a = e.resizeNearestNeighbor([t, r]);
-            return En.xd(a, [0, 3, 1, 2]);
+            return En.yd(a, [0, 3, 1, 2]);
           }
           {
             const t = this.size[0] * n[1],
@@ -67690,8 +67696,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    ($o.className = "UpSampling2D"), En.Lc.registerClass($o);
-    class Lo extends Ro {
+    (Bo.className = "UpSampling2D"), En.Mc.registerClass(Bo);
+    class Po extends Ro {
       constructor(t) {
         super(2, t),
           (this.depthwiseKernel = null),
@@ -67740,7 +67746,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.built = !0);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let e =
             /**
              * @license
@@ -67752,7 +67758,7 @@ PERFORMANCE OF THIS SOFTWARE.
              * =============================================================================
              */
             (function (t, e, n = [1, 1], r = "valid", a, i) {
-              return Object(En.td)(() => {
+              return Object(En.ud)(() => {
                 null == a && (a = "channelsLast"), lr(a);
                 let o = Eo(t, a);
                 if (4 !== t.rank)
@@ -67776,7 +67782,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     "NHWC",
                     i
                   )),
-                  "channelsFirst" === a && (o = En.xd(o, [0, 3, 1, 2])),
+                  "channelsFirst" === a && (o = En.yd(o, [0, 3, 1, 2])),
                   o
                 );
               });
@@ -67789,7 +67795,7 @@ PERFORMANCE OF THIS SOFTWARE.
               null
             );
           return (
-            this.useBias && (e = Br(e, this.bias.read(), this.dataFormat)),
+            this.useBias && (e = $r(e, this.bias.read(), this.dataFormat)),
             null != this.activation && (e = this.activation.apply(e)),
             e
           );
@@ -67820,7 +67826,7 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
     }
-    (Lo.className = "DepthwiseConv2D"), En.Lc.registerClass(Lo);
+    (Po.className = "DepthwiseConv2D"), En.Mc.registerClass(Po);
     /**
      * @license
      * Copyright 2018 Google LLC
@@ -67830,7 +67836,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * https://opensource.org/licenses/MIT.
      * =============================================================================
      */
-    class Po extends Sa {
+    class Lo extends Sa {
       constructor(t) {
         super(t),
           (this.rate = Math.max(Math.min(t.rate, 1), 0)),
@@ -67847,14 +67853,14 @@ PERFORMANCE OF THIS SOFTWARE.
         return n;
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           const n = fa(t);
           if (0 < this.rate && this.rate < 1) {
             const t = null != e.training && e.training,
               r = this.getNoiseShape(n);
-            return Lr(
-              () => $r(n, this.rate, r, this.seed),
+            return Pr(
+              () => Br(n, this.rate, r, this.seed),
               () => n,
               t
             );
@@ -67875,8 +67881,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return super.dispose();
       }
     }
-    (Po.className = "Dropout"), En.Lc.registerClass(Po);
-    class zo extends Po {
+    (Lo.className = "Dropout"), En.Mc.registerClass(Lo);
+    class zo extends Lo {
       constructor(t) {
         super(t), (this.inputSpec = [{ ndim: 3 }]);
       }
@@ -67885,7 +67891,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return [e[0], 1, e[2]];
       }
     }
-    (zo.className = "SpatialDropout1D"), En.Lc.registerClass(zo);
+    (zo.className = "SpatialDropout1D"), En.Mc.registerClass(zo);
     class Wo extends Sa {
       constructor(t) {
         if (
@@ -67952,7 +67958,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return (e[e.length - 1] = this.units), e;
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           const n = fa(t),
             r = Kn(this.activation.getClassName());
@@ -67966,7 +67972,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   this.bias ? this.bias.read() : null
                 ))
               : ((a = Dr(n, this.kernel.read())),
-                null != this.bias && (a = Br(a, this.bias.read())),
+                null != this.bias && (a = $r(a, this.bias.read())),
                 null != this.activation && (a = this.activation.apply(a))),
             a
           );
@@ -67989,7 +67995,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (Wo.className = "Dense"), En.Lc.registerClass(Wo);
+    (Wo.className = "Dense"), En.Mc.registerClass(Wo);
     class Vo extends Sa {
       constructor(t) {
         super((t = t || {})),
@@ -68008,7 +68014,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return [t[0], yr(t, 1)];
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           let n = fa(t);
           if ("channelsFirst" === this.dataFormat && n.rank > 1) {
@@ -68033,7 +68039,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (Vo.className = "Flatten"), En.Lc.registerClass(Vo);
+    (Vo.className = "Flatten"), En.Mc.registerClass(Vo);
     class Uo extends Sa {
       constructor(t) {
         super(t),
@@ -68041,7 +68047,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.activation = oo(t.activation));
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           const n = fa(t);
           return this.activation.apply(n);
@@ -68053,7 +68059,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (Uo.className = "Activation"), En.Lc.registerClass(Uo);
+    (Uo.className = "Activation"), En.Mc.registerClass(Uo);
     class Go extends Sa {
       constructor(t) {
         super(t), (this.n = t.n), (this.inputSpec = [{ ndim: 2 }]);
@@ -68062,12 +68068,12 @@ PERFORMANCE OF THIS SOFTWARE.
         return [t[0], this.n, t[1]];
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           return (
             (t = fa(t)),
             (e = t),
             (n = this.n),
-            Object(En.td)(() => {
+            Object(En.ud)(() => {
               if (2 !== e.shape.length)
                 throw new Rn(
                   `repeat() expects a rank-2 tensor, but received a rank-${e.shape.length} tensor.`
@@ -68084,7 +68090,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (Go.className = "RepeatVector"), En.Lc.registerClass(Go);
+    (Go.className = "RepeatVector"), En.Mc.registerClass(Go);
     class Ho extends Sa {
       constructor(t) {
         super(t), (this.targetShape = t.targetShape);
@@ -68128,7 +68134,7 @@ PERFORMANCE OF THIS SOFTWARE.
               .concat(this.fixUnknownDimension(t.slice(1), this.targetShape));
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           const n = fa(t),
             r = n.shape,
@@ -68144,7 +68150,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (Ho.className = "Reshape"), En.Lc.registerClass(Ho);
+    (Ho.className = "Reshape"), En.Mc.registerClass(Ho);
     class qo extends Sa {
       constructor(t) {
         if ((super(t), null == t.dims))
@@ -68158,7 +68164,7 @@ PERFORMANCE OF THIS SOFTWARE.
               " instead."
           );
         const e = Or(1, t.dims.length + 1);
-        if (!En.Bd.arraysEqual(t.dims.slice().sort(), e))
+        if (!En.Cd.arraysEqual(t.dims.slice().sort(), e))
           throw new Error(
             "Invalid permutation `dims`: " +
               JSON.stringify(t.dims) +
@@ -68178,7 +68184,7 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
       call(t, e) {
-        return Object(En.xd)(fa(t), this.dimsIncludingBatch);
+        return Object(En.yd)(fa(t), this.dimsIncludingBatch);
       }
       getConfig() {
         const t = { dims: this.dims },
@@ -68186,7 +68192,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (qo.className = "Permute"), En.Lc.registerClass(qo);
+    (qo.className = "Permute"), En.Mc.registerClass(qo);
     class Ko extends Sa {
       constructor(t) {
         super(null == t ? {} : t),
@@ -68204,18 +68210,18 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       computeMask(t, e) {
         const n = fa(t);
-        return Object(En.u)(Object(En.mc)(n, this.maskValue), -1);
+        return Object(En.u)(Object(En.nc)(n, this.maskValue), -1);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           const n = fa(t),
-            r = Object(En.u)(Object(En.mc)(n, this.maskValue), -1, !0);
+            r = Object(En.u)(Object(En.nc)(n, this.maskValue), -1, !0);
           return n.mul(r.asType(n.dtype));
         });
       }
     }
-    (Ko.className = "Masking"), En.Lc.registerClass(Ko);
+    (Ko.className = "Masking"), En.Mc.registerClass(Ko);
     /**
      * @license
      * Copyright 2018 Google LLC
@@ -68267,9 +68273,9 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       warnOnIncompatibleInputShape(t) {}
       computeMask(t, e) {
-        return Object(En.td)(() =>
+        return Object(En.ud)(() =>
           this.maskZero
-            ? ((t = fa(t)), Object(En.mc)(t, Object(En.Id)(t)))
+            ? ((t = fa(t)), Object(En.nc)(t, Object(En.Jd)(t)))
             : null
         );
       }
@@ -68298,7 +68304,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return [t[0], ...e, this.outputDim];
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           let n = fa(t);
           "int32" !== n.dtype && (n = Er(n, "int32"));
@@ -68322,7 +68328,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (Xo.className = "Embedding"), En.Lc.registerClass(Xo);
+    (Xo.className = "Embedding"), En.Mc.registerClass(Xo);
     /**
      * @license
      * Copyright 2018 Google LLC
@@ -68391,7 +68397,7 @@ PERFORMANCE OF THIS SOFTWARE.
           : (this.reshapeRequired = !0);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           if (((t = t), this.reshapeRequired)) {
             const e = [],
               n = t.map((t) => t.rank);
@@ -68413,13 +68419,13 @@ PERFORMANCE OF THIS SOFTWARE.
                     a = t[0],
                     i = t.slice(1).concat([a]);
                   let o = r.reshape([a].concat(yr(t.slice(1))));
-                  (o = En.xd(o, [1, 0])),
+                  (o = En.yd(o, [1, 0])),
                     (o = o.reshape(i)),
                     e.push(o),
                     (n = !0);
                 } else if (t > 1) {
                   const a = Or(1, t).concat([0]);
-                  e.push(En.xd(r, a)), (n = !0);
+                  e.push(En.yd(r, a)), (n = !0);
                 } else e.push(r);
               }
               let r = this.mergeFunction(e);
@@ -68429,10 +68435,10 @@ PERFORMANCE OF THIS SOFTWARE.
                   const t = r.shape,
                     e = t[t.length - 1],
                     n = [e].concat(t.slice(0, t.length - 1));
-                  r = En.xd(r.reshape([-1, e]), [1, 0]).reshape(n);
+                  r = En.yd(r.reshape([-1, e]), [1, 0]).reshape(n);
                 } else if (a > 1) {
                   const t = [a - 1].concat(Or(0, a - 1));
-                  r = En.xd(r, t);
+                  r = En.yd(r, t);
                 }
               return r;
             }
@@ -68454,7 +68460,7 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
       computeMask(t, e) {
-        return En.td(() => {
+        return En.ud(() => {
           if (null == e) return null;
           if (!Array.isArray(e)) throw new Rn("`mask` should be an Array");
           if (!Array.isArray(t)) throw new Rn("`inputs` should be an Array");
@@ -68463,8 +68469,8 @@ PERFORMANCE OF THIS SOFTWARE.
               `The Array 'inputs' and 'mask' are expected to have the same length, but have different lengths (${t.length} vs ${e.length})`
             );
           if (e.every((t) => null == t)) return null;
-          let n = (e = e.map((t) => (null == t ? t : En.rb(t, 0))))[0];
-          for (let t = 1; t < e.length - 1; ++t) n = En.Tb(n, e[t]);
+          let n = (e = e.map((t) => (null == t ? t : En.sb(t, 0))))[0];
+          for (let t = 1; t < e.length - 1; ++t) n = En.Ub(n, e[t]);
           return n;
         });
       }
@@ -68474,66 +68480,66 @@ PERFORMANCE OF THIS SOFTWARE.
         super(t);
       }
       mergeFunction(t) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let e = t[0].clone();
           for (let n = 1; n < t.length; ++n) e = En.r(e, t[n]);
           return e;
         });
       }
     }
-    (Jo.className = "Add"), En.Lc.registerClass(Jo);
+    (Jo.className = "Add"), En.Mc.registerClass(Jo);
     class Qo extends Yo {
       constructor(t) {
         super(t);
       }
       mergeFunction(t) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let e = t[0].clone();
-          for (let n = 1; n < t.length; ++n) e = En.ic(e, t[n]);
+          for (let n = 1; n < t.length; ++n) e = En.jc(e, t[n]);
           return e;
         });
       }
     }
-    (Qo.className = "Multiply"), En.Lc.registerClass(Qo);
+    (Qo.className = "Multiply"), En.Mc.registerClass(Qo);
     class Zo extends Yo {
       constructor(t) {
         super(t);
       }
       mergeFunction(t) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let e = t[0].clone();
           for (let n = 1; n < t.length; ++n) e = En.r(e, t[n]);
-          return En.ic(1 / t.length, e);
+          return En.jc(1 / t.length, e);
         });
       }
     }
-    (Zo.className = "Average"), En.Lc.registerClass(Zo);
+    (Zo.className = "Average"), En.Mc.registerClass(Zo);
     class ts extends Yo {
       constructor(t) {
         super(t);
       }
       mergeFunction(t) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let e = t[0];
-          for (let n = 1; n < t.length; ++n) e = En.bc(e, t[n]);
+          for (let n = 1; n < t.length; ++n) e = En.cc(e, t[n]);
           return e;
         });
       }
     }
-    (ts.className = "Maximum"), En.Lc.registerClass(ts);
+    (ts.className = "Maximum"), En.Mc.registerClass(ts);
     class es extends Yo {
       constructor(t) {
         super(t);
       }
       mergeFunction(t) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let e = t[0];
-          for (let n = 1; n < t.length; ++n) e = En.fc(e, t[n]);
+          for (let n = 1; n < t.length; ++n) e = En.gc(e, t[n]);
           return e;
         });
       }
     }
-    (es.className = "Minimum"), En.Lc.registerClass(es);
+    (es.className = "Minimum"), En.Mc.registerClass(es);
     class ns extends Yo {
       constructor(t) {
         super(t),
@@ -68562,7 +68568,7 @@ PERFORMANCE OF THIS SOFTWARE.
           r.splice(this.axis, 1);
           let a = !1;
           for (const t of n)
-            if (En.Bd.arraysEqual(t, r)) {
+            if (En.Cd.arraysEqual(t, r)) {
               a = !0;
               break;
             }
@@ -68575,7 +68581,7 @@ PERFORMANCE OF THIS SOFTWARE.
           );
       }
       mergeFunction(t) {
-        return Object(En.td)(() => Rr(t, this.axis));
+        return Object(En.ud)(() => Rr(t, this.axis));
       }
       computeOutputShape(t) {
         if (!Array.isArray(t) || !Array.isArray(t[0]))
@@ -68604,7 +68610,7 @@ PERFORMANCE OF THIS SOFTWARE.
           throw new Rn(
             `Mismatch in the length of mask (${e.length}) and the legnth of inputs (${t.length})`
           );
-        return En.td(() => {
+        return En.ud(() => {
           let n = !0;
           if (
             (e.forEach((t) => {
@@ -68616,9 +68622,9 @@ PERFORMANCE OF THIS SOFTWARE.
           const r = [];
           for (let n = 0; n < t.length; ++n)
             null == e[n]
-              ? r.push(En.pc(t[n]).asType("bool"))
+              ? r.push(En.qc(t[n]).asType("bool"))
               : e[n].rank < t[n].rank
-              ? r.push(En.rb(e[n], -1))
+              ? r.push(En.sb(e[n], -1))
               : r.push(e[n]);
           const a = En.S(r, this.axis);
           return En.t(a, -1, !1);
@@ -68634,7 +68640,7 @@ PERFORMANCE OF THIS SOFTWARE.
       for (; t < 0; ) t += e;
       return t;
     }
-    (ns.className = "Concatenate"), En.Lc.registerClass(ns);
+    (ns.className = "Concatenate"), En.Mc.registerClass(ns);
     class as extends Yo {
       constructor(t) {
         super(t),
@@ -68644,7 +68650,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.reshapeRequired = !1);
       }
       build(t) {
-        En.Bd.assert(
+        En.Cd.assert(
           Array.isArray(t) &&
             2 === t.length &&
             Array.isArray(t[0]) &&
@@ -68673,20 +68679,20 @@ PERFORMANCE OF THIS SOFTWARE.
           (e = Array.isArray(this.axes)
             ? this.axes.map((e, n) => rs(e, t[n].shape.length))
             : [rs(this.axes, n.shape.length), rs(this.axes, r.shape.length)]),
-          this.normalize && ((n = Pa(n, e[0])), (r = Pa(r, e[1]))),
+          this.normalize && ((n = La(n, e[0])), (r = La(r, e[1]))),
           (function (t, e, n) {
             if (t.shape.length > 3 || e.shape.length > 3)
               throw new An(
                 "batchDot is not implemented for tensors of 4D or higher rank yet"
               );
             if (
-              (En.Bd.assert(
+              (En.Cd.assert(
                 t.shape.length >= 2,
                 () =>
                   "batchDot requires the rank of x to be >= 2, but got " +
                   t.shape.length
               ),
-              En.Bd.assert(
+              En.Cd.assert(
                 t.shape.length >= 2,
                 () =>
                   "batchDot requires the rank of y to be >= 2, but got " +
@@ -68702,7 +68708,7 @@ PERFORMANCE OF THIS SOFTWARE.
               a = e.shape.length;
             null == n && (n = [r - 1, a - 2]);
             const i = n;
-            return En.td(() => {
+            return En.ud(() => {
               let n, o;
               if (r > a) {
                 n = r - a;
@@ -68747,7 +68753,7 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
       computeOutputShape(t) {
-        En.Bd.assert(
+        En.Cd.assert(
           Array.isArray(t) &&
             2 === t.length &&
             Array.isArray(t[0]) &&
@@ -68774,7 +68780,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (as.className = "Dot"), En.Lc.registerClass(as);
+    (as.className = "Dot"), En.Mc.registerClass(as);
     /**
      * @license
      * Copyright 2018 Google LLC
@@ -68797,10 +68803,10 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(e, t), e;
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           const n = fa(t);
-          return Lr(
+          return Pr(
             () => _r(n.shape, 0, this.stddev).add(n),
             () => n,
             e.training || !1
@@ -68808,7 +68814,7 @@ PERFORMANCE OF THIS SOFTWARE.
         });
       }
     }
-    (is.className = "GaussianNoise"), En.Lc.registerClass(is);
+    (is.className = "GaussianNoise"), En.Mc.registerClass(is);
     class os extends Sa {
       constructor(t) {
         super(t), (this.supportsMasking = !0), (this.rate = t.rate);
@@ -68822,11 +68828,11 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(e, t), e;
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e);
           const n = fa(t);
           if (this.rate > 0 && this.rate < 1) {
-            return Lr(
+            return Pr(
               () => {
                 const t = Math.sqrt(this.rate / (1 - this.rate));
                 return n.mul(_r(n.shape, 1, t));
@@ -68839,7 +68845,7 @@ PERFORMANCE OF THIS SOFTWARE.
         });
       }
     }
-    (os.className = "GaussianDropout"), En.Lc.registerClass(os);
+    (os.className = "GaussianDropout"), En.Mc.registerClass(os);
     class ss extends Sa {
       constructor(t) {
         super(t),
@@ -68859,14 +68865,14 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(e, t), e;
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           if (this.rate < 1 && this.rate > 0) {
             const n = this._getNoiseShape(t);
-            return Lr(
+            return Pr(
               () => {
                 const e = fa(t),
                   r = -1.7580993408473766;
-                let a = Object(En.Cb)(Object(En.vc)(n), this.rate);
+                let a = Object(En.Db)(Object(En.wc)(n), this.rate);
                 a = Er(a, "float32");
                 const i = ((1 - this.rate) * (1 + this.rate * r ** 2)) ** -0.5,
                   o = -i * r * this.rate;
@@ -68903,18 +68909,18 @@ PERFORMANCE OF THIS SOFTWARE.
       return o;
     }
     function cs(t, e, n, r, a = 0.001) {
-      return En.Bd.arraysEqual(r.slice().sort(), Or(0, t.rank - 1))
+      return En.Cd.arraysEqual(r.slice().sort(), Or(0, t.rank - 1))
         ? (function (t, e, n, r, a = 0.001) {
-            return Object(En.td)(() => {
-              const i = En.hc(t, r),
+            return Object(En.ud)(() => {
+              const i = En.ic(t, r),
                 o = i.mean,
                 s = i.variance;
               return [us(t, o, s, n, e, a), o, s];
             });
           })(t, e, n, r, a)
         : (function (t, e, n, r, a = 0.001) {
-            return Object(En.td)(() => {
-              const i = En.hc(t, r),
+            return Object(En.ud)(() => {
+              const i = En.ic(t, r),
                 o = i.mean,
                 s = i.variance,
                 u = [];
@@ -68928,7 +68934,7 @@ PERFORMANCE OF THIS SOFTWARE.
             });
           })(t, e, n, r, a);
     }
-    (ss.className = "AlphaDropout"), En.Lc.registerClass(ss);
+    (ss.className = "AlphaDropout"), En.Mc.registerClass(ss);
     class ls extends Sa {
       constructor(t) {
         null == t && (t = {}),
@@ -69001,7 +69007,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.built = !0);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const n = null != e.training && e.training,
             r = fa(t),
             a = r.shape,
@@ -69013,7 +69019,7 @@ PERFORMANCE OF THIS SOFTWARE.
           u[s] = a[s];
           const c = o.slice();
           c.sort();
-          const l = !En.Bd.arraysEqual(c, Or(0, i).slice(0, i - 1));
+          const l = !En.Cd.arraysEqual(c, Or(0, i).slice(0, i - 1));
           if (!n)
             return (() => {
               if (l) {
@@ -69040,7 +69046,7 @@ PERFORMANCE OF THIS SOFTWARE.
               this.epsilon
             ),
             f = (t, e, n) => {
-              En.td(() => {
+              En.ud(() => {
                 const r = 1 - n,
                   a = t.read(),
                   i = a.sub(e).mul(r);
@@ -69076,7 +69082,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (ls.className = "BatchNormalization"), En.Lc.registerClass(ls);
+    (ls.className = "BatchNormalization"), En.Mc.registerClass(ls);
     class hs extends Sa {
       constructor(t) {
         if (
@@ -69147,8 +69153,8 @@ PERFORMANCE OF THIS SOFTWARE.
         const n = fa(t),
           r = n.shape,
           a = r.length;
-        return Object(En.td)(() => {
-          let { mean: t, variance: e } = Object(En.hc)(n, this.axis, !0);
+        return Object(En.ud)(() => {
+          let { mean: t, variance: e } = Object(En.ic)(n, this.axis, !0);
           const i = _n(1, a);
           for (const t of this.axis) i[t] = r[t];
           const o = (t) =>
@@ -69187,7 +69193,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (hs.className = "LayerNormalization"), En.Lc.registerClass(hs);
+    (hs.className = "LayerNormalization"), En.Mc.registerClass(hs);
     class ds extends Sa {
       constructor(t) {
         if (
@@ -69256,12 +69262,12 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           return (
             (e = fa(t)),
             (n = this.padding),
             (r = this.dataFormat),
-            Object(En.td)(() => {
+            Object(En.ud)(() => {
               if (4 !== e.rank)
                 throw new Rn(
                   "temporalPadding expects input tensor to be 4-D, but received a " +
@@ -69292,7 +69298,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   "channelsFirst" === r
                     ? [[0, 0], [0, 0], n[0], n[1]]
                     : [[0, 0], n[0], n[1], [0, 0]]),
-                En.qc(e, t)
+                En.rc(e, t)
               );
             })
           );
@@ -69315,7 +69321,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * =============================================================================
      */
     function ps(t, e, n, r, a, i) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         let o;
         lr(a),
           dr(i),
@@ -69327,14 +69333,14 @@ PERFORMANCE OF THIS SOFTWARE.
           (t = Eo(t, a));
         const s = "same" === r ? "same" : "valid";
         return (
-          (o = "max" === i ? En.Yb(t, e, n, s) : En.C(t, e, n, s)),
-          "channelsFirst" === a && (o = En.xd(o, [0, 3, 1, 2])),
+          (o = "max" === i ? En.Zb(t, e, n, s) : En.C(t, e, n, s)),
+          "channelsFirst" === a && (o = En.yd(o, [0, 3, 1, 2])),
           o
         );
       });
     }
     function fs(t, e, n, r, a, i) {
-      return Object(En.td)(() => {
+      return Object(En.ud)(() => {
         let o;
         lr(a),
           dr(i),
@@ -69346,13 +69352,13 @@ PERFORMANCE OF THIS SOFTWARE.
           (t = So(t, a));
         const s = "same" === r ? "same" : "valid";
         return (
-          (o = "max" === i ? En.Zb(t, e, n, s) : En.D(t, e, n, s)),
-          "channelsFirst" === a && (o = En.xd(o, [0, 4, 1, 2, 3])),
+          (o = "max" === i ? En.ac(t, e, n, s) : En.D(t, e, n, s)),
+          "channelsFirst" === a && (o = En.yd(o, [0, 4, 1, 2, 3])),
           o
         );
       });
     }
-    (ds.className = "ZeroPadding2D"), En.Lc.registerClass(ds);
+    (ds.className = "ZeroPadding2D"), En.Mc.registerClass(ds);
     class ms extends Sa {
       constructor(t) {
         if (
@@ -69403,7 +69409,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return [t[0], e, t[2]];
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           this.invokeCallHook(t, e), (t = Sr(fa(t), 2));
           const n = this.poolingFunction(
             fa(t),
@@ -69412,7 +69418,7 @@ PERFORMANCE OF THIS SOFTWARE.
             this.padding,
             "channelsLast"
           );
-          return En.gd(n, [2]);
+          return En.hd(n, [2]);
         });
       }
       getConfig() {
@@ -69433,7 +69439,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return lr(a), hr(r), ps(t, e, n, r, a, "max");
       }
     }
-    (gs.className = "MaxPooling1D"), En.Lc.registerClass(gs);
+    (gs.className = "MaxPooling1D"), En.Mc.registerClass(gs);
     class bs extends ms {
       constructor(t) {
         super(t);
@@ -69442,7 +69448,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return lr(a), hr(r), ps(t, e, n, r, a, "avg");
       }
     }
-    (bs.className = "AveragePooling1D"), En.Lc.registerClass(bs);
+    (bs.className = "AveragePooling1D"), En.Mc.registerClass(bs);
     class vs extends Sa {
       constructor(t) {
         if (
@@ -69485,7 +69491,7 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
       call(t, e) {
-        return Object(En.td)(
+        return Object(En.ud)(
           () => (
             this.invokeCallHook(t, e),
             this.poolingFunction(
@@ -69517,7 +69523,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return lr(a), hr(r), ps(t, e, n, r, a, "max");
       }
     }
-    (ys.className = "MaxPooling2D"), En.Lc.registerClass(ys);
+    (ys.className = "MaxPooling2D"), En.Mc.registerClass(ys);
     class xs extends vs {
       constructor(t) {
         super(t);
@@ -69526,7 +69532,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return lr(a), hr(r), ps(t, e, n, r, a, "avg");
       }
     }
-    (xs.className = "AveragePooling2D"), En.Lc.registerClass(xs);
+    (xs.className = "AveragePooling2D"), En.Mc.registerClass(xs);
     class ws extends Sa {
       constructor(t) {
         if (
@@ -69571,7 +69577,7 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
       call(t, e) {
-        return Object(En.td)(
+        return Object(En.ud)(
           () => (
             this.invokeCallHook(t, e),
             this.poolingFunction(
@@ -69603,7 +69609,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return lr(a), hr(r), fs(t, e, n, r, a, "max");
       }
     }
-    (Cs.className = "MaxPooling3D"), En.Lc.registerClass(Cs);
+    (Cs.className = "MaxPooling3D"), En.Mc.registerClass(Cs);
     class Os extends ws {
       constructor(t) {
         super(t);
@@ -69612,7 +69618,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return lr(a), hr(r), fs(t, e, n, r, a, "avg");
       }
     }
-    (Os.className = "AveragePooling3D"), En.Lc.registerClass(Os);
+    (Os.className = "AveragePooling3D"), En.Mc.registerClass(Os);
     class Es extends Sa {
       constructor(t) {
         super(t), (this.inputSpec = [new xa({ ndim: 3 })]);
@@ -69629,25 +69635,25 @@ PERFORMANCE OF THIS SOFTWARE.
         super(t || {});
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const e = fa(t);
-          return En.cc(e, 1);
+          return En.dc(e, 1);
         });
       }
     }
-    (Ss.className = "GlobalAveragePooling1D"), En.Lc.registerClass(Ss);
+    (Ss.className = "GlobalAveragePooling1D"), En.Mc.registerClass(Ss);
     class Is extends Es {
       constructor(t) {
         super(t || {});
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const e = fa(t);
-          return En.Xb(e, 1);
+          return En.Yb(e, 1);
         });
       }
     }
-    (Is.className = "GlobalMaxPooling1D"), En.Lc.registerClass(Is);
+    (Is.className = "GlobalMaxPooling1D"), En.Mc.registerClass(Is);
     class ks extends Sa {
       constructor(t) {
         super(t),
@@ -69673,22 +69679,22 @@ PERFORMANCE OF THIS SOFTWARE.
     }
     class Ns extends ks {
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const e = fa(t);
           return "channelsLast" === this.dataFormat
-            ? En.cc(e, [1, 2])
-            : En.cc(e, [2, 3]);
+            ? En.dc(e, [1, 2])
+            : En.dc(e, [2, 3]);
         });
       }
     }
-    (Ns.className = "GlobalAveragePooling2D"), En.Lc.registerClass(Ns);
+    (Ns.className = "GlobalAveragePooling2D"), En.Mc.registerClass(Ns);
     class Rs extends ks {
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const e = fa(t);
           return "channelsLast" === this.dataFormat
-            ? En.Xb(e, [1, 2])
-            : En.Xb(e, [2, 3]);
+            ? En.Yb(e, [1, 2])
+            : En.Yb(e, [2, 3]);
         });
       }
     }
@@ -69719,11 +69725,11 @@ PERFORMANCE OF THIS SOFTWARE.
       return { inputs: t, initialState: (e = a(e)), constants: (n = a(n)) };
     }
     function Ts(t, e, n, r = !1, a, i, o = !1, s = !1) {
-      return En.td(() => {
+      return En.ud(() => {
         const u = e.shape.length;
         if (u < 3) throw new Rn(`Input should be at least 3D, but is ${u}D.`);
         const c = [1, 0].concat(Or(2, u));
-        if (((e = En.xd(e, c)), null != i))
+        if (((e = En.yd(e, c)), null != i))
           throw new An(
             "The rnn() functoin of the deeplearn.js backend does not support constants yet."
           );
@@ -69733,24 +69739,24 @@ PERFORMANCE OF THIS SOFTWARE.
           ),
           null != a &&
             ((a = a.asType("bool").asType("float32")).rank === u - 1 &&
-              (a = En.rb(a, -1)),
-            (a = En.xd(a, c))),
-          r && ((e = En.Dc(e, 0)), null != a && (a = En.Dc(a, 0)));
+              (a = En.sb(a, -1)),
+            (a = En.yd(a, c))),
+          r && ((e = En.Ec(e, 0)), null != a && (a = En.Ec(a, 0)));
         const l = [];
         let h,
           d = n;
         const p = e.shape[0],
-          f = En.zd(e);
+          f = En.Ad(e);
         let m, g;
-        null != a && (m = En.zd(a));
+        null != a && (m = En.Ad(a));
         for (let e = 0; e < p; ++e) {
           const n = f[e],
-            r = En.td(() => t(n, d));
+            r = En.ud(() => t(n, d));
           if (null == a) (h = r[0]), (d = r[1]);
           else {
-            const t = En.td(() => {
+            const t = En.ud(() => {
               const t = m[e],
-                n = En.pc(t).sub(t);
+                n = En.qc(t).sub(t);
               return {
                 output: r[0].mul(t).add(d[0].mul(n)),
                 newStates: d.map((e, a) => r[1][a].mul(t).add(e.mul(n))),
@@ -69762,19 +69768,19 @@ PERFORMANCE OF THIS SOFTWARE.
         }
         if (s) {
           const t = 1;
-          g = En.hd(l, t);
+          g = En.id(l, t);
         }
         return [h, g, d];
       });
     }
-    (Rs.className = "GlobalMaxPooling2D"), En.Lc.registerClass(Rs);
+    (Rs.className = "GlobalMaxPooling2D"), En.Mc.registerClass(Rs);
     class _s extends Sa {
       constructor(t) {
         let e;
         if ((super(t), null == t.cell))
           throw new Rn("cell property is missing for the constructor of RNN.");
         if (
-          ((e = Array.isArray(t.cell) ? new Ps({ cells: t.cell }) : t.cell),
+          ((e = Array.isArray(t.cell) ? new Ls({ cells: t.cell }) : t.cell),
           null == e.stateSize)
         )
           throw new Rn(
@@ -69823,7 +69829,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return r;
       }
       computeMask(t, e) {
-        return En.td(() => {
+        return En.ud(() => {
           Array.isArray(e) && (e = e[0]);
           const t = this.returnSequences ? e : null;
           if (this.returnState) {
@@ -69864,7 +69870,7 @@ PERFORMANCE OF THIS SOFTWARE.
           null != this.stateSpec)
         ) {
           if (
-            !En.Bd.arraysEqual(
+            !En.Cd.arraysEqual(
               this.stateSpec.map((t) => t.shape[t.shape.length - 1]),
               a
             )
@@ -69877,7 +69883,7 @@ PERFORMANCE OF THIS SOFTWARE.
         this.stateful && this.resetStates();
       }
       resetStates(t, e = !1) {
-        Object(En.td)(() => {
+        Object(En.ud)(() => {
           if (!this.stateful)
             throw new kn(
               "Cannot call resetStates() on an RNN Layer that is not stateful."
@@ -69889,15 +69895,15 @@ PERFORMANCE OF THIS SOFTWARE.
             );
           if (null == this.states_)
             Array.isArray(this.cell.stateSize)
-              ? (this.states_ = this.cell.stateSize.map((t) => En.Hd([n, t])))
-              : (this.states_ = [En.Hd([n, this.cell.stateSize])]);
+              ? (this.states_ = this.cell.stateSize.map((t) => En.Id([n, t])))
+              : (this.states_ = [En.Id([n, this.cell.stateSize])]);
           else if (null == t)
             En.hb(this.states_),
               null != this.keptStates &&
                 (En.hb(this.keptStates), (this.keptStates = [])),
               Array.isArray(this.cell.stateSize)
-                ? (this.states_ = this.cell.stateSize.map((t) => En.Hd([n, t])))
-                : (this.states_[0] = En.Hd([n, this.cell.stateSize]));
+                ? (this.states_ = this.cell.stateSize.map((t) => En.Id([n, t])))
+                : (this.states_[0] = En.Id([n, this.cell.stateSize]));
           else {
             if (
               (Array.isArray(t) || (t = [t]), t.length !== this.states_.length)
@@ -69915,14 +69921,14 @@ PERFORMANCE OF THIS SOFTWARE.
                   ? this.cell.stateSize[e]
                   : this.cell.stateSize,
                 i = [n, a];
-              if (!En.Bd.arraysEqual(r.shape, i))
+              if (!En.Cd.arraysEqual(r.shape, i))
                 throw new Rn(
                   `State ${e} is incompatible with layer ${this.name}: expected shape=${i}, received shape=${r.shape}`
                 );
               this.states_[e] = r;
             }
           }
-          this.states_ = this.states_.map((t) => En.Ib(t.clone()));
+          this.states_ = this.states_.map((t) => En.Jb(t.clone()));
         });
       }
       apply(t, e) {
@@ -69953,7 +69959,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return super.apply(t, e);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const n = null == e ? null : e.mask,
             r = null == e ? null : e.training;
           let a = null == e ? null : e.initialState;
@@ -69996,10 +70002,10 @@ PERFORMANCE OF THIS SOFTWARE.
         });
       }
       getInitialState(t) {
-        return Object(En.td)(() => {
-          let e = En.Hd(t.shape);
+        return Object(En.ud)(() => {
+          let e = En.Id(t.shape);
           return (
-            (e = En.kd(e, [1, 2])),
+            (e = En.ld(e, [1, 2])),
             (e = Sr(e)),
             Array.isArray(this.cell.stateSize)
               ? this.cell.stateSize.map((t) => (t > 1 ? Tr(e, [1, t]) : e))
@@ -70036,11 +70042,11 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, n), t;
       }
       static fromConfig(t, e, n = {}) {
-        const r = La(e.cell, n);
+        const r = Pa(e.cell, n);
         return new t(Object.assign(e, { cell: r }));
       }
     }
-    (_s.className = "RNN"), En.Lc.registerClass(_s);
+    (_s.className = "RNN"), En.Mc.registerClass(_s);
     class Ds extends Sa {}
     class Fs extends Ds {
       constructor(t) {
@@ -70113,7 +70119,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.built = !0);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           if (2 !== (t = t).length)
             throw new Rn(
               `SimpleRNNCell expects 2 input Tensors, got ${t.length}.`
@@ -70125,20 +70131,20 @@ PERFORMANCE OF THIS SOFTWARE.
           0 < this.dropout &&
             this.dropout < 1 &&
             null == this.dropoutMask &&
-            (this.dropoutMask = zs(() => En.pc(t), this.dropout, r)),
+            (this.dropoutMask = zs(() => En.qc(t), this.dropout, r)),
             0 < this.recurrentDropout &&
               this.recurrentDropout < 1 &&
               null == this.recurrentDropoutMask &&
               (this.recurrentDropoutMask = zs(
-                () => En.pc(n),
+                () => En.qc(n),
                 this.recurrentDropout,
                 r
               ));
           const i = this.dropoutMask,
             o = this.recurrentDropoutMask;
-          (a = Dr(null != i ? En.ic(t, i) : t, this.kernel.read())),
-            null != this.bias && (a = Br(a, this.bias.read())),
-            null != o && (n = En.ic(n, o));
+          (a = Dr(null != i ? En.jc(t, i) : t, this.kernel.read())),
+            null != this.bias && (a = $r(a, this.bias.read())),
+            null != o && (n = En.jc(n, o));
           let s = En.r(a, Dr(n, this.recurrentKernel.read()));
           return (
             null != this.activation && (s = this.activation.apply(s)), [s, s]
@@ -70167,13 +70173,13 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (Fs.className = "SimpleRNNCell"), En.Lc.registerClass(Fs);
+    (Fs.className = "SimpleRNNCell"), En.Mc.registerClass(Fs);
     class Ms extends _s {
       constructor(t) {
         (t.cell = new Fs(t)), super(t);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           null != this.cell.dropoutMask &&
             (En.hb(this.cell.dropoutMask), (this.cell.dropoutMask = null)),
             null != this.cell.recurrentDropoutMask &&
@@ -70252,7 +70258,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return new t(e);
       }
     }
-    (Ms.className = "SimpleRNN"), En.Lc.registerClass(Ms);
+    (Ms.className = "SimpleRNN"), En.Mc.registerClass(Ms);
     class js extends Ds {
       constructor(t) {
         if (
@@ -70337,7 +70343,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.built = !0);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           if (2 !== (t = t).length)
             throw new Rn(
               "GRUCell expects 2 input Tensors (inputs, h, c), got " +
@@ -70350,12 +70356,12 @@ PERFORMANCE OF THIS SOFTWARE.
             0 < this.dropout &&
               this.dropout < 1 &&
               null == this.dropoutMask &&
-              (this.dropoutMask = zs(() => En.pc(t), this.dropout, n, 3)),
+              (this.dropoutMask = zs(() => En.qc(t), this.dropout, n, 3)),
             0 < this.recurrentDropout &&
               this.recurrentDropout < 1 &&
               null == this.recurrentDropoutMask &&
               (this.recurrentDropoutMask = zs(
-                () => En.pc(r),
+                () => En.qc(r),
                 this.recurrentDropout,
                 n,
                 3
@@ -70363,22 +70369,22 @@ PERFORMANCE OF THIS SOFTWARE.
           const a = this.dropoutMask,
             i = this.recurrentDropoutMask;
           let o, s, u;
-          0 < this.dropout && this.dropout < 1 && (t = En.ic(t, a[0]));
+          0 < this.dropout && this.dropout < 1 && (t = En.jc(t, a[0]));
           let c = Dr(t, this.kernel.read());
-          this.useBias && (c = Br(c, this.bias.read())),
+          this.useBias && (c = $r(c, this.bias.read())),
             0 < this.recurrentDropout &&
               this.recurrentDropout < 1 &&
-              (r = En.ic(r, i[0]));
+              (r = En.jc(r, i[0]));
           const l = this.recurrentKernel.read(),
-            [h, d] = En.cd(l, [2 * this.units, this.units], l.rank - 1),
+            [h, d] = En.dd(l, [2 * this.units, this.units], l.rank - 1),
             p = Dr(r, h),
-            [f, m, g] = En.cd(c, 3, c.rank - 1),
-            [b, v] = En.cd(p, 2, p.rank - 1);
+            [f, m, g] = En.dd(c, 3, c.rank - 1),
+            [b, v] = En.dd(p, 2, p.rank - 1);
           (o = this.recurrentActivation.apply(En.r(f, b))),
             (s = this.recurrentActivation.apply(En.r(m, v)));
-          const y = Dr(En.ic(s, r), d);
+          const y = Dr(En.jc(s, r), d);
           u = this.activation.apply(En.r(g, y));
-          const x = En.r(En.ic(o, r), En.ic(En.r(1, En.kc(o)), u));
+          const x = En.r(En.jc(o, r), En.jc(En.r(1, En.lc(o)), u));
           return [x, x];
         });
       }
@@ -70407,8 +70413,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    (js.className = "GRUCell"), En.Lc.registerClass(js);
-    class Bs extends _s {
+    (js.className = "GRUCell"), En.Mc.registerClass(js);
+    class $s extends _s {
       constructor(t) {
         0 === t.implementation &&
           console.warn(
@@ -70418,7 +70424,7 @@ PERFORMANCE OF THIS SOFTWARE.
           super(t);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           null != this.cell.dropoutMask &&
             (En.hb(this.cell.dropoutMask), (this.cell.dropoutMask = null)),
             null != this.cell.recurrentDropoutMask &&
@@ -70506,8 +70512,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return 0 === e.implmentation && (e.implementation = 1), new t(e);
       }
     }
-    (Bs.className = "GRU"), En.Lc.registerClass(Bs);
-    class $s extends Ds {
+    ($s.className = "GRU"), En.Mc.registerClass($s);
+    class Bs extends Ds {
       constructor(t) {
         super(t),
           (this.DEFAULT_ACTIVATION = "tanh"),
@@ -70603,7 +70609,7 @@ PERFORMANCE OF THIS SOFTWARE.
         this.built = !0;
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const n = null != e.training && e.training;
           if (3 !== (t = t).length)
             throw new Rn(
@@ -70617,12 +70623,12 @@ PERFORMANCE OF THIS SOFTWARE.
             0 < this.dropout &&
               this.dropout < 1 &&
               null == this.dropoutMask &&
-              (this.dropoutMask = zs(() => En.pc(t), this.dropout, n, 4)),
+              (this.dropoutMask = zs(() => En.qc(t), this.dropout, n, 4)),
             0 < this.recurrentDropout &&
               this.recurrentDropout < 1 &&
               null == this.recurrentDropoutMask &&
               (this.recurrentDropoutMask = zs(
-                () => En.pc(r),
+                () => En.qc(r),
                 this.recurrentDropout,
                 n,
                 4
@@ -70630,19 +70636,19 @@ PERFORMANCE OF THIS SOFTWARE.
           const i = this.dropoutMask,
             o = this.recurrentDropoutMask;
           let s, u, c, l;
-          0 < this.dropout && this.dropout < 1 && (t = En.ic(t, i[0]));
+          0 < this.dropout && this.dropout < 1 && (t = En.jc(t, i[0]));
           let h = Dr(t, this.kernel.read());
           0 < this.recurrentDropout &&
             this.recurrentDropout < 1 &&
-            (r = En.ic(r, o[0])),
+            (r = En.jc(r, o[0])),
             (h = En.r(h, Dr(r, this.recurrentKernel.read()))),
-            this.useBias && (h = Br(h, this.bias.read()));
-          const [d, p, f, m] = En.cd(h, 4, h.rank - 1);
+            this.useBias && (h = $r(h, this.bias.read()));
+          const [d, p, f, m] = En.dd(h, 4, h.rank - 1);
           (s = this.recurrentActivation.apply(d)),
             (u = this.recurrentActivation.apply(p)),
-            (c = En.r(En.ic(u, a), En.ic(s, this.activation.apply(f)))),
+            (c = En.r(En.jc(u, a), En.jc(s, this.activation.apply(f)))),
             (l = this.recurrentActivation.apply(m));
-          const g = En.ic(l, this.activation.apply(c));
+          const g = En.jc(l, this.activation.apply(c));
           return [g, g, c];
         });
       }
@@ -70671,18 +70677,18 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
     }
-    ($s.className = "LSTMCell"), En.Lc.registerClass($s);
-    class Ls extends _s {
+    (Bs.className = "LSTMCell"), En.Mc.registerClass(Bs);
+    class Ps extends _s {
       constructor(t) {
         0 === t.implementation &&
           console.warn(
             "`implementation=0` has been deprecated, and now defaults to `implementation=1`. Please update your layer call."
           ),
-          (t.cell = new $s(t)),
+          (t.cell = new Bs(t)),
           super(t);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           null != this.cell.dropoutMask &&
             (En.hb(this.cell.dropoutMask), (this.cell.dropoutMask = null)),
             null != this.cell.recurrentDropoutMask &&
@@ -70773,8 +70779,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return 0 === e.implmentation && (e.implementation = 1), new t(e);
       }
     }
-    (Ls.className = "LSTM"), En.Lc.registerClass(Ls);
-    class Ps extends Ds {
+    (Ps.className = "LSTM"), En.Mc.registerClass(Ps);
+    class Ls extends Ds {
       constructor(t) {
         super(t), (this.cells = t.cells);
       }
@@ -70787,7 +70793,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return t;
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           let n = (t = t).slice(1);
           const r = [];
           for (const t of this.cells.slice().reverse())
@@ -70832,7 +70838,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       static fromConfig(t, e, n = {}) {
         const r = [];
-        for (const t of e.cells) r.push(La(t, n));
+        for (const t of e.cells) r.push(Pa(t, n));
         return new t({ cells: r });
       }
       get trainableWeights() {
@@ -70869,14 +70875,14 @@ PERFORMANCE OF THIS SOFTWARE.
     }
     function zs(t, e, n = null, r = 1) {
       function a() {
-        return $r(t(), e);
+        return Br(t(), e);
       }
       if (r > 1) {
         const e = [];
-        for (let i = 0; i < r; i++) e.push(Lr(a, t, n));
-        return e.map((t) => En.Ib(t.clone()));
+        for (let i = 0; i < r; i++) e.push(Pr(a, t, n));
+        return e.map((t) => En.Jb(t.clone()));
       }
-      return En.Ib(Lr(a, t, n).clone());
+      return En.Jb(Pr(a, t, n).clone());
     }
     /**
      * @license
@@ -70886,7 +70892,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * license that can be found in the LICENSE file or at
      * https://opensource.org/licenses/MIT.
      * =============================================================================
-     */ (Ps.className = "StackedRNNCells"), En.Lc.registerClass(Ps);
+     */ (Ls.className = "StackedRNNCells"), En.Mc.registerClass(Ls);
     class Ws extends Sa {
       constructor(t) {
         super(t), (this.layer = t.layer);
@@ -70933,7 +70939,7 @@ PERFORMANCE OF THIS SOFTWARE.
           null != this.layer && this.layer.setFastWeightInitDuringBuild(t);
       }
       static fromConfig(t, e, n = {}) {
-        const r = La(e.layer, n);
+        const r = Pa(e.layer, n);
         delete e.layer;
         const a = { layer: r };
         return Object.assign(a, e), new t(a);
@@ -70961,7 +70967,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return [n[0], r].concat(n.slice(1));
       }
       call(t, e) {
-        return Object(En.td)(
+        return Object(En.ud)(
           () =>
             Ts(
               (t, n) => [fa(this.layer.call(t, e)), []],
@@ -70976,7 +70982,7 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
     }
-    (Vs.className = "TimeDistributed"), En.Lc.registerClass(Vs);
+    (Vs.className = "TimeDistributed"), En.Mc.registerClass(Vs);
     class Us extends Ws {
       constructor(t) {
         super(t);
@@ -70984,14 +70990,14 @@ PERFORMANCE OF THIS SOFTWARE.
           n = {};
         (n.className = t.layer.getClassName()),
           (n.config = e),
-          (this.forwardLayer = La(n)),
+          (this.forwardLayer = Pa(n)),
           (e.goBackwards = !0 !== e.goBackwards);
         const r = {};
         var a;
         if (
           ((r.className = t.layer.getClassName()),
           (r.config = e),
-          (this.backwardLayer = La(r)),
+          (this.backwardLayer = Pa(r)),
           (this.forwardLayer.name = "forward_" + this.forwardLayer.name),
           (this.backwardLayer.name = "backward_" + this.backwardLayer.name),
           (this.mergeMode = void 0 === t.mergeMode ? "concat" : t.mergeMode),
@@ -71097,7 +71103,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return super.apply(t, e);
       }
       call(t, e) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const n = e.initialState;
           let r, a, i, o;
           if (null == n)
@@ -71120,15 +71126,15 @@ PERFORMANCE OF THIS SOFTWARE.
               (Array.isArray(r) && (i = r.slice(1).concat(a.slice(1))),
               (r = r[0]),
               (a = a[0])),
-            this.returnSequences && (a = En.Dc(a, 1)),
+            this.returnSequences && (a = En.Ec(a, 1)),
             "concat" === this.mergeMode
               ? (o = Rr([r, a]))
               : "sum" === this.mergeMode
               ? (o = En.r(r, a))
               : "ave" === this.mergeMode
-              ? (o = En.ic(0.5, En.r(r, a)))
+              ? (o = En.jc(0.5, En.r(r, a)))
               : "mul" === this.mergeMode
-              ? (o = En.ic(r, a))
+              ? (o = En.jc(r, a))
               : null == this.mergeMode && (o = [r, a]),
             this.returnState
               ? null == this.mergeMode
@@ -71193,7 +71199,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return Object.assign(t, e), t;
       }
       static fromConfig(t, e) {
-        const n = La(e.layer);
+        const n = Pa(e.layer);
         if ((delete e.layer, null != e.numConstants))
           throw new An(
             "Deserialization of a Bidirectional layer with numConstants present is not supported yet."
@@ -71202,7 +71208,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return (r.layer = n), new t(r);
       }
     }
-    (Us.className = "Bidirectional"), En.Lc.registerClass(Us);
+    (Us.className = "Bidirectional"), En.Mc.registerClass(Us);
     /**
      * @license
      * Copyright 2018 Google LLC
@@ -71304,7 +71310,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * =============================================================================
      */
     function Xs(t, e, n = "") {
-      En.Bd.assert(
+      En.Cd.assert(
         (function (t, e) {
           if (t.length !== e.length) return !1;
           for (let n = 0; n < t.length; n++)
@@ -71423,11 +71429,11 @@ PERFORMANCE OF THIS SOFTWARE.
           for (let e = 0; e < this.size(); e++) t.push(e);
         }
         if (0 === t.length)
-          return Object(En.od)([], [0].concat(this.elementShape));
+          return Object(En.pd)([], [0].concat(this.elementShape));
         const n = this.readMany(t);
         return (
           Xs(this.elementShape, n[0].shape, "TensorArray shape mismatch: "),
-          Object(En.hd)(n, 0)
+          Object(En.id)(n, 0)
         );
       }
       concat(t) {
@@ -71436,7 +71442,7 @@ PERFORMANCE OF THIS SOFTWARE.
             `TensorArray dtype is ${this.dtype} but concat requested dtype ${t}`
           );
         if (0 === this.size())
-          return Object(En.od)([], [0].concat(this.elementShape));
+          return Object(En.pd)([], [0].concat(this.elementShape));
         const e = [];
         for (let t = 0; t < this.size(); t++) e.push(t);
         const n = this.readMany(e);
@@ -71463,7 +71469,7 @@ PERFORMANCE OF THIS SOFTWARE.
           throw new Error(
             `Max index must be < array size (${n}  vs. ${this.maxSize})`
           );
-        this.writeMany(t, Object(En.zd)(e, 0));
+        this.writeMany(t, Object(En.Ad)(e, 0));
       }
       split(t, e) {
         if (e.dtype !== this.dtype)
@@ -71482,12 +71488,12 @@ PERFORMANCE OF THIS SOFTWARE.
           );
         const a = 0 === n ? 0 : e.size / n,
           i = [];
-        Object(En.td)(() => {
+        Object(En.ud)(() => {
           e = e.reshape([1, n, a]);
           for (let n = 0; n < t.length; ++n) {
             const o = [0, 0 === n ? 0 : r[n - 1], 0],
               s = [1, t[n], a];
-            i[n] = Object(En.Sc)(e, o, s).reshape(this.elementShape);
+            i[n] = Object(En.Tc)(e, o, s).reshape(this.elementShape);
           }
           return i;
         });
@@ -71517,7 +71523,7 @@ PERFORMANCE OF THIS SOFTWARE.
       const r = ((t, e, n) => {
         switch (t.category) {
           case "arithmetic":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "BiasAdd":
@@ -71534,14 +71540,14 @@ PERFORMANCE OF THIS SOFTWARE.
                   case "FloorMod":
                   case "Mod":
                     return [
-                      En.gc(
+                      En.hc(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "Mul":
                     return [
-                      En.ic(
+                      En.jc(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
@@ -71563,42 +71569,42 @@ PERFORMANCE OF THIS SOFTWARE.
                     ];
                   case "FloorDiv":
                     return [
-                      En.xb(
+                      En.yb(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "Sub":
                     return [
-                      En.jd(
+                      En.kd(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "Minimum":
                     return [
-                      En.fc(
+                      En.gc(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "Maximum":
                     return [
-                      En.bc(
+                      En.cc(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "Pow":
                     return [
-                      En.rc(
+                      En.sc(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "SquaredDifference":
                     return [
-                      En.fd(
+                      En.gd(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
@@ -71609,7 +71615,7 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "basic_math":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "Abs":
@@ -71650,49 +71656,49 @@ PERFORMANCE OF THIS SOFTWARE.
                   case "Elu":
                     return [En.lb(Object(Hs.b)("x", t, e, n))];
                   case "Erf":
-                    return [En.pb(Object(Hs.b)("x", t, e, n))];
-                  case "Exp":
                     return [En.qb(Object(Hs.b)("x", t, e, n))];
+                  case "Exp":
+                    return [En.rb(Object(Hs.b)("x", t, e, n))];
                   case "Expm1":
-                    return [En.sb(Object(Hs.b)("x", t, e, n))];
+                    return [En.tb(Object(Hs.b)("x", t, e, n))];
                   case "Floor":
-                    return [En.wb(Object(Hs.b)("x", t, e, n))];
+                    return [En.xb(Object(Hs.b)("x", t, e, n))];
                   case "Log":
-                    return [En.Qb(Object(Hs.b)("x", t, e, n))];
-                  case "Log1p":
                     return [En.Rb(Object(Hs.b)("x", t, e, n))];
+                  case "Log1p":
+                    return [En.Sb(Object(Hs.b)("x", t, e, n))];
                   case "Imag":
-                    return [En.Eb(Object(Hs.b)("x", t, e, n))];
+                    return [En.Fb(Object(Hs.b)("x", t, e, n))];
                   case "Neg":
-                    return [En.kc(Object(Hs.b)("x", t, e, n))];
+                    return [En.lc(Object(Hs.b)("x", t, e, n))];
                   case "Reciprocal":
-                    return [En.yc(Object(Hs.b)("x", t, e, n))];
+                    return [En.zc(Object(Hs.b)("x", t, e, n))];
                   case "Real":
-                    return [En.xc(Object(Hs.b)("x", t, e, n))];
+                    return [En.yc(Object(Hs.b)("x", t, e, n))];
                   case "Relu":
-                    return [En.Bc(Object(Hs.b)("x", t, e, n))];
+                    return [En.Cc(Object(Hs.b)("x", t, e, n))];
                   case "Round":
-                    return [En.Fc(Object(Hs.b)("x", t, e, n))];
+                    return [En.Gc(Object(Hs.b)("x", t, e, n))];
                   case "Selu":
-                    return [En.Jc(Object(Hs.b)("x", t, e, n))];
+                    return [En.Kc(Object(Hs.b)("x", t, e, n))];
                   case "Sigmoid":
-                    return [En.Oc(Object(Hs.b)("x", t, e, n))];
-                  case "Sin":
-                    return [En.Qc(Object(Hs.b)("x", t, e, n))];
-                  case "Sign":
                     return [En.Pc(Object(Hs.b)("x", t, e, n))];
-                  case "Sinh":
+                  case "Sin":
                     return [En.Rc(Object(Hs.b)("x", t, e, n))];
+                  case "Sign":
+                    return [En.Qc(Object(Hs.b)("x", t, e, n))];
+                  case "Sinh":
+                    return [En.Sc(Object(Hs.b)("x", t, e, n))];
                   case "Softplus":
-                    return [En.Zc(Object(Hs.b)("x", t, e, n))];
+                    return [En.ad(Object(Hs.b)("x", t, e, n))];
                   case "Sqrt":
-                    return [En.dd(Object(Hs.b)("x", t, e, n))];
-                  case "Square":
                     return [En.ed(Object(Hs.b)("x", t, e, n))];
+                  case "Square":
+                    return [En.fd(Object(Hs.b)("x", t, e, n))];
                   case "Tanh":
-                    return [En.nd(Object(Hs.b)("x", t, e, n))];
+                    return [En.od(Object(Hs.b)("x", t, e, n))];
                   case "Tan":
-                    return [En.md(Object(Hs.b)("x", t, e, n))];
+                    return [En.nd(Object(Hs.b)("x", t, e, n))];
                   case "Relu6":
                   case "ClipByValue":
                     return [
@@ -71703,24 +71709,24 @@ PERFORMANCE OF THIS SOFTWARE.
                       ),
                     ];
                   case "Rsqrt":
-                    return [En.Gc(Object(Hs.c)(t.inputNames[0], e, n))];
+                    return [En.Hc(Object(Hs.c)(t.inputNames[0], e, n))];
                   case "Prod":
                     return [
-                      En.tc(
+                      En.uc(
                         Object(Hs.b)("x", t, e, n),
                         Object(Hs.b)("axes", t, e, n)
                       ),
                     ];
                   case "LeakyRelu":
                     return [
-                      En.Kb(
+                      En.Lb(
                         Object(Hs.b)("x", t, e, n),
                         Object(Hs.b)("alpha", t, e, n)
                       ),
                     ];
                   case "Prelu":
                     return [
-                      En.sc(
+                      En.tc(
                         Object(Hs.b)("x", t, e, n),
                         Object(Hs.b)("alpha", t, e, n)
                       ),
@@ -71794,13 +71800,13 @@ PERFORMANCE OF THIS SOFTWARE.
                     f = Object(Hs.b)("name", t, e, n),
                     m = new Ys(f, c, u, l, p, h, d);
                   return (
-                    n.addTensorArray(m), [Object(En.Hc)(m.id), Object(En.Hc)(1)]
+                    n.addTensorArray(m), [Object(En.Ic)(m.id), Object(En.Ic)(1)]
                   );
                 case "TensorArrayWriteV3":
                   const g = Object(Hs.b)("tensorArrayId", t, e, n),
                     b = Object(Hs.b)("index", t, e, n),
                     v = Object(Hs.b)("tensor", t, e, n);
-                  return n.getTensorArray(g).write(b, v), [Object(En.Hc)(1)];
+                  return n.getTensorArray(g).write(b, v), [Object(En.Ic)(1)];
                 case "TensorArrayReadV3":
                   const y = Object(Hs.b)("tensorArrayId", t, e, n),
                     x = Object(Hs.b)("index", t, e, n);
@@ -71814,7 +71820,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   const E = Object(Hs.b)("tensorArrayId", t, e, n),
                     S = Object(Hs.b)("indices", t, e, n),
                     I = Object(Hs.b)("tensor", t, e, n);
-                  return n.getTensorArray(E).scatter(S, I), [Object(En.Hc)(1)];
+                  return n.getTensorArray(E).scatter(S, I), [Object(En.Ic)(1)];
                 case "TensorArrayConcatV3":
                   const k = Object(Hs.b)("tensorArrayId", t, e, n),
                     N = n.getTensorArray(k),
@@ -71824,22 +71830,22 @@ PERFORMANCE OF THIS SOFTWARE.
                   const A = Object(Hs.b)("tensorArrayId", t, e, n),
                     T = Object(Hs.b)("tensor", t, e, n),
                     _ = Object(Hs.b)("lengths", t, e, n);
-                  return n.getTensorArray(A).split(_, T), [Object(En.Hc)(1)];
+                  return n.getTensorArray(A).split(_, T), [Object(En.Ic)(1)];
                 case "TensorArraySizeV3":
                   const D = Object(Hs.b)("tensorArrayId", t, e, n),
                     F = n.getTensorArray(D);
-                  return [Object(En.Hc)(F.size(), "int32")];
+                  return [Object(En.Ic)(F.size(), "int32")];
                 case "TensorArrayCloseV3":
                   const M = Object(Hs.b)("tensorArrayId", t, e, n);
                   return (
-                    n.getTensorArray(M).clearAndClose(), [Object(En.Hc)(0)]
+                    n.getTensorArray(M).clearAndClose(), [Object(En.Ic)(0)]
                   );
                 default:
                   throw TypeError(`Node type ${t.op} is not implemented`);
               }
             })(t, e, n);
           case "convolution":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "Conv1D": {
@@ -71902,8 +71908,8 @@ PERFORMANCE OF THIS SOFTWARE.
                       [p, f] = Object(Hs.b)("args", t, e, n);
                     return [
                       ("_FusedConv2D" === t.op
-                        ? En.yb.conv2d
-                        : En.yb.depthwiseConv2d)({
+                        ? En.zb.conv2d
+                        : En.zb.depthwiseConv2d)({
                         x: Object(Hs.b)("x", t, e, n),
                         filter: Object(Hs.b)("filter", t, e, n),
                         strides: [c[1], c[2]],
@@ -71982,7 +71988,7 @@ PERFORMANCE OF THIS SOFTWARE.
                       a = Object(Hs.b)("pad", t, e, n),
                       i = Object(Hs.b)("kernelSize", t, e, n);
                     return [
-                      En.Yb(
+                      En.Zb(
                         Object(Hs.b)("x", t, e, n),
                         [i[1], i[2]],
                         [r[1], r[2]],
@@ -71995,7 +72001,7 @@ PERFORMANCE OF THIS SOFTWARE.
                       a = Object(Hs.b)("pad", t, e, n),
                       i = Object(Hs.b)("kernelSize", t, e, n),
                       o = Object(Hs.b)("includeBatchInIndex", t, e, n),
-                      { result: s, indexes: u } = En.ac(
+                      { result: s, indexes: u } = En.bc(
                         Object(Hs.b)("x", t, e, n),
                         [i[1], i[2]],
                         [r[1], r[2]],
@@ -72022,7 +72028,7 @@ PERFORMANCE OF THIS SOFTWARE.
                       a = Object(Hs.b)("pad", t, e, n),
                       i = Object(Hs.b)("kernelSize", t, e, n);
                     return [
-                      En.Zb(
+                      En.ac(
                         Object(Hs.b)("x", t, e, n),
                         [i[1], i[2], i[3]],
                         [r[1], r[2], r[3]],
@@ -72036,46 +72042,46 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "creation":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "Fill": {
                     const r = Object(Hs.b)("shape", t, e, n),
                       a = Object(Hs.b)("dtype", t, e, n),
                       i = Object(Hs.b)("value", t, e, n);
-                    return [En.vb(r, i, a)];
+                    return [En.wb(r, i, a)];
                   }
                   case "LinSpace": {
                     const r = Object(Hs.b)("start", t, e, n),
                       a = Object(Hs.b)("stop", t, e, n),
                       i = Object(Hs.b)("num", t, e, n);
-                    return [En.Ob(r, a, i)];
+                    return [En.Pb(r, a, i)];
                   }
                   case "Multinomial": {
                     const r = Object(Hs.b)("logits", t, e, n),
                       a = Object(Hs.b)("numSamples", t, e, n),
                       i = Object(Hs.b)("seed", t, e, n);
-                    return [En.jc(r, a, i)];
+                    return [En.kc(r, a, i)];
                   }
                   case "OneHot": {
                     const r = Object(Hs.b)("indices", t, e, n),
                       a = Object(Hs.b)("depth", t, e, n),
                       i = Object(Hs.b)("onValue", t, e, n),
                       o = Object(Hs.b)("offValue", t, e, n);
-                    return [En.nc(r, a, i, o)];
+                    return [En.oc(r, a, i, o)];
                   }
                   case "Ones":
                     return [
-                      En.oc(
+                      En.pc(
                         Object(Hs.b)("shape", t, e, n),
                         Object(Hs.b)("dtype", t, e, n)
                       ),
                     ];
                   case "OnesLike":
-                    return [En.pc(Object(Hs.b)("x", t, e, n))];
+                    return [En.qc(Object(Hs.b)("x", t, e, n))];
                   case "RandomUniform":
                     return [
-                      En.vc(
+                      En.wc(
                         Object(Hs.b)("shape", t, e, n),
                         Object(Hs.b)("minval", t, e, n),
                         Object(Hs.b)("maxval", t, e, n),
@@ -72086,24 +72092,24 @@ PERFORMANCE OF THIS SOFTWARE.
                     const r = Object(Hs.b)("start", t, e, n),
                       a = Object(Hs.b)("stop", t, e, n),
                       i = Object(Hs.b)("step", t, e, n);
-                    return [En.wc(r, a, i, Object(Hs.b)("dtype", t, e, n))];
+                    return [En.xc(r, a, i, Object(Hs.b)("dtype", t, e, n))];
                   }
                   case "TruncatedNormal": {
                     const r = Object(Hs.b)("shape", t, e, n),
                       a = Object(Hs.b)("mean", t, e, n),
                       i = Object(Hs.b)("stdDev", t, e, n),
                       o = Object(Hs.b)("seed", t, e, n);
-                    return [En.yd(r, a, i, Object(Hs.b)("dtype", t, e, n), o)];
+                    return [En.zd(r, a, i, Object(Hs.b)("dtype", t, e, n), o)];
                   }
                   case "Zeros":
                     return [
-                      En.Hd(
+                      En.Id(
                         Object(Hs.b)("shape", t, e, n),
                         Object(Hs.b)("dtype", t, e, n)
                       ),
                     ];
                   case "ZerosLike":
-                    return [En.Id(Object(Hs.b)("x", t, e, n))];
+                    return [En.Jd(Object(Hs.b)("x", t, e, n))];
                   default:
                     throw TypeError(`Node type ${t.op} is not implemented`);
                 }
@@ -72122,7 +72128,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     s = Object(Hs.b)("scoreThreshold", t, e, n);
                   if ("NonMaxSuppressionV5" === t.op) {
                     const u = Object(Hs.b)("softNmsSigma", t, e, n),
-                      c = await En.Fb.nonMaxSuppressionWithScoreAsync(
+                      c = await En.Gb.nonMaxSuppressionWithScoreAsync(
                         r,
                         a,
                         i,
@@ -72132,15 +72138,15 @@ PERFORMANCE OF THIS SOFTWARE.
                       );
                     return [c.selectedIndices, c.selectedScores];
                   }
-                  return [await En.Fb.nonMaxSuppressionAsync(r, a, i, o, s)];
+                  return [await En.Gb.nonMaxSuppressionAsync(r, a, i, o, s)];
                 }
                 case "Where": {
                   const r = Object(Hs.b)("condition", t, e, n).asType("bool"),
-                    a = [await En.Gd(r)];
+                    a = [await En.Hd(r)];
                   return r.dispose(), a;
                 }
                 case "ListDiff":
-                  return En.Nc(
+                  return En.Oc(
                     Object(Hs.b)("x", t, e, n),
                     Object(Hs.b)("y", t, e, n)
                   );
@@ -72149,14 +72155,14 @@ PERFORMANCE OF THIS SOFTWARE.
               }
             })(t, e, n);
           case "evaluation":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "TopKV2": {
                     const r = Object(Hs.b)("x", t, e, n),
                       a = Object(Hs.b)("k", t, e, n),
                       i = Object(Hs.b)("sorted", t, e, n),
-                      o = En.vd(r, a, i);
+                      o = En.wd(r, a, i);
                     return [o.values, o.indices];
                   }
                   default:
@@ -72165,20 +72171,20 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "image":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "ResizeBilinear": {
                     const r = Object(Hs.b)("images", t, e, n),
                       a = Object(Hs.b)("size", t, e, n),
                       i = Object(Hs.b)("alignCorners", t, e, n);
-                    return [En.Fb.resizeBilinear(r, [a[0], a[1]], i)];
+                    return [En.Gb.resizeBilinear(r, [a[0], a[1]], i)];
                   }
                   case "ResizeNearestNeighbor": {
                     const r = Object(Hs.b)("images", t, e, n),
                       a = Object(Hs.b)("size", t, e, n),
                       i = Object(Hs.b)("alignCorners", t, e, n);
-                    return [En.Fb.resizeNearestNeighbor(r, [a[0], a[1]], i)];
+                    return [En.Gb.resizeNearestNeighbor(r, [a[0], a[1]], i)];
                   }
                   case "CropAndResize": {
                     const r = Object(Hs.b)("image", t, e, n),
@@ -72187,7 +72193,7 @@ PERFORMANCE OF THIS SOFTWARE.
                       o = Object(Hs.b)("cropSize", t, e, n),
                       s = Object(Hs.b)("method", t, e, n),
                       u = Object(Hs.b)("extrapolationValue", t, e, n);
-                    return [En.Fb.cropAndResize(r, a, i, o, s, u)];
+                    return [En.Gb.cropAndResize(r, a, i, o, s, u)];
                   }
                   default:
                     throw TypeError(`Node type ${t.op} is not implemented`);
@@ -72195,7 +72201,7 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "graph":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "Const":
@@ -72214,17 +72220,17 @@ PERFORMANCE OF THIS SOFTWARE.
                   case "Snapshot":
                     return [Object(Hs.b)("x", t, e, n).clone()];
                   case "Shape":
-                    return [En.pd(Object(Hs.b)("x", t, e, n).shape, "int32")];
+                    return [En.qd(Object(Hs.b)("x", t, e, n).shape, "int32")];
                   case "ShapeN":
                     return Object(Hs.b)("x", t, e, n).map((t) =>
-                      En.pd(t.shape)
+                      En.qd(t.shape)
                     );
                   case "Size":
-                    return [En.Hc(Object(Hs.b)("x", t, e, n).size, "int32")];
+                    return [En.Ic(Object(Hs.b)("x", t, e, n).size, "int32")];
                   case "Rank":
-                    return [En.Hc(Object(Hs.b)("x", t, e, n).rank, "int32")];
+                    return [En.Ic(Object(Hs.b)("x", t, e, n).rank, "int32")];
                   case "NoOp":
-                    return [En.Hc(1)];
+                    return [En.Ic(1)];
                   case "Print":
                     const a = Object(Hs.b)("x", t, e, n),
                       i = Object(Hs.b)("data", t, e, n),
@@ -72245,63 +72251,63 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "logical":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "Equal":
                     return [
-                      En.ob(
+                      En.pb(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "NotEqual":
                     return [
-                      En.mc(
+                      En.nc(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "Greater":
                     return [
-                      En.Bb(
+                      En.Cb(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "GreaterEqual":
                     return [
-                      En.Cb(
+                      En.Db(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "Less":
                     return [
-                      En.Lb(
+                      En.Mb(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "LessEqual":
                     return [
-                      En.Mb(
+                      En.Nb(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "LogicalAnd":
                     return [
-                      En.Tb(
+                      En.Ub(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
                     ];
                   case "LogicalNot":
-                    return [En.Ub(Object(Hs.b)("a", t, e, n))];
+                    return [En.Vb(Object(Hs.b)("a", t, e, n))];
                   case "LogicalOr":
                     return [
-                      En.Vb(
+                      En.Wb(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
                       ),
@@ -72309,7 +72315,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   case "Select":
                   case "SelectV2":
                     return [
-                      En.Fd(
+                      En.Gd(
                         Object(Hs.b)("condition", t, e, n),
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n)
@@ -72321,14 +72327,14 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "matrices":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "BatchMatMul":
                   case "BatchMatMulV2":
                   case "MatMul":
                     return [
-                      En.Wb(
+                      En.Xb(
                         Object(Hs.b)("a", t, e, n),
                         Object(Hs.b)("b", t, e, n),
                         Object(Hs.b)("transposeA", t, e, n),
@@ -72337,7 +72343,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     ];
                   case "Transpose":
                     return [
-                      En.xd(
+                      En.yd(
                         Object(Hs.b)("x", t, e, n),
                         Object(Hs.b)("perm", t, e, n)
                       ),
@@ -72359,7 +72365,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     }
                     const [u, c] = Object(Hs.b)("args", t, e, n);
                     return [
-                      En.yb.matMul({
+                      En.zb.matMul({
                         a: Object(Hs.b)("a", t, e, n),
                         b: Object(Hs.b)("b", t, e, n),
                         transposeA: Object(Hs.b)("transposeA", t, e, n),
@@ -72375,7 +72381,7 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "normalization":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "FusedBatchNorm":
@@ -72393,7 +72399,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     ];
                   case "LRN":
                     return [
-                      En.Pb(
+                      En.Qb(
                         Object(Hs.b)("x", t, e, n),
                         Object(Hs.b)("radius", t, e, n),
                         Object(Hs.b)("bias", t, e, n),
@@ -72402,12 +72408,12 @@ PERFORMANCE OF THIS SOFTWARE.
                       ),
                     ];
                   case "Softmax":
-                    return [En.Yc(Object(Hs.b)("x", t, e, n))];
+                    return [En.Zc(Object(Hs.b)("x", t, e, n))];
                   case "LogSoftmax":
-                    return [En.Sb(Object(Hs.b)("x", t, e, n))];
+                    return [En.Tb(Object(Hs.b)("x", t, e, n))];
                   case "SparseToDense":
                     return [
-                      En.bd(
+                      En.cd(
                         Object(Hs.b)("sparseIndices", t, e, n),
                         Object(Hs.b)("outputShape", t, e, n),
                         Object(Hs.b)("sparseValues", t, e, n),
@@ -72420,28 +72426,28 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "reduction":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "Max": {
                     const r = Object(Hs.b)("axis", t, e, n),
                       a = Object(Hs.b)("keepDims", t, e, n);
-                    return [En.Xb(Object(Hs.b)("x", t, e, n), r, a)];
+                    return [En.Yb(Object(Hs.b)("x", t, e, n), r, a)];
                   }
                   case "Mean": {
                     const r = Object(Hs.b)("axis", t, e, n),
                       a = Object(Hs.b)("keepDims", t, e, n);
-                    return [En.cc(Object(Hs.b)("x", t, e, n), r, a)];
+                    return [En.dc(Object(Hs.b)("x", t, e, n), r, a)];
                   }
                   case "Min": {
                     const r = Object(Hs.b)("axis", t, e, n),
                       a = Object(Hs.b)("keepDims", t, e, n);
-                    return [En.ec(Object(Hs.b)("x", t, e, n), r, a)];
+                    return [En.fc(Object(Hs.b)("x", t, e, n), r, a)];
                   }
                   case "Sum": {
                     const r = Object(Hs.b)("axis", t, e, n),
                       a = Object(Hs.b)("keepDims", t, e, n);
-                    return [En.kd(Object(Hs.b)("x", t, e, n), r, a)];
+                    return [En.ld(Object(Hs.b)("x", t, e, n), r, a)];
                   }
                   case "All": {
                     const r = Object(Hs.b)("axis", t, e, n),
@@ -72464,7 +72470,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   case "Prod": {
                     const r = Object(Hs.b)("axis", t, e, n),
                       a = Object(Hs.b)("keepDims", t, e, n);
-                    return [En.tc(Object(Hs.b)("x", t, e, n), r, a)];
+                    return [En.uc(Object(Hs.b)("x", t, e, n), r, a)];
                   }
                   case "Cumsum": {
                     const r = Object(Hs.b)("axis", t, e, n),
@@ -72478,7 +72484,7 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "slice_join":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "ConcatV2":
@@ -72493,18 +72499,18 @@ PERFORMANCE OF THIS SOFTWARE.
                     const r = Object(Hs.b)("axis", t, e, n),
                       a = Object(Hs.b)("x", t, e, n),
                       i = Object(Hs.b)("indices", t, e, n);
-                    return [En.zb(a, i.asType("int32"), r)];
+                    return [En.Ab(a, i.asType("int32"), r)];
                   }
                   case "ReverseV2":
                   case "Reverse": {
                     const r = Object(Hs.b)("axis", t, e, n),
                       a = Object(Hs.b)("x", t, e, n);
-                    return [En.Dc(a, r)];
+                    return [En.Ec(a, r)];
                   }
                   case "Slice": {
                     const r = Object(Hs.b)("begin", t, e, n),
                       a = Object(Hs.b)("size", t, e, n);
-                    return [En.Sc(Object(Hs.b)("x", t, e, n), r, a)];
+                    return [En.Tc(Object(Hs.b)("x", t, e, n), r, a)];
                   }
                   case "StridedSlice": {
                     const r = Object(Hs.b)("begin", t, e, n),
@@ -72519,50 +72525,50 @@ PERFORMANCE OF THIS SOFTWARE.
                     if (1 === r.length && h.shape.length > 1)
                       for (let t = 1; t < h.shape.length; t++)
                         r.push(0), a.push(h.shape[t]), i.push(i[0]);
-                    return [En.id(h, r, a, i, o, s, u, c, l)];
+                    return [En.jd(h, r, a, i, o, s, u, c, l)];
                   }
                   case "Pack":
-                    return En.td(() => {
+                    return En.ud(() => {
                       const r = Object(Hs.b)("axis", t, e, n),
                         a = Object(Hs.b)("tensors", t, e, n),
                         i = a[0].shape,
                         o = a[0].squeeze().shape,
                         s = a.map((t) => {
-                          const e = En.Bd.arraysEqual(t.shape, i);
-                          if (!e && !En.Bd.arraysEqual(t.squeeze().shape, o))
+                          const e = En.Cd.arraysEqual(t.shape, i);
+                          if (!e && !En.Cd.arraysEqual(t.squeeze().shape, o))
                             throw new Error(
                               "the input tensors shape does not match"
                             );
                           return e ? t : t.reshape(i);
                         });
-                      return [En.hd(s, r)];
+                      return [En.id(s, r)];
                     });
                   case "Unpack":
-                    return En.td(() => {
+                    return En.ud(() => {
                       const r = Object(Hs.b)("axis", t, e, n),
                         a = Object(Hs.b)("tensor", t, e, n);
-                      return En.zd(a, r);
+                      return En.Ad(a, r);
                     });
                   case "Tile": {
                     const r = Object(Hs.b)("reps", t, e, n);
-                    return [En.ud(Object(Hs.b)("x", t, e, n), r)];
+                    return [En.vd(Object(Hs.b)("x", t, e, n), r)];
                   }
                   case "Split":
                   case "SplitV": {
                     const r = Object(Hs.b)("axis", t, e, n),
                       a = Object(Hs.b)("numOrSizeSplits", t, e, n);
-                    return En.cd(Object(Hs.b)("x", t, e, n), a, r);
+                    return En.dd(Object(Hs.b)("x", t, e, n), a, r);
                   }
                   case "ScatterNd": {
                     const r = Object(Hs.b)("indices", t, e, n),
                       a = Object(Hs.b)("values", t, e, n),
                       i = Object(Hs.b)("shape", t, e, n);
-                    return [En.Ic(r, a, i)];
+                    return [En.Jc(r, a, i)];
                   }
                   case "GatherNd": {
                     const r = Object(Hs.b)("x", t, e, n),
                       a = Object(Hs.b)("indices", t, e, n);
-                    return [En.Ab(r, a)];
+                    return [En.Bb(r, a)];
                   }
                   case "SparseToDense": {
                     const r = Object(Hs.b)("sparseIndices", t, e, n),
@@ -72570,7 +72576,7 @@ PERFORMANCE OF THIS SOFTWARE.
                       i = Object(Hs.b)("sparseValues", t, e, n),
                       o = Object(Hs.b)("defaultValue", t, e, n);
                     return [
-                      En.bd(
+                      En.cd(
                         r,
                         i,
                         a,
@@ -72584,24 +72590,24 @@ PERFORMANCE OF THIS SOFTWARE.
               })(t, e, n)
             );
           case "spectral":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "FFT":
-                    return [En.ub(Object(Hs.b)("x", t, e, n))];
+                    return [En.vb(Object(Hs.b)("x", t, e, n))];
                   case "IFFT":
-                    return [En.Db(Object(Hs.b)("x", t, e, n))];
+                    return [En.Eb(Object(Hs.b)("x", t, e, n))];
                   case "RFFT":
-                    return [En.Ec(Object(Hs.b)("x", t, e, n))];
+                    return [En.Fc(Object(Hs.b)("x", t, e, n))];
                   case "IRFFT":
-                    return [En.Hb(Object(Hs.b)("x", t, e, n))];
+                    return [En.Ib(Object(Hs.b)("x", t, e, n))];
                   default:
                     throw TypeError(`Node type ${t.op} is not implemented`);
                 }
               })(t, e, n)
             );
           case "transformation":
-            return En.td(() =>
+            return En.ud(() =>
               ((t, e, n) => {
                 switch (t.op) {
                   case "Cast":
@@ -72613,15 +72619,15 @@ PERFORMANCE OF THIS SOFTWARE.
                     ];
                   case "ExpandDims": {
                     const r = Object(Hs.b)("axis", t, e, n);
-                    return [En.rb(Object(Hs.b)("x", t, e, n), r)];
+                    return [En.sb(Object(Hs.b)("x", t, e, n), r)];
                   }
                   case "Squeeze": {
                     const r = Object(Hs.b)("axis", t, e, n);
-                    return [En.gd(Object(Hs.b)("x", t, e, n), r)];
+                    return [En.hd(Object(Hs.b)("x", t, e, n), r)];
                   }
                   case "Reshape":
                     return [
-                      En.Cc(
+                      En.Dc(
                         Object(Hs.b)("x", t, e, n),
                         Object(Hs.b)("shape", t, e, n)
                       ),
@@ -72629,7 +72635,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   case "PadV2":
                   case "Pad":
                     return [
-                      En.qc(
+                      En.rc(
                         Object(Hs.b)("x", t, e, n),
                         Object(Hs.f)(Object(Hs.b)("padding", t, e, n), 2),
                         Object(Hs.b)("constantValue", t, e, n)
@@ -72638,7 +72644,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   case "SpaceToBatchND": {
                     const r = Object(Hs.b)("blockShape", t, e, n),
                       a = Object(Hs.f)(Object(Hs.b)("paddings", t, e, n), 2);
-                    return [En.ad(Object(Hs.b)("x", t, e, n), r, a)];
+                    return [En.bd(Object(Hs.b)("x", t, e, n), r, a)];
                   }
                   case "BatchToSpaceND": {
                     const r = Object(Hs.b)("blockShape", t, e, n),
@@ -72968,7 +72974,7 @@ PERFORMANCE OF THIS SOFTWARE.
         let o = this.compiledMap.get(i);
         null == o && ((o = this.compile(t, a)), this.compiledMap.set(i, o));
         const s = {};
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const n = new Qs(this.weightMap, s, this.functionExecutorMap),
             r = Object.assign({}, this.weightMap);
           Object.keys(t).forEach((e) => {
@@ -73160,7 +73166,7 @@ PERFORMANCE OF THIS SOFTWARE.
               e =
                 t.length === n.shape.length &&
                 n.shape.every((e, n) => -1 === t[n] || t[n] === e);
-            En.Bd.assert(
+            En.Cd.assert(
               e,
               () =>
                 `The shape of dict['${a.name}'] provided in model.execute(dict) must be [${t}], but was [${n.shape}]`
@@ -73168,7 +73174,7 @@ PERFORMANCE OF THIS SOFTWARE.
           }
           a.attrParams.dtype &&
             a.attrParams.dtype.value &&
-            En.Bd.assert(
+            En.Cd.assert(
               n.dtype === a.attrParams.dtype.value,
               () =>
                 `The dtype of dict['${a.name}'] provided in model.execute(dict) must be ${a.attrParams.dtype.value}, but was ${n.dtype}`
@@ -73261,11 +73267,11 @@ PERFORMANCE OF THIS SOFTWARE.
         const t = this.modelUrl;
         if (null != t.load) this.handler = t;
         else if (null != this.loadOptions.requestInit)
-          this.handler = En.Gb.browserHTTPRequest(t, this.loadOptions);
+          this.handler = En.Hb.browserHTTPRequest(t, this.loadOptions);
         else {
-          const e = En.Gb.getLoadHandlers(t, this.loadOptions);
+          const e = En.Hb.getLoadHandlers(t, this.loadOptions);
           if (0 === e.length)
-            e.push(En.Gb.browserHTTPRequest(t, this.loadOptions));
+            e.push(En.Hb.browserHTTPRequest(t, this.loadOptions));
           else if (e.length > 1)
             throw new Error(
               `Found more than one (${e.length}) load handlers for URL '${[t]}'`
@@ -73288,7 +73294,7 @@ PERFORMANCE OF THIS SOFTWARE.
         null != this.artifacts.userDefinedMetadata &&
           (n = this.artifacts.userDefinedMetadata.signature),
           (this.version = `${e.versions.producer}.${e.versions.minConsumer}`);
-        const r = En.Gb.decodeWeights(
+        const r = En.Hb.decodeWeights(
           this.artifacts.weightData,
           this.artifacts.weightSpecs
         );
@@ -73300,7 +73306,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       async save(t, e) {
         if ("string" == typeof t) {
-          const e = En.Gb.getSaveHandlers(t);
+          const e = En.Hb.getSaveHandlers(t);
           if (0 === e.length)
             throw new Error(`Cannot find any save handlers for URL '${t}'`);
           if (e.length > 1)
@@ -73390,7 +73396,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const n = this;
         let r;
         return (
-          En.Bd.assert(
+          En.Cd.assert(
             t > 0,
             () => "batchSize needs to be positive, but it is\n      " + t
           ),
@@ -73425,7 +73431,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return (
           (n = this.size === 1 / 0 ? 1 / 0 : null),
           lu(
-            async () => (await e.iterator()).filter((e) => En.td(() => t(e))),
+            async () => (await e.iterator()).filter((e) => En.ud(() => t(e))),
             n
           )
         );
@@ -73436,7 +73442,7 @@ PERFORMANCE OF THIS SOFTWARE.
       map(t) {
         const e = this;
         return lu(
-          async () => (await e.iterator()).map((e) => En.td(() => t(e))),
+          async () => (await e.iterator()).map((e) => En.ud(() => t(e))),
           this.size
         );
       }
@@ -73496,7 +73502,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 `\`Dataset.shuffle()\` requires bufferSize to be specified.  If your data fits in main memory (for regular JS objects), and/or GPU memory (for \`tf.Tensor\`s), consider setting bufferSize to the dataset size (${this.size} elements)`
               );
         const r = this,
-          a = ou.alea(e || En.Bd.now().toString());
+          a = ou.alea(e || En.Cd.now().toString());
         return lu(async () => {
           let e = a.int32();
           return (
@@ -73569,7 +73575,7 @@ PERFORMANCE OF THIS SOFTWARE.
           value: (function (t) {
             if (0 === t.length)
               throw new Error("Can't make a batch of zero elements.");
-            return t[0] instanceof En.l ? En.hd(t) : En.od(t);
+            return t[0] instanceof En.l ? En.id(t) : En.pd(t);
           })(
             /**
              * @license
@@ -73645,7 +73651,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.columnConfigs = e.columnConfigs),
           (this.configuredColumnsOnly = e.configuredColumnsOnly),
           e.delimWhitespace
-            ? (En.Bd.assert(
+            ? (En.Cd.assert(
                 null == e.delimiter,
                 () =>
                   "Delimiter should not be provided when delimWhitespace is true."
@@ -73670,7 +73676,7 @@ PERFORMANCE OF THIS SOFTWARE.
           );
         this.fullColumnNames &&
           t &&
-          En.Bd.assert(
+          En.Cd.assert(
             t.length === this.fullColumnNames.length,
             () =>
               "The length of provided columnNames (" +
@@ -73686,7 +73692,7 @@ PERFORMANCE OF THIS SOFTWARE.
           ),
           n = Object.keys(e).filter((t) => e[t] > 1);
         if (
-          (En.Bd.assert(
+          (En.Cd.assert(
             0 === n.length,
             () => "Duplicate column names found: " + n.toString()
           ),
@@ -73879,7 +73885,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return "microphone";
       }
       static async create(t = {}) {
-        if (Object(En.nb)().get("IS_NODE"))
+        if (Object(En.ob)().get("IS_NODE"))
           throw new Error(
             "microphone API is only supported in browser environment."
           );
@@ -73980,8 +73986,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return t.forEach((t, r) => n.set(t, r * e)), n;
       }
       getTensorFromAudioDataArray(t, e) {
-        const n = new Float32Array(En.Bd.sizeFromShape(e));
-        return n.set(t, n.length - t.length), Object(En.od)(n, e);
+        const n = new Float32Array(En.Cd.sizeFromShape(e));
+        return n.set(t, n.length - t.length), Object(En.pd)(n, e);
       }
     }
     /**
@@ -74016,7 +74022,7 @@ PERFORMANCE OF THIS SOFTWARE.
               this.webcamConfig.resizeHeight,
               this.webcamConfig.resizeWidth,
             ]),
-            (this.cropBoxInd = Object(En.pd)([0], "int32")),
+            (this.cropBoxInd = Object(En.qd)([0], "int32")),
             this.webcamConfig.centerCrop)
           ) {
             const t =
@@ -74029,14 +74035,14 @@ PERFORMANCE OF THIS SOFTWARE.
               r = (1 - e) / 2,
               a = n + t,
               i = e + r;
-            this.cropBox = Object(En.qd)([r, n, i, a], [1, 4]);
-          } else this.cropBox = Object(En.qd)([0, 0, 1, 1], [1, 4]);
+            this.cropBox = Object(En.rd)([r, n, i, a], [1, 4]);
+          } else this.cropBox = Object(En.rd)([0, 0, 1, 1], [1, 4]);
       }
       summary() {
         return "webcam";
       }
       static async create(t, e = {}) {
-        if (Object(En.nb)().get("IS_NODE"))
+        if (Object(En.ob)().get("IS_NODE"))
           throw new Error(
             "tf.data.webcam is only supported in browser environment."
           );
@@ -74055,7 +74061,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       async start() {
         this.webcamConfig.facingMode &&
-          En.Bd.assert(
+          En.Cd.assert(
             "user" === this.webcamConfig.facingMode ||
               "environment" === this.webcamConfig.facingMode,
             () =>
@@ -74127,10 +74133,10 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
       cropAndResizeFrame(t) {
-        return Object(En.td)(() => {
+        return Object(En.ud)(() => {
           const e = t.toFloat().expandDims(0);
           let n;
-          n = En.Fb.cropAndResize(
+          n = En.Gb.cropAndResize(
             e,
             this.cropBox,
             this.cropBoxInd,
@@ -74196,9 +74202,9 @@ PERFORMANCE OF THIS SOFTWARE.
         super(),
           (this.file = t),
           (this.options = e),
-          En.Bd.assert(
+          En.Cd.assert(
             t instanceof Uint8Array ||
-              (!!Object(En.nb)().get("IS_BROWSER") &&
+              (!!Object(En.ob)().get("IS_BROWSER") &&
                 (t instanceof File || t instanceof Blob)),
             () =>
               "FileChunkIterator only supports File, Blob and Uint8Array right now."
@@ -74309,7 +74315,7 @@ PERFORMANCE OF THIS SOFTWARE.
         super(), (this.input = t), (this.options = e);
       }
       async iterator() {
-        if (ku(this.input) && Object(En.nb)().get("IS_NODE")) {
+        if (ku(this.input) && Object(En.ob)().get("IS_NODE")) {
           const t = n(80);
           this.input = t.readFileSync(this.input.substr(7));
         }
@@ -74342,7 +74348,7 @@ PERFORMANCE OF THIS SOFTWARE.
           : (async function (t, e = {}) {
               let n, r;
               "string" == typeof t ? (n = t) : ((n = t.url), (r = Iu(t)));
-              const a = await En.Bd.fetch(n, r);
+              const a = await En.Cd.fetch(n, r);
               if (a.ok) {
                 const t = new Uint8Array(await a.arrayBuffer());
                 return new Su(t, e);
@@ -74419,7 +74425,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * limitations under the License.
      * =============================================================================
      */ function ju(t, e, n, r) {
-      const a = En.Bd.getTypedArrayFromDType(r, En.Bd.sizeFromShape(n));
+      const a = En.Cd.getTypedArrayFromDType(r, En.Cd.sizeFromShape(n));
       for (let n = 0; n < a.length; ++n) {
         const r = n * e;
         let i = t[r];
@@ -74446,17 +74452,17 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function Bu(t, e, n, r, a) {
+     */ function $u(t, e, n, r, a) {
       const i = e.length,
-        o = En.Bd.sizeFromShape(e),
-        s = En.Bd.computeStrides(e),
-        u = En.Bd.computeStrides(a),
-        c = En.Bd.getTypedArrayFromDType(n, En.Bd.sizeFromShape(a));
+        o = En.Cd.sizeFromShape(e),
+        s = En.Cd.computeStrides(e),
+        u = En.Cd.computeStrides(a),
+        c = En.Cd.getTypedArrayFromDType(n, En.Cd.sizeFromShape(a));
       for (let e = 0; e < o; ++e) {
-        const n = En.Bd.indexToLoc(e, i, s),
+        const n = En.Cd.indexToLoc(e, i, s),
           a = new Array(n.length);
         for (let t = 0; t < a.length; t++) a[t] = n[r[t]];
-        c[En.Bd.locToIndex(a, i, u)] = t[e];
+        c[En.Cd.locToIndex(a, i, u)] = t[e];
       }
       return c;
     }
@@ -74491,11 +74497,11 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function $u(t, e) {
+     */ function Bu(t, e) {
       Array.isArray(t) || (t = [t]),
         t.forEach((t) => {
           null != t &&
-            En.Bd.assert(
+            En.Cd.assert(
               "complex64" !== t.dtype,
               () =>
                 e + " does not support complex64 tensors in the CPU backend."
@@ -74517,7 +74523,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ function Lu(t, e, n, r, a, i) {
+     */ function Pu(t, e, n, r, a, i) {
       const o = a.strideHeight,
         s = a.strideWidth,
         u = a.dilationHeight,
@@ -74564,7 +74570,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       return m;
     }
-    function Pu(t, e, n, r, a = !1, i = !1) {
+    function Lu(t, e, n, r, a = !1, i = !1) {
       const o = Object(En.N)(r.outShape, "int32"),
         s = r.strideHeight,
         u = r.strideWidth,
@@ -74625,11 +74631,11 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ const zu = En.Jb.nonMaxSuppressionV3,
-      Wu = En.Jb.split,
-      Vu = En.Jb.tile,
-      Uu = En.Jb.topkImpl,
-      Gu = En.Jb.whereImpl;
+     */ const zu = En.Kb.nonMaxSuppressionV3,
+      Wu = En.Kb.split,
+      Vu = En.Kb.tile,
+      Uu = En.Kb.topkImpl,
+      Gu = En.Kb.whereImpl;
     function Hu(t, e, n, r) {
       if ("linear" === n) return t.linear(e);
       if ("relu" === n) return t.relu(e);
@@ -74645,12 +74651,12 @@ PERFORMANCE OF THIS SOFTWARE.
         super(),
           (this.blockSize = 48),
           (this.firstUse = !0),
-          (this.data = new En.a(this, Object(En.mb)()));
+          (this.data = new En.a(this, Object(En.nb)()));
       }
       write(t, e, n) {
         this.firstUse &&
           ((this.firstUse = !1),
-          Object(En.nb)().get("IS_NODE") &&
+          Object(En.ob)().get("IS_NODE") &&
             En.F.warn(
               "\n============================\nHi there 👋. Looks like you are running TensorFlow.js in Node.js. To speed things up dramatically, install our node backend, which binds to TensorFlow C++, by running npm i @tensorflow/tfjs-node, or npm i @tensorflow/tfjs-node-gpu if you have CUDA. Then call require('@tensorflow/tfjs-node'); (-gpu suffix for CUDA) at the start of your program. Visit https://github.com/tensorflow/tfjs-node for more details.\n============================"
             ));
@@ -74680,7 +74686,7 @@ PERFORMANCE OF THIS SOFTWARE.
         let n = e;
         if ("string" === t.dtype)
           try {
-            n = e.map((t) => En.Bd.decodeString(t));
+            n = e.map((t) => En.Cd.decodeString(t));
           } catch (t) {
             throw new Error("Failed to decode encoded string bytes into utf-8");
           }
@@ -74688,7 +74694,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       makeOutput(t, e, n) {
         const r = this.write(t, e, n);
-        return Object(En.mb)().makeTensorFromDataId(r, e, n, this);
+        return Object(En.nb)().makeTensorFromDataId(r, e, n, this);
       }
       disposeData(t) {
         if (this.data.has(t)) {
@@ -74698,9 +74704,9 @@ PERFORMANCE OF THIS SOFTWARE.
         }
       }
       async time(t) {
-        const e = En.Bd.now();
+        const e = En.Cd.now();
         t();
-        return { kernelMs: En.Bd.now() - e };
+        return { kernelMs: En.Cd.now() - e };
       }
       memory() {
         return {
@@ -74714,8 +74720,8 @@ PERFORMANCE OF THIS SOFTWARE.
         const n = this.makeOutput(null, t.shape, "complex64");
         return (
           (this.data.get(n.dataId).complexTensors = {
-            real: Object(En.mb)().keep(t.clone()),
-            imag: Object(En.mb)().keep(e.clone()),
+            real: Object(En.nb)().keep(t.clone()),
+            imag: Object(En.nb)().keep(e.clone()),
           }),
           n
         );
@@ -74727,12 +74733,12 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.data.get(t.dataId).complexTensors.imag.clone();
       }
       slice(t, e, n) {
-        $u(t, "slice");
-        if (En.Xc.isSliceContinous(t.shape, e, n)) {
-          const r = En.Xc.computeFlatOffset(e, t.strides),
-            a = En.Bd.sizeFromShape(n),
+        Bu(t, "slice");
+        if (En.Yc.isSliceContinous(t.shape, e, n)) {
+          const r = En.Yc.computeFlatOffset(e, t.strides),
+            a = En.Cd.sizeFromShape(n),
             i = this.readSync(t.dataId);
-          return En.od(i.subarray(r, r + a), n, t.dtype);
+          return En.pd(i.subarray(r, r + a), n, t.dtype);
         }
         const r = En.N(n, t.dtype),
           a = this.bufferSync(t);
@@ -74743,9 +74749,9 @@ PERFORMANCE OF THIS SOFTWARE.
         return r.toTensor();
       }
       stridedSlice(t, e, n, r) {
-        $u(t, "stridedSlice");
-        const a = En.Xc.computeOutShape(e, n, r);
-        if (a.some((t) => 0 === t)) return En.od([], a);
+        Bu(t, "stridedSlice");
+        const a = En.Yc.computeOutShape(e, n, r);
+        if (a.some((t) => 0 === t)) return En.pd([], a);
         const i = En.N(a, t.dtype),
           o = this.bufferSync(t);
         for (let t = 0; t < i.size; t++) {
@@ -74777,7 +74783,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return s;
       }
       reverse(t, e) {
-        $u(t, "reverse");
+        Bu(t, "reverse");
         const n = En.N(t.shape, t.dtype),
           r = this.bufferSync(t);
         for (let a = 0; a < n.size; a++) {
@@ -74790,12 +74796,12 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       concat(t, e) {
         if ("complex64" === t[0].dtype) {
-          const n = t.map((t) => En.xc(t)),
-            r = t.map((t) => En.Eb(t));
+          const n = t.map((t) => En.yc(t)),
+            r = t.map((t) => En.Fb(t));
           return En.R(this.concat(n, e), this.concat(r, e));
         }
         const n = t.map((t) => {
-            const n = En.Bd.sizeFromShape(t.shape.slice(e));
+            const n = En.Cd.sizeFromShape(t.shape.slice(e));
             return t.as2D(-1, n);
           }),
           r = En.F.computeOutShape(
@@ -74824,10 +74830,10 @@ PERFORMANCE OF THIS SOFTWARE.
           t.map((t) => t.shape),
           e
         );
-        return En.od(a, i, t[0].dtype);
+        return En.pd(a, i, t[0].dtype);
       }
       neg(t) {
-        return $u(t, "neg"), this.multiply(En.Hc(-1), t);
+        return Bu(t, "neg"), this.multiply(En.Ic(-1), t);
       }
       add(t, e) {
         return "complex64" === t.dtype || "complex64" === e.dtype
@@ -74839,12 +74845,12 @@ PERFORMANCE OF THIS SOFTWARE.
           : this.broadcastedBinaryOp(
               t,
               e,
-              Object(En.Ad)(t.dtype, e.dtype),
+              Object(En.Bd)(t.dtype, e.dtype),
               (t, e) => t + e
             );
       }
       addN(t) {
-        $u(t, "addN");
+        Bu(t, "addN");
         const e = t.map((t) => this.readSync(t.dataId)),
           n = En.N(t[0].shape, t[0].dtype),
           r = n.values;
@@ -74855,8 +74861,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return n.toTensor();
       }
       softmax(t, e) {
-        const n = En.Bd.parseAxisParam([e], t.shape),
-          r = Object(En.Xb)(t, n),
+        const n = En.Cd.parseAxisParam([e], t.shape),
+          r = Object(En.Yb)(t, n),
           a = En.F.expandShapeToKeepDim(r.shape, n),
           i = this.subtract(t, r.reshape(a)),
           o = this.exp(i),
@@ -74873,18 +74879,18 @@ PERFORMANCE OF THIS SOFTWARE.
           : this.broadcastedBinaryOp(
               t,
               e,
-              Object(En.Ad)(t.dtype, e.dtype),
+              Object(En.Bd)(t.dtype, e.dtype),
               (t, e) => t - e
             );
       }
       pow(t, e) {
         return (
-          $u([t, e], "pow"),
+          Bu([t, e], "pow"),
           this.broadcastedBinaryOp(t, e, t.dtype, (t, e) => Math.pow(t, e))
         );
       }
       batchMatMul(t, e, n, r) {
-        $u([t, e], "matMul");
+        Bu([t, e], "matMul");
         const a = n ? t.shape[1] : t.shape[2],
           i = n ? t.shape[2] : t.shape[1],
           o = r ? e.shape[1] : e.shape[2],
@@ -74940,22 +74946,22 @@ PERFORMANCE OF THIS SOFTWARE.
           : this.broadcastedBinaryOp(
               t,
               e,
-              Object(En.Ad)(t.dtype, e.dtype),
+              Object(En.Bd)(t.dtype, e.dtype),
               (t, e) => t * e
             );
       }
       floorDiv(t, e) {
-        $u([t, e], "floorDiv");
+        Bu([t, e], "floorDiv");
         return this.broadcastedBinaryOp(t, e, "int32", (t, e) =>
           Math.floor(t / e)
         );
       }
       sum(t, e) {
-        $u(t, "sum"), En.F.assertAxesAreInnerMostDims("sum", e, t.rank);
+        Bu(t, "sum"), En.F.assertAxesAreInnerMostDims("sum", e, t.rank);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = Object(En.Ad)(t.dtype, "int32"),
-          i = En.Hd(n, a),
-          o = En.Bd.sizeFromShape(r),
+          a = Object(En.Bd)(t.dtype, "int32"),
+          i = En.Id(n, a),
+          o = En.Cd.sizeFromShape(r),
           s = this.readSync(i.dataId),
           u = this.readSync(t.dataId);
         for (let t = 0; t < s.length; ++t) {
@@ -74967,11 +74973,11 @@ PERFORMANCE OF THIS SOFTWARE.
         return i;
       }
       prod(t, e) {
-        $u(t, "sum");
+        Bu(t, "sum");
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = Object(En.Ad)(t.dtype, "int32"),
-          i = En.Hd(n, a),
-          o = En.Bd.sizeFromShape(r),
+          a = Object(En.Bd)(t.dtype, "int32"),
+          i = En.Id(n, a),
+          o = En.Cd.sizeFromShape(r),
           s = this.readSync(i.dataId),
           u = this.readSync(t.dataId);
         for (let t = 0; t < s.length; ++t) {
@@ -74983,24 +74989,24 @@ PERFORMANCE OF THIS SOFTWARE.
         return i;
       }
       unsortedSegmentSum(t, e, n) {
-        $u(t, "unsortedSegmentSum");
+        Bu(t, "unsortedSegmentSum");
         const r = [],
           a = t.rank - e.rank;
         for (let t = 0; t < a; ++t) e = e.expandDims(t + 1);
         for (let a = 0; a < n; ++a) {
-          const n = En.Hc(a, "int32"),
-            i = En.ob(n, e).asType("float32").mul(t).sum(0);
+          const n = En.Ic(a, "int32"),
+            i = En.pb(n, e).asType("float32").mul(t).sum(0);
           r.push(i);
         }
-        return En.hd(r);
+        return En.id(r);
       }
       argMin(t, e) {
-        $u(t, "argMin");
+        Bu(t, "argMin");
         const n = [e];
         En.F.assertAxesAreInnerMostDims("argMin", n, t.rank);
         const [r, a] = En.F.computeOutAndReduceShapes(t.shape, n),
-          i = En.Hd(r, "int32"),
-          o = En.Bd.sizeFromShape(a),
+          i = En.Id(r, "int32"),
+          o = En.Cd.sizeFromShape(a),
           s = this.readSync(i.dataId),
           u = this.readSync(t.dataId);
         for (let t = 0; t < s.length; ++t) {
@@ -75016,12 +75022,12 @@ PERFORMANCE OF THIS SOFTWARE.
         return i;
       }
       argMax(t, e) {
-        $u(t, "argMax");
+        Bu(t, "argMax");
         const n = [e];
         En.F.assertAxesAreInnerMostDims("argMax", n, t.rank);
         const [r, a] = En.F.computeOutAndReduceShapes(t.shape, n),
-          i = En.Hd(r, "int32"),
-          o = En.Bd.sizeFromShape(a),
+          i = En.Id(r, "int32"),
+          o = En.Cd.sizeFromShape(a),
           s = this.readSync(i.dataId),
           u = this.readSync(t.dataId);
         for (let t = 0; t < s.length; ++t) {
@@ -75037,14 +75043,14 @@ PERFORMANCE OF THIS SOFTWARE.
         return i;
       }
       cumsum(t, e, n, r) {
-        if (($u(t, "cumsum"), e !== t.rank - 1))
+        if ((Bu(t, "cumsum"), e !== t.rank - 1))
           throw new Error(
             `backend.cumsum in CPU expects an inner-most axis=${
               t.rank - 1
             } but got axis=` + e
           );
-        const a = Object(En.Ad)(t.dtype, "int32"),
-          i = En.Hd(t.shape, a),
+        const a = Object(En.Bd)(t.dtype, "int32"),
+          i = En.Id(t.shape, a),
           o = this.readSync(i.dataId),
           s = this.readSync(t.dataId),
           u = t.shape[t.rank - 1],
@@ -75062,42 +75068,42 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       equal(t, e) {
         return (
-          $u([t, e], "equal"),
+          Bu([t, e], "equal"),
           this.broadcastedBinaryOp(t, e, "bool", (t, e) => (t === e ? 1 : 0))
         );
       }
       notEqual(t, e) {
         return (
-          $u([t, e], "notEqual"),
+          Bu([t, e], "notEqual"),
           this.broadcastedBinaryOp(t, e, "bool", (t, e) => (t !== e ? 1 : 0))
         );
       }
       less(t, e) {
         return (
-          $u([t, e], "less"),
+          Bu([t, e], "less"),
           this.broadcastedBinaryOp(t, e, "bool", (t, e) => (t < e ? 1 : 0))
         );
       }
       lessEqual(t, e) {
         return (
-          $u([t, e], "lessEqual"),
+          Bu([t, e], "lessEqual"),
           this.broadcastedBinaryOp(t, e, "bool", (t, e) => (t <= e ? 1 : 0))
         );
       }
       greater(t, e) {
         return (
-          $u([t, e], "greater"),
+          Bu([t, e], "greater"),
           this.broadcastedBinaryOp(t, e, "bool", (t, e) => (t > e ? 1 : 0))
         );
       }
       greaterEqual(t, e) {
         return (
-          $u([t, e], "greaterEqual"),
+          Bu([t, e], "greaterEqual"),
           this.broadcastedBinaryOp(t, e, "bool", (t, e) => (t >= e ? 1 : 0))
         );
       }
       logicalNot(t) {
-        $u(t, "logicalNot");
+        Bu(t, "logicalNot");
         const e = this.readSync(t.dataId),
           n = new Uint8Array(e.length);
         for (let t = 0; t < e.length; ++t) n[t] = e[t] ? 0 : 1;
@@ -75105,48 +75111,48 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       logicalAnd(t, e) {
         return (
-          $u([t, e], "logicalAnd"),
+          Bu([t, e], "logicalAnd"),
           this.broadcastedBinaryOp(t, e, "bool", (t, e) => t && e)
         );
       }
       logicalOr(t, e) {
         return (
-          $u([t, e], "logicalOr"),
+          Bu([t, e], "logicalOr"),
           this.broadcastedBinaryOp(t, e, "bool", (t, e) => t || e)
         );
       }
       select(t, e, n) {
-        $u([t, e, n], "select");
+        Bu([t, e, n], "select");
         const r = this.readSync(t.dataId),
           a = this.readSync(e.dataId),
           i = this.readSync(n.dataId),
-          o = En.Hd(e.shape, Object(En.Ad)(e.dtype, n.dtype)),
+          o = En.Id(e.shape, Object(En.Bd)(e.dtype, n.dtype)),
           s = this.readSync(o.dataId);
         let u = 0;
         const c =
           0 === t.rank || t.rank > 1 || 1 === e.rank
             ? 1
-            : En.Bd.sizeFromShape(e.shape.slice(1));
+            : En.Cd.sizeFromShape(e.shape.slice(1));
         for (let t = 0; t < r.length; t++)
           for (let e = 0; e < c; e++)
             1 === r[t] ? (s[u++] = a[t]) : (s[u++] = i[t]);
         return o;
       }
       where(t) {
-        $u([t], "where");
+        Bu([t], "where");
         const e = this.readSync(t.dataId);
         return Gu(t.shape, e);
       }
       topk(t, e, n) {
-        $u(t, "topk");
+        Bu(t, "topk");
         const r = this.readSync(t.dataId);
         return Uu(r, t.shape, t.dtype, e, n);
       }
       min(t, e) {
-        $u(t, "min"), En.F.assertAxesAreInnerMostDims("min", e, t.rank);
+        Bu(t, "min"), En.F.assertAxesAreInnerMostDims("min", e, t.rank);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = En.Hd(n, t.dtype),
-          i = En.Bd.sizeFromShape(r),
+          a = En.Id(n, t.dtype),
+          i = En.Cd.sizeFromShape(r),
           o = this.readSync(a.dataId),
           s = this.readSync(t.dataId);
         for (let t = 0; t < o.length; ++t) {
@@ -75162,13 +75168,13 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       minimum(t, e) {
         return (
-          $u([t, e], "minimum"),
+          Bu([t, e], "minimum"),
           this.broadcastedBinaryOp(t, e, t.dtype, (t, e) => Math.min(t, e))
         );
       }
       mod(t, e) {
         return (
-          $u([t, e], "mod"),
+          Bu([t, e], "mod"),
           this.broadcastedBinaryOp(t, e, t.dtype, (t, e) => {
             const n = t % e;
             return (t < 0 && e < 0) || (t >= 0 && e >= 0) ? n : (n + e) % e;
@@ -75177,15 +75183,15 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       maximum(t, e) {
         return (
-          $u([t, e], "maximum"),
+          Bu([t, e], "maximum"),
           this.broadcastedBinaryOp(t, e, t.dtype, (t, e) => Math.max(t, e))
         );
       }
       all(t, e) {
-        $u(t, "all"), En.F.assertAxesAreInnerMostDims("all", e, t.rank);
+        Bu(t, "all"), En.F.assertAxesAreInnerMostDims("all", e, t.rank);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = En.Hd(n, t.dtype),
-          i = En.Bd.sizeFromShape(r),
+          a = En.Id(n, t.dtype),
+          i = En.Cd.sizeFromShape(r),
           o = this.readSync(a.dataId),
           s = this.readSync(t.dataId);
         for (let t = 0; t < o.length; ++t) {
@@ -75200,10 +75206,10 @@ PERFORMANCE OF THIS SOFTWARE.
         return a;
       }
       any(t, e) {
-        $u(t, "any"), En.F.assertAxesAreInnerMostDims("any", e, t.rank);
+        Bu(t, "any"), En.F.assertAxesAreInnerMostDims("any", e, t.rank);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = En.Hd(n, t.dtype),
-          i = En.Bd.sizeFromShape(r),
+          a = En.Id(n, t.dtype),
+          i = En.Cd.sizeFromShape(r),
           o = this.readSync(a.dataId),
           s = this.readSync(t.dataId);
         for (let t = 0; t < o.length; ++t) {
@@ -75219,7 +75225,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       squaredDifference(t, e) {
         return (
-          $u([t, e], "squaredDifference"),
+          Bu([t, e], "squaredDifference"),
           this.broadcastedBinaryOp(t, e, t.dtype, (t, e) => {
             const n = t - e;
             return n * n;
@@ -75227,21 +75233,21 @@ PERFORMANCE OF THIS SOFTWARE.
         );
       }
       ceil(t) {
-        $u(t, "ceil");
+        Bu(t, "ceil");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) n[t] = Math.ceil(e[t]);
         return this.makeOutput(n, t.shape, "float32");
       }
       floor(t) {
-        $u(t, "floor");
+        Bu(t, "floor");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) n[t] = Math.floor(e[t]);
         return this.makeOutput(n, t.shape, "float32");
       }
       sign(t) {
-        $u(t, "x");
+        Bu(t, "x");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t)
@@ -75249,14 +75255,14 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, t.shape, "float32");
       }
       isNaN(t) {
-        $u(t, "x");
+        Bu(t, "x");
         const e = this.readSync(t.dataId),
           n = new Uint8Array(e.length);
         for (let t = 0; t < e.length; ++t) Number.isNaN(e[t]) && (n[t] = 1);
         return this.makeOutput(n, t.shape, "bool");
       }
       isInf(t) {
-        $u(t, "x");
+        Bu(t, "x");
         const e = this.readSync(t.dataId),
           n = new Uint8Array(e.length);
         for (let t = 0; t < e.length; ++t)
@@ -75264,14 +75270,14 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, t.shape, "bool");
       }
       isFinite(t) {
-        $u(t, "x");
+        Bu(t, "x");
         const e = this.readSync(t.dataId),
           n = new Uint8Array(e.length);
         for (let t = 0; t < e.length; ++t) Number.isFinite(e[t]) && (n[t] = 1);
         return this.makeOutput(n, t.shape, "bool");
       }
       round(t) {
-        $u(t, "round");
+        Bu(t, "round");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) {
@@ -75285,21 +75291,21 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, t.shape, "float32");
       }
       exp(t) {
-        $u(t, "exp");
+        Bu(t, "exp");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) n[t] = Math.exp(e[t]);
         return this.makeOutput(n, t.shape, "float32");
       }
       expm1(t) {
-        $u(t, "expm1");
+        Bu(t, "expm1");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) n[t] = Math.expm1(e[t]);
         return this.makeOutput(n, t.shape, "float32");
       }
       log(t) {
-        $u(t, "log");
+        Bu(t, "log");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) {
@@ -75309,7 +75315,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, t.shape, "float32");
       }
       log1p(t) {
-        $u(t, "log1p");
+        Bu(t, "log1p");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) {
@@ -75319,7 +75325,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, t.shape, "float32");
       }
       sqrt(t) {
-        $u(t, "sqrt");
+        Bu(t, "sqrt");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) {
@@ -75329,7 +75335,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, t.shape, "float32");
       }
       rsqrt(t) {
-        $u(t, "rsqrt");
+        Bu(t, "rsqrt");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) {
@@ -75339,7 +75345,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, t.shape, "float32");
       }
       reciprocal(t) {
-        $u(t, "reciprocal");
+        Bu(t, "reciprocal");
         const e = this.readSync(t.dataId),
           n = new Float32Array(e.length);
         for (let t = 0; t < e.length; ++t) n[t] = 1 / e[t];
@@ -75349,16 +75355,16 @@ PERFORMANCE OF THIS SOFTWARE.
         return t;
       }
       relu(t) {
-        $u(t, "relu");
-        const e = En.Hd(t.shape, t.dtype),
+        Bu(t, "relu");
+        const e = En.Id(t.shape, t.dtype),
           n = this.readSync(e.dataId),
           r = this.readSync(t.dataId);
         for (let t = 0; t < r.length; ++t) n[t] = Math.max(0, r[t]);
         return e;
       }
       relu6(t) {
-        $u(t, "relu");
-        const e = En.Hd(t.shape, t.dtype),
+        Bu(t, "relu");
+        const e = En.Id(t.shape, t.dtype),
           n = this.readSync(e.dataId),
           r = this.readSync(t.dataId);
         for (let t = 0; t < r.length; ++t)
@@ -75367,12 +75373,12 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       prelu(t, e) {
         return (
-          $u([t, e], "prelu"),
+          Bu([t, e], "prelu"),
           this.broadcastedBinaryOp(t, e, t.dtype, (t, e) => (t < 0 ? e * t : t))
         );
       }
       elu(t) {
-        $u(t, "elu");
+        Bu(t, "elu");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) {
@@ -75382,7 +75388,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(e, t.shape, "float32");
       }
       eluDer(t, e) {
-        $u([t, e], "eluDer");
+        Bu([t, e], "eluDer");
         const n = new Float32Array(e.size),
           r = this.readSync(e.dataId),
           a = this.readSync(t.dataId);
@@ -75393,7 +75399,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, e.shape, "float32");
       }
       selu(t) {
-        $u(t, "selu");
+        Bu(t, "selu");
         const e = En.F.SELU_SCALEALPHA,
           n = En.F.SELU_SCALE,
           r = new Float32Array(t.size),
@@ -75405,7 +75411,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(r, t.shape, "float32");
       }
       clip(t, e, n) {
-        $u(t, "clip");
+        Bu(t, "clip");
         const r = new Float32Array(t.size),
           a = this.readSync(t.dataId);
         for (let t = 0; t < a.length; ++t) {
@@ -75431,21 +75437,21 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(e, t.shape, "float32");
       }
       int(t) {
-        $u(t, "int");
+        Bu(t, "int");
         const e = new Int32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = n[t];
         return this.makeOutput(e, t.shape, "int32");
       }
       sigmoid(t) {
-        $u(t, "sigmoid");
+        Bu(t, "sigmoid");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = 1 / (1 + Math.exp(-n[t]));
         return this.makeOutput(e, t.shape, "float32");
       }
       softplus(t) {
-        $u(t, "softplus");
+        Bu(t, "softplus");
         const e = Math.log(1.1920928955078125e-7) + 2,
           n = new Float32Array(t.size),
           r = this.readSync(t.dataId);
@@ -75459,42 +75465,42 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(n, t.shape, "float32");
       }
       sin(t) {
-        $u(t, "sin");
+        Bu(t, "sin");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.sin(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       cos(t) {
-        $u(t, "cos");
+        Bu(t, "cos");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.cos(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       tan(t) {
-        $u(t, "tan");
+        Bu(t, "tan");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.tan(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       asin(t) {
-        $u(t, "asin");
+        Bu(t, "asin");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.asin(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       acos(t) {
-        $u(t, "acos");
+        Bu(t, "acos");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.acos(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       atan(t) {
-        $u(t, "atan");
+        Bu(t, "atan");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.atan(n[t]);
@@ -75502,54 +75508,54 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       atan2(t, e) {
         return (
-          $u([t, e], "atan2"),
+          Bu([t, e], "atan2"),
           this.broadcastedBinaryOp(t, e, t.dtype, (t, e) => Math.atan2(t, e))
         );
       }
       sinh(t) {
-        $u(t, "sinh");
+        Bu(t, "sinh");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.sinh(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       cosh(t) {
-        $u(t, "cosh");
+        Bu(t, "cosh");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.cosh(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       tanh(t) {
-        $u(t, "tanh");
+        Bu(t, "tanh");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
-        for (let t = 0; t < n.length; ++t) e[t] = En.Bd.tanh(n[t]);
+        for (let t = 0; t < n.length; ++t) e[t] = En.Cd.tanh(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       asinh(t) {
-        $u(t, "asinh");
+        Bu(t, "asinh");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.asinh(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       acosh(t) {
-        $u(t, "acosh");
+        Bu(t, "acosh");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.acosh(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       atanh(t) {
-        $u(t, "atanh");
+        Bu(t, "atanh");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId);
         for (let t = 0; t < n.length; ++t) e[t] = Math.atanh(n[t]);
         return this.makeOutput(e, t.shape, "float32");
       }
       erf(t) {
-        $u(t, "erf");
+        Bu(t, "erf");
         const e = new Float32Array(t.size),
           n = this.readSync(t.dataId),
           r = En.F.ERF_P,
@@ -75570,7 +75576,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.makeOutput(e, t.shape, "float32");
       }
       step(t, e = 0) {
-        $u(t, "step");
+        Bu(t, "step");
         const n = new Float32Array(t.size),
           r = this.readSync(t.dataId);
         for (let t = 0; t < r.length; ++t) {
@@ -75591,7 +75597,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return r && (o = this.add(o, r)), a && (o = Hu(this, o, a, i)), o;
       }
       conv2d(t, e, n) {
-        $u([t, e], "conv2d");
+        Bu([t, e], "conv2d");
         const r = n.filterHeight,
           a = n.filterWidth,
           i = n.dilationHeight,
@@ -75701,7 +75707,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return d.toTensor();
       }
       conv2dDerInput(t, e, n) {
-        $u([t, e], "conv2dDerInput");
+        Bu([t, e], "conv2dDerInput");
         const r = En.N(n.inShape, "float32"),
           a = r.values,
           i = this.readSync(t.dataId),
@@ -75799,13 +75805,13 @@ PERFORMANCE OF THIS SOFTWARE.
                 for (let R = 0; R < I; ++R) {
                   const I = R - j,
                     M = Math.max(0, Math.ceil(I / D)),
-                    B = Math.min(A, (C + I) / D);
-                  let $ = 0;
+                    $ = Math.min(A, (C + I) / D);
+                  let B = 0;
                   for (let n = y; n < O; ++n) {
                     const a = n * T - r;
                     for (let r = N; r < F; ++r) {
                       const i = r * _ - S;
-                      for (let o = M; o < B; ++o) {
+                      for (let o = M; o < $; ++o) {
                         const s = l * t + h * n + d * r + p * o,
                           u =
                             m * (x - 1 - a) +
@@ -75813,19 +75819,19 @@ PERFORMANCE OF THIS SOFTWARE.
                             b * (C - 1 - (o * D - I)) +
                             v * e;
                         for (let t = 0; t < k; ++t) {
-                          $ += c[s + t] * f[u + t];
+                          B += c[s + t] * f[u + t];
                         }
                       }
                     }
                   }
-                  a[i * t + o * n + s * E + u * R + e] = $;
+                  a[i * t + o * n + s * E + u * R + e] = B;
                 }
               }
             }
         return r.toTensor();
       }
       conv2dDerFilter(t, e, n) {
-        $u([t, e], "conv2dDerFilter");
+        Bu([t, e], "conv2dDerFilter");
         const r = n.strideHeight,
           a = n.strideWidth,
           i = n.filterHeight,
@@ -75930,7 +75936,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return r && (o = this.add(o, r)), a && (o = Hu(this, o, a, i)), o;
       }
       depthwiseConv2D(t, e, n) {
-        $u([t, e], "depthwiseConv2D");
+        Bu([t, e], "depthwiseConv2D");
         const r = n.filterHeight,
           a = n.filterWidth,
           i = n.dilationHeight,
@@ -75976,7 +75982,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return l.toTensor();
       }
       depthwiseConv2DDerInput(t, e, n) {
-        $u([t, e], "depthwiseConv2DDerInput");
+        Bu([t, e], "depthwiseConv2DDerInput");
         const r = En.N(n.inShape, "float32"),
           a = r.values,
           [i, o, s] = r.strides,
@@ -76027,7 +76033,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return r.toTensor();
       }
       depthwiseConv2DDerFilter(t, e, n) {
-        $u([t, e], "depthwiseConv2DDerFilter");
+        Bu([t, e], "depthwiseConv2DDerFilter");
         const r = n.strideHeight,
           a = n.strideWidth,
           i = n.filterHeight,
@@ -76063,10 +76069,10 @@ PERFORMANCE OF THIS SOFTWARE.
         return s.toTensor();
       }
       tile(t, e) {
-        return $u(t, "tile"), Vu(this.bufferSync(t), e);
+        return Bu(t, "tile"), Vu(this.bufferSync(t), e);
       }
       pad(t, e, n) {
-        $u(t, "pad");
+        Bu(t, "pad");
         const r = e.map((e, n) => e[0] + t.shape[n] + e[1]),
           a = e.map((t) => t[0]),
           i = this.bufferSync(t),
@@ -76080,7 +76086,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return o.toTensor();
       }
       gather(t, e, n) {
-        $u([t, e], "gather");
+        Bu([t, e], "gather");
         const r = t.shape.slice(),
           a = this.readSync(e.dataId);
         r[n] = a.length;
@@ -76096,17 +76102,17 @@ PERFORMANCE OF THIS SOFTWARE.
         return i.toTensor();
       }
       batchToSpaceND(t, e, n) {
-        $u([t], "batchToSpaceND");
+        Bu([t], "batchToSpaceND");
         const r = e.reduce((t, e) => t * e),
           a = En.F.getReshaped(t.shape, e, r),
           i = En.F.getPermuted(a.length, e.length),
           o = En.F.getReshapedPermuted(t.shape, e, r),
           s = En.F.getSliceBeginCoords(n, e.length),
           u = En.F.getSliceSize(o, n, e.length);
-        return En.xd(t.reshape(a), i).reshape(o).slice(s, u);
+        return En.yd(t.reshape(a), i).reshape(o).slice(s, u);
       }
       spaceToBatchND(t, e, n) {
-        $u([t], "spaceToBatchND");
+        Bu([t], "spaceToBatchND");
         const r = e.reduce((t, e) => t * e),
           a = [[0, 0]];
         a.push(...n);
@@ -76115,11 +76121,11 @@ PERFORMANCE OF THIS SOFTWARE.
           o = En.F.getReshaped(i.shape, e, r, !1),
           s = En.F.getPermuted(o.length, e.length, !1),
           u = En.F.getReshapedPermuted(i.shape, e, r, !1);
-        return En.xd(i.reshape(o), s).reshape(u);
+        return En.yd(i.reshape(o), s).reshape(u);
       }
       maxPool(t, e) {
-        $u(t, "maxPool");
-        return Lu(
+        Bu(t, "maxPool");
+        return Pu(
           this.readSync(t.dataId),
           t.shape,
           t.dtype,
@@ -76129,12 +76135,12 @@ PERFORMANCE OF THIS SOFTWARE.
         ).toTensor();
       }
       maxPoolBackprop(t, e, n, r) {
-        $u([e, n], "maxPoolBackprop");
+        Bu([e, n], "maxPoolBackprop");
         const a = this.readSync(e.dataId),
           i = Object(En.N)(
             r.outShape,
             e.dtype,
-            Pu(a, e.shape, e.dtype, r).values
+            Lu(a, e.shape, e.dtype, r).values
           ),
           o = r.strideHeight,
           s = r.strideWidth,
@@ -76171,7 +76177,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return f.toTensor();
       }
       avgPoolBackprop(t, e, n) {
-        $u([t, e], "avgPoolBackprop");
+        Bu([t, e], "avgPoolBackprop");
         const r = n.strideHeight,
           a = n.strideWidth,
           i = n.filterHeight,
@@ -76207,7 +76213,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return p.toTensor();
       }
       pool3d(t, e, n) {
-        $u(t, "pool3d");
+        Bu(t, "pool3d");
         const r = e.strideDepth,
           a = e.strideHeight,
           i = e.strideWidth,
@@ -76279,10 +76285,10 @@ PERFORMANCE OF THIS SOFTWARE.
         return b.toTensor();
       }
       avgPool3d(t, e) {
-        return $u(t, "avgPool3d"), this.pool3d(t, e, "avg").toFloat();
+        return Bu(t, "avgPool3d"), this.pool3d(t, e, "avg").toFloat();
       }
       avgPool3dBackprop(t, e, n) {
-        $u([t, e], "avgPool3dBackprop");
+        Bu([t, e], "avgPool3dBackprop");
         const r = n.strideDepth,
           a = n.strideHeight,
           i = n.strideWidth,
@@ -76329,7 +76335,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return v.toTensor();
       }
       maxPool3d(t, e) {
-        return $u(t, "maxPool3d"), this.pool3d(t, e, "max").toFloat();
+        return Bu(t, "maxPool3d"), this.pool3d(t, e, "max").toFloat();
       }
       maxPool3dPositions(t, e) {
         const n = En.N(e.outShape, "int32"),
@@ -76383,7 +76389,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return n.toTensor();
       }
       maxPool3dBackprop(t, e, n, r) {
-        $u([e, n], "maxPool3dBackprop");
+        Bu([e, n], "maxPool3dBackprop");
         const a = this.maxPool3dPositions(e, r),
           i = r.strideDepth,
           o = r.strideHeight,
@@ -76440,8 +76446,8 @@ PERFORMANCE OF THIS SOFTWARE.
         return En.F.reshapeTensor(t, e);
       }
       avgPool(t, e) {
-        $u(t, "avgPool"), $u(t, "maxPool");
-        return Lu(
+        Bu(t, "avgPool"), Bu(t, "maxPool");
+        return Pu(
           this.readSync(t.dataId),
           t.shape,
           t.dtype,
@@ -76453,10 +76459,10 @@ PERFORMANCE OF THIS SOFTWARE.
           .toFloat();
       }
       resizeBilinear(t, e, n, r) {
-        $u(t, "resizeBilinear");
+        Bu(t, "resizeBilinear");
         const [a, i, o, s] = t.shape,
           u = this.readSync(t.dataId),
-          c = new Float32Array(En.Bd.sizeFromShape([a, e, n, s])),
+          c = new Float32Array(En.Cd.sizeFromShape([a, e, n, s])),
           l = [r && e > 1 ? i - 1 : i, r && n > 1 ? o - 1 : o],
           h = [r && e > 1 ? e - 1 : e, r && n > 1 ? n - 1 : n];
         let d = 0;
@@ -76488,10 +76494,10 @@ PERFORMANCE OF THIS SOFTWARE.
               }
             }
           }
-        return En.od(c, [a, e, n, s]);
+        return En.pd(c, [a, e, n, s]);
       }
       resizeBilinearBackprop(t, e, n) {
-        $u([t, e], "resizeBilinearBackprop");
+        Bu([t, e], "resizeBilinearBackprop");
         const [r, a, i, o] = e.shape,
           [, s, u] = t.shape,
           c = new Float32Array(r * a * i * o),
@@ -76535,10 +76541,10 @@ PERFORMANCE OF THIS SOFTWARE.
             }
           }
         }
-        return En.rd(c, [r, i, a, o], e.dtype);
+        return En.sd(c, [r, i, a, o], e.dtype);
       }
       resizeNearestNeighbor(t, e, n, r) {
-        $u(t, "resizeNearestNeighbor");
+        Bu(t, "resizeNearestNeighbor");
         const [a, i, o, s] = t.shape,
           u = this.readSync(t.dataId),
           c = new Float32Array(a * e * n * s),
@@ -76568,10 +76574,10 @@ PERFORMANCE OF THIS SOFTWARE.
             }
           }
         }
-        return En.od(c, [a, e, n, s], t.dtype);
+        return En.pd(c, [a, e, n, s], t.dtype);
       }
       resizeNearestNeighborBackprop(t, e, n) {
-        $u([t, e], "resizeNearestNeighborBackprop");
+        Bu([t, e], "resizeNearestNeighborBackprop");
         const [r, a, i, o] = e.shape,
           [, s, u] = t.shape,
           c = new Float32Array(r * a * i * o),
@@ -76617,10 +76623,10 @@ PERFORMANCE OF THIS SOFTWARE.
             }
           }
         }
-        return En.rd(c, e.shape, e.dtype);
+        return En.sd(c, e.shape, e.dtype);
       }
       batchNorm(t, e, n, r, a, i) {
-        $u([t, e, n, a, r], "batchNorm");
+        Bu([t, e, n, a, r], "batchNorm");
         const o = this.readSync(t.dataId),
           s = this.readSync(e.dataId),
           u = this.readSync(n.dataId),
@@ -76641,10 +76647,10 @@ PERFORMANCE OF THIS SOFTWARE.
             b >= m && (b = 0),
             v >= p && (v = 0),
             y >= f && (y = 0);
-        return En.rd(h, t.shape);
+        return En.sd(h, t.shape);
       }
       localResponseNormalization4D(t, e, n, r, a) {
-        $u(t, "localResponseNormalization4D");
+        Bu(t, "localResponseNormalization4D");
         const i = t.shape[3],
           o = i - 1,
           s = this.readSync(t.dataId),
@@ -76666,10 +76672,10 @@ PERFORMANCE OF THIS SOFTWARE.
             i = s[t] * Math.pow(n + r * e, -a);
           c[t] = i;
         }
-        return En.rd(c, t.shape);
+        return En.sd(c, t.shape);
       }
       LRNGrad(t, e, n, r, a, i, o) {
-        $u(t, "LRNGrad");
+        Bu(t, "LRNGrad");
         const s = t.shape[3],
           u = this.readSync(t.dataId),
           c = this.readSync(e.dataId),
@@ -76688,14 +76694,14 @@ PERFORMANCE OF THIS SOFTWARE.
             t === e && (n += Math.pow(p, -o)), (n *= u[t]), (h[e] += n);
           }
         }
-        return En.rd(h, t.shape);
+        return En.sd(h, t.shape);
       }
       multinomial(t, e, n, r) {
-        $u(t, "multinomial");
-        const a = e ? t : En.Yc(t),
+        Bu(t, "multinomial");
+        const a = e ? t : En.Zc(t),
           i = a.shape[0],
           o = a.shape[1],
-          s = En.Hd([i, n], "int32"),
+          s = En.Id([i, n], "int32"),
           u = this.readSync(s.dataId),
           c = this.readSync(a.dataId);
         for (let t = 0; t < i; ++t) {
@@ -76718,16 +76724,16 @@ PERFORMANCE OF THIS SOFTWARE.
         return s;
       }
       oneHot(t, e, n, r) {
-        $u(t, "oneHot");
+        Bu(t, "oneHot");
         const a = new Float32Array(t.size * e);
         a.fill(r);
         const i = this.readSync(t.dataId);
         for (let r = 0; r < t.size; ++r)
           i[r] >= 0 && i[r] < e && (a[r * e + i[r]] = n);
-        return En.qd(a, [t.size, e], "int32");
+        return En.rd(a, [t.size, e], "int32");
       }
       nonMaxSuppression(t, e, n, r, a) {
-        $u(t, "nonMaxSuppression");
+        Bu(t, "nonMaxSuppression");
         const i = this.readSync(t.dataId),
           o = this.readSync(e.dataId);
         return zu(i, o, n, r, a);
@@ -76743,8 +76749,8 @@ PERFORMANCE OF THIS SOFTWARE.
           r = t.shape[1],
           a = En.N(t.shape, "float32"),
           i = En.N(t.shape, "float32"),
-          o = En.xc(t).as2D(n, r),
-          s = En.Eb(t).as2D(n, r);
+          o = En.yc(t).as2D(n, r),
+          s = En.Fb(t).as2D(n, r);
         for (let t = 0; t < n; t++) {
           const n = o.slice([t, 0], [1, r]),
             u = s.slice([t, 0], [1, r]),
@@ -76763,7 +76769,7 @@ PERFORMANCE OF THIS SOFTWARE.
         if (this.isExponentOf2(r)) {
           let a = this.fftRadix2(n, r, e).as2D(t.shape[0], t.shape[1]);
           return (
-            e && (a = En.R(En.xc(a).div(En.Hc(r)), En.Eb(a).div(En.Hc(r)))), a
+            e && (a = En.R(En.yc(a).div(En.Ic(r)), En.Fb(a).div(En.Ic(r)))), a
           );
         }
         {
@@ -76789,8 +76795,8 @@ PERFORMANCE OF THIS SOFTWARE.
           l = En.R(c.real, c.imag).mul(u),
           h = o.add(l),
           d = o.sub(l),
-          p = En.xc(h).concat(En.xc(d)),
-          f = En.Eb(h).concat(En.Eb(d));
+          p = En.yc(h).concat(En.yc(d)),
+          f = En.Fb(h).concat(En.Fb(d));
         return En.R(p, f).as1D();
       }
       fourierTransformByMatmul(t, e, n) {
@@ -76809,12 +76815,12 @@ PERFORMANCE OF THIS SOFTWARE.
         return r;
       }
       depthToSpace(t, e, n) {
-        En.Bd.assert(
+        En.Cd.assert(
           "NHWC" === n,
           () =>
             "Only NHWC dataFormat supported on CPU for depthToSpace. Got " + n
         ),
-          En.Bd.assert(
+          En.Cd.assert(
             e > 1,
             () => "blockSize should be > 1 for depthToSpace, but was: " + e
           );
@@ -76841,7 +76847,7 @@ PERFORMANCE OF THIS SOFTWARE.
               }
             }
           }
-        return En.rd(h, [r, s, u, c]);
+        return En.sd(h, [r, s, u, c]);
       }
       broadcastedBinaryOp(t, e, n, r) {
         const a = En.F.assertAndGetBroadcastShape(t.shape, e.shape),
@@ -77010,7 +77016,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const n = e.shape,
           r = n[n.length - 1],
           [a, i, o, s] = En.F.prepareAndValidate(t, e);
-        if (0 === i) return En.od([], a, t.dtype);
+        if (0 === i) return En.pd([], a, t.dtype);
         const u = new En.m([i, o], t.dtype),
           c = this.readSync(e.dataId),
           l = this.readSync(t.dataId);
@@ -77037,13 +77043,13 @@ PERFORMANCE OF THIS SOFTWARE.
             strides: o,
             outputSize: s,
           } = En.F.calculateShapes(e, t, n),
-          u = En.Hc(0);
+          u = En.Ic(0);
         return this.scatter(t, e, n, s, i, a, r, o, u, !0);
       }
       fill(t, e, n) {
-        n = n || En.Bd.inferDtype(e);
-        const r = En.Bd.getArrayFromDType(n, En.Bd.sizeFromShape(t));
-        return r.fill(e), Object(En.mb)().makeTensor(r, t, n, this);
+        n = n || En.Cd.inferDtype(e);
+        const r = En.Cd.getArrayFromDType(n, En.Cd.sizeFromShape(t));
+        return r.fill(e), Object(En.nb)().makeTensor(r, t, n, this);
       }
       onesLike(t) {
         if ("string" === t.dtype)
@@ -77051,9 +77057,9 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.fill(t.shape, 1, t.dtype);
       }
       zerosLike(t) {
-        const e = En.Bd.getArrayFromDType(
+        const e = En.Cd.getArrayFromDType(
           t.dtype,
-          En.Bd.sizeFromShape(t.shape)
+          En.Cd.sizeFromShape(t.shape)
         );
         return this.makeOutput(e, t.shape, t.dtype);
       }
@@ -77064,7 +77070,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const l = [r / a, a],
           h = this.readSync(t.dataId),
           d = this.readSync(e.dataId);
-        if (0 === r) return En.od([], n, e.dtype);
+        if (0 === r) return En.pd([], n, e.dtype);
         const p = new En.m(l, e.dtype);
         p.values.fill(this.readSync(u.dataId)[0]);
         for (let t = 0; t < i; t++) {
@@ -77124,7 +77130,7 @@ PERFORMANCE OF THIS SOFTWARE.
         kernelFunc: ({ inputs: n, backend: r }) => {
           const { a: a, b: i } = n,
             o = r;
-          $u([a, i], t);
+          Bu([a, i], t);
           const s = o.data.get(a.dataId).values,
             u = o.data.get(i.dataId).values,
             [c, l] = e(a.shape, i.shape, s, u, a.dtype);
@@ -77136,13 +77142,13 @@ PERFORMANCE OF THIS SOFTWARE.
       return (e, n, r, a, i) => {
         const o = En.F.assertAndGetBroadcastShape(e, n),
           s = o.length,
-          u = En.Bd.computeStrides(o),
-          c = En.Bd.sizeFromShape(o),
-          l = En.Bd.getTypedArrayFromDType(i, c),
+          u = En.Cd.computeStrides(o),
+          c = En.Cd.sizeFromShape(o),
+          l = En.Cd.getTypedArrayFromDType(i, c),
           h = e.length,
           d = n.length,
-          p = En.Bd.computeStrides(e),
-          f = En.Bd.computeStrides(n),
+          p = En.Cd.computeStrides(e),
+          f = En.Cd.computeStrides(n),
           m = En.F.getBroadcastDims(e, o),
           g = En.F.getBroadcastDims(n, o);
         if (m.length + g.length === 0)
@@ -77150,13 +77156,13 @@ PERFORMANCE OF THIS SOFTWARE.
             l[e] = t(r[e % r.length], a[e % a.length]);
         else
           for (let e = 0; e < l.length; ++e) {
-            const n = En.Bd.indexToLoc(e, s, u),
+            const n = En.Cd.indexToLoc(e, s, u),
               i = n.slice(-h);
             m.forEach((t) => (i[t] = 0));
-            const o = En.Bd.locToIndex(i, h, p),
+            const o = En.Cd.locToIndex(i, h, p),
               c = n.slice(-d);
             g.forEach((t) => (c[t] = 0));
-            const b = En.Bd.locToIndex(c, d, f);
+            const b = En.Cd.locToIndex(c, d, f);
             l[e] = t(r[o], a[b]);
           }
         return [l, o];
@@ -77188,19 +77194,19 @@ PERFORMANCE OF THIS SOFTWARE.
             i = n;
           let o = r.shape;
           const s = o.length;
-          let u = En.Bd.parseAxisParam(a, o);
+          let u = En.Cd.parseAxisParam(a, o);
           const c = En.F.getAxesPermutation(u, s);
           let l = i.data.get(r.dataId).values;
           if (null != c) {
             const t = new Array(s);
             for (let e = 0; e < t.length; e++) t[e] = o[c[e]];
-            (l = Bu(l, o, r.dtype, c, t)),
+            (l = $u(l, o, r.dtype, c, t)),
               (u = En.F.getInnerMostAxes(u.length, s)),
               (o = t);
           }
-          $u(r, "max"), En.F.assertAxesAreInnerMostDims("max", u, s);
+          Bu(r, "max"), En.F.assertAxesAreInnerMostDims("max", u, s);
           const [h, d] = En.F.computeOutAndReduceShapes(o, u),
-            p = ju(l, En.Bd.sizeFromShape(d), h, r.dtype);
+            p = ju(l, En.Cd.sizeFromShape(d), h, r.dtype);
           return { dataId: i.write(p, h, r.dtype), shape: h, dtype: r.dtype };
         },
       };
@@ -77243,7 +77249,7 @@ PERFORMANCE OF THIS SOFTWARE.
           const { x: r } = t,
             { filterSize: a, strides: i, pad: o, includeBatchInIndex: s } = e,
             u = n;
-          $u(r, "MaxPoolWithArgmax");
+          Bu(r, "MaxPoolWithArgmax");
           const c = u.data.get(r.dataId).values,
             l = En.F.computePool2DInfo(r.shape, a, i, [1, 1], o),
             [h, d] =
@@ -77264,8 +77270,8 @@ PERFORMANCE OF THIS SOFTWARE.
                * =============================================================================
                */
               (function (t, e, n, r, a) {
-                const i = Lu(t, 0, n, En.Bd.computeStrides(e), a, "max"),
-                  o = Pu(t, e, n, a, !0, r);
+                const i = Pu(t, 0, n, En.Cd.computeStrides(e), a, "max"),
+                  o = Lu(t, e, n, a, !0, r);
                 return [i.values, o.values];
               })(c, r.shape, r.dtype, s, l),
             p = u.write(h, l.outShape, r.dtype),
@@ -77276,7 +77282,7 @@ PERFORMANCE OF THIS SOFTWARE.
           ];
         },
       },
-      tc = En.Jb.nonMaxSuppressionV5,
+      tc = En.Kb.nonMaxSuppressionV5,
       ec = {
         kernelName: En.h,
         backendName: "cpu",
@@ -77289,7 +77295,7 @@ PERFORMANCE OF THIS SOFTWARE.
               softNmsSigma: u,
             } = n,
             c = e;
-          $u(r, "NonMaxSuppressionWithScore");
+          Bu(r, "NonMaxSuppressionWithScore");
           const l = c.data.get(r.dataId).values,
             h = c.data.get(a.dataId).values,
             d = i,
@@ -77306,7 +77312,7 @@ PERFORMANCE OF THIS SOFTWARE.
         kernelFunc: ({ inputs: t, backend: e }) => {
           const { x: n } = t,
             r = e;
-          $u(n, "square");
+          Bu(n, "square");
           const a = r.data.get(n.dataId).values,
             i = new Float32Array(a.length);
           for (let t = 0; t < a.length; ++t) {
@@ -77336,11 +77342,11 @@ PERFORMANCE OF THIS SOFTWARE.
             const { x: r } = t,
               { perm: a } = e,
               i = n;
-            $u(r, "transpose");
+            Bu(r, "transpose");
             const o = r.shape.length,
               s = new Array(o);
             for (let t = 0; t < s.length; t++) s[t] = r.shape[a[t]];
-            const u = Bu(i.data.get(r.dataId).values, r.shape, r.dtype, a, s);
+            const u = $u(i.data.get(r.dataId).values, r.shape, r.dtype, a, s);
             return { dataId: i.write(u, s, r.dtype), shape: s, dtype: r.dtype };
           },
         },
@@ -77362,7 +77368,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ for (const t of ac) Object(En.Ac)(t);
+     */ for (const t of ac) Object(En.Bc)(t);
     /**
      * @license
      * Copyright 2020 Google LLC. All Rights Reserved.
@@ -77378,7 +77384,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ Object(En.zc)("cpu", () => new qu(), 1);
+     */ Object(En.Ac)("cpu", () => new qu(), 1);
     /**
      * @license
      * Copyright 2018 Google LLC. All Rights Reserved.
@@ -77471,9 +77477,9 @@ PERFORMANCE OF THIS SOFTWARE.
       return [e, t];
     }
     function dc(t) {
-      const e = En.Bd.sizeFromShape(t),
+      const e = En.Cd.sizeFromShape(t),
         n = Math.ceil(e / 4);
-      return En.Bd.sizeToSquarishShape(n);
+      return En.Cd.sizeToSquarishShape(n);
     }
     function pc(t, e) {
       return [Math.max(1, Math.ceil(e / 2)), Math.max(1, Math.ceil(t / 2))];
@@ -77482,7 +77488,7 @@ PERFORMANCE OF THIS SOFTWARE.
       const n = t;
       let r, a, i, o, s, u, c, l, h, d;
       return (
-        2 === Object(En.nb)().getNumber("WEBGL_VERSION")
+        2 === Object(En.ob)().getNumber("WEBGL_VERSION")
           ? ((r = n.R32F),
             (a = n.R16F),
             (i = n.RGBA16F),
@@ -77583,7 +77589,7 @@ PERFORMANCE OF THIS SOFTWARE.
       })(lc || (lc = {}));
     function gc(t) {
       return !!(
-        Object(En.nb)().getBool("WEBGL_RENDER_FLOAT32_ENABLED") ||
+        Object(En.ob)().getBool("WEBGL_RENDER_FLOAT32_ENABLED") ||
         0 === t ||
         (5.96e-8 < Math.abs(t) && Math.abs(t) < 65504)
       );
@@ -77619,7 +77625,7 @@ PERFORMANCE OF THIS SOFTWARE.
             const r = +n[1],
               a = t.split("\n"),
               i = a.length.toString().length + 2,
-              o = a.map((t, e) => En.Bd.rightPad((e + 1).toString(), i) + t);
+              o = a.map((t, e) => En.Cd.rightPad((e + 1).toString(), i) + t);
             let s = 0;
             for (let t = 0; t < o.length; t++) s = Math.max(o[t].length, s);
             const u = o.slice(0, r - 1),
@@ -77628,7 +77634,7 @@ PERFORMANCE OF THIS SOFTWARE.
             console.log(u.join("\n")),
               console.log(e.split("\n")[0]),
               console.log(
-                "%c " + En.Bd.rightPad(c[0], s),
+                "%c " + En.Cd.rightPad(c[0], s),
                 "border:1px solid red; background-color:#e3d2d2; color:#a61717"
               ),
               console.log(l.join("\n"));
@@ -77728,7 +77734,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
     }
     function Nc(t, e = 2) {
-      return En.Bd.sizeFromShape(t.slice(0, t.length - e));
+      return En.Cd.sizeFromShape(t.slice(0, t.length - e));
     }
     function Rc(t) {
       if (0 === t.length)
@@ -77748,7 +77754,7 @@ PERFORMANCE OF THIS SOFTWARE.
       return t % 2 == 0;
     }
     function _c(t, e) {
-      if (((t = t.slice(-2)), (e = e.slice(-2)), En.Bd.arraysEqual(t, e)))
+      if (((t = t.slice(-2)), (e = e.slice(-2)), En.Cd.arraysEqual(t, e)))
         return !0;
       if (!t.length || !e.length) return !0;
       if (0 === t[0] || 0 === t[1] || 0 === e[0] || 0 === e[1]) return !0;
@@ -77772,11 +77778,11 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       return !1;
     }
-    function Bc(t) {
+    function $c(t) {
       if (0 === t) return !1;
       const e = sc(t);
       if (1 !== t) {
-        if (Mc(e, "EXT_color_buffer_float")) return $c(e);
+        if (Mc(e, "EXT_color_buffer_float")) return Bc(e);
         const t = "EXT_color_buffer_half_float";
         if (Mc(e, t)) {
           const n = e.getExtension(t);
@@ -77820,9 +77826,9 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       if (!Mc(e, "OES_texture_float")) return !1;
       if (!Mc(e, "WEBGL_color_buffer_float")) return !1;
-      return $c(e);
+      return Bc(e);
     }
-    function $c(t) {
+    function Bc(t) {
       const e = fc(t),
         n = t.createTexture();
       t.bindTexture(t.TEXTURE_2D, n);
@@ -77872,56 +77878,56 @@ PERFORMANCE OF THIS SOFTWARE.
      * limitations under the License.
      * =============================================================================
      */
-    const Lc = Object(En.nb)();
-    Lc.registerFlag("HAS_WEBGL", () => Lc.getNumber("WEBGL_VERSION") > 0),
-      Lc.registerFlag("WEBGL_VERSION", () => (jc(2) ? 2 : jc(1) ? 1 : 0)),
-      Lc.registerFlag(
+    const Pc = Object(En.ob)();
+    Pc.registerFlag("HAS_WEBGL", () => Pc.getNumber("WEBGL_VERSION") > 0),
+      Pc.registerFlag("WEBGL_VERSION", () => (jc(2) ? 2 : jc(1) ? 1 : 0)),
+      Pc.registerFlag(
         "WEBGL_BUFFER_SUPPORTED",
-        () => 2 === Lc.get("WEBGL_VERSION")
+        () => 2 === Pc.get("WEBGL_VERSION")
       ),
-      Lc.registerFlag("WEBGL_CPU_FORWARD", () => !0),
-      Lc.registerFlag("WEBGL_FORCE_F16_TEXTURES", () => !1),
-      Lc.registerFlag("WEBGL_PACK", () => Lc.getBool("HAS_WEBGL")),
-      Lc.registerFlag("WEBGL_PACK_NORMALIZATION", () =>
-        Lc.getBool("WEBGL_PACK")
+      Pc.registerFlag("WEBGL_CPU_FORWARD", () => !0),
+      Pc.registerFlag("WEBGL_FORCE_F16_TEXTURES", () => !1),
+      Pc.registerFlag("WEBGL_PACK", () => Pc.getBool("HAS_WEBGL")),
+      Pc.registerFlag("WEBGL_PACK_NORMALIZATION", () =>
+        Pc.getBool("WEBGL_PACK")
       ),
-      Lc.registerFlag("WEBGL_PACK_CLIP", () => Lc.getBool("WEBGL_PACK")),
-      Lc.registerFlag("WEBGL_PACK_DEPTHWISECONV", () => !1),
-      Lc.registerFlag("WEBGL_PACK_BINARY_OPERATIONS", () =>
-        Lc.getBool("WEBGL_PACK")
+      Pc.registerFlag("WEBGL_PACK_CLIP", () => Pc.getBool("WEBGL_PACK")),
+      Pc.registerFlag("WEBGL_PACK_DEPTHWISECONV", () => !1),
+      Pc.registerFlag("WEBGL_PACK_BINARY_OPERATIONS", () =>
+        Pc.getBool("WEBGL_PACK")
       ),
-      Lc.registerFlag("WEBGL_PACK_UNARY_OPERATIONS", () =>
-        Lc.getBool("WEBGL_PACK")
+      Pc.registerFlag("WEBGL_PACK_UNARY_OPERATIONS", () =>
+        Pc.getBool("WEBGL_PACK")
       ),
-      Lc.registerFlag("WEBGL_PACK_ARRAY_OPERATIONS", () =>
-        Lc.getBool("WEBGL_PACK")
+      Pc.registerFlag("WEBGL_PACK_ARRAY_OPERATIONS", () =>
+        Pc.getBool("WEBGL_PACK")
       ),
-      Lc.registerFlag("WEBGL_PACK_IMAGE_OPERATIONS", () =>
-        Lc.getBool("WEBGL_PACK")
+      Pc.registerFlag("WEBGL_PACK_IMAGE_OPERATIONS", () =>
+        Pc.getBool("WEBGL_PACK")
       ),
-      Lc.registerFlag("WEBGL_PACK_REDUCE", () => Lc.getBool("WEBGL_PACK")),
-      Lc.registerFlag("WEBGL_LAZILY_UNPACK", () => Lc.getBool("WEBGL_PACK")),
-      Lc.registerFlag("WEBGL_CONV_IM2COL", () => Lc.getBool("WEBGL_PACK")),
-      Lc.registerFlag("WEBGL_MAX_TEXTURE_SIZE", () =>
+      Pc.registerFlag("WEBGL_PACK_REDUCE", () => Pc.getBool("WEBGL_PACK")),
+      Pc.registerFlag("WEBGL_LAZILY_UNPACK", () => Pc.getBool("WEBGL_PACK")),
+      Pc.registerFlag("WEBGL_CONV_IM2COL", () => Pc.getBool("WEBGL_PACK")),
+      Pc.registerFlag("WEBGL_MAX_TEXTURE_SIZE", () =>
         (function (t) {
           if (null == Dc) {
             const e = sc(t);
             Dc = e.getParameter(e.MAX_TEXTURE_SIZE);
           }
           return Dc;
-        })(Lc.getNumber("WEBGL_VERSION"))
+        })(Pc.getNumber("WEBGL_VERSION"))
       ),
-      Lc.registerFlag("WEBGL_MAX_TEXTURES_IN_SHADER", () =>
+      Pc.registerFlag("WEBGL_MAX_TEXTURES_IN_SHADER", () =>
         (function (t) {
           if (null == Fc) {
             const e = sc(t);
             Fc = e.getParameter(e.MAX_TEXTURE_IMAGE_UNITS);
           }
           return Math.min(16, Fc);
-        })(Lc.getNumber("WEBGL_VERSION"))
+        })(Pc.getNumber("WEBGL_VERSION"))
       ),
-      Lc.registerFlag("WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION", () => {
-        const t = Lc.getNumber("WEBGL_VERSION");
+      Pc.registerFlag("WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION", () => {
+        const t = Pc.getNumber("WEBGL_VERSION");
         return 0 === t
           ? 0
           : (function (t) {
@@ -77939,39 +77945,39 @@ PERFORMANCE OF THIS SOFTWARE.
               );
             })(t);
       }),
-      Lc.registerFlag(
+      Pc.registerFlag(
         "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_RELIABLE",
         () =>
-          Lc.getNumber("WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION") > 0 &&
+          Pc.getNumber("WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION") > 0 &&
           !En.gb.isMobile()
       ),
-      Lc.registerFlag("WEBGL_RENDER_FLOAT32_CAPABLE", () =>
+      Pc.registerFlag("WEBGL_RENDER_FLOAT32_CAPABLE", () =>
         (function (t) {
           if (0 === t) return !1;
           const e = sc(t);
           if (1 === t) {
             if (!Mc(e, "OES_texture_float")) return !1;
           } else if (!Mc(e, "EXT_color_buffer_float")) return !1;
-          return $c(e);
-        })(Lc.getNumber("WEBGL_VERSION"))
+          return Bc(e);
+        })(Pc.getNumber("WEBGL_VERSION"))
       ),
-      Lc.registerFlag(
+      Pc.registerFlag(
         "WEBGL_RENDER_FLOAT32_ENABLED",
         () =>
-          !Lc.getBool("WEBGL_FORCE_F16_TEXTURES") &&
-          Lc.getBool("WEBGL_RENDER_FLOAT32_CAPABLE")
+          !Pc.getBool("WEBGL_FORCE_F16_TEXTURES") &&
+          Pc.getBool("WEBGL_RENDER_FLOAT32_CAPABLE")
       ),
-      Lc.registerFlag("WEBGL_DOWNLOAD_FLOAT_ENABLED", () =>
-        Bc(Lc.getNumber("WEBGL_VERSION"))
+      Pc.registerFlag("WEBGL_DOWNLOAD_FLOAT_ENABLED", () =>
+        $c(Pc.getNumber("WEBGL_VERSION"))
       ),
-      Lc.registerFlag("WEBGL_FENCE_API_ENABLED", () => {
+      Pc.registerFlag("WEBGL_FENCE_API_ENABLED", () => {
         return (
-          2 === (t = Lc.getNumber("WEBGL_VERSION")) && null != sc(t).fenceSync
+          2 === (t = Pc.getNumber("WEBGL_VERSION")) && null != sc(t).fenceSync
         );
         var t;
       }),
-      Lc.registerFlag("WEBGL_SIZE_UPLOAD_UNIFORM", () =>
-        Lc.getBool("WEBGL_RENDER_FLOAT32_ENABLED") ? 4 : 0
+      Pc.registerFlag("WEBGL_SIZE_UPLOAD_UNIFORM", () =>
+        Pc.getBool("WEBGL_RENDER_FLOAT32_ENABLED") ? 4 : 0
       );
     /**
      * @license
@@ -77989,7 +77995,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * limitations under the License.
      * =============================================================================
      */
-    class Pc {
+    class Lc {
       constructor(t, e) {
         (this.outputShape = []),
           (this.outputShape = t),
@@ -78107,7 +78113,7 @@ PERFORMANCE OF THIS SOFTWARE.
     function Gc() {
       let t, e, n, r, a, i, o, s, u, c;
       return (
-        2 === Object(En.nb)().getNumber("WEBGL_VERSION")
+        2 === Object(En.ob)().getNumber("WEBGL_VERSION")
           ? ((t = "#version 300 es"),
             (e = "in"),
             (n = "out"),
@@ -78163,7 +78169,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * limitations under the License.
      * =============================================================================
      */ function Hc(t, e, n = "index") {
-      const r = En.Bd.computeStrides(e);
+      const r = En.Cd.computeStrides(e);
       return r
         .map(
           (e, a) =>
@@ -78176,7 +78182,7 @@ PERFORMANCE OF THIS SOFTWARE.
         .join("");
     }
     function qc(t) {
-      const e = En.Bd.computeStrides(t).map((t) => t.toString());
+      const e = En.Cd.computeStrides(t).map((t) => t.toString());
       return `\n  int getFlatIndex(ivec3 coords) {\n    return coords.x * ${e[0]} + coords.y * ${e[1]} + coords.z;\n  }\n`;
     }
     const Kc =
@@ -78200,7 +78206,7 @@ PERFORMANCE OF THIS SOFTWARE.
      */ function Yc(t, e, n, r) {
       const a = [];
       t.forEach((t) => {
-        const e = En.Bd.sizeFromShape(t.shapeInfo.logicalShape);
+        const e = En.Cd.sizeFromShape(t.shapeInfo.logicalShape);
         t.shapeInfo.isUniform
           ? a.push(`uniform float ${t.name}${e > 1 ? `[${e}]` : ""};`)
           : (a.push(`uniform sampler2D ${t.name};`),
@@ -78242,8 +78248,8 @@ PERFORMANCE OF THIS SOFTWARE.
                               .join(", ");
                       let p = "return outputValue;";
                       const f =
-                          1 === En.Bd.sizeFromShape(t.shapeInfo.logicalShape),
-                        m = 1 === En.Bd.sizeFromShape(e.logicalShape);
+                          1 === En.Cd.sizeFromShape(t.shapeInfo.logicalShape),
+                        m = 1 === En.Cd.sizeFromShape(e.logicalShape);
                       if (1 !== i || f || m) {
                         if (f && !m)
                           p =
@@ -78279,7 +78285,7 @@ PERFORMANCE OF THIS SOFTWARE.
                         !t.shapeInfo.isUniform &&
                         s === u &&
                         null == t.shapeInfo.flatOffset &&
-                        En.Bd.arraysEqual(o, i)
+                        En.Cd.arraysEqual(o, i)
                       )
                         return `\n      float ${a}() {\n        return sampleTexture(${n}, resultUV);\n      }\n    `;
                       const c = ol(u),
@@ -78333,7 +78339,7 @@ PERFORMANCE OF THIS SOFTWARE.
               case 2:
                 return (function (t, e) {
                   const n = [Math.ceil(e[0] / 2), Math.ceil(e[1] / 2)];
-                  if (En.Bd.arraysEqual(t, e))
+                  if (En.Cd.arraysEqual(t, e))
                     return `\n      ivec2 getOutputCoords() {\n        return 2 * ivec2(resultUV.yx * vec2(${n[0]}, ${n[1]}));\n      }\n    `;
                   const r = Math.ceil(t[1] / 2);
                   return `\n    ivec2 getOutputCoords() {\n      ivec2 resTexRC = ivec2(resultUV.yx *\n                             vec2(${n[0]}, ${n[1]}));\n\n      int index = resTexRC.x * ${n[1]} + resTexRC.y;\n      int r = 2 * (index / ${r});\n      int c = imod(index, ${r}) * 2;\n\n      return ivec2(r, c);\n    }\n  `;
@@ -78380,7 +78386,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 })(0, e);
               case 2:
                 return (function (t, e) {
-                  if (En.Bd.arraysEqual(t, e))
+                  if (En.Cd.arraysEqual(t, e))
                     return `\n      ivec2 getOutputCoords() {\n        return ivec2(resultUV.yx * vec2(${e[0]}, ${e[1]}));\n      }\n    `;
                   if (1 === t[1])
                     return `\n      ivec2 getOutputCoords() {\n        ivec2 resTexRC = ivec2(resultUV.yx *\n                               vec2(${e[0]}, ${e[1]}));\n        int index = resTexRC.x * ${e[1]} + resTexRC.y;\n        return ivec2(index, 0);\n      }\n    `;
@@ -78461,12 +78467,12 @@ PERFORMANCE OF THIS SOFTWARE.
               n = t.name,
               r = "get" + n.charAt(0).toUpperCase() + n.slice(1),
               a = t.shapeInfo.texShape;
-            if (null != a && En.Bd.arraysEqual(e, a)) {
+            if (null != a && En.Cd.arraysEqual(e, a)) {
               const t = a[0],
                 e = a[1];
               return `\n    float ${r}(int row, int col) {\n      vec2 uv = (vec2(col, row) + halfCR) / vec2(${e}.0, ${t}.0);\n      return sampleTexture(${n}, uv);\n    }\n  `;
             }
-            const { newShape: i, keptDims: o } = En.Bd.squeezeShape(e),
+            const { newShape: i, keptDims: o } = En.Cd.squeezeShape(e),
               s = i;
             if (s.length < e.length) {
               const e = sl(t, s),
@@ -78498,7 +78504,7 @@ PERFORMANCE OF THIS SOFTWARE.
               r = "get" + n.charAt(0).toUpperCase() + n.slice(1),
               a = e[1] * e[2],
               i = e[2],
-              { newShape: o, keptDims: s } = En.Bd.squeezeShape(e),
+              { newShape: o, keptDims: s } = En.Cd.squeezeShape(e),
               u = o;
             if (u.length < e.length) {
               const e = sl(t, u),
@@ -78533,7 +78539,7 @@ PERFORMANCE OF THIS SOFTWARE.
               a = e[3],
               i = e[2] * a,
               o = e[1] * i,
-              { newShape: s, keptDims: u } = En.Bd.squeezeShape(e);
+              { newShape: s, keptDims: u } = En.Cd.squeezeShape(e);
             if (s.length < e.length) {
               const e = sl(t, s),
                 n = ["row", "col", "depth", "depth2"];
@@ -78572,7 +78578,7 @@ PERFORMANCE OF THIS SOFTWARE.
               i = e[3] * a,
               o = e[2] * i,
               s = e[1] * o,
-              { newShape: u, keptDims: c } = En.Bd.squeezeShape(e);
+              { newShape: u, keptDims: c } = En.Cd.squeezeShape(e);
             if (u.length < e.length) {
               const e = sl(t, u),
                 n = ["row", "col", "depth", "depth2", "depth3"];
@@ -78607,7 +78613,7 @@ PERFORMANCE OF THIS SOFTWARE.
             const e = t.shapeInfo.logicalShape,
               n = t.name,
               r = "get" + n.charAt(0).toUpperCase() + n.slice(1),
-              { newShape: a, keptDims: i } = En.Bd.squeezeShape(e);
+              { newShape: a, keptDims: i } = En.Cd.squeezeShape(e);
             if (a.length < e.length) {
               const e = sl(t, a),
                 n = ["row", "col", "depth", "depth2", "depth3", "depth4"];
@@ -78675,7 +78681,7 @@ PERFORMANCE OF THIS SOFTWARE.
               i = a[0],
               o = a[1],
               s = Gc();
-            if (null != a && En.Bd.arraysEqual(e, a))
+            if (null != a && En.Cd.arraysEqual(e, a))
               return `\n      vec4 ${r}(int row, int col) {\n        vec2 uv = (vec2(col, row) + halfCR) / vec2(${o}.0, ${i}.0);\n\n        return ${s.texture2D}(${n}, uv);\n      }\n    `;
             const u = [Math.ceil(a[0] / 2), Math.ceil(a[1] / 2)],
               c = Math.ceil(e[1] / 2);
@@ -78746,7 +78752,7 @@ PERFORMANCE OF THIS SOFTWARE.
     }
     function il(t) {
       const e = t.name,
-        n = En.Bd.sizeFromShape(t.shapeInfo.logicalShape);
+        n = En.Cd.sizeFromShape(t.shapeInfo.logicalShape);
       return n < 2
         ? `return ${e};`
         : `\n    for (int i = 0; i < ${n}; i++) {\n      if (i == index) {\n        return ${e}[i];\n      }\n    }\n  `;
@@ -78787,7 +78793,7 @@ PERFORMANCE OF THIS SOFTWARE.
         (this.variableNames = ["A"]),
           (this.packedInputs = !0),
           (this.packedOutput = !0),
-          En.Bd.assert(
+          En.Cd.assert(
             t.length > 2,
             () =>
               `Packed arg${
@@ -79053,7 +79059,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const a = this.outputShape.length;
         let i = "";
         if (r)
-          if (0 === a || 1 === En.Bd.sizeFromShape(this.outputShape))
+          if (0 === a || 1 === En.Cd.sizeFromShape(this.outputShape))
             i =
               "\n          result.y = 0.;\n          result.z = 0.;\n          result.w = 0.;\n        ";
           else {
@@ -79444,7 +79450,7 @@ PERFORMANCE OF THIS SOFTWARE.
           }) {\n              vec3 wValues = vec3(\n                getW(wR, wC, ${d}, d2),\n                getW(wR, wC, ${d} + 1, d2),\n                getW(wR, wC, ${d} + 2, d2)\n              );\n\n              if (${f}) {\n                vec3 xValues = vec3(\n                  getX(batch, xR, xC, ${d}),\n                  getX(batch, xR, xC, ${d} + 1),\n                  getX(batch, xR, xC, ${d} + 2)\n                );\n                dotProd += dot(xValues, wValues);\n              } else {\n                vec3 xValues = vec3(\n                  getX(batch, ${d}, xR, xC),\n                  getX(batch, ${d} + 1, xR, xC),\n                  getX(batch, ${d} + 2, xR, xC)\n                );\n                dotProd += dot(xValues, wValues);\n              }\n\n            }\n          }\n        }\n\n        float result = dotProd;\n        ${x}\n        ${y}\n        setOutput(result);\n      }\n    `);
       }
     }
-    class Bl {
+    class $l {
       constructor(t) {
         (this.variableNames = ["x", "W"]), (this.outputShape = t.outShape);
         const e = t.padInfo.front,
@@ -79491,7 +79497,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ class $l {
+     */ class Bl {
       constructor(t, e = !1, n = null, r = !1) {
         (this.variableNames = ["x", "W"]), (this.outputShape = t.outShape);
         const a = t.inHeight,
@@ -79533,7 +79539,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ class Ll {
+     */ class Pl {
       constructor(t, e = !1, n = null, r = !1) {
         (this.variableNames = ["x", "W"]),
           (this.packedInputs = !0),
@@ -79573,7 +79579,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     : `\n                if(xR >= 0 && xR < ${a} && xC >= 0 && xC < ${i}) {\n                  xTexelR${t}C${n} = getX(batch, xR, xC, d1);\n                } else {\n                  xTexelR${t}C${n} = vec4(0.);\n                }\n\n                xR${t}C${n} = xTexelR${t}C${n};\n              `),
                 n + 1 < p)
               ) {
-                const e = s % 2 == 0 ? En.Bd.nearestLargerEven(h) : h;
+                const e = s % 2 == 0 ? En.Cd.nearestLargerEven(h) : h;
                 (h % 2 == 0 && s % 2 == 1) || (h % 2 != 0 && s % 2 != 1)
                   ? ((m += `\n                  xCOffset = xC + ${
                       s % 2
@@ -79666,7 +79672,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ class Pl {
+     */ class Ll {
       constructor(t, e, n, r, a) {
         (this.variableNames = ["Image", "Boxes", "BoxInd"]),
           (this.outputShape = []);
@@ -80203,7 +80209,7 @@ PERFORMANCE OF THIS SOFTWARE.
     }
     function oh(t, e, n, r, a, i, o) {
       !(function (t, e) {
-        const n = Object(En.nb)().getNumber("WEBGL_MAX_TEXTURE_SIZE");
+        const n = Object(En.ob)().getNumber("WEBGL_MAX_TEXTURE_SIZE");
         if (t <= 0 || e <= 0) {
           throw new Error(
             "Requested texture size " + `[${t}x${e}]` + " is invalid."
@@ -80277,7 +80283,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.disposed = !1),
           (this.vertexAttrsAreBound = !1),
           (this.itemsToPoll = []);
-        const e = Object(En.nb)().getNumber("WEBGL_VERSION");
+        const e = Object(En.ob)().getNumber("WEBGL_VERSION");
         null != t
           ? ((this.gl = t),
             (function (t, e) {
@@ -80285,7 +80291,7 @@ PERFORMANCE OF THIS SOFTWARE.
             })(e, t))
           : (this.gl = sc(e));
         let n = "WEBGL_color_buffer_float";
-        if (1 === Object(En.nb)().getNumber("WEBGL_VERSION")) {
+        if (1 === Object(En.ob)().getNumber("WEBGL_VERSION")) {
           const t = "OES_texture_float",
             e = "OES_texture_half_float";
           if (
@@ -80293,7 +80299,7 @@ PERFORMANCE OF THIS SOFTWARE.
             Mc(this.gl, e))
           )
             this.textureHalfFloatExtension = bc(this.gl, this.debug, e);
-          else if (Object(En.nb)().get("WEBGL_FORCE_F16_TEXTURES"))
+          else if (Object(En.ob)().get("WEBGL_FORCE_F16_TEXTURES"))
             throw new Error(
               "GL context does not support half float textures, yet the environment flag WEBGL_FORCE_F16_TEXTURES is set to true."
             );
@@ -80306,7 +80312,7 @@ PERFORMANCE OF THIS SOFTWARE.
               this.debug,
               "EXT_color_buffer_half_float"
             );
-          else if (Object(En.nb)().get("WEBGL_FORCE_F16_TEXTURES"))
+          else if (Object(En.ob)().get("WEBGL_FORCE_F16_TEXTURES"))
             throw new Error(
               "GL context does not support color renderable half floats, yet the environment flag WEBGL_FORCE_F16_TEXTURES is set to true."
             );
@@ -80334,7 +80340,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.textureConfig = fc(this.gl, this.textureHalfFloatExtension));
       }
       get debug() {
-        return Object(En.nb)().getBool("DEBUG");
+        return Object(En.ob)().getBool("DEBUG");
       }
       dispose() {
         if (this.disposed) return;
@@ -80539,7 +80545,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       createFence(t) {
         let e, n;
-        if (Object(En.nb)().getBool("WEBGL_FENCE_API_ENABLED")) {
+        if (Object(En.ob)().getBool("WEBGL_FENCE_API_ENABLED")) {
           const r = t,
             a = r.fenceSync(r.SYNC_GPU_COMMANDS_COMPLETE, 0);
           t.flush(),
@@ -80549,7 +80555,7 @@ PERFORMANCE OF THIS SOFTWARE.
             }),
             (e = a);
         } else
-          Object(En.nb)().getNumber(
+          Object(En.ob)().getNumber(
             "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION"
           ) > 0
             ? ((e = this.beginQuery()),
@@ -80557,7 +80563,7 @@ PERFORMANCE OF THIS SOFTWARE.
               (n = () =>
                 this.isQueryAvailable(
                   e,
-                  Object(En.nb)().getNumber(
+                  Object(En.ob)().getNumber(
                     "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION"
                   )
                 )))
@@ -80693,7 +80699,7 @@ PERFORMANCE OF THIS SOFTWARE.
               this.gl,
               this.debug,
               2 ===
-                Object(En.nb)().getNumber(
+                Object(En.ob)().getNumber(
                   "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION"
                 )
                 ? "EXT_disjoint_timer_query_webgl2"
@@ -80711,7 +80717,7 @@ PERFORMANCE OF THIS SOFTWARE.
       beginQuery() {
         if (
           2 ===
-          Object(En.nb)().getNumber(
+          Object(En.ob)().getNumber(
             "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION"
           )
         ) {
@@ -80727,7 +80733,7 @@ PERFORMANCE OF THIS SOFTWARE.
       endQuery() {
         if (
           2 ===
-          Object(En.nb)().getNumber(
+          Object(En.ob)().getNumber(
             "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION"
           )
         ) {
@@ -80740,19 +80746,19 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       async waitForQueryAndGetTime(t) {
         return (
-          await En.Bd.repeatedTry(
+          await En.Cd.repeatedTry(
             () =>
               this.disposed ||
               this.isQueryAvailable(
                 t,
-                Object(En.nb)().getNumber(
+                Object(En.ob)().getNumber(
                   "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION"
                 )
               )
           ),
           this.getQueryTime(
             t,
-            Object(En.nb)().getNumber(
+            Object(En.ob)().getNumber(
               "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_VERSION"
             )
           )
@@ -80833,7 +80839,7 @@ PERFORMANCE OF THIS SOFTWARE.
       addItemToPoll(t, e) {
         this.itemsToPoll.push({ isDoneFn: t, resolveFn: e }),
           this.itemsToPoll.length > 1 ||
-            En.Bd.repeatedTry(
+            En.Cd.repeatedTry(
               () => (this.pollItems(), 0 === this.itemsToPoll.length)
             );
       }
@@ -80884,14 +80890,14 @@ PERFORMANCE OF THIS SOFTWARE.
         const r = t.logicalShape,
           a = e[n],
           i = a.shape;
-        if (!En.Bd.arraysEqual(r, i))
+        if (!En.Cd.arraysEqual(r, i))
           throw Error(
             `Binary was compiled with different shapes than the current args. Shapes ${r} and ${i} must match`
           );
         if (t.isUniform && a.isUniform) return;
         const o = t.texShape,
           s = a.isUniform ? null : a.texData.texShape;
-        if (!En.Bd.arraysEqual(o, s))
+        if (!En.Cd.arraysEqual(o, s))
           throw Error(
             `Binary was compiled with different texture shapes than the current args. Shape ${o} and ${s} must match`
           );
@@ -81985,7 +81991,8 @@ PERFORMANCE OF THIS SOFTWARE.
           r = (function (t) {
             if (1 === t) return "sourceLoc";
             if (t <= 6)
-              return Bh.slice(0, t)
+              return $h
+                .slice(0, t)
                 .map((t) => "sourceLoc." + t)
                 .join(",");
             throw Error(`Slicing for rank ${t} is not yet supported`);
@@ -82009,7 +82016,7 @@ PERFORMANCE OF THIS SOFTWARE.
           );
         let a;
         (a = `\n        ${e} sourceLoc;\n        ${e} coords = getOutputCoords();\n        ${t
-          .map((t, e) => `sourceLoc.${Bh[e]} = start[${e}] + coords.${Bh[e]};`)
+          .map((t, e) => `sourceLoc.${$h[e]} = start[${e}] + coords.${$h[e]};`)
           .join("\n")}\n      `),
           (this.userCode = `\n      ${n}\n      void main() {\n        ${a}\n        setOutput(getSource(${r}));\n      }\n    `);
       }
@@ -82026,8 +82033,8 @@ PERFORMANCE OF THIS SOFTWARE.
         };
       }
     }
-    const Bh = ["x", "y", "z", "w", "u", "v"];
-    class $h {
+    const $h = ["x", "y", "z", "w", "u", "v"];
+    class Bh {
       constructor(t) {
         (this.variableNames = ["source"]),
           (this.packedInputs = !0),
@@ -82094,7 +82101,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ class Lh {
+     */ class Ph {
       constructor(t, e, n) {
         (this.variableNames = ["x"]), (this.outputShape = n);
         const r = n.length,
@@ -82133,7 +82140,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ class Ph {
+     */ class Lh {
       constructor(t) {
         (this.gpgpu = t),
           (this.numUsedTextures = 0),
@@ -82223,7 +82230,7 @@ PERFORMANCE OF THIS SOFTWARE.
       if (t === cc.UPLOAD) return lc.PACKED_2X2_FLOAT32;
       if (t === cc.RENDER || null == t)
         return (function (t) {
-          return Object(En.nb)().getBool("WEBGL_RENDER_FLOAT32_ENABLED")
+          return Object(En.ob)().getBool("WEBGL_RENDER_FLOAT32_ENABLED")
             ? t
               ? lc.PACKED_2X2_FLOAT32
               : lc.UNPACKED_FLOAT32
@@ -82373,10 +82380,10 @@ PERFORMANCE OF THIS SOFTWARE.
      * limitations under the License.
      * =============================================================================
      */ const { segment_util: sd } = En.F,
-      ud = En.Jb.split,
-      cd = En.Jb.tile,
-      ld = En.Jb.topkImpl,
-      hd = En.Jb.whereImpl,
+      ud = En.Kb.split,
+      cd = En.Kb.tile,
+      ld = En.Kb.topkImpl,
+      hd = En.Kb.whereImpl,
       dd = {};
     function pd(t, e = !1) {
       if ("linear" === t) return "return x;";
@@ -82402,13 +82409,13 @@ PERFORMANCE OF THIS SOFTWARE.
           (this.warnedAboutMemory = !1),
           (this.pendingDeletes = 0),
           (this.disposed = !1),
-          !Object(En.nb)().getBool("HAS_WEBGL"))
+          !Object(En.ob)().getBool("HAS_WEBGL"))
         )
           throw new Error("WebGL is not supported on this device");
         if (null == t) {
-          const t = sc(Object(En.nb)().getNumber("WEBGL_VERSION"));
+          const t = sc(Object(En.ob)().getNumber("WEBGL_VERSION"));
           (this.binaryCache =
-            ((e = Object(En.nb)().getNumber("WEBGL_VERSION")) in dd ||
+            ((e = Object(En.ob)().getNumber("WEBGL_VERSION")) in dd ||
               (dd[e] = {}),
             dd[e])),
             (this.gpgpu = new uh(t)),
@@ -82420,17 +82427,17 @@ PERFORMANCE OF THIS SOFTWARE.
             (this.gpgpuCreatedLocally = !1),
             (this.canvas = t.gl.canvas);
         var e;
-        (this.textureManager = new Ph(this.gpgpu)),
+        (this.textureManager = new Lh(this.gpgpu)),
           (this.numMBBeforeWarning =
-            null == Object(En.nb)().global.screen
+            null == Object(En.ob)().global.screen
               ? 1024
-              : (Object(En.nb)().global.screen.height *
-                  Object(En.nb)().global.screen.width *
+              : (Object(En.ob)().global.screen.height *
+                  Object(En.ob)().global.screen.width *
                   window.devicePixelRatio *
                   600) /
                 1024 /
                 1024),
-          (this.texData = new En.a(this, Object(En.mb)()));
+          (this.texData = new En.a(this, Object(En.nb)()));
       }
       numDataIds() {
         return (
@@ -82441,7 +82448,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       write(t, e, n) {
         if (
-          (Object(En.nb)().getBool("DEBUG") && this.checkNumericalProblems(t),
+          (Object(En.ob)().getBool("DEBUG") && this.checkNumericalProblems(t),
           "complex64" === n && null != t)
         )
           throw new Error(
@@ -82460,7 +82467,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       move(t, e, n, r) {
         if (
-          (Object(En.nb)().getBool("DEBUG") && this.checkNumericalProblems(e),
+          (Object(En.ob)().getBool("DEBUG") && this.checkNumericalProblems(e),
           "complex64" === r)
         )
           throw new Error(
@@ -82498,13 +82505,13 @@ PERFORMANCE OF THIS SOFTWARE.
         if ("string" === r) return n;
         const u = null != this.activeTimers;
         let c, l;
-        if ((u && (c = En.Bd.now()), "complex64" === r)) {
+        if ((u && (c = En.Cd.now()), "complex64" === r)) {
           const t = a.real.dataSync(),
             e = a.imag.dataSync();
           l = En.F.mergeRealAndImagArrays(t, e);
         } else l = this.getValuesFromTexture(t);
         return (
-          u && (this.downloadWaitMs += En.Bd.now() - c),
+          u && (this.downloadWaitMs += En.Cd.now() - c),
           this.convertAndCacheOnCPU(t, l)
         );
       }
@@ -82535,8 +82542,8 @@ PERFORMANCE OF THIS SOFTWARE.
         }
         if (null != n) return this.convertAndCacheOnCPU(t);
         if (
-          !Object(En.nb)().getBool("WEBGL_DOWNLOAD_FLOAT_ENABLED") &&
-          2 === Object(En.nb)().getNumber("WEBGL_VERSION")
+          !Object(En.ob)().getBool("WEBGL_DOWNLOAD_FLOAT_ENABLED") &&
+          2 === Object(En.ob)().getNumber("WEBGL_VERSION")
         )
           throw new Error(
             "tensor.data() with WEBGL_DOWNLOAD_FLOAT_ENABLED=false and WEBGL_VERSION=2 not yet supported."
@@ -82546,7 +82553,7 @@ PERFORMANCE OF THIS SOFTWARE.
           l = null;
         if (
           "complex64" !== i &&
-          Object(En.nb)().get("WEBGL_BUFFER_SUPPORTED")
+          Object(En.ob)().get("WEBGL_BUFFER_SUPPORTED")
         ) {
           u = this.decode(t);
           const e = this.texData.get(u.dataId);
@@ -82563,7 +82570,7 @@ PERFORMANCE OF THIS SOFTWARE.
           c = En.F.mergeRealAndImagArrays(e, n);
         } else if (null == l) c = this.getValuesFromTexture(t);
         else {
-          const t = En.Bd.sizeFromShape(r);
+          const t = En.Cd.sizeFromShape(r);
           c = this.gpgpu.downloadFloat32MatrixFromBuffer(l, t);
         }
         null != u && this.disposeData(u.dataId);
@@ -82584,7 +82591,7 @@ PERFORMANCE OF THIS SOFTWARE.
           for (let e = 0; e < t.length; e++) {
             const n = t[e];
             if (!gc(n)) {
-              if (Object(En.nb)().getBool("WEBGL_RENDER_FLOAT32_CAPABLE"))
+              if (Object(En.ob)().getBool("WEBGL_RENDER_FLOAT32_CAPABLE"))
                 throw Error(
                   `The value ${n} cannot be represented with your current settings. Consider enabling float32 rendering: 'tf.env().set('WEBGL_RENDER_FLOAT32_ENABLED', true);'`
                 );
@@ -82596,8 +82603,8 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       getValuesFromTexture(t) {
         const { shape: e, dtype: n, isPacked: r } = this.texData.get(t),
-          a = En.Bd.sizeFromShape(e);
-        if (Object(En.nb)().getBool("WEBGL_DOWNLOAD_FLOAT_ENABLED")) {
+          a = En.Cd.sizeFromShape(e);
+        if (Object(En.ob)().getBool("WEBGL_DOWNLOAD_FLOAT_ENABLED")) {
           const n = this.decode(t),
             r = this.texData.get(n.dataId),
             i = this.gpgpu
@@ -82605,7 +82612,7 @@ PERFORMANCE OF THIS SOFTWARE.
               .subarray(0, a);
           return this.disposeData(n.dataId), i;
         }
-        const i = Object(En.nb)().getBool("WEBGL_PACK") && !0 === r,
+        const i = Object(En.ob)().getBool("WEBGL_PACK") && !0 === r,
           o = i ? Ac(e) : e,
           s = i ? new Kl(o) : new ql(o),
           u = this.runWebGLProgram(
@@ -82632,10 +82639,10 @@ PERFORMANCE OF THIS SOFTWARE.
           : this.activeTimers.push(n),
           (this.activeTimers = n),
           t();
-        const a = En.Bd.flatten(this.activeTimers.map((t) => t.query)).filter(
+        const a = En.Cd.flatten(this.activeTimers.map((t) => t.query)).filter(
             (t) => null != t
           ),
-          i = En.Bd.flatten(this.activeTimers.map((t) => t.name)).filter(
+          i = En.Cd.flatten(this.activeTimers.map((t) => t.name)).filter(
             (t) => null != t
           );
         (this.activeTimers = e), r && (this.programTimersStack = null);
@@ -82646,12 +82653,12 @@ PERFORMANCE OF THIS SOFTWARE.
           wallMs: null,
         };
         if (
-          Object(En.nb)().getNumber(
+          Object(En.ob)().getNumber(
             "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_RELIABLE"
           ) > 0
         ) {
           const t = await Promise.all(a);
-          (o.kernelMs = En.Bd.sum(t)),
+          (o.kernelMs = En.Cd.sum(t)),
             (o.getExtraProfileInfo = () =>
               t
                 .map((t, e) => ({ name: i[e], ms: t }))
@@ -82667,22 +82674,22 @@ PERFORMANCE OF THIS SOFTWARE.
         return { unreliable: !1, numBytesInGPU: this.numBytesInGPU };
       }
       startTimer() {
-        return Object(En.nb)().getNumber(
+        return Object(En.ob)().getNumber(
           "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_RELIABLE"
         ) > 0
           ? this.gpgpu.beginQuery()
-          : { startMs: En.Bd.now(), endMs: null };
+          : { startMs: En.Cd.now(), endMs: null };
       }
       endTimer(t) {
-        return Object(En.nb)().getNumber(
+        return Object(En.ob)().getNumber(
           "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_RELIABLE"
         ) > 0
           ? (this.gpgpu.endQuery(), t)
-          : ((t.endMs = En.Bd.now()), t);
+          : ((t.endMs = En.Cd.now()), t);
       }
       async getQueryTime(t) {
         if (
-          Object(En.nb)().getNumber(
+          Object(En.ob)().getNumber(
             "WEBGL_DISJOINT_QUERY_TIMER_EXTENSION_RELIABLE"
           ) > 0
         )
@@ -82730,9 +82737,9 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.texData.get(t);
       }
       getCPUBackend() {
-        return Object(En.nb)().getBool("WEBGL_CPU_FORWARD")
+        return Object(En.ob)().getBool("WEBGL_CPU_FORWARD")
           ? (null == this.cpuBackend &&
-              (this.cpuBackend = Object(En.mb)().findBackend("cpu")),
+              (this.cpuBackend = Object(En.nb)().findBackend("cpu")),
             this.cpuBackend)
           : null;
       }
@@ -82742,7 +82749,7 @@ PERFORMANCE OF THIS SOFTWARE.
           t.every(
             (t) =>
               null == this.texData.get(t.dataId).texture &&
-              En.Bd.sizeFromShape(t.shape) < e
+              En.Cd.sizeFromShape(t.shape) < e
           )
         );
       }
@@ -82753,8 +82760,8 @@ PERFORMANCE OF THIS SOFTWARE.
         const n = this.makeOutput(t.shape, "complex64");
         return (
           (this.texData.get(n.dataId).complexTensors = {
-            real: Object(En.mb)().keep(t.clone()),
-            imag: Object(En.mb)().keep(e.clone()),
+            real: Object(En.nb)().keep(t.clone()),
+            imag: Object(En.nb)().keep(e.clone()),
           }),
           n
         );
@@ -82767,12 +82774,12 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       slice(t, e, n) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.slice(t, e, n);
-        if (0 === En.Bd.sizeFromShape(n)) return Object(En.od)([], n, t.dtype);
+        if (0 === En.Cd.sizeFromShape(n)) return Object(En.pd)([], n, t.dtype);
         const { isPacked: r } = this.texData.get(t.dataId),
-          a = En.Xc.isSliceContinous(t.shape, e, n);
+          a = En.Yc.isSliceContinous(t.shape, e, n);
         if (r || !a) {
-          const r = Object(En.nb)().getBool("WEBGL_PACK_ARRAY_OPERATIONS")
-              ? new $h(n)
+          const r = Object(En.ob)().getBool("WEBGL_PACK_ARRAY_OPERATIONS")
+              ? new Bh(n)
               : new jh(n),
             a = r.getCustomSetupFunc(e);
           return this.compileAndRun(r, [t], null, a);
@@ -82784,7 +82791,7 @@ PERFORMANCE OF THIS SOFTWARE.
           a = this.makeOutput(n, t.dtype),
           i = this.texData.get(a.dataId);
         Object.assign(i, r), (i.shape = n), (i.dtype = t.dtype);
-        let o = En.Xc.computeFlatOffset(e, t.strides);
+        let o = En.Yc.computeFlatOffset(e, t.strides);
         r.slice && (o += r.slice.flatOffset),
           (i.slice = {
             flatOffset: o,
@@ -82796,27 +82803,27 @@ PERFORMANCE OF THIS SOFTWARE.
       stridedSlice(t, e, n, r) {
         if (this.shouldExecuteOnCPU([t]))
           return this.cpuBackend.stridedSlice(t, e, n, r);
-        const a = En.Xc.computeOutShape(e, n, r);
-        if (a.some((t) => 0 === t)) return Object(En.od)([], a);
-        const i = new Lh(e, r, a);
+        const a = En.Yc.computeOutShape(e, n, r);
+        if (a.some((t) => 0 === t)) return Object(En.pd)([], a);
+        const i = new Ph(e, r, a);
         return this.compileAndRun(i, [t]);
       }
       reverse(t, e) {
-        const n = Object(En.nb)().getBool("WEBGL_PACK_ARRAY_OPERATIONS")
+        const n = Object(En.ob)().getBool("WEBGL_PACK_ARRAY_OPERATIONS")
           ? new _h(t.shape, e)
           : new Th(t.shape, e);
         return this.compileAndRun(n, [t]);
       }
       concat(t, e) {
         if ("complex64" === t[0].dtype) {
-          const n = t.map((t) => Object(En.xc)(t)),
-            r = t.map((t) => Object(En.Eb)(t));
+          const n = t.map((t) => Object(En.yc)(t)),
+            r = t.map((t) => Object(En.Fb)(t));
           return Object(En.R)(this.concat(n, e), this.concat(r, e));
         }
         if (this.shouldExecuteOnCPU(t)) return this.cpuBackend.concat(t, e);
         if (1 === t.length) return t[0];
         if (
-          t.length > Object(En.nb)().getNumber("WEBGL_MAX_TEXTURES_IN_SHADER")
+          t.length > Object(En.ob)().getNumber("WEBGL_MAX_TEXTURES_IN_SHADER")
         ) {
           const n = Math.floor(t.length / 2),
             r = this.concat(t.slice(0, n), e),
@@ -82824,7 +82831,7 @@ PERFORMANCE OF THIS SOFTWARE.
           return this.concat([r, a], e);
         }
         if (
-          Object(En.nb)().getBool("WEBGL_PACK_ARRAY_OPERATIONS") &&
+          Object(En.ob)().getBool("WEBGL_PACK_ARRAY_OPERATIONS") &&
           t[0].rank > 1
         ) {
           const n = new Nl(
@@ -82837,13 +82844,13 @@ PERFORMANCE OF THIS SOFTWARE.
             t.map((t) => t.shape),
             e
           ),
-          r = t.map((t) => t.as2D(-1, En.Bd.sizeFromShape(t.shape.slice(e)))),
+          r = t.map((t) => t.as2D(-1, En.Cd.sizeFromShape(t.shape.slice(e)))),
           a = new kl(r.map((t) => t.shape));
         return this.compileAndRun(a, r).reshape(n);
       }
       neg(t) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.neg(t);
-        if (Object(En.nb)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
           return this.packedUnaryOp(t, Xh, t.dtype);
         const e = new Uh(t.shape, Xh);
         return this.compileAndRun(e, [t]);
@@ -82854,14 +82861,14 @@ PERFORMANCE OF THIS SOFTWARE.
           o = n ? t.shape[1] : t.shape[2],
           [s, ,] = t.shape;
         if ((1 === a || 1 === i) && o > 1e3) {
-          n && (t = Object(En.xd)(t, [0, 2, 1])),
-            r && (e = Object(En.xd)(e, [0, 2, 1]));
+          n && (t = Object(En.yd)(t, [0, 2, 1])),
+            r && (e = Object(En.yd)(e, [0, 2, 1]));
           const a = 1 === i ? t : t.as3D(s, o, 1),
             u = 1 === i ? 2 : 1,
             c = 1 === i ? e.as3D(s, 1, o) : e;
           return this.multiply(a, c).sum(u, !0);
         }
-        const u = Object(En.Ad)(t.dtype, e.dtype),
+        const u = Object(En.Bd)(t.dtype, e.dtype),
           c = new gh(t.shape, [s, a, i], n, r);
         return this.compileAndRun(c, [t, e], u);
       }
@@ -82877,7 +82884,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const s = n ? t.shape[2] : t.shape[1],
           u = r ? e.shape[1] : e.shape[2],
           [c, ,] = t.shape,
-          l = Object(En.Ad)(t.dtype, e.dtype),
+          l = Object(En.Bd)(t.dtype, e.dtype),
           h = null != a,
           d = null != o,
           p = i ? pd(i, !0) : null,
@@ -82904,7 +82911,7 @@ PERFORMANCE OF THIS SOFTWARE.
         }
         if (this.shouldExecuteOnCPU([t, e]))
           return this.cpuBackend.multiply(t, e);
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(t, e, yl, t.dtype);
         const n = new wl(yl, t.shape, e.shape);
         return this.compileAndRun(n, [t, e], t.dtype);
@@ -82916,7 +82923,7 @@ PERFORMANCE OF THIS SOFTWARE.
         let u = null;
         if (
           (null != a && ((u = a.shape), o.push(a)),
-          Object(En.nb)().getBool("WEBGL_PACK_NORMALIZATION"))
+          Object(En.ob)().getBool("WEBGL_PACK_NORMALIZATION"))
         ) {
           const r = new pl(t.shape, e.shape, n.shape, s, u, i);
           return this.compileAndRun(r, o);
@@ -82925,7 +82932,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(c, o);
       }
       localResponseNormalization4D(t, e, n, r, a) {
-        const i = Object(En.nb)().getBool("WEBGL_PACK_NORMALIZATION")
+        const i = Object(En.ob)().getBool("WEBGL_PACK_NORMALIZATION")
           ? new ph(t.shape, e, n, r, a)
           : new hh(t.shape, e, n, r, a);
         return this.compileAndRun(i, [t]);
@@ -82936,7 +82943,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       tile(t, e) {
         if ("string" === t.dtype) {
-          const n = this.readSync(t.dataId).map((t) => En.Bd.decodeString(t)),
+          const n = this.readSync(t.dataId).map((t) => En.Cd.decodeString(t)),
             r = Object(En.N)(t.shape, t.dtype, n);
           return cd(r, e);
         }
@@ -82944,7 +82951,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(n, [t]);
       }
       pad(t, e, n) {
-        const r = Object(En.nb)().getBool("WEBGL_PACK_ARRAY_OPERATIONS")
+        const r = Object(En.ob)().getBool("WEBGL_PACK_ARRAY_OPERATIONS")
           ? new wh(t.shape, e, n)
           : new xh(t.shape, e, n);
         return this.compileAndRun(r, [t]);
@@ -82956,7 +82963,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(r, [t, e]);
       }
       batchToSpaceND(t, e, n) {
-        En.Bd.assert(
+        En.Cd.assert(
           t.rank <= 4,
           () =>
             "batchToSpaceND for rank > 4 with a WebGL backend not implemented yet"
@@ -82967,10 +82974,10 @@ PERFORMANCE OF THIS SOFTWARE.
           o = En.F.getReshapedPermuted(t.shape, e, r),
           s = En.F.getSliceBeginCoords(n, e.length),
           u = En.F.getSliceSize(o, n, e.length);
-        return Object(En.xd)(t.reshape(a), i).reshape(o).slice(s, u);
+        return Object(En.yd)(t.reshape(a), i).reshape(o).slice(s, u);
       }
       spaceToBatchND(t, e, n) {
-        En.Bd.assert(
+        En.Cd.assert(
           t.rank <= 4,
           () =>
             "spaceToBatchND for rank > 4 with a WebGL backend not implemented yet"
@@ -82983,7 +82990,7 @@ PERFORMANCE OF THIS SOFTWARE.
           o = En.F.getReshaped(i.shape, e, r, !1),
           s = En.F.getPermuted(o.length, e.length, !1),
           u = En.F.getReshapedPermuted(i.shape, e, r, !1);
-        return Object(En.xd)(i.reshape(o), s).reshape(u);
+        return Object(En.yd)(i.reshape(o), s).reshape(u);
       }
       reduce(t, e, n) {
         const r = t.shape[0],
@@ -83016,17 +83023,17 @@ PERFORMANCE OF THIS SOFTWARE.
       sum(t, e) {
         En.F.assertAxesAreInnerMostDims("sum", e, t.rank);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = En.Bd.sizeFromShape(r),
+          a = En.Cd.sizeFromShape(r),
           i = t.as2D(-1, a),
-          o = En.ld(t.dtype);
+          o = En.md(t.dtype);
         return this.reduce(i, "sum", o).reshape(n);
       }
       prod(t, e) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.prod(t, e);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = En.Bd.sizeFromShape(r),
+          a = En.Cd.sizeFromShape(r),
           i = t.as2D(-1, a),
-          o = En.ld(t.dtype);
+          o = En.md(t.dtype);
         return this.reduce(i, "prod", o).reshape(n);
       }
       unsortedSegmentSum(t, e, n) {
@@ -83034,15 +83041,15 @@ PERFORMANCE OF THIS SOFTWARE.
         const a = En.F.getAxesPermutation([r], t.rank);
         let i = t;
         null != a &&
-          ((i = Object(En.xd)(t, a)),
+          ((i = Object(En.yd)(t, a)),
           (r = En.F.getInnerMostAxes(1, t.rank)[0]));
         const o = sd.computeOutShape(i.shape, r, n),
-          s = En.Bd.sizeFromShape([i.shape[r]]),
+          s = En.Cd.sizeFromShape([i.shape[r]]),
           u = i.as2D(-1, s),
-          c = En.ld(t.dtype);
+          c = En.md(t.dtype);
         let l = this.segOpCompute(u, "unsortedSegmentSum", e, c, n).reshape(o);
         return (
-          null != a && (l = Object(En.xd)(l, En.F.getUndoAxesPermutation(a))), l
+          null != a && (l = Object(En.yd)(l, En.F.getUndoAxesPermutation(a))), l
         );
       }
       segOpCompute(t, e, n, r, a) {
@@ -83056,7 +83063,7 @@ PERFORMANCE OF THIS SOFTWARE.
           c = this.compileAndRun(u, [t, n], r);
         return c.shape[1] === a
           ? c
-          : ((n = Object(En.wc)(0, a).tile([o / s])),
+          : ((n = Object(En.xc)(0, a).tile([o / s])),
             this.segOpCompute(c, e, n, r, a));
       }
       argMinMaxReduce(t, e, n) {
@@ -83067,10 +83074,10 @@ PERFORMANCE OF THIS SOFTWARE.
             r,
             t.rank
           ),
-          !Object(En.nb)().getBool("WEBGL_PACK_REDUCE") || t.rank <= 2)
+          !Object(En.ob)().getBool("WEBGL_PACK_REDUCE") || t.rank <= 2)
         ) {
           const [e, a] = En.F.computeOutAndReduceShapes(t.shape, r),
-            i = En.Bd.sizeFromShape(a),
+            i = En.Cd.sizeFromShape(a),
             o = t.as2D(-1, i);
           return this.argReduce(o, n).reshape(e);
         }
@@ -83093,7 +83100,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(a, [t]);
       }
       equal(t, e) {
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83104,7 +83111,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(n, [t, e], "bool");
       }
       notEqual(t, e) {
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83116,7 +83123,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       less(t, e) {
         if (this.shouldExecuteOnCPU([t, e])) return this.cpuBackend.less(t, e);
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83127,7 +83134,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(n, [t, e], "bool");
       }
       lessEqual(t, e) {
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83140,7 +83147,7 @@ PERFORMANCE OF THIS SOFTWARE.
       greater(t, e) {
         if (this.shouldExecuteOnCPU([t, e]))
           return this.cpuBackend.greater(t, e);
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83151,7 +83158,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(n, [t, e], "bool");
       }
       greaterEqual(t, e) {
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83166,7 +83173,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(e, [t]);
       }
       logicalAnd(t, e) {
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83181,7 +83188,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(n, [t, e], "bool");
       }
       logicalOr(t, e) {
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83200,7 +83207,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(
           r,
           [t, e, n],
-          Object(En.Ad)(e.dtype, n.dtype)
+          Object(En.Bd)(e.dtype, n.dtype)
         );
       }
       where(t) {
@@ -83217,14 +83224,14 @@ PERFORMANCE OF THIS SOFTWARE.
       min(t, e) {
         En.F.assertAxesAreInnerMostDims("min", e, t.rank);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = En.Bd.sizeFromShape(r),
+          a = En.Cd.sizeFromShape(r),
           i = t.as2D(-1, a);
         return this.reduce(i, "min", i.dtype).reshape(n);
       }
       minimum(t, e) {
         if (this.shouldExecuteOnCPU([t, e]))
           return this.cpuBackend.minimum(t, e);
-        const n = Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
+        const n = Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
           ? new Ol(
               "\n  vec4 result = vec4(min(a, b));\n  vec4 isNaN = min(vec4(isnan(a)) + vec4(isnan(b)), vec4(1.0));\n  \n  result.r = isNaN.r > 0. ? NAN : result.r;\n  result.g = isNaN.g > 0. ? NAN : result.g;\n  result.b = isNaN.b > 0. ? NAN : result.b;\n  result.a = isNaN.a > 0. ? NAN : result.a;\n\n  return result;\n",
               t.shape,
@@ -83238,7 +83245,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(n, [t, e]);
       }
       mod(t, e) {
-        const n = Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
+        const n = Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
           ? new Ol(
               "\n  vec4 result = mod(a, b);\n  vec4 isNaN = vec4(equal(b, vec4(0.0)));\n  \n  result.r = isNaN.r > 0. ? NAN : result.r;\n  result.g = isNaN.g > 0. ? NAN : result.g;\n  result.b = isNaN.b > 0. ? NAN : result.b;\n  result.a = isNaN.a > 0. ? NAN : result.a;\n\n  return result;\n",
               t.shape,
@@ -83254,7 +83261,7 @@ PERFORMANCE OF THIS SOFTWARE.
       maximum(t, e) {
         if (this.shouldExecuteOnCPU([t, e]))
           return this.cpuBackend.maximum(t, e);
-        const n = Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
+        const n = Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
           ? new Ol(
               "\n  vec4 result = vec4(max(a, b));\n  vec4 isNaN = min(vec4(isnan(a)) + vec4(isnan(b)), vec4(1.0));\n  \n  result.r = isNaN.r > 0. ? NAN : result.r;\n  result.g = isNaN.g > 0. ? NAN : result.g;\n  result.b = isNaN.b > 0. ? NAN : result.b;\n  result.a = isNaN.a > 0. ? NAN : result.a;\n\n  return result;\n",
               t.shape,
@@ -83270,19 +83277,19 @@ PERFORMANCE OF THIS SOFTWARE.
       all(t, e) {
         En.F.assertAxesAreInnerMostDims("all", e, t.rank);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = En.Bd.sizeFromShape(r),
+          a = En.Cd.sizeFromShape(r),
           i = t.as2D(-1, a);
         return this.reduce(i, "all", i.dtype).reshape(n);
       }
       any(t, e) {
         En.F.assertAxesAreInnerMostDims("any", e, t.rank);
         const [n, r] = En.F.computeOutAndReduceShapes(t.shape, e),
-          a = En.Bd.sizeFromShape(r),
+          a = En.Cd.sizeFromShape(r),
           i = t.as2D(-1, a);
         return this.reduce(i, "any", i.dtype).reshape(n);
       }
       floorDiv(t, e) {
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(
             t,
             e,
@@ -83300,8 +83307,8 @@ PERFORMANCE OF THIS SOFTWARE.
         if ("complex64" === t.dtype && "complex64" === e.dtype)
           return this.complexSeparableBinaryOp(t, e, bl);
         if (this.shouldExecuteOnCPU([t, e])) return this.cpuBackend.add(t, e);
-        const n = Object(En.Ad)(t.dtype, e.dtype);
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        const n = Object(En.Bd)(t.dtype, e.dtype);
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(t, e, bl, n);
         const r = new wl(bl, t.shape, e.shape);
         return this.compileAndRun(r, [t, e], n);
@@ -83328,7 +83335,7 @@ PERFORMANCE OF THIS SOFTWARE.
             return this.compileAndRun(
               u,
               [o, s],
-              Object(En.Ad)(a.dtype, i.dtype)
+              Object(En.Bd)(a.dtype, i.dtype)
             );
           }),
           s = this.complex(i, o);
@@ -83339,17 +83346,17 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       addN(t) {
         if (1 === t.length) return t[0];
-        if (t.length > Object(En.nb)().get("WEBGL_MAX_TEXTURES_IN_SHADER")) {
+        if (t.length > Object(En.ob)().get("WEBGL_MAX_TEXTURES_IN_SHADER")) {
           const e = Math.floor(t.length / 2),
             n = this.addN(t.slice(0, e)),
             r = this.addN(t.slice(e));
           return this.addN([n, r]);
         }
-        const e = t.map((t) => t.dtype).reduce((t, e) => Object(En.Ad)(t, e)),
+        const e = t.map((t) => t.dtype).reduce((t, e) => Object(En.Bd)(t, e)),
           n = t.map((t) => t.shape),
-          r = Object(En.nb)().getBool("WEBGL_PACK")
+          r = Object(En.ob)().getBool("WEBGL_PACK")
             ? new zc(t[0].shape, n)
-            : new Pc(t[0].shape, n);
+            : new Lc(t[0].shape, n);
         return this.compileAndRun(r, t, e);
       }
       subtract(t, e) {
@@ -83357,14 +83364,14 @@ PERFORMANCE OF THIS SOFTWARE.
           return this.complexSeparableBinaryOp(t, e, vl);
         if (this.shouldExecuteOnCPU([t, e]))
           return this.cpuBackend.subtract(t, e);
-        const n = Object(En.Ad)(t.dtype, e.dtype);
-        if (Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
+        const n = Object(En.Bd)(t.dtype, e.dtype);
+        if (Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS"))
           return this.packedBinaryOp(t, e, vl, t.dtype);
         const r = new wl(vl, t.shape, e.shape);
         return this.compileAndRun(r, [t, e], n);
       }
       pow(t, e) {
-        const n = Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
+        const n = Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
             ? new Ol(
                 "\n  // isModRound1 has 1 for components with round(mod(b, 2.0)) == 1, 0 otherwise.\n  vec4 isModRound1 = vec4(equal(round(mod(b, 2.0)), ivec4(1)));\n  vec4 multiplier = sign(a) * isModRound1 + (vec4(1.0) - isModRound1);\n  vec4 result = multiplier * pow(abs(a), b);\n\n  // Ensure that a^0 = 1, including 0^0 = 1 as this correspond to TF and JS\n  bvec4 isExpZero = equal(b, vec4(0.0));\n  result.r = isExpZero.r ? 1.0 : result.r;\n  result.g = isExpZero.g ? 1.0 : result.g;\n  result.b = isExpZero.b ? 1.0 : result.b;\n  result.a = isExpZero.a ? 1.0 : result.a;\n\n  vec4 isNaN = vec4(lessThan(a, vec4(0.0))) * vec4(lessThan(floor(b), b));\n  \n  result.r = isNaN.r > 0. ? NAN : result.r;\n  result.g = isNaN.g > 0. ? NAN : result.g;\n  result.b = isNaN.b > 0. ? NAN : result.b;\n  result.a = isNaN.a > 0. ? NAN : result.a;\n\n  return result;\n",
                 t.shape,
@@ -83375,19 +83382,19 @@ PERFORMANCE OF THIS SOFTWARE.
                 t.shape,
                 e.shape
               ),
-          r = Object(En.Ad)(t.dtype, e.dtype);
+          r = Object(En.Bd)(t.dtype, e.dtype);
         return this.compileAndRun(n, [t, e], r);
       }
       ceil(t) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.ceil(t);
-        if (Object(En.nb)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
           return this.packedUnaryOp(t, Yh, t.dtype);
         const e = new Uh(t.shape, Yh);
         return this.compileAndRun(e, [t]);
       }
       floor(t) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.floor(t);
-        if (Object(En.nb)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
           return this.packedUnaryOp(t, Jh, t.dtype);
         const e = new Uh(t.shape, Jh);
         return this.compileAndRun(e, [t]);
@@ -83420,21 +83427,21 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       exp(t) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.exp(t);
-        if (Object(En.nb)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
           return this.packedUnaryOp(t, Qh, t.dtype);
         const e = new Uh(t.shape, Qh);
         return this.compileAndRun(e, [t]);
       }
       expm1(t) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.expm1(t);
-        if (Object(En.nb)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
           return this.packedUnaryOp(t, Zh, t.dtype);
         const e = new Uh(t.shape, Zh);
         return this.compileAndRun(e, [t]);
       }
       softmax(t, e) {
-        const n = En.Bd.parseAxisParam([e], t.shape),
-          r = Object(En.Xb)(t, n),
+        const n = En.Cd.parseAxisParam([e], t.shape),
+          r = Object(En.Yb)(t, n),
           a = En.F.expandShapeToKeepDim(r.shape, n),
           i = this.subtract(t, r.reshape(a)),
           o = this.exp(i),
@@ -83443,7 +83450,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       log(t) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.log(t);
-        if (Object(En.nb)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
           return this.packedUnaryOp(
             t,
             "\n  vec4 result = log(x);\n  vec4 isNaN = vec4(lessThan(x, vec4(0.0)));\n  result.r = isNaN.r == 1.0 ? NAN : result.r;\n  result.g = isNaN.g == 1.0 ? NAN : result.g;\n  result.b = isNaN.b == 1.0 ? NAN : result.b;\n  result.a = isNaN.a == 1.0 ? NAN : result.a;\n\n  return result;\n",
@@ -83472,7 +83479,7 @@ PERFORMANCE OF THIS SOFTWARE.
       relu(t) {
         let e;
         return (
-          (e = Object(En.nb)().getBool("WEBGL_PACK")
+          (e = Object(En.ob)().getBool("WEBGL_PACK")
             ? new id(t.shape, nd)
             : new Uh(t.shape, Hh)),
           this.compileAndRun(e, [t])
@@ -83481,26 +83488,26 @@ PERFORMANCE OF THIS SOFTWARE.
       relu6(t) {
         let e;
         return (
-          (e = Object(En.nb)().getBool("WEBGL_PACK")
+          (e = Object(En.ob)().getBool("WEBGL_PACK")
             ? new id(t.shape, rd)
             : new Uh(t.shape, qh)),
           this.compileAndRun(e, [t])
         );
       }
       prelu(t, e) {
-        const n = Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
+        const n = Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
           ? new Ol(Cl, t.shape, e.shape)
           : new wl(xl, t.shape, e.shape);
         return this.compileAndRun(n, [t, e]);
       }
       elu(t) {
-        if (Object(En.nb)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
           return this.packedUnaryOp(t, ad, t.dtype);
         const e = new Uh(t.shape, "return (x >= 0.0) ? x : (exp(x) - 1.0);");
         return this.compileAndRun(e, [t]);
       }
       eluDer(t, e) {
-        const n = Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
+        const n = Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
           ? new Ol(
               "\n  vec4 bGTEZero = vec4(greaterThanEqual(b, vec4(0.)));\n  return (bGTEZero * a) + ((vec4(1.0) - bGTEZero) * (a * (b + vec4(1.0))));\n",
               t.shape,
@@ -83519,7 +83526,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       clip(t, e, n) {
         let r;
-        r = Object(En.nb)().getBool("WEBGL_PACK_CLIP")
+        r = Object(En.ob)().getBool("WEBGL_PACK_CLIP")
           ? new Sl(t.shape)
           : new El(t.shape);
         const a = r.getCustomSetupFunc(e, n);
@@ -83527,7 +83534,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       abs(t) {
         if (this.shouldExecuteOnCPU([t])) return this.cpuBackend.abs(t);
-        if (Object(En.nb)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
+        if (Object(En.ob)().getBool("WEBGL_PACK_UNARY_OPERATIONS"))
           return this.packedUnaryOp(t, Gh, t.dtype);
         const e = new Uh(t.shape, Gh);
         return this.compileAndRun(e, [t]);
@@ -83592,7 +83599,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(e, [t]);
       }
       atan2(t, e) {
-        const n = Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
+        const n = Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
           ? new Ol(
               "\n  vec4 result = atan(a, b);\n  vec4 isNaN = min(vec4(isnan(a)) + vec4(isnan(b)), vec4(1.0));\n  \n  result.r = isNaN.r > 0. ? NAN : result.r;\n  result.g = isNaN.g > 0. ? NAN : result.g;\n  result.b = isNaN.b > 0. ? NAN : result.b;\n  result.a = isNaN.a > 0. ? NAN : result.a;\n\n  return result;\n",
               t.shape,
@@ -83671,8 +83678,8 @@ PERFORMANCE OF THIS SOFTWARE.
           p = o[2] % 2 != 0 && !!s.isPacked;
         if (
           d ||
-          !Object(En.nb)().getBool("WEBGL_LAZILY_UNPACK") ||
-          !Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS") ||
+          !Object(En.ob)().getBool("WEBGL_LAZILY_UNPACK") ||
+          !Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS") ||
           !p
         ) {
           const s = h ? o[0] * o[1] * o[2] : o[0] * o[2] * o[3],
@@ -83696,7 +83703,7 @@ PERFORMANCE OF THIS SOFTWARE.
           g = s.shape;
         (s.shape = s.shape.slice()),
           s.shape[s.shape.length - 2]++,
-          En.Bd.assert(
+          En.Cd.assert(
             _c(s.shape, m.shape),
             () => `packed reshape ${s.shape} to ${m.shape} isn't free`
           );
@@ -83712,13 +83719,13 @@ PERFORMANCE OF THIS SOFTWARE.
           }),
           y = this.texData.get(v.dataId);
         return (
-          En.Bd.assert(
+          En.Cd.assert(
             y.isPacked,
             () => "batchMatMul result is expected to be packed"
           ),
           (s.shape = g),
           (y.shape = n.outShape),
-          Object(En.mb)().makeTensorFromDataId(v.dataId, n.outShape, v.dtype)
+          Object(En.nb)().makeTensorFromDataId(v.dataId, n.outShape, v.dtype)
         );
       }
       conv2dWithIm2Row(t, e, n, r, a, i) {
@@ -83767,7 +83774,7 @@ PERFORMANCE OF THIS SOFTWARE.
           ("SAME" === n.padInfo.type || "VALID" === n.padInfo.type)
         )
           return this.conv2dByMatMul(t, e, n, r, a, i);
-        if (Object(En.nb)().getBool("WEBGL_CONV_IM2COL") && 1 === t.shape[0])
+        if (Object(En.ob)().getBool("WEBGL_CONV_IM2COL") && 1 === t.shape[0])
           return this.conv2dWithIm2Row(t, e, n, r, a, i);
         const o = null != r,
           s = null != i,
@@ -83787,7 +83794,7 @@ PERFORMANCE OF THIS SOFTWARE.
           ("SAME" === n.padInfo.type || "VALID" === n.padInfo.type)
         )
           return this.conv2dByMatMul(t, e, n);
-        if (Object(En.nb)().getBool("WEBGL_CONV_IM2COL") && 1 === t.shape[0])
+        if (Object(En.ob)().getBool("WEBGL_CONV_IM2COL") && 1 === t.shape[0])
           return this.conv2dWithIm2Row(t, e, n);
         const r = new jl(n);
         return this.compileAndRun(r, [t, e]);
@@ -83809,7 +83816,7 @@ PERFORMANCE OF THIS SOFTWARE.
         preluActivationWeights: i,
       }) {
         const o =
-            Object(En.nb)().getBool("WEBGL_PACK_DEPTHWISECONV") &&
+            Object(En.ob)().getBool("WEBGL_PACK_DEPTHWISECONV") &&
             n.strideWidth <= 2 &&
             n.outChannels / n.inChannels == 1,
           s = a ? pd(a, o) : null,
@@ -83821,17 +83828,17 @@ PERFORMANCE OF THIS SOFTWARE.
           c && u.push(r),
           l && u.push(i),
           o
-            ? ((h = new Ll(n, c, s, l)), this.compileAndRun(h, u))
-            : ((h = new $l(n, c, s, l)), this.compileAndRun(h, u))
+            ? ((h = new Pl(n, c, s, l)), this.compileAndRun(h, u))
+            : ((h = new Bl(n, c, s, l)), this.compileAndRun(h, u))
         );
       }
       depthwiseConv2D(t, e, n) {
         let r;
-        return Object(En.nb)().getBool("WEBGL_PACK_DEPTHWISECONV") &&
+        return Object(En.ob)().getBool("WEBGL_PACK_DEPTHWISECONV") &&
           n.strideWidth <= 2 &&
           n.outChannels / n.inChannels == 1
-          ? ((r = new Ll(n)), this.compileAndRun(r, [t, e]))
-          : ((r = new $l(n)), this.compileAndRun(r, [t, e]));
+          ? ((r = new Pl(n)), this.compileAndRun(r, [t, e]))
+          : ((r = new Bl(n)), this.compileAndRun(r, [t, e]));
       }
       depthwiseConv2DDerInput(t, e, n) {
         const r = new Ml(n);
@@ -83842,7 +83849,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(r, [t, e]);
       }
       conv3d(t, e, n) {
-        const r = new Bl(n);
+        const r = new $l(n);
         return this.compileAndRun(r, [t, e]);
       }
       conv3dDerInput(t, e, n) {
@@ -83915,7 +83922,7 @@ PERFORMANCE OF THIS SOFTWARE.
           (null === n.texture || !_c(n.shape, e))
         ) {
           const n = this.packedReshape(t, e);
-          return Object(En.mb)().makeTensorFromDataId(
+          return Object(En.nb)().makeTensorFromDataId(
             n.dataId,
             n.shape,
             n.dtype
@@ -83924,7 +83931,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return En.F.reshapeTensor(t, e);
       }
       resizeBilinear(t, e, n, r) {
-        const a = Object(En.nb)().getBool("WEBGL_PACK_IMAGE_OPERATIONS")
+        const a = Object(En.ob)().getBool("WEBGL_PACK_IMAGE_OPERATIONS")
           ? new Nh(t.shape, e, n, r)
           : new kh(t.shape, e, n, r);
         return this.compileAndRun(a, [t], "float32");
@@ -83942,7 +83949,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(r, [t]);
       }
       multinomial(t, e, n, r) {
-        const a = e ? t : Object(En.Yc)(t),
+        const a = e ? t : Object(En.Zc)(t),
           i = a.shape[0],
           o = a.shape[1],
           s = new bh(i, o, n),
@@ -83958,11 +83965,11 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(e, [t]);
       }
       cropAndResize(t, e, n, r, a, i) {
-        const o = new Pl(t.shape, e.shape, r, a, i);
+        const o = new Ll(t.shape, e.shape, r, a, i);
         return this.compileAndRun(o, [t, e, n], "float32");
       }
       depthToSpace(t, e, n) {
-        En.Bd.assert(
+        En.Cd.assert(
           e > 1,
           () => "blockSize should be > 1 for depthToSpace, but was: " + e
         );
@@ -83990,8 +83997,8 @@ PERFORMANCE OF THIS SOFTWARE.
           u = [s / i, i],
           c = t.reshape([a, r]),
           l = e.reshape([a, i]);
-        if (0 === s) return En.F.reshapeTensor(Object(En.od)([]), n);
-        const h = Object(En.Hc)(0),
+        if (0 === s) return En.F.reshapeTensor(Object(En.pd)([]), n);
+        const h = Object(En.Ic)(0),
           d = new Dh(a, r, c.rank, l.rank, o, u);
         return this.compileAndRun(d, [l, c, h]).reshape(n);
       }
@@ -84034,9 +84041,9 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.compileAndRun(l, [c, u]).reshape(a);
       }
       fill(t, e, n) {
-        if ("string" === (n = n || En.Bd.inferDtype(e))) {
-          const r = En.Bd.getArrayFromDType(n, En.Bd.sizeFromShape(t));
-          return r.fill(e), Object(En.mb)().makeTensor(r, t, n, this);
+        if ("string" === (n = n || En.Cd.inferDtype(e))) {
+          const r = En.Cd.getArrayFromDType(n, En.Cd.sizeFromShape(t));
+          return r.fill(e), Object(En.nb)().makeTensor(r, t, n, this);
         }
         {
           const r = new th(t, e),
@@ -84063,7 +84070,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       makeOutput(t, e) {
         const { dataId: n } = this.makeTensorInfo(t, e);
-        return Object(En.mb)().makeTensorFromDataId(n, t, e, this);
+        return Object(En.nb)().makeTensorFromDataId(n, t, e, this);
       }
       unpackTensor(t) {
         const e = new od(t.shape);
@@ -84110,9 +84117,9 @@ PERFORMANCE OF THIS SOFTWARE.
         }
         if (
           (null != t.outTexUsage && (o.usage = t.outTexUsage),
-          0 === En.Bd.sizeFromShape(i.shape))
+          0 === En.Cd.sizeFromShape(i.shape))
         )
-          return (o.values = En.Bd.getTypedArrayFromDType(i.dtype, 0)), i;
+          return (o.values = En.Cd.getTypedArrayFromDType(i.dtype, 0)), i;
         const s = [],
           u = e.map((e) => {
             if ("complex64" === e.dtype)
@@ -84123,8 +84130,8 @@ PERFORMANCE OF THIS SOFTWARE.
             if (null == n.texture) {
               if (
                 !t.packedInputs &&
-                En.Bd.sizeFromShape(e.shape) <=
-                  Object(En.nb)().getNumber("WEBGL_SIZE_UPLOAD_UNIFORM")
+                En.Cd.sizeFromShape(e.shape) <=
+                  Object(En.ob)().getNumber("WEBGL_SIZE_UPLOAD_UNIFORM")
               )
                 return {
                   shape: e.shape,
@@ -84198,7 +84205,7 @@ PERFORMANCE OF THIS SOFTWARE.
                 c = t.createProgram(u);
               let l = null;
               const h = t.getUniformLocation(c, "NAN", !1);
-              1 === Object(En.nb)().getNumber("WEBGL_VERSION") &&
+              1 === Object(En.ob)().getNumber("WEBGL_VERSION") &&
                 (l = t.getUniformLocation(c, "INFINITY", !1));
               const d = {};
               for (let n = 0; n < e.variableNames.length; n++) {
@@ -84231,7 +84238,7 @@ PERFORMANCE OF THIS SOFTWARE.
               ? t.setOutputPackedMatrixTexture(i, o[0], o[1])
               : t.setOutputMatrixTexture(i, o[0], o[1]),
               t.setProgram(e.webGLProgram),
-              1 === Object(En.nb)().getNumber("WEBGL_VERSION") &&
+              1 === Object(En.ob)().getNumber("WEBGL_VERSION") &&
                 null !== e.infLoc &&
                 t.gl.uniform1f(e.infLoc, 1 / 0),
               null !== e.nanLoc && t.gl.uniform1f(e.nanLoc, NaN),
@@ -84241,7 +84248,7 @@ PERFORMANCE OF THIS SOFTWARE.
                   o = e.uniformLocations["offset" + a];
                 if (null != i)
                   if (n.isUniform)
-                    if (En.Bd.sizeFromShape(n.shape) < 2)
+                    if (En.Cd.sizeFromShape(n.shape) < 2)
                       t.gl.uniform1f(i, n.uniformValues[0]);
                     else {
                       let e = n.uniformValues;
@@ -84264,7 +84271,7 @@ PERFORMANCE OF THIS SOFTWARE.
               name: t.constructor.name,
               query: this.getQueryTime(p),
             })),
-          !Object(En.nb)().getBool("WEBGL_LAZILY_UNPACK") &&
+          !Object(En.ob)().getBool("WEBGL_LAZILY_UNPACK") &&
             o.isPacked &&
             !1 === a)
         ) {
@@ -84276,7 +84283,7 @@ PERFORMANCE OF THIS SOFTWARE.
       compileAndRun(t, e, n, r, a = !1) {
         n = n || e[0].dtype;
         const i = this.runWebGLProgram(t, e, n, r, a);
-        return Object(En.mb)().makeTensorFromDataId(i.dataId, i.shape, i.dtype);
+        return Object(En.nb)().makeTensorFromDataId(i.dataId, i.shape, i.dtype);
       }
       getAndSaveBinary(t, e) {
         return (
@@ -84289,7 +84296,7 @@ PERFORMANCE OF THIS SOFTWARE.
       }
       dispose() {
         if (!this.disposed) {
-          if (!Object(En.nb)().getBool("IS_TEST")) {
+          if (!Object(En.ob)().getBool("IS_TEST")) {
             Object.keys(this.binaryCache).forEach((t) => {
               this.gpgpu.deleteProgram(this.binaryCache[t].webGLProgram),
                 delete this.binaryCache[t];
@@ -84309,12 +84316,12 @@ PERFORMANCE OF THIS SOFTWARE.
       floatPrecision() {
         return (
           null == this.floatPrecisionValue &&
-            (this.floatPrecisionValue = Object(En.td)(() => {
-              if (!Object(En.nb)().get("WEBGL_RENDER_FLOAT32_ENABLED")) {
-                const t = Object(En.nb)().getBool("DEBUG");
-                Object(En.nb)().set("DEBUG", !1);
-                const e = this.abs(Object(En.Hc)(1e-8)).dataSync()[0];
-                if ((Object(En.nb)().set("DEBUG", t), e > 0)) return 32;
+            (this.floatPrecisionValue = Object(En.ud)(() => {
+              if (!Object(En.ob)().get("WEBGL_RENDER_FLOAT32_ENABLED")) {
+                const t = Object(En.ob)().getBool("DEBUG");
+                Object(En.ob)().set("DEBUG", !1);
+                const e = this.abs(Object(En.Ic)(1e-8)).dataSync()[0];
+                if ((Object(En.ob)().set("DEBUG", t), e > 0)) return 32;
               }
               return 16;
             })),
@@ -84337,25 +84344,25 @@ PERFORMANCE OF THIS SOFTWARE.
         if (null != i) return;
         const u = null != this.activeTimers;
         let c;
-        u && (c = En.Bd.now());
+        u && (c = En.Cd.now());
         let l = e.texShape;
         if (
           (null == l &&
             ((l = (function (t, e = !1) {
-              let n = Object(En.nb)().getNumber("WEBGL_MAX_TEXTURE_SIZE");
+              let n = Object(En.ob)().getNumber("WEBGL_MAX_TEXTURE_SIZE");
               if (
                 (e &&
                   ((n *= 2),
                   1 ===
                     (t = t.map((e, n) =>
-                      n >= t.length - 2 ? En.Bd.nearestLargerEven(t[n]) : t[n]
+                      n >= t.length - 2 ? En.Cd.nearestLargerEven(t[n]) : t[n]
                     )).length && (t = [2, t[0]])),
                 2 !== t.length)
               ) {
-                const e = En.Bd.squeezeShape(t);
+                const e = En.Cd.squeezeShape(t);
                 t = e.newShape;
               }
-              let r = En.Bd.sizeFromShape(t);
+              let r = En.Cd.sizeFromShape(t);
               if (t.length <= 1 && r <= n) return [1, r];
               if (2 === t.length && t[0] <= n && t[1] <= n) return t;
               if (3 === t.length && t[0] * t[1] <= n && t[2] <= n)
@@ -84373,10 +84380,10 @@ PERFORMANCE OF THIS SOFTWARE.
                 return (
                   t.length && ([n, a] = Rc(t)),
                   (r = e * (n / 2) * (a / 2)),
-                  En.Bd.sizeToSquarishShape(r).map((t) => 2 * t)
+                  En.Cd.sizeToSquarishShape(r).map((t) => 2 * t)
                 );
               }
-              return En.Bd.sizeToSquarishShape(r);
+              return En.Cd.sizeToSquarishShape(r);
             })(n, s)),
             (e.texShape = l)),
           null != a)
@@ -84407,7 +84414,7 @@ PERFORMANCE OF THIS SOFTWARE.
             this.disposeData(p.dataId),
             this.texData.delete(m.dataId),
             (e.values = null),
-            u && (this.uploadWaitMs += En.Bd.now() - c);
+            u && (this.uploadWaitMs += En.Cd.now() - c);
         } else {
           const t = this.acquireTexture(l, o, r, s);
           e.texture = t;
@@ -84449,7 +84456,7 @@ PERFORMANCE OF THIS SOFTWARE.
         return this.textureManager.acquireTexture(t, e, r);
       }
       computeBytes(t, e) {
-        return t[0] * t[1] * En.Bd.bytesPerElement(e);
+        return t[0] * t[1] * En.Cd.bytesPerElement(e);
       }
     }
     /**
@@ -84496,7 +84503,7 @@ PERFORMANCE OF THIS SOFTWARE.
             e.shape
           );
           return (
-            Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS") &&
+            Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS") &&
               (r = new Ol(
                 "\n  // vec4 one = vec4(equal(a, b));\n  // return one + (vec4(1.0) - one) * a / b;\n  vec4 result = a / b;\n  if(a.x == b.x) {\n    result.x = 1.;\n  }\n  if(a.y == b.y) {\n    result.y = 1.;\n  }\n  if(a.z == b.z) {\n    result.z = 1.;\n  }\n  if(a.w == b.w) {\n    result.w = 1.;\n  }\n\n  return result;\n",
                 t.shape,
@@ -84599,7 +84606,7 @@ PERFORMANCE OF THIS SOFTWARE.
         const d = n.makeTensorInfo(l, "int32");
         (n.texData.get(d.dataId).usage = cc.PIXELS),
           n.gpgpu.uploadPixelDataToTexture(n.getTexture(d.dataId), a);
-        const p = Object(En.nb)().getBool("WEBGL_PACK") ? new bd(h) : new gd(h),
+        const p = Object(En.ob)().getBool("WEBGL_PACK") ? new bd(h) : new gd(h),
           f = n.runWebGLProgram(p, [d], "int32");
         return n.disposeData(d.dataId), f;
       },
@@ -84684,8 +84691,8 @@ PERFORMANCE OF THIS SOFTWARE.
      * limitations under the License.
      * =============================================================================
      */ function Od(t, e, n, r) {
-      const a = En.Bd.sizeFromShape(e),
-        i = Cd(t, [En.Bd.sizeFromShape(t.shape) / a, a], r),
+      const a = En.Cd.sizeFromShape(e),
+        i = Cd(t, [En.Cd.sizeFromShape(t.shape) / a, a], r),
         o = (function t(e, n, r, a) {
           const [i, o] = e.shape,
             s = En.F.computeOptimalWindowSize(o),
@@ -84794,7 +84801,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * limitations under the License.
      * =============================================================================
      */ function Id(t, e, n) {
-      const r = Object(En.nb)().getBool("WEBGL_PACK_ARRAY_OPERATIONS")
+      const r = Object(En.ob)().getBool("WEBGL_PACK_ARRAY_OPERATIONS")
         ? new Sd(t.shape, e)
         : new Ed(t.shape, e);
       return n.runWebGLProgram(r, [t], t.dtype);
@@ -84822,7 +84829,7 @@ PERFORMANCE OF THIS SOFTWARE.
           { reductionIndices: a } = e,
           i = n,
           o = r.shape.length;
-        let s = En.Bd.parseAxisParam(a, r.shape);
+        let s = En.Cd.parseAxisParam(a, r.shape);
         const u = En.F.getAxesPermutation(s, o),
           c = null != u,
           l = i.shouldExecuteOnCPU([r]);
@@ -84843,7 +84850,7 @@ PERFORMANCE OF THIS SOFTWARE.
         let f;
         if (l) {
           const t = i.texData.get(h.dataId).values,
-            e = xd(t, En.Bd.sizeFromShape(p), d, r.dtype);
+            e = xd(t, En.Cd.sizeFromShape(p), d, r.dtype);
           f = i.makeTensorInfo(d, r.dtype);
           i.texData.get(f.dataId).values = e;
         } else f = Od(h, p, d, i);
@@ -84889,13 +84896,13 @@ PERFORMANCE OF THIS SOFTWARE.
           const { x: r } = t,
             { filterSize: a, strides: i, pad: o, includeBatchInIndex: s } = e,
             u = n;
-          En.Bd.assert(
+          En.Cd.assert(
             4 === r.shape.length,
             () =>
               `Error in maxPool: input must be rank 4 but got rank ${r.shape.length}.`
           );
           const c = [1, 1];
-          En.Bd.assert(
+          En.Cd.assert(
             En.F.eitherStridesOrDilationsAreOne(i, c),
             () =>
               `Error in maxPool: Either strides or dilations must be 1. Got strides ${i} and dilations '${c}'`
@@ -84927,10 +84934,10 @@ PERFORMANCE OF THIS SOFTWARE.
             h = i,
             d = o,
             p = s;
-          return En.Jb.nonMaxSuppressionV3(c, l, h, d, p);
+          return En.Kb.nonMaxSuppressionV3(c, l, h, d, p);
         },
       },
-      Ad = En.Jb.nonMaxSuppressionV5,
+      Ad = En.Kb.nonMaxSuppressionV5,
       Td = [
         kd,
         vd,
@@ -84977,7 +84984,7 @@ PERFORMANCE OF THIS SOFTWARE.
           kernelFunc: ({ inputs: t, backend: e }) => {
             const { a: n, b: r } = t,
               a = e,
-              i = Object(En.nb)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
+              i = Object(En.ob)().getBool("WEBGL_PACK_BINARY_OPERATIONS")
                 ? new Ol("return (a - b) * (a - b);", n.shape, r.shape)
                 : new wl("return (a - b) * (a - b);", n.shape, r.shape);
             return a.compileAndRun(i, [n, r]);
@@ -85020,7 +85027,7 @@ PERFORMANCE OF THIS SOFTWARE.
      * See the License for the specific language governing permissions and
      * limitations under the License.
      * =============================================================================
-     */ for (const t of Td) Object(En.Ac)(t);
+     */ for (const t of Td) Object(En.Bc)(t);
     /**
      * @license
      * Copyright 2019 Google LLC. All Rights Reserved.
@@ -85053,9 +85060,10 @@ PERFORMANCE OF THIS SOFTWARE.
      * limitations under the License.
      * =============================================================================
      */
-    En.gb.isBrowser() && Object(En.zc)("webgl", () => new fd(), 2);
-    En.Ed;
+    En.gb.isBrowser() && Object(En.Ac)("webgl", () => new fd(), 2);
+    En.Fd;
     /** @license See the LICENSE file. */ let _d = {
+      undetected: !1,
       turned: !1,
       turnedFactor: 0,
       bowed: !1,
@@ -85063,57 +85071,53 @@ PERFORMANCE OF THIS SOFTWARE.
       eyesClosed: !1,
       eyesClosedFactor: 0,
     };
-    const Dd = { turned: 30, bowed: 40, eyesClosed: 50 };
-    function Fd(t) {
+    const Dd = { undetected: 50, turned: 30, bowed: 40, eyesClosed: 50 };
+    function Fd(t, e) {
       return (
-        t &&
-          (_d = (function (t) {
-            const e = Md(t[33], t[3]),
-              n = Md(t[33], t[13]),
-              [r, a] = (function (t, e, n) {
-                if (t < e) {
-                  let n = t;
-                  (t = e), (e = n);
-                }
-                return [e * n < t, (t / e).toFixed(2) + ">3.5"];
-              })(e, n, 3.5),
-              i = (t[1]._y + t[15]._y) / 2,
-              o = (t[39]._y + t[42]._y) / 2,
-              s = (Md(t[0], t[1]) + Md(t[15], t[16])) / 2,
-              u = i < o + 0.1 * s,
-              c = (-(i - o) / s).toFixed(2) + ">-0.1",
-              l = Md(t[38], t[40]),
-              h = Md(t[43], t[47]),
-              d = (l + h) / 2,
-              p = Md(t[36], t[39]),
-              f = Md(t[42], t[45]),
-              m = (p + f) / 2,
-              g = 6.2 * d < m,
-              b = (m / d).toFixed(2) + ">6.2";
-            return {
-              turned: r,
-              turnedFactor: a,
-              bowed: u,
-              bowedFactor: c,
-              eyesClosed: g,
-              eyesClosedFactor: b,
-            };
-          })(t)),
-        Object.keys(Dd).reduce((t, e) => t + _d[e] * Dd[e], 0)
+        (_d = {}),
+        (_d.undetected = !t),
+        e && (_d = { ..._d, ...jd(e) }),
+        Object.keys(Dd).reduce((t, e) => (_d[e] ? t + _d[e] * Dd[e] : t), 0)
       );
     }
     function Md(t, e) {
       return Math.sqrt(Math.pow(t._x - e._x, 2) + Math.pow(t._y - e._y, 2));
     }
-    let jd;
-    const Bd = document.getElementById("video"),
-      $d = document.getElementById("landmark"),
-      Ld = $d.getContext("2d"),
-      { ImageData: Pd } = o;
+    function jd(t) {
+      const e = Md(t[33], t[3]),
+        n = Md(t[33], t[13]),
+        [r, a] = (function (t, e, n) {
+          if (t < e) {
+            let n = t;
+            (t = e), (e = n);
+          }
+          return [e * n < t, (t / e).toFixed(2) + ">3.5"];
+        })(e, n, 3.5),
+        i = (t[1]._y + t[15]._y) / 2,
+        o = (t[39]._y + t[42]._y) / 2,
+        s = (Md(t[0], t[1]) + Md(t[15], t[16])) / 2,
+        u = i < o + 0.1 * s,
+        c = (-(i - o) / s).toFixed(2) + ">-0.1",
+        l = (Md(t[38], t[40]) + Md(t[43], t[47])) / 2,
+        h = (Md(t[36], t[39]) + Md(t[42], t[45])) / 2;
+      return {
+        turned: r,
+        turnedFactor: a,
+        bowed: u,
+        bowedFactor: c,
+        eyesClosed: 6 * l < h,
+        eyesClosedFactor: (h / l).toFixed(2) + ">6",
+      };
+    }
+    En.mb();
+    let $d = null,
+      Bd = 0;
+    const Pd = document.getElementById("video"),
+      { ImageData: Ld } = o;
     K.monkeyPatch({
       Canvas: HTMLCanvasElement,
       Image: HTMLImageElement,
-      ImageData: Pd,
+      ImageData: Ld,
       Video: HTMLVideoElement,
       createCanvasElement: () => document.createElement("canvas"),
       createImageElement: () => document.createElement("img"),
@@ -85137,39 +85141,55 @@ PERFORMANCE OF THIS SOFTWARE.
             })(
               /** @license See the LICENSE file. */ "../dist/models-tfjs/keypoints_tfjs/model.json"
             ).then((e) => {
-              (jd = e), t();
+              ($d = e), t();
             });
           } catch (t) {
             e(t);
           }
         }),
-      ]).then(async function () {
-        await navigator.getUserMedia(
+      ]).then(function () {
+        navigator.getUserMedia(
           { video: { width: 640, height: 480 } },
-          (t) => (Bd.srcObject = t),
+          (t) => (Pd.srcObject = t),
           (t) => console.error(t)
-        );
+        ),
+          (Pd.style.brightness = 1.05),
+          (Pd.style.contrast = 1.25);
       });
     let zd = 0;
-    Bd.addEventListener("play", async () => {
-      const t = it(Bd);
+    function Wd(t, e) {
+      (t.fillStyle = "#FF00FF"),
+        (t.font = "30px Arial"),
+        t.fillText("score: " + e, 30, 50),
+        (t.font = "18px Arial");
+      for (
+        var n = JSON.stringify(_d, null, 2).split("\n"), r = 0;
+        r < n.length;
+        r++
+      )
+        t.fillText(n[r], 10, 310 + 20 * r);
+      (t.font = "12px Arial"), t.fillText(JSON.stringify(En.ec()), 20, 470);
+    }
+    Pd.addEventListener("play", async () => {
+      const t = it(Pd),
+        e = t.getContext("2d");
       document.body.append(t);
-      const e = { width: Bd.width, height: Bd.height };
+      const n = { width: Pd.width, height: Pd.height };
       !(function (t, e, n) {
         void 0 === n && (n = !1);
         var r = n ? rt(e) : e,
           a = r.width,
           i = r.height;
         (t.width = a), (t.height = i);
-      })(t, e);
-      const n = await a.webcam(Bd);
+      })(t, n);
+      const i = await a.webcam(Pd);
       setInterval(async () => {
-        console.time("time fd" + zd);
-        const [a, i] = await Promise.all([
+        zd % 10 == 0 && console.time("time fd" + zd);
+        const [a, o] = await Promise.all([
           new Promise((t, e) => {
             try {
-              ((n = Bd),
-              (r = new $e({ inputSize: 320, scoreThreshold: 0.4 })),
+              ((n = Pd),
+              (r = new Be({ inputSize: 160, scoreThreshold: 0.3 })),
               void 0 === r && (r = new Oe()),
               new On(n, r)).then((e) => {
                 t(e);
@@ -85181,8 +85201,8 @@ PERFORMANCE OF THIS SOFTWARE.
           }),
           new Promise((t, e) => {
             try {
-              n.capture().then((e) => {
-                const n = En.Cc(e, [1, 480, 640, 3]);
+              i.capture().then((e) => {
+                const n = En.Dc(e, [1, 480, 640, 3]);
                 En.hb(e), t(n);
               });
             } catch (t) {
@@ -85191,27 +85211,28 @@ PERFORMANCE OF THIS SOFTWARE.
           }),
         ]);
         if (
-          (console.timeEnd("time fd" + zd), console.time("time lm" + zd), a)
+          (zd % 10 == 0 && console.timeEnd("time fd" + zd),
+          zd % 10 == 0 && console.time("time lm" + zd),
+          a)
         ) {
-          let n;
-          const u = a._box,
-            c = u.width / 240,
-            h = u.height / 240,
-            d = En.Fb.cropAndResize(
-              i,
+          const i = a._box,
+            s = i.width / 240,
+            u = i.height / 240,
+            c = En.Gb.cropAndResize(
+              o,
               [
                 [
-                  u.y / 480,
-                  u.x / 640,
-                  (u.y + u.height) / 480,
-                  (u.x + u.width) / 640,
+                  i.y / 480,
+                  i.x / 640,
+                  (i.y + i.height) / 480,
+                  (i.x + i.width) / 640,
                 ],
               ],
               [0],
               [160, 160]
-            );
-          n = jd.execute(d, "Identity_2");
-          const p = await (async function (t, e, n, r, a) {
+            ),
+            h = $d.execute(c, "Identity_2");
+          (async function (t, e, n, r, a) {
             const i = await t.array();
             let o = new Array();
             for (let t = 0; t < 136; ++t) {
@@ -85223,58 +85244,49 @@ PERFORMANCE OF THIS SOFTWARE.
               o[Math.floor(t / 2)][s.key] = s.offset + 240 * i[0][t] * s.mult;
             }
             return o;
-          })(n, u.x, u.y, c, h);
-          !(function (t, e, n) {
-            e.clearRect(0, 0, n.width, n.height), (e.fillStyle = "#FF00FF");
-            for (let n = 0; n < 68; ++n) e.fillRect(t[n]._x, t[n]._y, 3, 3);
-          })(p, Ld, $d);
-          const f = Fd(p);
-          let m = t.getContext("2d");
-          const g = (function t(e, n) {
-            var r = new l(n.width, n.height),
-              a = r.width,
-              i = r.height;
-            if (a <= 0 || i <= 0)
-              throw new Error(
-                "resizeResults - invalid dimensions: " +
-                  JSON.stringify({ width: a, height: i })
-              );
-            if (Array.isArray(e))
-              return e.map(function (e) {
-                return t(e, { width: a, height: i });
-              });
-            if (zt(e)) {
-              var o = e.detection.forSize(a, i),
-                s = e.unshiftedLandmarks.forSize(o.box.width, o.box.height);
-              return Wt($(e, o), s);
-            }
-            return B(e)
-              ? $(e, e.detection.forSize(a, i))
-              : e instanceof T || e instanceof S
-              ? e.forSize(a, i)
-              : e;
-          })(a, e);
-          m.clearRect(0, 0, t.width, t.height),
-            r.drawDetections(t, g),
-            (m.font = "30px Arial"),
-            (m.fillStyle = "#FF00FF"),
-            m.fillText("score: " + f, 30, 50),
-            (m.font = "18px Arial"),
-            (m.fillStyle = "#FF00FF");
-          for (
-            var o = JSON.stringify(_d, null, 2).split("\n"), s = 0;
-            s < o.length;
-            s++
-          )
-            m.fillText(o[s], 10, 320 + 20 * s);
-          (m.font = "12px Arial"),
-            (m.fillStyle = "#FF00FF"),
-            m.fillText(JSON.stringify(En.dc()), 20, 470),
-            En.hb(n),
-            En.hb(d);
-        }
-        console.timeEnd("time lm" + zd), (zd += 1), En.hb(i);
-      }, 100);
+          })(h, i.x, i.y, s, u).then((i) => {
+            (Bd = Fd(a, i)),
+              (function (t, e, n, a, i, o) {
+                const s = (function t(e, n) {
+                  var r = new l(n.width, n.height),
+                    a = r.width,
+                    i = r.height;
+                  if (a <= 0 || i <= 0)
+                    throw new Error(
+                      "resizeResults - invalid dimensions: " +
+                        JSON.stringify({ width: a, height: i })
+                    );
+                  if (Array.isArray(e))
+                    return e.map(function (e) {
+                      return t(e, { width: a, height: i });
+                    });
+                  if (zt(e)) {
+                    var o = e.detection.forSize(a, i),
+                      s = e.unshiftedLandmarks.forSize(
+                        o.box.width,
+                        o.box.height
+                      );
+                    return Wt(B(e, o), s);
+                  }
+                  return $(e)
+                    ? B(e, e.detection.forSize(a, i))
+                    : e instanceof T || e instanceof S
+                    ? e.forSize(a, i)
+                    : e;
+                })(n, i);
+                e.clearRect(0, 0, t.width, t.height),
+                  r.drawDetections(t, s),
+                  (e.fillStyle = "#FF00FF");
+                for (let t = 0; t < 68; ++t) e.fillRect(a[t]._x, a[t]._y, 3, 3);
+                Wd(e, o);
+              })(t, e, a, i, n, Bd);
+          }),
+            En.hb(h),
+            En.hb(c);
+        } else
+          (Bd = Fd(a, void 0)), e.clearRect(0, 0, t.width, t.height), Wd(e, Bd);
+        zd % 10 == 0 && console.timeEnd("time lm" + zd), (zd += 1), En.hb(o);
+      }, 50);
     });
   },
 ]);
