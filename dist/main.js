@@ -85091,14 +85091,17 @@ PERFORMANCE OF THIS SOFTWARE.
         u = i < o + 0.1 * s,
         c = (-(i - o) / s).toFixed(2) + ">-0.1",
         l = (Fd(t[38], t[40]) + Fd(t[43], t[47])) / 2,
-        h = (Fd(t[36], t[39]) + Fd(t[42], t[45])) / 2;
+        h = (Fd(t[36], t[39]) + Fd(t[42], t[45])) / 2,
+        d =
+          Math.pow(Math.max(e, n) - Math.min(e, n), 2) /
+          Math.pow(Math.max(e, n), 2);
       return {
         turned: r,
         turnedFactor: a,
         bowed: u,
         bowedFactor: c,
-        eyesClosed: 6 * l < h,
-        eyesClosedFactor: (h / l).toFixed(2) + ">6",
+        eyesClosed: h / l + 2.5 * d >= 5.8,
+        eyesClosedFactor: (h / l + 2.5 * d).toFixed(2) + ">5.8",
       };
     }
     const jd = new (class {

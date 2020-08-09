@@ -9,9 +9,10 @@ export let status = {
 };
 
 const weights = { undetected: 50, turned: 30, bowed: 40, eyesClosed: 50 };
-const eyeFactor = 6.0; // higher -> need to close eye harder to trigger true
+const eyeFactor = 5.8; // higher -> need to close eye harder to trigger true
 const turnFactor = 3.5; // higher -> need more turn to trigger true
 const bowFactor = -0.1; // higher -> need more bow to trigger true
+const eyeTurnCorrection = 2.5;
 
 export function analyze(detection, landmarks) {
   status = {};
@@ -66,10 +67,15 @@ function analyzeLandmark(landmarks) {
   const leyeWidth = calcDist(landmarks[36], landmarks[39]);
   const reyeWidth = calcDist(landmarks[42], landmarks[45]);
   const avgeyeWidth = (leyeWidth + reyeWidth) / 2;
-  const eyesClosed = avgeyeHeight * eyeFactor < avgeyeWidth;
-  const eyesClosedFactor = `${(avgeyeWidth / avgeyeHeight).toFixed(
-    2
-  )}>${eyeFactor}`;
+  const cheekRatio =
+    Math.pow(Math.max(lcheek, rcheek) - Math.min(lcheek, rcheek), 2) /
+    Math.pow(Math.max(lcheek, rcheek), 2);
+  const eyesClosed =
+    avgeyeWidth / avgeyeHeight + eyeTurnCorrection * cheekRatio >= eyeFactor;
+  const eyesClosedFactor = `${(
+    avgeyeWidth / avgeyeHeight +
+    eyeTurnCorrection * cheekRatio
+  ).toFixed(2)}>${eyeFactor}`;
 
   return {
     turned,
