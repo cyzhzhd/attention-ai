@@ -85073,19 +85073,11 @@ PERFORMANCE OF THIS SOFTWARE.
     };
     const Dd = { undetected: 50, turned: 30, bowed: 40, eyesClosed: 50 };
     function Fd(t, e) {
-      return (
-        (_d = {}),
-        (_d.undetected = !t),
-        e && (_d = { ..._d, ...jd(e) }),
-        Object.keys(Dd).reduce((t, e) => (_d[e] ? t + _d[e] * Dd[e] : t), 0)
-      );
-    }
-    function Md(t, e) {
       return Math.sqrt(Math.pow(t._x - e._x, 2) + Math.pow(t._y - e._y, 2));
     }
-    function jd(t) {
-      const e = Md(t[33], t[3]),
-        n = Md(t[33], t[13]),
+    function Md(t) {
+      const e = Fd(t[33], t[3]),
+        n = Fd(t[33], t[13]),
         [r, a] = (function (t, e, n) {
           if (t < e) {
             let n = t;
@@ -85095,11 +85087,11 @@ PERFORMANCE OF THIS SOFTWARE.
         })(e, n, 3.5),
         i = (t[1]._y + t[15]._y) / 2,
         o = (t[39]._y + t[42]._y) / 2,
-        s = (Md(t[0], t[1]) + Md(t[15], t[16])) / 2,
+        s = (Fd(t[0], t[1]) + Fd(t[15], t[16])) / 2,
         u = i < o + 0.1 * s,
         c = (-(i - o) / s).toFixed(2) + ">-0.1",
-        l = (Md(t[38], t[40]) + Md(t[43], t[47])) / 2,
-        h = (Md(t[36], t[39]) + Md(t[42], t[45])) / 2;
+        l = (Fd(t[38], t[40]) + Fd(t[43], t[47])) / 2,
+        h = (Fd(t[36], t[39]) + Fd(t[42], t[45])) / 2;
       return {
         turned: r,
         turnedFactor: a,
@@ -85109,184 +85101,209 @@ PERFORMANCE OF THIS SOFTWARE.
         eyesClosedFactor: (h / l).toFixed(2) + ">6",
       };
     }
+    const jd = new (class {
+      constructor() {
+        (this.model = null),
+          (this.loadModel = this.loadFromUri.bind(this)),
+          (this.execute = this.execute.bind(this));
+      }
+      async loadFromUri(t) {
+        return (
+          await (async function (t, e = {}) {
+            if (null == t)
+              throw new Error(
+                "modelUrl in loadGraphModel() cannot be null. Please provide a url or an IOHandler that loads the model"
+              );
+            null == e && (e = {}),
+              e.fromTFHub &&
+                null == t.load &&
+                (t.endsWith("/") || (t += "/"),
+                (t += "model.json?tfjs-format=file"));
+            const n = new iu(t, e);
+            return await n.load(), n;
+          })(/** @license See the LICENSE file. */ t).then((t) => {
+            this.model = t;
+          }),
+          new Promise((t) => {
+            t();
+          })
+        );
+      }
+      execute(t, e) {
+        if (void 0 !== t) return this.model.execute(t, e);
+      }
+    })();
+    const $d = new (class {
+      constructor() {
+        (this.cam = null),
+          (this.setCam = this.setCam.bind(this)),
+          (this.capture = this.capture.bind(this));
+      }
+      async setCam(t) {
+        this.cam = await a.webcam(t);
+      }
+      capture(t) {
+        return new Promise((e, n) => {
+          try {
+            this.cam.capture().then((n) => {
+              const r = En.Dc(n, t);
+              En.hb(n), e(r);
+            });
+          } catch (t) {
+            n(t);
+          }
+        });
+      }
+    })();
     En.mb();
-    let $d = null,
-      Bd = 0;
-    const Pd = document.getElementById("video"),
-      { ImageData: Ld } = o;
+    let Bd = 0,
+      Pd = 0;
+    const Ld = document.getElementById("video"),
+      { ImageData: zd } = o,
+      Wd = new Be({ inputSize: 160, scoreThreshold: 0.3 });
     K.monkeyPatch({
       Canvas: HTMLCanvasElement,
       Image: HTMLImageElement,
-      ImageData: Ld,
+      ImageData: zd,
       Video: HTMLVideoElement,
       createCanvasElement: () => document.createElement("canvas"),
       createImageElement: () => document.createElement("img"),
     }),
       Promise.all([
         rn.tinyFaceDetector.loadFromUri("./models-faceapi"),
-        new Promise((t, e) => {
-          try {
-            (async function (t, e = {}) {
-              if (null == t)
-                throw new Error(
-                  "modelUrl in loadGraphModel() cannot be null. Please provide a url or an IOHandler that loads the model"
-                );
-              null == e && (e = {}),
-                e.fromTFHub &&
-                  null == t.load &&
-                  (t.endsWith("/") || (t += "/"),
-                  (t += "model.json?tfjs-format=file"));
-              const n = new iu(t, e);
-              return await n.load(), n;
-            })(
-              /** @license See the LICENSE file. */ "../dist/models-tfjs/keypoints_tfjs/model.json"
-            ).then((e) => {
-              ($d = e), t();
-            });
-          } catch (t) {
-            e(t);
-          }
-        }),
+        jd.loadFromUri("../dist/models-tfjs/keypoints_tfjs/model.json"),
       ]).then(function () {
         navigator.getUserMedia(
           { video: { width: 640, height: 480 } },
-          (t) => (Pd.srcObject = t),
+          (t) => (Ld.srcObject = t),
           (t) => console.error(t)
-        ),
-          (Pd.style.brightness = 1.05),
-          (Pd.style.contrast = 1.25);
-      });
-    let zd = 0;
-    function Wd(t, e) {
-      (t.fillStyle = "#FF00FF"),
-        (t.font = "30px Arial"),
-        t.fillText("score: " + e, 30, 50),
-        (t.font = "18px Arial");
-      for (
-        var n = JSON.stringify(_d, null, 2).split("\n"), r = 0;
-        r < n.length;
-        r++
-      )
-        t.fillText(n[r], 10, 310 + 20 * r);
-      (t.font = "12px Arial"), t.fillText(JSON.stringify(En.ec()), 20, 470);
-    }
-    Pd.addEventListener("play", async () => {
-      const t = it(Pd),
-        e = t.getContext("2d");
-      document.body.append(t);
-      const n = { width: Pd.width, height: Pd.height };
-      !(function (t, e, n) {
-        void 0 === n && (n = !1);
-        var r = n ? rt(e) : e,
-          a = r.width,
-          i = r.height;
-        (t.width = a), (t.height = i);
-      })(t, n);
-      const i = await a.webcam(Pd);
-      setInterval(async () => {
-        zd % 10 == 0 && console.time("time fd" + zd);
-        const [a, o] = await Promise.all([
-          new Promise((t, e) => {
-            try {
-              ((n = Pd),
-              (r = new Be({ inputSize: 160, scoreThreshold: 0.3 })),
-              void 0 === r && (r = new Oe()),
-              new On(n, r)).then((e) => {
-                t(e);
-              });
-            } catch (t) {
-              e(t);
-            }
-            var n, r;
-          }),
-          new Promise((t, e) => {
-            try {
-              i.capture().then((e) => {
-                const n = En.Dc(e, [1, 480, 640, 3]);
-                En.hb(e), t(n);
-              });
-            } catch (t) {
-              e(t);
-            }
-          }),
-        ]);
-        if (
-          (zd % 10 == 0 && console.timeEnd("time fd" + zd),
-          zd % 10 == 0 && console.time("time lm" + zd),
-          a)
-        ) {
-          const i = a._box,
-            s = i.width / 240,
-            u = i.height / 240,
-            c = En.Gb.cropAndResize(
-              o,
-              [
-                [
-                  i.y / 480,
-                  i.x / 640,
-                  (i.y + i.height) / 480,
-                  (i.x + i.width) / 640,
-                ],
-              ],
-              [0],
-              [160, 160]
-            ),
-            h = $d.execute(c, "Identity_2");
-          (async function (t, e, n, r, a) {
-            const i = await t.array();
-            let o = new Array();
-            for (let t = 0; t < 136; ++t) {
-              t % 2 || (o[Math.floor(t / 2)] = new Object());
-              let s =
-                t % 2
-                  ? { key: "_y", offset: n, mult: a }
-                  : { key: "_x", offset: e, mult: r };
-              o[Math.floor(t / 2)][s.key] = s.offset + 240 * i[0][t] * s.mult;
-            }
-            return o;
-          })(h, i.x, i.y, s, u).then((i) => {
-            (Bd = Fd(a, i)),
-              (function (t, e, n, a, i, o) {
-                const s = (function t(e, n) {
-                  var r = new l(n.width, n.height),
-                    a = r.width,
-                    i = r.height;
-                  if (a <= 0 || i <= 0)
-                    throw new Error(
-                      "resizeResults - invalid dimensions: " +
-                        JSON.stringify({ width: a, height: i })
+        );
+      }),
+      Ld.addEventListener("play", async () => {
+        const t = it(Ld),
+          e = t.getContext("2d");
+        document.body.append(t);
+        const n = { width: 640, height: 480 };
+        !(function (t, e, n) {
+          void 0 === n && (n = !1);
+          var r = n ? rt(e) : e,
+            a = r.width,
+            i = r.height;
+          (t.width = a), (t.height = i);
+        })(t, n),
+          $d.setCam(Ld),
+          setInterval(async () => {
+            Pd % 10 == 0 && console.time("time fd" + Pd);
+            const [a, i] = await Promise.all([
+              ((o = Ld),
+              (s = Wd),
+              void 0 === s && (s = new Oe()),
+              new On(o, s)),
+              $d.capture([1, 480, 640, 3]),
+            ]);
+            var o, s;
+            Pd % 10 == 0 && console.timeEnd("time fd" + Pd),
+              Pd % 10 == 0 && console.time("time lm" + Pd);
+            const u = a ? a._box : void 0,
+              c = (function (t, e) {
+                return void 0 === t
+                  ? void 0
+                  : En.Gb.cropAndResize(
+                      e,
+                      [
+                        [
+                          t.y / 480,
+                          t.x / 640,
+                          (t.y + t.height) / 480,
+                          (t.x + t.width) / 640,
+                        ],
+                      ],
+                      [0],
+                      [160, 160]
                     );
-                  if (Array.isArray(e))
-                    return e.map(function (e) {
-                      return t(e, { width: a, height: i });
-                    });
-                  if (zt(e)) {
-                    var o = e.detection.forSize(a, i),
-                      s = e.unshiftedLandmarks.forSize(
-                        o.box.width,
-                        o.box.height
-                      );
-                    return Wt(B(e, o), s);
+              })(u, i),
+              h = jd.execute(c, "Identity_2");
+            (async function (t, e) {
+              if (void 0 === t) return;
+              const n = await t.array();
+              let r = new Array();
+              for (let t = 0; t < 136; ++t) {
+                t % 2 || (r[Math.floor(t / 2)] = new Object());
+                let a =
+                  t % 2
+                    ? { key: "_y", offset: e.y, mult: e.height }
+                    : { key: "_x", offset: e.x, mult: e.width };
+                r[Math.floor(t / 2)][a.key] = a.offset + n[0][t] * a.mult;
+              }
+              return r;
+            })(h, u).then((i) => {
+              (Bd = (function (t, e) {
+                return (
+                  (_d = {}),
+                  (_d.undetected = !t),
+                  e && (_d = { ..._d, ...Md(e) }),
+                  Object.keys(Dd).reduce(
+                    (t, e) => (_d[e] ? t + _d[e] * Dd[e] : t),
+                    0
+                  )
+                );
+              })(a, i)),
+                (function (t, e, n, a, i, o) {
+                  if ((e.clearRect(0, 0, t.width, t.height), void 0 !== n)) {
+                    const e = (function t(e, n) {
+                      var r = new l(n.width, n.height),
+                        a = r.width,
+                        i = r.height;
+                      if (a <= 0 || i <= 0)
+                        throw new Error(
+                          "resizeResults - invalid dimensions: " +
+                            JSON.stringify({ width: a, height: i })
+                        );
+                      if (Array.isArray(e))
+                        return e.map(function (e) {
+                          return t(e, { width: a, height: i });
+                        });
+                      if (zt(e)) {
+                        var o = e.detection.forSize(a, i),
+                          s = e.unshiftedLandmarks.forSize(
+                            o.box.width,
+                            o.box.height
+                          );
+                        return Wt(B(e, o), s);
+                      }
+                      return $(e)
+                        ? B(e, e.detection.forSize(a, i))
+                        : e instanceof T || e instanceof S
+                        ? e.forSize(a, i)
+                        : e;
+                    })(n, i);
+                    r.drawDetections(t, e);
                   }
-                  return $(e)
-                    ? B(e, e.detection.forSize(a, i))
-                    : e instanceof T || e instanceof S
-                    ? e.forSize(a, i)
-                    : e;
-                })(n, i);
-                e.clearRect(0, 0, t.width, t.height),
-                  r.drawDetections(t, s),
-                  (e.fillStyle = "#FF00FF");
-                for (let t = 0; t < 68; ++t) e.fillRect(a[t]._x, a[t]._y, 3, 3);
-                Wd(e, o);
-              })(t, e, a, i, n, Bd);
-          }),
-            En.hb(h),
-            En.hb(c);
-        } else
-          (Bd = Fd(a, void 0)), e.clearRect(0, 0, t.width, t.height), Wd(e, Bd);
-        zd % 10 == 0 && console.timeEnd("time lm" + zd), (zd += 1), En.hb(o);
-      }, 50);
-    });
+                  if (((e.fillStyle = "#FF00FF"), void 0 !== a))
+                    for (let t = 0; t < 68; ++t)
+                      e.fillRect(a[t]._x, a[t]._y, 3, 3);
+                  !(function (t, e) {
+                    (t.fillStyle = "#FF00FF"),
+                      (t.font = "30px Arial"),
+                      t.fillText("score: " + e, 30, 50),
+                      (t.font = "18px Arial");
+                    for (
+                      var n = JSON.stringify(_d, null, 2).split("\n"), r = 0;
+                      r < n.length;
+                      r++
+                    )
+                      t.fillText(n[r], 10, 310 + 20 * r);
+                    (t.font = "12px Arial"),
+                      t.fillText(JSON.stringify(En.ec()), 20, 470);
+                  })(e, o);
+                })(t, e, a, i, n, Bd);
+            }),
+              En.hb(h),
+              En.hb(c),
+              Pd % 10 == 0 && console.timeEnd("time lm" + Pd),
+              (Pd += 1),
+              En.hb(i);
+          }, 50);
+      });
   },
 ]);

@@ -4,21 +4,28 @@ TODO:
       adaptive method to analyze face
       (use facebox, overall median, face calibration phase etc...),
       analyze sight,
-      code cleaning, splitting, development/production setting
+      development/production setting
 */
 import * as canvas from "canvas";
 import * as faceapi from "face-api.js";
 import * as tfjs from "@tensorflow/tfjs";
 import { status, analyze } from "./analysis.js";
+import { landmarkModel, convertLandmark } from "./landmark.js";
+import { tfCam } from "./tfCamera";
 tfjs.enableProdMode();
 
-let landmarkModel = null;
 let score = 0;
+let timeLabel = 0;
 const video = document.getElementById("video");
 const vidW = 640;
 const vidH = 480;
 
 const { ImageData } = canvas;
+const TinyFaceDetectorOption = new faceapi.TinyFaceDetectorOptions({
+  inputSize: 160,
+  scoreThreshold: 0.3,
+});
+
 faceapi.env.monkeyPatch({
   Canvas: HTMLCanvasElement,
   Image: HTMLImageElement,
@@ -28,6 +35,11 @@ faceapi.env.monkeyPatch({
   createImageElement: () => document.createElement("img"),
 });
 
+Promise.all([
+  faceapi.nets.tinyFaceDetector.loadFromUri("./models-faceapi"),
+  landmarkModel.loadFromUri("../dist/models-tfjs/keypoints_tfjs/model.json"),
+]).then(startVideo);
+
 function startVideo() {
   navigator.getUserMedia(
     { video: { width: vidW, height: vidH } },
@@ -36,99 +48,36 @@ function startVideo() {
   );
 }
 
-Promise.all([
-  faceapi.nets.tinyFaceDetector.loadFromUri("./models-faceapi"),
-  new Promise((resolve, reject) => {
-    try {
-      tfjs
-        .loadGraphModel("../dist/models-tfjs/keypoints_tfjs/model.json")
-        .then((output) => {
-          landmarkModel = output;
-          resolve();
-        });
-    } catch (e) {
-      reject(e);
-    }
-  }),
-]).then(startVideo);
-
-let timeLabel = 0;
 video.addEventListener("play", async () => {
   const canvas = faceapi.createCanvasFromMedia(video);
   const ctx = canvas.getContext("2d");
   document.body.append(canvas);
-  const displaySize = { width: video.width, height: video.height };
+  const displaySize = { width: vidW, height: vidH };
   faceapi.matchDimensions(canvas, displaySize);
-  const cam = await tfjs.data.webcam(video);
 
+  tfCam.setCam(video);
   setInterval(async () => {
     if (timeLabel % 10 == 0) console.time("time fd" + timeLabel);
+
     const [detection, img] = await Promise.all([
-      new Promise((resolve, reject) => {
-        try {
-          faceapi
-            .detectSingleFace(
-              video,
-              new faceapi.TinyFaceDetectorOptions({
-                inputSize: 160,
-                scoreThreshold: 0.3,
-              })
-            )
-            .then((_detection) => {
-              resolve(_detection);
-            });
-        } catch (e) {
-          reject(e);
-        }
-      }),
-      new Promise((resolve, reject) => {
-        try {
-          cam.capture().then((_img) => {
-            const __img = tfjs.reshape(_img, [1, vidH, vidW, 3]);
-            tfjs.dispose(_img);
-            resolve(__img);
-          });
-        } catch (e) {
-          reject(e);
-        }
-      }),
+      faceapi.detectSingleFace(video, TinyFaceDetectorOption),
+      tfCam.capture([1, vidH, vidW, 3]),
     ]);
+
     if (timeLabel % 10 == 0) console.timeEnd("time fd" + timeLabel);
-
     if (timeLabel % 10 == 0) console.time("time lm" + timeLabel);
-    if (detection) {
-      const box = detection._box;
-      const multX = box.width / 240;
-      const multY = box.height / 240;
 
-      const resizedImg = tfjs.image.cropAndResize(
-        img,
-        [
-          [
-            box.y / vidH,
-            box.x / vidW,
-            (box.y + box.height) / vidH,
-            (box.x + box.width) / vidW,
-          ],
-        ],
-        [0],
-        [160, 160]
-      );
-      const landmarks = landmarkModel.execute(resizedImg, "Identity_2");
-      landmarkConverter(landmarks, box.x, box.y, multX, multY).then(
-        (landmarkObj) => {
-          score = analyze(detection, landmarkObj);
-          drawAll(canvas, ctx, detection, landmarkObj, displaySize, score);
-        }
-      );
+    const box = detection ? detection._box : undefined;
+    const croppedFace = cropFace(box, img);
+    const landmarks = landmarkModel.execute(croppedFace, "Identity_2");
+    convertLandmark(landmarks, box).then((landmarkObj) => {
+      score = analyze(detection, landmarkObj);
+      drawAll(canvas, ctx, detection, landmarkObj, displaySize, score);
+    });
 
-      tfjs.dispose(landmarks);
-      tfjs.dispose(resizedImg);
-    } else {
-      score = analyze(detection, undefined);
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      drawInfo(ctx, score);
-    }
+    tfjs.dispose(landmarks);
+    tfjs.dispose(croppedFace);
+
     if (timeLabel % 10 == 0) console.timeEnd("time lm" + timeLabel);
     timeLabel += 1;
 
@@ -136,13 +85,34 @@ video.addEventListener("play", async () => {
   }, 50);
 });
 
+function cropFace(box, img) {
+  if (box === undefined) return undefined;
+  return tfjs.image.cropAndResize(
+    img,
+    [
+      [
+        box.y / vidH,
+        box.x / vidW,
+        (box.y + box.height) / vidH,
+        (box.x + box.width) / vidW,
+      ],
+    ],
+    [0],
+    [160, 160]
+  );
+}
+
 function drawAll(canvas, ctx, detection, landmarkObj, displaySize, score) {
-  const resizedDetections = faceapi.resizeResults(detection, displaySize);
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  faceapi.draw.drawDetections(canvas, resizedDetections);
+  if (detection !== undefined) {
+    const resizedDetections = faceapi.resizeResults(detection, displaySize);
+    faceapi.draw.drawDetections(canvas, resizedDetections);
+  }
   ctx.fillStyle = "#FF00FF";
-  for (let i = 0; i < 68; ++i) {
-    ctx.fillRect(landmarkObj[i]["_x"], landmarkObj[i]["_y"], 3, 3);
+  if (landmarkObj !== undefined) {
+    for (let i = 0; i < 68; ++i) {
+      ctx.fillRect(landmarkObj[i]["_x"], landmarkObj[i]["_y"], 3, 3);
+    }
   }
   drawInfo(ctx, score);
 }
@@ -157,20 +127,4 @@ function drawInfo(ctx, score) {
     ctx.fillText(lines[j], 10, 310 + j * 20);
   ctx.font = "12px Arial";
   ctx.fillText(JSON.stringify(tfjs.memory()), 20, 470);
-}
-
-async function landmarkConverter(landmarks, offsetX, offsetY, multX, multY) {
-  const _landmarks = await landmarks.array();
-  let landmarkObj = new Array();
-  for (let i = 0; i < 136; ++i) {
-    if (!(i % 2)) landmarkObj[Math.floor(i / 2)] = new Object();
-
-    let o =
-      i % 2
-        ? { key: "_y", offset: offsetY, mult: multY }
-        : { key: "_x", offset: offsetX, mult: multX };
-    landmarkObj[Math.floor(i / 2)][o.key] =
-      o.offset + 240 * _landmarks[0][i] * o.mult;
-  }
-  return landmarkObj;
 }
