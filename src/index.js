@@ -11,7 +11,6 @@ import * as faceapi from "face-api.js";
 import * as tfjs from "@tensorflow/tfjs";
 import { status, analyze } from "./analysis.js";
 import { landmarkModel, convertLandmark } from "./landmark.js";
-import { tfCam } from "./tfCamera";
 tfjs.enableProdMode();
 
 let score = 0;
@@ -55,19 +54,19 @@ video.addEventListener("play", async () => {
   const displaySize = { width: vidW, height: vidH };
   faceapi.matchDimensions(canvas, displaySize);
 
-  tfCam.setCam(video);
   setInterval(async () => {
     if (timeLabel % 10 == 0) console.time("time fd" + timeLabel);
 
-    const [detection, img] = await Promise.all([
-      faceapi.detectSingleFace(video, TinyFaceDetectorOption),
-      tfCam.capture([1, vidH, vidW, 3]),
-    ]);
+    const detection = await faceapi.detectSingleFace(
+      video,
+      TinyFaceDetectorOption
+    );
 
     if (timeLabel % 10 == 0) console.timeEnd("time fd" + timeLabel);
     if (timeLabel % 10 == 0) console.time("time lm" + timeLabel);
 
     const box = detection ? detection._box : undefined;
+    const img = tfjs.browser.fromPixels(video).reshape([-1, vidH, vidW, 3]);
     const croppedFace = cropFace(box, img);
     const landmarks = landmarkModel.execute(croppedFace, "Identity_2");
     convertLandmark(landmarks, box).then((landmarkObj) => {
