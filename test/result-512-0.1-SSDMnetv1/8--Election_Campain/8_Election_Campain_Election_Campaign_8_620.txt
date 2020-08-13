@@ -1,0 +1,4 @@
+8_Election_Campain_Election_Campaign_8_620
+2
+215 151 208 249 0.982
+646 160 196 251 0.929

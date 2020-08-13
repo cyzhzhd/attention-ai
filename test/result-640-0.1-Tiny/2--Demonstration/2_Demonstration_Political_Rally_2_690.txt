@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_690
+2
+805 403 85 78 0.260
+608 338 79 85 0.143

@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_286
+2
+425 713 90 120 0.987
+808 658 88 119 0.346

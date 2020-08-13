@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_809
+3
+7 226 344 327 0.822
+640 328 306 331 0.671
+350 210 309 333 0.134

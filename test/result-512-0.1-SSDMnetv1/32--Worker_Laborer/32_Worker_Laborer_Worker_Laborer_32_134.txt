@@ -1,0 +1,3 @@
+32_Worker_Laborer_Worker_Laborer_32_134
+1
+465 340 101 136 0.990

@@ -1,0 +1,4 @@
+2_Demonstration_Demonstration_Or_Protest_2_771
+2
+431 138 168 168 0.808
+298 -12 94 84 0.135

@@ -1,0 +1,6 @@
+12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_64
+4
+851 329 95 89 0.601
+633 287 78 79 0.421
+106 335 70 68 0.247
+560 287 92 92 0.105

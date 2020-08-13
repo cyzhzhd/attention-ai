@@ -1,0 +1,4 @@
+59_peopledrivingcar_peopledrivingcar_59_357
+2
+614 255 174 166 0.228
+620 168 254 226 0.126

@@ -1,0 +1,3 @@
+35_Basketball_playingbasketball_35_251
+1
+405 133 148 141 0.816

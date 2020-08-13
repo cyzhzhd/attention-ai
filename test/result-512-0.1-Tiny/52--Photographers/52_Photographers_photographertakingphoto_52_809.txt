@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_809
+3
+-6 220 380 372 0.982
+378 202 317 313 0.346
+646 354 316 297 0.285

@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_666
+3
+148 279 429 429 0.916
+531 429 359 245 0.389
+265 330 476 367 0.148

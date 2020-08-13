@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_755
+3
+393 143 470 465 0.201
+501 201 140 145 0.170
+487 232 95 105 0.168

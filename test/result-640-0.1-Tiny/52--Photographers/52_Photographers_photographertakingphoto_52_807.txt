@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_807
+2
+282 122 284 248 0.111
+383 131 500 531 0.102

@@ -1,0 +1,4 @@
+2_Demonstration_Demonstration_Or_Protest_2_282
+2
+15 276 151 189 0.958
+316 217 152 207 0.801

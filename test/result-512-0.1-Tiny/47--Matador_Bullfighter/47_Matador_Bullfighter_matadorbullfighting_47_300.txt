@@ -1,0 +1,4 @@
+47_Matador_Bullfighter_matadorbullfighting_47_300
+2
+877 4 102 94 0.231
+442 59 108 105 0.153

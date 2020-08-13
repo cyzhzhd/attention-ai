@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_5
+2
+12 454 66 62 0.205
+96 459 66 61 0.180

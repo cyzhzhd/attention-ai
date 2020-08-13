@@ -1,0 +1,3 @@
+32_Worker_Laborer_Worker_Laborer_32_262
+1
+394 394 148 217 0.951

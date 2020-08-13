@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_752
+2
+7 401 83 66 0.770
+761 254 253 254 0.699

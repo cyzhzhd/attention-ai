@@ -11,7 +11,9 @@
   "author": "Jae Gwon Choi <cyrojyro@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@tensorflow/tfjs": "^2.0.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "@tensorflow/tfjs": "1.7.0",
+    "@tensorflow/tfjs-node": "1.7.0",
     "canvas": "^2.6.1",
     "electron": "^9.1.1",
     "eslint": "^7.5.0",

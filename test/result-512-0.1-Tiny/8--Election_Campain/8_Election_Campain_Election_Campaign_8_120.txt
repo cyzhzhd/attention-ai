@@ -1,0 +1,4 @@
+8_Election_Campain_Election_Campaign_8_120
+2
+310 210 521 580 0.510
+80 -119 949 847 0.350

@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_985
+2
+524 473 104 86 0.794
+744 566 212 200 0.772

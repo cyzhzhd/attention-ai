@@ -1,0 +1,5 @@
+12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_244
+3
+377 78 165 163 0.950
+146 102 174 161 0.623
+622 113 208 221 0.407

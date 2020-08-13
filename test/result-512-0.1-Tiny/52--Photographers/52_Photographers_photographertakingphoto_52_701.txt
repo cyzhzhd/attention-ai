@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_701
+3
+218 165 143 138 0.834
+262 291 136 124 0.749
+237 221 130 127 0.389

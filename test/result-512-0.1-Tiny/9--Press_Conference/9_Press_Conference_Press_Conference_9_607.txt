@@ -1,0 +1,4 @@
+9_Press_Conference_Press_Conference_9_607
+2
+288 197 330 343 0.919
+121 597 625 616 0.143

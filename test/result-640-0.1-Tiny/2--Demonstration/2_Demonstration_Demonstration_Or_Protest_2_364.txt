@@ -1,0 +1,5 @@
+2_Demonstration_Demonstration_Or_Protest_2_364
+3
+449 320 170 163 0.940
+641 367 169 174 0.775
+193 361 147 169 0.735

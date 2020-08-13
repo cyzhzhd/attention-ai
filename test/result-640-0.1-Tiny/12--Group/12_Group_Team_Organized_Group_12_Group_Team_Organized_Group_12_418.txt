@@ -1,0 +1,5 @@
+12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_418
+3
+497 297 68 68 0.159
+705 199 77 79 0.111
+708 232 74 76 0.109

@@ -1,0 +1,4 @@
+8_Election_Campain_Election_Campaign_8_32
+2
+863 254 75 69 0.186
+193 251 73 67 0.158

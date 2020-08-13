@@ -1,0 +1,5 @@
+47_Matador_Bullfighter_matadorbullfighting_47_300
+3
+902 8 78 74 0.473
+348 324 82 87 0.245
+790 331 82 75 0.170

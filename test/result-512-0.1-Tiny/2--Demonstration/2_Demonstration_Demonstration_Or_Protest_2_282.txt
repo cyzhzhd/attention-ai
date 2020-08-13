@@ -1,0 +1,5 @@
+2_Demonstration_Demonstration_Or_Protest_2_282
+3
+-8 306 206 196 0.862
+572 353 98 95 0.405
+268 264 197 186 0.382

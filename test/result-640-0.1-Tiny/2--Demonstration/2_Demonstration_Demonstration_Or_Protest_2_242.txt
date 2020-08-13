@@ -1,0 +1,5 @@
+2_Demonstration_Demonstration_Or_Protest_2_242
+3
+143 549 75 70 0.562
+766 415 259 246 0.167
+143 210 68 65 0.116

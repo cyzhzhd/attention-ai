@@ -1,0 +1,3 @@
+32_Worker_Laborer_Worker_Laborer_32_110
+1
+673 56 114 100 0.608

@@ -1,0 +1,4 @@
+24_Soldier_Firing_Soldier_Firing_24_264
+2
+280 80 77 68 0.170
+752 148 59 66 0.155

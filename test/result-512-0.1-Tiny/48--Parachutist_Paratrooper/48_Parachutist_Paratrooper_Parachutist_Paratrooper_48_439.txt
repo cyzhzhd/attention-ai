@@ -1,0 +1,5 @@
+48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_439
+3
+595 161 196 197 0.891
+116 58 90 75 0.634
+53 229 93 92 0.205

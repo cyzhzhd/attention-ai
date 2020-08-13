@@ -1,0 +1,3 @@
+2_Demonstration_Political_Rally_2_566
+1
+345 294 395 406 0.943

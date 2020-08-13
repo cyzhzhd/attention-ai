@@ -1,0 +1,4 @@
+31_Waiter_Waitress_Waiter_Waitress_31_230
+2
+370 213 145 125 0.833
+-77 409 492 436 0.143

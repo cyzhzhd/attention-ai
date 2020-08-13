@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_776
+3
+422 344 453 436 0.422
+363 267 160 158 0.105
+369 6 185 155 0.101

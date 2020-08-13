@@ -1,0 +1,5 @@
+12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_67
+3
+300 22 150 182 0.889
+631 184 120 196 0.195
+742 208 75 118 0.143

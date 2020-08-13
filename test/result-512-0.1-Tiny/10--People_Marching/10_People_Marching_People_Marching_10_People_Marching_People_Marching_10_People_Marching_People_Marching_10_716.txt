@@ -1,0 +1,11 @@
+10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_716
+9
+293 322 104 89 0.744
+489 297 109 97 0.684
+751 279 106 95 0.552
+752 434 85 84 0.265
+687 441 90 86 0.189
+885 417 100 108 0.181
+419 495 98 94 0.140
+59 425 86 74 0.117
+690 485 96 97 0.116

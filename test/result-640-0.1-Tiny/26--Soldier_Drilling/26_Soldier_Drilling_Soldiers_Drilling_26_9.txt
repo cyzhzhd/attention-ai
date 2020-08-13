@@ -1,0 +1,4 @@
+26_Soldier_Drilling_Soldiers_Drilling_26_9
+2
+576 50 334 352 0.349
+167 59 335 326 0.100

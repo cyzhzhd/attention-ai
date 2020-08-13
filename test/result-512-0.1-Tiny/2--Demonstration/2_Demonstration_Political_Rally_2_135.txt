@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_135
+2
+266 117 150 132 0.168
+61 551 144 134 0.107

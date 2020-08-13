@@ -1,0 +1,4 @@
+26_Soldier_Drilling_Soldiers_Drilling_26_245
+2
+267 343 139 110 0.777
+451 1063 100 105 0.220

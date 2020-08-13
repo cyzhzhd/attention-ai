@@ -1,0 +1,4 @@
+2_Demonstration_Demonstration_Or_Protest_2_771
+2
+445 141 145 152 0.481
+641 149 76 74 0.125

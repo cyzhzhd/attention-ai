@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_584
+2
+646 506 159 148 0.724
+585 391 153 157 0.114

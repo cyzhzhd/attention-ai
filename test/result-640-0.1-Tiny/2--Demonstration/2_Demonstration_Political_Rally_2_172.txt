@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_172
+2
+341 398 427 405 0.900
+805 227 113 121 0.302

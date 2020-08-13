@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_358
+2
+586 248 48 74 0.160
+437 212 80 87 0.124

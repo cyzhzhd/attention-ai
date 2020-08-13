@@ -1,0 +1,6 @@
+12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_50
+4
+84 246 236 202 0.893
+503 201 306 278 0.874
+-16 229 126 106 0.708
+338 211 139 146 0.306

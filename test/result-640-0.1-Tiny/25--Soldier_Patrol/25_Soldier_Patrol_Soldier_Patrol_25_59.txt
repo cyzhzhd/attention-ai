@@ -1,0 +1,4 @@
+25_Soldier_Patrol_Soldier_Patrol_25_59
+2
+452 105 87 74 0.761
+445 147 81 77 0.152

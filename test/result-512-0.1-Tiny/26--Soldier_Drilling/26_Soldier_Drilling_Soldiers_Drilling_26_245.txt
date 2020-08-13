@@ -1,0 +1,4 @@
+26_Soldier_Drilling_Soldiers_Drilling_26_245
+2
+264 347 130 109 0.633
+681 0 117 108 0.107

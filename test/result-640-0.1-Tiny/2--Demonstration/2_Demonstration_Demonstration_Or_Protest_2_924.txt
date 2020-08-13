@@ -1,0 +1,4 @@
+2_Demonstration_Demonstration_Or_Protest_2_924
+2
+631 130 239 215 0.389
+-115 158 488 449 0.105

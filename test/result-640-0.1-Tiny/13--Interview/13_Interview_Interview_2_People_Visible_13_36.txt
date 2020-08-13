@@ -1,0 +1,4 @@
+13_Interview_Interview_2_People_Visible_13_36
+2
+371 97 161 160 0.850
+224 204 495 456 0.163

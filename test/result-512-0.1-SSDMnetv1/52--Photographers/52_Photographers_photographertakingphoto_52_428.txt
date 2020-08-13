@@ -1,0 +1,5 @@
+52_Photographers_photographertakingphoto_52_428
+3
+473 299 230 131 0.150
+508 309 119 102 0.147
+589 292 95 96 0.139

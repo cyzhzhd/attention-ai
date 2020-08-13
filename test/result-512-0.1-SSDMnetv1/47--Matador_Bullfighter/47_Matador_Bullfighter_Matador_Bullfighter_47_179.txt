@@ -1,0 +1,5 @@
+47_Matador_Bullfighter_Matador_Bullfighter_47_179
+3
+387 74 75 85 0.561
+370 91 84 88 0.213
+341 70 77 86 0.154

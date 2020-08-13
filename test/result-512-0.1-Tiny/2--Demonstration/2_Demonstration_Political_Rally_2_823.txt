@@ -1,0 +1,4 @@
+2_Demonstration_Political_Rally_2_823
+2
+254 143 84 74 0.701
+551 370 75 76 0.159

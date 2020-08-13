@@ -1,0 +1,5 @@
+47_Matador_Bullfighter_matadorbullfighting_47_240
+3
+743 108 88 87 0.699
+39 53 114 96 0.378
+195 340 107 97 0.232

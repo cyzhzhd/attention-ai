@@ -1,0 +1,3 @@
+58_Hockey_icehockey_puck_58_785
+1
+106 306 87 82 0.309

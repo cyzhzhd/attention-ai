@@ -1,0 +1,4 @@
+24_Soldier_Firing_Soldier_Firing_24_67
+2
+482 201 74 98 0.875
+439 267 55 78 0.283

@@ -1,0 +1,5 @@
+12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_551
+3
+486 85 112 106 0.899
+255 3 117 108 0.854
+693 318 305 337 0.121

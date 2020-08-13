@@ -1,0 +1,4 @@
+25_Soldier_Patrol_Soldier_Patrol_25_563
+2
+205 77 47 72 0.201
+213 50 51 76 0.179

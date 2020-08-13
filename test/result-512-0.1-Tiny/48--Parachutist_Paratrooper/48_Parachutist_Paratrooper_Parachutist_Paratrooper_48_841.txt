@@ -1,0 +1,4 @@
+48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_841
+2
+555 388 451 372 0.978
+140 728 305 270 0.934

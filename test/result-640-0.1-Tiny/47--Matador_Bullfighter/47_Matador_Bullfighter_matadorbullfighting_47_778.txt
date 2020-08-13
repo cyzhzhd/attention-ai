@@ -1,0 +1,4 @@
+47_Matador_Bullfighter_matadorbullfighting_47_778
+2
+400 285 179 165 0.644
+401 531 97 98 0.117

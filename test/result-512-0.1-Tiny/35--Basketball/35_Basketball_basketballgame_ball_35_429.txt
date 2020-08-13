@@ -1,0 +1,4 @@
+35_Basketball_basketballgame_ball_35_429
+2
+392 295 324 294 0.882
+853 1017 183 191 0.250

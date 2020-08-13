@@ -1,0 +1,4 @@
+8_Election_Campain_Election_Campaign_8_133
+2
+702 174 77 83 0.155
+409 189 97 97 0.122

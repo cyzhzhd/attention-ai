@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_701
+2
+219 150 147 147 0.784
+267 292 130 116 0.452
