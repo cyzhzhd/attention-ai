@@ -1,4 +1,0 @@
-13_Interview_Interview_2_People_Visible_13_245
-2
-215 145 202 184 0.871
-432 108 199 210 0.753

@@ -1,3 +1,0 @@
-0_Parade_marchingband_1_104
-1
-285 237 76 70 0.408

@@ -1,4 +1,0 @@
-11_Meeting_Meeting_11_Meeting_Meeting_11_287
-2
-550 225 77 72 0.382
-512 230 75 70 0.123

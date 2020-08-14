@@ -1,6 +1,0 @@
-12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_244
-4
-609 144 175 167 0.856
-390 68 156 161 0.842
-153 120 152 143 0.802
-245 334 90 91 0.358

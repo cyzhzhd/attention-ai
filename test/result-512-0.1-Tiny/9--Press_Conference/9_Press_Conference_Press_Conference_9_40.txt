@@ -1,4 +1,0 @@
-9_Press_Conference_Press_Conference_9_40
-2
-247 184 88 82 0.264
-720 235 120 112 0.146

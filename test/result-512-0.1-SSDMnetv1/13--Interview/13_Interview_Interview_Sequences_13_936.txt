@@ -1,4 +1,0 @@
-13_Interview_Interview_Sequences_13_936
-2
-345 87 18 29 0.113
-475 146 25 38 0.110

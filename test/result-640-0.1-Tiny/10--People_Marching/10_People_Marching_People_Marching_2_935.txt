@@ -1,4 +1,0 @@
-10_People_Marching_People_Marching_2_935
-2
-340 351 265 311 0.792
--71 312 494 515 0.210

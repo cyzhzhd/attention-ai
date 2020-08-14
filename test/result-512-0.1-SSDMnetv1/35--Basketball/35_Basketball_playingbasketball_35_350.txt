@@ -1,4 +1,0 @@
-35_Basketball_playingbasketball_35_350
-2
-497 154 142 186 0.450
-180 2 69 58 0.443

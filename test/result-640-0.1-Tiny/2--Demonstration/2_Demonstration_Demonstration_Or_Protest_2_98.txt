@@ -1,4 +1,0 @@
-2_Demonstration_Demonstration_Or_Protest_2_98
-2
-341 498 71 69 0.224
-495 511 72 69 0.104

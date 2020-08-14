@@ -1,4 +1,0 @@
-13_Interview_Interview_On_Location_13_773
-2
-711 405 83 107 0.811
-721 388 65 82 0.104

@@ -1,4 +1,5 @@
 /* use tfjs-node */
+const os = require("os");
 var fs = require("fs");
 const path = require("path");
 const faceapi = require("face-api.js");
@@ -6,9 +7,12 @@ const tfjs = require("@tensorflow/tfjs-node");
 const { performance } = require("perf_hooks");
 tfjs.enableProdMode();
 
+const macDir = "../../Widerface/WIDER_val/images";
+const lnxDir = "../../hddrive/WIDER_val/images";
+
 const backend = "tensorflow";
-const testName = "320-0.1-Tiny";
-const testPath = path.join(__dirname, "../../Widerface/WIDER_val/images");
+const testName = "512-0.1-SSDMnetv1";
+const testPath = path.join(__dirname, os.type() == "Linux" ? lnxDir : macDir);
 const outputPath = path.join(__dirname, "./result-" + testName);
 const modelPath = path.join(__dirname, "../dist/models-faceapi");
 let detected = 0;
@@ -16,7 +20,7 @@ let imgNum = 0;
 let timeTaken = 0;
 
 const TinyFaceDetectorOption = new faceapi.TinyFaceDetectorOptions({
-  inputSize: 320,
+  inputSize: 640,
   scoreThreshold: 0.1,
 });
 
@@ -58,12 +62,12 @@ async function processFolder(testFolder, resultFolder) {
     const t0 = performance.now();
     const detectResult = await faceapi.detectAllFaces(
       img,
-      TinyFaceDetectorOption
+      SsdMobilenetv1Option // set your faceapi model here
     );
     const t1 = performance.now();
 
     // ignore first one, abnormal time
-    timeTaken = timeTaken + (imgNum === 0 ? 0 : t1 - t0);
+    timeTaken = timeTaken + (imgNum < 0 ? 0 : t1 - t0);
     imgNum = imgNum + 1;
     detected += detectResult.length;
 

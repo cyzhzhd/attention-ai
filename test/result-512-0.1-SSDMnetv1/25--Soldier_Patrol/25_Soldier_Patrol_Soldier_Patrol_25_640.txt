@@ -1,3 +1,0 @@
-25_Soldier_Patrol_Soldier_Patrol_25_640
-1
-431 12 243 325 0.990

@@ -1,5 +1,0 @@
-59_peopledrivingcar_peopledrivingcar_59_1014
-3
-61 36 33 52 0.687
-820 317 42 52 0.180
-70 34 35 53 0.150

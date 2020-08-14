@@ -1,4 +1,0 @@
-47_Matador_Bullfighter_matadorbullfighting_47_177
-2
-350 -72 630 600 0.430
-179 319 328 303 0.118

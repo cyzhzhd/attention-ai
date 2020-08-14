@@ -1,5 +1,0 @@
-2_Demonstration_Demonstration_Or_Protest_2_364
-3
-448 320 161 168 0.753
-634 371 172 177 0.695
-202 388 133 141 0.560

@@ -1,3 +1,0 @@
-49_Greeting_peoplegreeting_49_203
-1
-31 293 500 482 0.102

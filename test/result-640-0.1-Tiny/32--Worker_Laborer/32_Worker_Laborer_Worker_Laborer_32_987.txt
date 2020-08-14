@@ -1,4 +1,0 @@
-32_Worker_Laborer_Worker_Laborer_32_987
-2
-602 78 71 69 0.732
-742 63 85 73 0.715
