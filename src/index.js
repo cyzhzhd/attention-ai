@@ -15,9 +15,16 @@ tfjs.enableProdMode();
 
 let score = 0;
 let frames = 0;
+let task = null;
+const upload = document.getElementById("myFileUpload");
+const uploadedImg = document.getElementById("myImg");
+const stop = document.getElementById("stopButton");
 const video = document.getElementById("video");
 const vidW = 640;
 const vidH = 480;
+
+stop.onclick = onStop;
+upload.onchange = uploadImage;
 
 const { ImageData } = canvas;
 const TinyFaceDetectorOption = new faceapi.TinyFaceDetectorOptions({
@@ -55,7 +62,7 @@ video.addEventListener("play", async () => {
   const displaySize = { width: vidW, height: vidH };
   faceapi.matchDimensions(canvas, displaySize);
 
-  setInterval(async () => {
+  task = setInterval(async () => {
     const timefd1 = performance.now();
     const detection = await faceapi.detectSingleFace(
       video,
@@ -132,4 +139,24 @@ function drawInfo(ctx, score) {
     ctx.fillText(lines[j], 10, 310 + j * 20);
   ctx.font = "12px Arial";
   ctx.fillText(JSON.stringify(tfjs.memory()), 20, 470);
+}
+
+function onStop() {
+  video.pause();
+  clearInterval(task);
+}
+
+async function uploadImage() {
+  const imgFile = document.getElementById("myFileUpload").files[0];
+  const img = await faceapi.bufferToImage(imgFile);
+  document.getElementById("myImg").src = img.src;
+
+  const t1 = performance.now();
+  const detection = await faceapi.detectAllFaces(
+    uploadedImg,
+    TinyFaceDetectorOption
+  );
+  const t2 = performance.now();
+
+  console.log(detection, `${t2 - t1} ms`);
 }
