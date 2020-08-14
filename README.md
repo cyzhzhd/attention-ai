@@ -49,8 +49,10 @@ nodejs v14.5.0
 
 ### 참고문헌
 #### Upstream
-* [시각 및 눈(랜드마크) 인지모델 이슈](https://13.125.91.162/swmaestro/183-2/issues/5)  
 * [얼굴 탐지모델 이슈](https://13.125.91.162/swmaestro/183-2/issues/1)
+* [객체 인식 관련 위키](https://13.125.91.162/swmaestro/183-2/-/wikis/Object-Detection%EA%B3%BC-YOLO)
+* [시각 및 눈(랜드마크) 인지모델 이슈](https://13.125.91.162/swmaestro/183-2/issues/5)  
+
 
 
 #### Downstream
@@ -59,5 +61,5 @@ nodejs v14.5.0
 
 
 ### Datasets
-* TBD
+* [WIDERface](https://13.125.91.162/swmaestro/183-2/-/wikis/face-api.js-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%82%B9)
 
