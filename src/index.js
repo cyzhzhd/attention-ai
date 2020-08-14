@@ -28,8 +28,14 @@ upload.onchange = uploadTest;
 
 const { ImageData } = canvas;
 const TinyFaceDetectorOption = new faceapi.TinyFaceDetectorOptions({
-  inputSize: 640,
+  inputSize: 160,
   scoreThreshold: 0.3,
+});
+
+// SsdMobilenetv1 works with tfjs 1.7.x
+const SsdMobilenetv1Option = new faceapi.SsdMobilenetv1Options({
+  minConfidence: 0.1,
+  maxResults: 987654321,
 });
 
 faceapi.env.monkeyPatch({
@@ -43,6 +49,7 @@ faceapi.env.monkeyPatch({
 
 Promise.all([
   faceapi.nets.tinyFaceDetector.loadFromUri("./models-faceapi"),
+  faceapi.nets.ssdMobilenetv1.loadFromUri("./models-faceapi"),
   landmarkModel.loadFromUri("../dist/models-tfjs/keypoints_tfjs/model.json"),
 ]).then(startVideo);
 
@@ -149,10 +156,10 @@ function onStop() {
 async function uploadTest() {
   const imgFile = document.getElementById("myFileUpload").files[0];
   const img = await faceapi.bufferToImage(imgFile);
-  document.getElementById("myImg").src = img.src;
+  uploadedImg.src = img.src;
 
   const t1 = performance.now();
-  await faceapi.detectAllFaces(uploadedImg, TinyFaceDetectorOption);
+  await faceapi.detectAllFaces(uploadedImg, SsdMobilenetv1Option);
   const t2 = performance.now();
 
   console.log(`took ${(t2 - t1).toFixed(3)} ms to process`);
