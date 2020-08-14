@@ -14,7 +14,7 @@ import { landmarkModel, convertLandmark } from "./landmark.js";
 tfjs.enableProdMode();
 
 let score = 0;
-let timeLabel = 0;
+let frames = 0;
 const video = document.getElementById("video");
 const vidW = 640;
 const vidH = 480;
@@ -48,6 +48,7 @@ function startVideo() {
 }
 
 video.addEventListener("play", async () => {
+  console.log(`Backend: ${tfjs.getBackend()}`);
   const canvas = faceapi.createCanvasFromMedia(video);
   const ctx = canvas.getContext("2d");
   document.body.append(canvas);
@@ -55,31 +56,36 @@ video.addEventListener("play", async () => {
   faceapi.matchDimensions(canvas, displaySize);
 
   setInterval(async () => {
-    if (timeLabel % 10 == 0) console.time("time fd" + timeLabel);
-
+    const timefd1 = performance.now();
     const detection = await faceapi.detectSingleFace(
       video,
       TinyFaceDetectorOption
     );
+    const timefd2 = performance.now();
 
-    if (timeLabel % 10 == 0) console.timeEnd("time fd" + timeLabel);
-    if (timeLabel % 10 == 0) console.time("time lm" + timeLabel);
-
+    const timelm1 = performance.now();
     const box = detection ? detection._box : undefined;
-    const img = tfjs.browser.fromPixels(video).reshape([-1, vidH, vidW, 3]);
+    const pixel = tfjs.browser.fromPixels(video);
+    const img = pixel.reshape([-1, vidH, vidW, 3]);
     const croppedFace = cropFace(box, img);
     const landmarks = landmarkModel.execute(croppedFace, "Identity_2");
     convertLandmark(landmarks, box).then((landmarkObj) => {
       score = analyze(detection, landmarkObj);
       drawAll(canvas, ctx, detection, landmarkObj, displaySize, score);
     });
+    const timelm2 = performance.now();
+
+    frames = frames + 1;
+    if (frames % 10 === 0)
+      console.log(
+        `${frames}: fd ${(timefd2 - timefd1).toFixed(3)}ms lm ${(
+          timelm2 - timelm1
+        ).toFixed(3)}ms`
+      );
 
     tfjs.dispose(landmarks);
     tfjs.dispose(croppedFace);
-
-    if (timeLabel % 10 == 0) console.timeEnd("time lm" + timeLabel);
-    timeLabel += 1;
-
+    tfjs.dispose(pixel);
     tfjs.dispose(img);
   }, 50);
 });
