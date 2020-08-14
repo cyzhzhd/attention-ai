@@ -24,11 +24,11 @@ const vidW = 640;
 const vidH = 480;
 
 stop.onclick = onStop;
-upload.onchange = uploadImage;
+upload.onchange = uploadTest;
 
 const { ImageData } = canvas;
 const TinyFaceDetectorOption = new faceapi.TinyFaceDetectorOptions({
-  inputSize: 160,
+  inputSize: 640,
   scoreThreshold: 0.3,
 });
 
@@ -146,17 +146,14 @@ function onStop() {
   clearInterval(task);
 }
 
-async function uploadImage() {
+async function uploadTest() {
   const imgFile = document.getElementById("myFileUpload").files[0];
   const img = await faceapi.bufferToImage(imgFile);
   document.getElementById("myImg").src = img.src;
 
   const t1 = performance.now();
-  const detection = await faceapi.detectAllFaces(
-    uploadedImg,
-    TinyFaceDetectorOption
-  );
+  await faceapi.detectAllFaces(uploadedImg, TinyFaceDetectorOption);
   const t2 = performance.now();
 
-  console.log(detection, `${t2 - t1} ms`);
+  console.log(`took ${(t2 - t1).toFixed(3)} ms to process`);
 }
