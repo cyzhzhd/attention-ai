@@ -5,16 +5,18 @@ const path = require("path");
 const faceapi = require("face-api.js");
 const tfjs = require("@tensorflow/tfjs-node");
 const { performance } = require("perf_hooks");
+const blazeface = require("@tensorflow-models/blazeface");
 tfjs.enableProdMode();
 
 const macDir = "../../Widerface/WIDER_val/images";
 const lnxDir = "../../hddrive/WIDER_val/images";
 
 const backend = "tensorflow";
-const testName = "512-0.1-SSDMnetv1";
+const testName = "128-0.1-Blazeface";
 const testPath = path.join(__dirname, os.type() == "Linux" ? lnxDir : macDir);
 const outputPath = path.join(__dirname, "./result-" + testName);
 const modelPath = path.join(__dirname, "../dist/models-faceapi");
+let blazefaceModel = null;
 let detected = 0;
 let imgNum = 0;
 let timeTaken = 0;
@@ -60,10 +62,13 @@ async function processFolder(testFolder, resultFolder) {
     const img = tfjs.node.decodeImage(new Uint8Array(imgBuffer));
 
     const t0 = performance.now();
+    const detectResult = await blazefaceDetect(img);
+    /*
     const detectResult = await faceapi.detectAllFaces(
       img,
       SsdMobilenetv1Option // set your faceapi model here
     );
+    */
     const t1 = performance.now();
 
     // ignore first one, abnormal time
@@ -89,12 +94,29 @@ async function processFolder(testFolder, resultFolder) {
   }
 }
 
+async function blazefaceDetect(img) {
+  const predictions = await blazefaceModel.estimateFaces(img, false);
+  const result = predictions.map((obj) => {
+    return {
+      _score: obj.probability[0],
+      _box: {
+        _x: obj.topLeft[0],
+        _y: obj.topLeft[1],
+        _width: obj.bottomRight[0] - obj.topLeft[0],
+        _height: obj.bottomRight[1] - obj.topLeft[1],
+      },
+    };
+  });
+  return result;
+}
+
 async function main() {
   await tfjs.setBackend(backend);
   console.log(`Start testing: ${testName}, ${tfjs.getBackend()}`);
   const testFolders = await getFiles(testPath);
   await faceapi.nets.tinyFaceDetector.loadFromDisk(modelPath);
   await faceapi.nets.ssdMobilenetv1.loadFromDisk(modelPath);
+  blazefaceModel = await blazeface.load({ scoreThreshold: 0.1 });
   makeDirIfNotExists(outputPath);
   for await (const folder of testFolders) {
     const testFolder = path.join(testPath, folder);
