@@ -3,5 +3,6 @@
     "javascript",
     "typescript"
   ],
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "python.pythonPath": "detect_model/venv/bin/python"
 }
