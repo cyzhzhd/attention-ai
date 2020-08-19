@@ -92,6 +92,7 @@ class BlazeFace(tf.keras.Model):
 
     def call(self, inputs):
         feat_map_0, feat_map_1 = Backbone(activation=self.activation)(inputs)
+
         x_0 = tf.keras.layers.Conv2D(filters=self.boxes_num[0], kernel_size=3,
                                      padding='same')(feat_map_0)
         x_0 = tf.keras.layers.Reshape(
@@ -101,7 +102,6 @@ class BlazeFace(tf.keras.Model):
                                      padding='same')(feat_map_1)
         x_1 = tf.keras.layers.Reshape(
             [self.cell_size[1]**2 * self.boxes_num[1], 1])(x_1)
-
         confidences = tf.concat([x_0, x_1], axis=1)
 
         x_2 = tf.keras.layers.Conv2D(filters=self.boxes_num[0] * 4, kernel_size=3,
@@ -113,14 +113,9 @@ class BlazeFace(tf.keras.Model):
                                      padding='same')(feat_map_1)
         x_3 = tf.keras.layers.Reshape(
             [self.cell_size[1]**2 * self.boxes_num[1], 4])(x_3)
-
         bboxes = tf.concat([x_2, x_3], axis=1)
 
         return tf.concat([confidences, bboxes], axis=-1)
 
 
-f1, f2 = Backbone()(tf.ones([10, 128, 128, 3]))
-print(f1.shape, f2.shape)
-
-res = BlazeFace()(tf.ones([10, 128, 128, 3]))
-print(res.shape)
+py
