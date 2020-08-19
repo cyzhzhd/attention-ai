@@ -116,6 +116,3 @@ class BlazeFace(tf.keras.Model):
         bboxes = tf.concat([x_2, x_3], axis=1)
 
         return tf.concat([confidences, bboxes], axis=-1)
-
-
-py
