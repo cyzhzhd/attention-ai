@@ -5,7 +5,7 @@ import matplotlib.patches as patches
 def drawplt(image, label):
     """
     image: numpy array
-    label: [num_face, 4], cx, cy, w, h: pixel number
+    label: [num_face, 4], cx, cy, w, h: pixel location
     """
     fig, ax = plt.subplots(1)
     ax = plt.imshow(image)
