@@ -1,4 +1,4 @@
-from widerface_loader import load_widerface
+from widerface_loader import load_widerface, generate_gt
 from models import Blazeface
 from loss import MultiboxLoss
 import tensorflow as tf
@@ -19,19 +19,19 @@ WIDER_GT = "/home/cyrojyro/hddrive/wider_face_split/wider_face_train_bbx_gt.txt"
 WIDER_TRAIN = "/home/cyrojyro/hddrive/WIDER_train/images"
 
 
-def dataloader(images, labels, batch_size=64):
+def dataloader(images, ground_truths, batch_size=64):
     data_keys = np.arange(len(images))
     while True:
         selected_keys = np.random.choice(
             data_keys, replace=False, size=batch_size)
 
         image_batch = []
-        label_batch = []
+        gt_batch = []
         for key in selected_keys:
             image_batch.append(images[key])
-            label_batch.append(labels[key])
-
-        yield (np.array(image_batch, dtype=np.float32), label_batch)
+            gt_batch.append(ground_truths[key])
+        yield (np.array(image_batch, dtype=np.float32),
+               np.array(gt_batch, dtype=np.float32))
 
 
 if __name__ == "__main__":
@@ -41,6 +41,13 @@ if __name__ == "__main__":
     # [num_picture, width(128), height(128), 3], [num_picture, num_gt, 4]
     images, labels = load_widerface(WIDER_GT, WIDER_TRAIN)
 
+    # [num_box(896), 4]
+    anchors = np.load(os.path.join(CONFIG['output_path'], "anchors.npy"))
+
+    # [num_labels, num_boxes, 5(responsible, tcx, tcy, tw, th)]
+    ground_truths = generate_gt(
+        labels, anchors, 0.3, CONFIG['anchor_num'], CONFIG['cell_size'])
+
     """ train validation split
     num_images = images.shape[0]
     num_train = int(num_images * CONFIG['train_ratio'])
@@ -49,17 +56,14 @@ if __name__ == "__main__":
     val_images, val_labels = images[num_train:], labels[num_train:]
     """
 
-    # [num_box(896), 4]
-    anchors = np.load(os.path.join(CONFIG['output_path'], "anchors.npy"))
-
     # DO TRAIN
-    model = Blazeface(input_dim=(128, 128, 3))
-    loss = MultiboxLoss()
+    model = Blazeface(input_dim=(128, 128, 3)).build_model()
+    loss = MultiboxLoss
     optim = tf.keras.optimizers.Adam()
     model.compile(loss=loss, optimizer=optim)
 
-    data_loader = dataloader(images, labels)
+    data_loader = dataloader(images, ground_truths)
     res = model.fit(x=data_loader,
-                    steps_per_epoch=100,
-                    epochs=10,
+                    steps_per_epoch=200,
+                    epochs=100,
                     verbose=1)

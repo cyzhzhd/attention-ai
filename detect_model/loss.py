@@ -1,9 +1,7 @@
 import tensorflow as tf
 
 
-class MultiboxLoss(tf.keras.losses.Loss):
-    def __init__(self):
-        pass
-
-    def __call__(self, a, b):
-        print(a, b)
+def MultiboxLoss(true, pred):
+    tf.print(tf.keras.backend.shape(pred))
+    tf.print(tf.keras.backend.shape(true))
+    return tf.keras.backend.mean(tf.keras.backend.pow(pred - true, 2))
