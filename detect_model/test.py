@@ -1,6 +1,5 @@
 from utils import prediction_to_bbox, drawplt, tie_resolution
 from widerface_loader import process_image, read_image
-from losses import MultiboxLoss
 import tensorflow as tf
 import numpy as np
 import argparse
@@ -24,11 +23,14 @@ parser.add_argument('--model', type=str, required=True,
                     help='Model dircetory')
 
 if __name__ == "__main__":
+    """
+    inference on every image in image_dir
+    """
     args = parser.parse_args()
     anchors = np.load(os.path.join(args.anchor, "anchors.npy"))
 
     model = tf.keras.models.load_model(
-        args.model, custom_objects={'MultiboxLoss': MultiboxLoss})
+        args.model, compile=False)
 
     physical_devices = tf.config.list_physical_devices('GPU')
     num_gpu = len(physical_devices)

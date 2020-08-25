@@ -1,3 +1,7 @@
+"""
+TODO: lazy(dynamic loading data), data augmentation
+"""
+
 from widerface_loader import load_widerface, generate_gt, dataloader
 from model.models import Blazeface
 from losses import MultiboxLoss
@@ -30,14 +34,15 @@ if __name__ == "__main__":
     ground_truths = generate_gt(
         labels, anchors, cfg.as_float('gt_iou'))
 
+    data_loader = dataloader(images, ground_truths,
+                             batch_size=cfg.as_int('batch_size'))
+
     model = Blazeface(input_dim=(
         cfg.as_int('input_w'), cfg.as_int('input_h'), 3)).build_model()
     loss = MultiboxLoss
     optim = tf.keras.optimizers.Adam(
         learning_rate=cfg.as_float('learning_rate'))
     model.compile(loss=loss, optimizer=optim)
-    data_loader = dataloader(images, ground_truths,
-                             batch_size=cfg.as_int('batch_size'))
 
     ckpt = tf.keras.callbacks.ModelCheckpoint(
         filepath=os.path.join(
@@ -45,7 +50,8 @@ if __name__ == "__main__":
         save_weights_only=False,
         monitor='loss',
         mode='min',
-        save_best_only=True)
+        save_best_only=True
+    )
     early_stop = tf.keras.callbacks.EarlyStopping(
         monitor='loss', patience=cfg.as_float('early_stop_patience'))
     rdlr = tf.keras.callbacks.ReduceLROnPlateau(monitor='loss',
