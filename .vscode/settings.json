@@ -1,8 +1,6 @@
 {
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
+  "eslint.validate": ["javascript", "typescript"],
   "editor.formatOnSave": true,
-  "python.pythonPath": "detect_model/venv/bin/python"
+  "python.pythonPath": "detect_model/venv/bin/python3.6",
+  "python.envFile": "${workspaceFolder}/.env"
 }

@@ -1,10 +1,12 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
+import tensorflow as tf
+import time
 
 
 def drawplt(image, label, target_w, target_h):
     """
-    image: numpy array
+    image: numpy array\n
     label: [num_face, 4], cx, cy, w, h: ratio of pixel location
     """
     fig, ax = plt.subplots(1)
@@ -17,12 +19,48 @@ def drawplt(image, label, target_w, target_h):
     plt.show()
 
 
-# TODO np execution
+def prediction_to_bbox(prediction, anchors):
+    """
+    prediction: [num_batch, num_box, 5]\n
+    anchors: [num_box, 4]\n
+    returns: [num_batch, num_box, 5] normalized bbox
+    """
+    center = prediction[..., 1:3] * anchors[..., 2:4] + anchors[..., 0:2]
+    width_height = anchors[..., 2:4] * tf.exp(prediction[..., 3:5])
+    prediction[..., 1:3] = center
+    prediction[..., 3:5] = width_height
+    return prediction
+
+
 def calc_iou_batch(box, batch):
-    batch_result = []
-    for b in batch:
-        batch_result.append(calc_iou(box, b))
-    return batch_result
+    """
+    box: [4]\n
+    batch: [num_box, 4]\n
+    returns: [num_box] calculated IOUs
+    """
+    tf.convert_to_tensor(batch)
+    box_xmax = box[0] + (box[2] / 2)
+    box_xmin = box[0] - (box[2] / 2)
+    box_ymax = box[1] + (box[3] / 2)
+    box_ymin = box[1] - (box[3] / 2)
+    box_space = (box_ymax - box_ymin) * (box_xmax - box_xmin)
+
+    batch_xmax = batch[..., 0] + (batch[..., 2] / 2)
+    batch_xmin = batch[..., 0] - (batch[..., 2] / 2)
+    batch_ymax = batch[..., 1] + (batch[..., 3] / 2)
+    batch_ymin = batch[..., 1] - (batch[..., 3] / 2)
+    batch_space = (batch_ymax - batch_ymin) * (batch_xmax - batch_xmin)
+
+    i_xmin = tf.maximum(box_xmin, batch_xmin)
+    i_xmax = tf.minimum(box_xmax, batch_xmax)
+    i_ymin = tf.maximum(box_ymin, batch_ymin)
+    i_ymax = tf.minimum(box_ymax, batch_ymax)
+
+    i_w = tf.maximum(i_xmax - i_xmin, 0)
+    i_h = tf.maximum(i_ymax - i_ymin, 0)
+    intersection = i_w * i_h
+
+    return intersection / (box_space + batch_space - intersection)
 
 
 def calc_iou(box_1, box_2):

@@ -1,17 +1,14 @@
-from backbones import *
+from model.backbones import blaze_backbone
 import tensorflow as tf
 
 
 class Blazeface():
-    def __init__(self, input_dim=(128, 128, 3), activation=tf.nn.relu):
+    def __init__(self, input_dim=(128, 128, 3)):
         # TODO: make configurable
         self.anchor_num = [2, 6]
         self.cell_size = [16, 8]
-
-        self.activation = activation
         self.input_dim = input_dim
-        self.backbone = blaze_backbone(
-            input_dim=input_dim)
+        self.backbone = blaze_backbone(input_dim=input_dim)
 
     def build_model(self):
         backbone = self.backbone
