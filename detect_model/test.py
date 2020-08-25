@@ -1,5 +1,5 @@
-from utils import prediction_to_bbox, drawplt, tie_resolution
-from widerface_loader import process_image, read_image
+from utils.utils import prediction_to_bbox, drawplt, tie_resolution
+from utils.widerface_loader import process_image, read_image
 import tensorflow as tf
 import numpy as np
 import argparse
@@ -17,10 +17,10 @@ parser.add_argument('--anchor', type=str, default='./',
 parser.add_argument('--threshold', type=float, default=0.5,
                     help='Threshold of detection')
 parser.add_argument('--image_dir', type=str, default='./sample_images',
-                    help='Image dircetory')
+                    help='Image directory')
 parser.add_argument('--cpu', help='use cpu', action="store_true")
 parser.add_argument('--model', type=str, required=True,
-                    help='Model dircetory')
+                    help='Model directory')
 
 if __name__ == "__main__":
     """

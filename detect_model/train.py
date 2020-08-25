@@ -2,9 +2,9 @@
 TODO: lazy(dynamic loading data), data augmentation
 """
 
-from widerface_loader import load_widerface, generate_gt, dataloader
+from utils.widerface_loader import load_widerface, generate_gt, dataloader
 from model.models import Blazeface
-from losses import MultiboxLoss
+from utils.losses import MultiboxLoss
 import tensorflow as tf
 import configobj
 import numpy as np
