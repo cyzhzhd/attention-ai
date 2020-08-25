@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import tensorflow as tf
+import numpy as np
 import time
 
 
@@ -17,6 +18,34 @@ def drawplt(image, label, target_w, target_h):
                                  edgecolor='r', facecolor='none')
         plt.gca().add_patch(rect)
     plt.show()
+
+
+def tie_resolution(prediction, threshold=0.7, match_iou=0.3):
+    """
+    prediction: [num_batch, num_box, 5]\n
+    threshold: minimum confidence to preserve box\n
+    match_iou: iou threshold of same object\n
+    returns: [num_box, 4]
+    """
+    resolved = np.empty([0, 4])
+    saved_boxes = prediction[prediction[..., 0] > threshold]
+    sorted = tf.argsort(saved_boxes[..., 0], axis=-1, direction="DESCENDING")
+    used = np.zeros_like(sorted)
+
+    for element in sorted:
+        if(used[element]):
+            continue
+        ious = calc_iou_batch(saved_boxes[element, 1:5], saved_boxes[..., 1:5])
+        selected = ious > match_iou
+        used = np.logical_or(used, selected)
+
+        overlapping_boxes = saved_boxes[np.ravel(selected)]
+        weighted_boxes = np.expand_dims(overlapping_boxes[..., 0], -1) * \
+            overlapping_boxes[..., 1:5] / np.sum(overlapping_boxes[..., 0])
+        weighted_box = np.sum(weighted_boxes, axis=0)
+        resolved = np.vstack([resolved, weighted_box])
+
+    return resolved
 
 
 def prediction_to_bbox(prediction, anchors):

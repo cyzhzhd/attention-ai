@@ -1,9 +1,10 @@
+from utils import prediction_to_bbox, drawplt, tie_resolution
 from widerface_loader import process_image, read_image
-from utils import prediction_to_bbox, drawplt
 from losses import MultiboxLoss
 import tensorflow as tf
 import numpy as np
 import argparse
+import time
 import os
 
 parser = argparse.ArgumentParser(
@@ -14,12 +15,13 @@ parser.add_argument('--height', type=int, default=128,
                     help='Target image height')
 parser.add_argument('--anchor', type=str, default='./',
                     help='Path of generated anchors')
-parser.add_argument('--threshold', type=float, default=0.7,
+parser.add_argument('--threshold', type=float, default=0.5,
                     help='Threshold of detection')
+parser.add_argument('--image_dir', type=str, default='./sample_images',
+                    help='Image dircetory')
+parser.add_argument('--cpu', help='use cpu', action="store_true")
 parser.add_argument('--model', type=str, required=True,
                     help='Model dircetory')
-parser.add_argument('--image', type=str, required=True,
-                    help='Image dircetory')
 
 if __name__ == "__main__":
     args = parser.parse_args()
@@ -28,13 +30,29 @@ if __name__ == "__main__":
     model = tf.keras.models.load_model(
         args.model, custom_objects={'MultiboxLoss': MultiboxLoss})
 
-    image = read_image(os.path.join(args.image), args.width, args.height)
-    image_normalized = process_image(
-        os.path.join(args.image), args.width, args.height)
-    image_normalized = tf.convert_to_tensor(image_normalized)
-    image_normalized = tf.expand_dims(image_normalized, 0)
+    physical_devices = tf.config.list_physical_devices('GPU')
+    num_gpu = len(physical_devices)
+    print("Available GPUs:", num_gpu)
 
-    prediction = model.predict(image_normalized)
-    bbox = prediction_to_bbox(prediction, anchors)[0]
-    bbox = bbox[bbox[..., 0] > args.threshold]
-    drawplt(image, bbox[..., 1:5], args.width, args.height)
+    device = '/CPU:0' if (args.cpu and num_gpu > 0) else '/GPU:0'
+    print('using ' + device)
+
+    with tf.device(device):
+        for file_name in os.listdir(args.image_dir):
+            f = os.path.join(args.image_dir, file_name)
+            image = read_image(os.path.join(f), args.width, args.height)
+            image_normalized = process_image(
+                os.path.join(f), args.width, args.height)
+            image_normalized = tf.convert_to_tensor(image_normalized)
+            image_normalized = tf.expand_dims(image_normalized, 0)
+
+            t1 = time.time()
+            prediction = model(image_normalized, training=False)
+            prediction = np.array(prediction)
+            bbox = prediction_to_bbox(prediction, anchors)[0]
+            bbox = bbox[bbox[..., 0] > args.threshold]
+            resolved_boxes = tie_resolution(bbox, args.threshold)
+            print("time taken(ms): ", (time.time() - t1)*1000)
+
+            drawplt(image, resolved_boxes, args.width, args.height)
+            drawplt(image, bbox[..., 1:5], args.width, args.height)
