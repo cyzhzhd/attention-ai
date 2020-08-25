@@ -1,4 +1,4 @@
-from utils import drawplt, calc_iou_batch
+from utils.utils import drawplt, calc_iou_batch
 import tensorflow as tf
 import numpy as np
 import sys
