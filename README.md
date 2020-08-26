@@ -61,6 +61,6 @@ nodejs v14.5.0
 * [집중력 엔진 개발 이슈](https://13.125.91.162/swmaestro/183-2/issues/7)  
 
 
-### Datasets
-* [WIDERface](https://13.125.91.162/swmaestro/183-2/-/wikis/face-api.js-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%82%B9)
+### Baseline - Benchmark Result
+* [WIDERface Result](https://13.125.91.162/swmaestro/183-2/-/wikis/face-api.js-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%82%B9)
 

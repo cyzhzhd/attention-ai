@@ -23,9 +23,10 @@
 
 ##### Augmentation
 
-- [DropBlock: A regularization method for convolutional networks](https://papers.nips.cc/paper/8271-dropblock-a-regularization-method-for-convolutional-networks.pdf)
-- [Learning Data Augmentation Strategies for Object Detection](https://arxiv.org/pdf/1906.11172.pdf)
+- [DropBlock: A regularization method for convolutional networks, Golnaz Ghiasi et al. 18-10](https://papers.nips.cc/paper/8271-dropblock-a-regularization-method-for-convolutional-networks.pdf)
+- [Learning Data Augmentation Strategies for Object Detection, Barret Zoph et al. 19-06](https://arxiv.org/pdf/1906.11172.pdf)
 
 ### Dataset
 
 - [WIDERface](http://shuoyang1213.me/WIDERFACE/)
+- [FDDB](http://vis-www.cs.umass.edu/fddb/)
