@@ -1,4 +1,4 @@
-from utils.utils import drawplt, calc_iou_batch
+from utils import calc_iou_batch, drawplt, prediction_to_bbox, tie_resolution
 from PIL import Image
 import tensorflow as tf
 import numpy as np
@@ -7,18 +7,17 @@ import os
 
 
 def read_image(image_path, target_w, target_h):
+    # tf.keras.preprocessing.image.smart_resize()
     image = tf.keras.preprocessing.image.load_img(
-        image_path, color_mode='rgb', target_size=(target_w, target_h),
-        interpolation='bilinear'
-    )
+        image_path, color_mode='rgb', target_size=[target_w, target_h])
     return np.array(image)
 
 
-def process_image(image_path, target_w, target_h):
+def process_image_batch(image, target_w, target_h):
     """
     load, resize, normalize image to [-1, 1]
     """
-    image = read_image(image_path, target_w, target_h)
+    image = tf.image.resize(image, [target_w, target_h])
     image_normalized = image / 127.5 - 1.0
     return image_normalized
 
@@ -29,11 +28,10 @@ def print_progress(num):
     return num + 1
 
 
-def load_widerface(gt_dir, train_dir, target_w=128, target_h=128,
-                   min_face_ratio=0.009, filter_entire_img=True):
+def load_widerface(gt_dir, train_dir, min_face_ratio=0.01, filter_entire_img=True):
     """
     loads widerface dataset from directory. filter out images with small faces.\n
-    returns: [num_picture, width(128), height(128), 3], [num_picture, num_gt, 4]\n
+    returns: [num_picture] image_dirs, [num_picture, num_gt, 4]\n
     4(cx, cy, w, h - ratio of pixel location relative to resized image)
     """
     images, labels = [], []
@@ -69,9 +67,8 @@ def load_widerface(gt_dir, train_dir, target_w=128, target_h=128,
                 gt[1], gt[3] = (gt[1] + gt[3] / 2) / image_h,  gt[3] / image_h
 
                 # filter out invalid or small gt boxes
-                # no heavy blur, occlusion, atypical pose
                 if (gt[2] * gt[3] > min_face_ratio and gt[4] != 2
-                        and gt[7] != 1 and gt[8] != 2 and gt[9] != 1):
+                        and gt[7] != 1 and gt[8] != 2):
                     label.append(np.array(gt[:4]))
                 else:
                     filter_flag = True
@@ -79,15 +76,10 @@ def load_widerface(gt_dir, train_dir, target_w=128, target_h=128,
             if filter_flag and filter_entire_img:
                 continue
 
-            image_normalized = process_image(
-                image_path, target_w, target_h)
-
             label = np.array(label)
             if label.size > 0:
-                images.append(image_normalized)
+                images.append(image_path)
                 labels.append(label)
-                # show normalized image and bbox
-                # drawplt(image_normalized, label, target_w, target_h)
 
         images = np.array(images)
         labels = np.array(labels)
@@ -106,9 +98,7 @@ def generate_gt(labels, anchors, iou_threshold=0.5):
     process_num = 0
     gts = np.empty([0, num_boxes, 5])
 
-    print('Processing gt...')
     for label in labels:
-        process_num = print_progress(process_num)
         gt = np.zeros([num_boxes, 5], dtype=np.float32)
         for box in label:
             ious = np.array(calc_iou_batch(box, anchors))
@@ -122,25 +112,61 @@ def generate_gt(labels, anchors, iou_threshold=0.5):
                                ) / anchors[maxarg, 2:4]
             gt[maxarg, 3:5] = np.log(box[2:4] / anchors[maxarg, 2:4])
         gts = np.vstack([gts, np.expand_dims(gt, axis=0)])
-    print('\nLoaded: ', gts.shape)
     return gts
 
 
-def dataloader(images, ground_truths, batch_size=64):
+def dynamic_dataloader(image_urls, labels, anchors, target_w, target_h, batch_size=64):
     """
-    images: [num_images, 128, 128, 3]\n
-    ground_truths: [num_labels, num_boxes, 5(conf, tcx, tcy, tw, th)]\n
-    returns: ([batch_size, 128, 128, 3], [batch_size, num_boxes, 5])
+    image_urls: [num_images] contains image url\n
+    labels: [num_labels, num_gt, 4]]\n
+    returns: ([batch_size, 128, 128, 3], [batch_size, num_boxes, 5])\n
+    this function dynamically loads image from image_url, and make gt from labels.
     """
-    data_keys = np.arange(len(images))
+    data_keys = np.arange(len(image_urls))
     while True:
         selected_keys = np.random.choice(
             data_keys, replace=False, size=batch_size)
 
         image_batch = []
-        gt_batch = []
+        label_batch = []
         for key in selected_keys:
-            image_batch.append(images[key])
-            gt_batch.append(ground_truths[key])
+            image = read_image(image_urls[key], target_w, target_h)
+            image_batch.append(image)
+            label_batch.append(labels[key])
+
+        # TODO: do augmentation
+
+        gt_batch = generate_gt(label_batch, anchors)
+        image_batch = process_image_batch(
+            image_batch, target_w, target_h)
+
         yield (np.array(image_batch, dtype=np.float32),
                np.array(gt_batch, dtype=np.float32))
+
+
+# test code
+if __name__ == "__main__":
+    anchors = np.load(os.path.join("./", "anchors.npy"))
+
+    model = tf.keras.models.load_model(
+        './Blazeface158.hdf5', compile=False)
+
+    i, l = load_widerface("/home/cyrojyro/hddrive/wider_face_split/wider_face_train_bbx_gt.txt",
+                          "/home/cyrojyro/hddrive/WIDER_train/images")
+    anchors = np.load(os.path.join("./", "anchors.npy"))
+    dl = dynamic_dataloader(i, l, anchors, 128, 128)
+    for _ in range(10):
+        a, gt = next(dl)  # a= 64이미지 gt= 64개 anchor 상대적 거리 gt
+        p = prediction_to_bbox(gt, anchors)  # p = 64개 이미지 gt
+        for j in range(64):
+            ress = p[j]
+            ress = ress[ress[..., 0] == 1]
+            drawplt(a[j], ress[..., 1:5], 128, 128)
+
+            prediction = model(np.expand_dims(a[j], 0), training=False)
+            prediction = np.array(prediction)
+            bbox = prediction_to_bbox(prediction, anchors)[0]
+            bbox = bbox[bbox[..., 0] > 0.5]
+            resolved_boxes = tie_resolution(
+                bbox, 0.5, 0.1)
+            drawplt(a[j], resolved_boxes, 128, 128)

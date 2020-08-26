@@ -16,6 +16,8 @@ parser.add_argument('--anchor', type=str, default='./',
                     help='Path of generated anchors')
 parser.add_argument('--threshold', type=float, default=0.5,
                     help='Threshold of detection')
+parser.add_argument('--tie_threshold', type=float, default=0.1,
+                    help='Tie threshold of predicted boxes')
 parser.add_argument('--image_dir', type=str, default='./sample_images',
                     help='Image directory')
 parser.add_argument('--cpu', help='use cpu', action="store_true")
@@ -49,11 +51,12 @@ if __name__ == "__main__":
             image_normalized = tf.expand_dims(image_normalized, 0)
 
             t1 = time.time()
-            prediction = model(image_normalized, training=False)
+            prediction = model(image_normalized)
             prediction = np.array(prediction)
             bbox = prediction_to_bbox(prediction, anchors)[0]
             bbox = bbox[bbox[..., 0] > args.threshold]
-            resolved_boxes = tie_resolution(bbox, args.threshold)
+            resolved_boxes = tie_resolution(
+                bbox, args.threshold, args.tie_threshold)
             print("time taken(ms): ", (time.time() - t1)*1000)
 
             drawplt(image, resolved_boxes, args.width, args.height)

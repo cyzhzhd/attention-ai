@@ -15,9 +15,16 @@
 
 ### References
 
+##### Model & Training Methods
+
 - [BlazeFace: Sub-millisecond Neural Face Detection on Mobile GPUs, Valentin Bazarevsky et al. 19-07](https://arxiv.org/pdf/1907.05047.pdf)
 - [SSD: Single Shot MultiBox Detector, Wei Liu et al. 15-12](https://arxiv.org/pdf/1512.02325.pdf)
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection, Alexey Bochkovskiy et al. 20-04](https://arxiv.org/pdf/2004.10934.pdf)
+
+##### Augmentation
+
+- [DropBlock: A regularization method for convolutional networks](https://papers.nips.cc/paper/8271-dropblock-a-regularization-method-for-convolutional-networks.pdf)
+- [Learning Data Augmentation Strategies for Object Detection](https://arxiv.org/pdf/1906.11172.pdf)
 
 ### Dataset
 
