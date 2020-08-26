@@ -1,4 +1,5 @@
 from utils.utils import drawplt, calc_iou_batch
+from PIL import Image
 import tensorflow as tf
 import numpy as np
 import sys
@@ -55,9 +56,8 @@ def load_widerface(gt_dir, train_dir, target_w=128, target_h=128,
                 continue
 
             image_path = os.path.join(train_dir, image_name)
-            image = np.array(tf.keras.preprocessing.image.load_img(image_path))
-            scale_x = image.shape[1]
-            scale_y = image.shape[0]
+            image = Image.open(image_path)
+            image_w, image_h = image.size
 
             # scale gt
             label = []
@@ -65,8 +65,8 @@ def load_widerface(gt_dir, train_dir, target_w=128, target_h=128,
             for bbox in range(num_bbox):
                 gt_str = f.readline().strip('\n ').split(' ')
                 gt = [int(i) for i in gt_str]
-                gt[0], gt[2] = gt[0] / scale_x,  gt[2] / scale_x
-                gt[1], gt[3] = gt[1] / scale_y,  gt[3] / scale_y
+                gt[0], gt[2] = (gt[0] + gt[2] / 2) / image_w,  gt[2] / image_w
+                gt[1], gt[3] = (gt[1] + gt[3] / 2) / image_h,  gt[3] / image_h
 
                 # filter out invalid or small gt boxes
                 if (min(gt[2] * target_w, gt[3] * target_h) > min_face_size and

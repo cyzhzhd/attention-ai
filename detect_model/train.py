@@ -1,5 +1,5 @@
 """
-TODO: lazy(dynamic loading data), data augmentation
+TODO: lazy(dynamic loading data), data augmentation, __init__ module job
 """
 
 from utils.widerface_loader import load_widerface, generate_gt, dataloader

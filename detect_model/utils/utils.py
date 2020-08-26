@@ -13,7 +13,7 @@ def drawplt(image, label, target_w, target_h):
     fig, ax = plt.subplots(1)
     ax = plt.imshow(image)
     for l in label:
-        rect = patches.Rectangle((l[0] * target_w, l[1] * target_h),
+        rect = patches.Rectangle(((l[0] - l[2] / 2) * target_w, (l[1] - l[3] / 2) * target_h),
                                  l[2] * target_w, l[3] * target_h, linewidth=1,
                                  edgecolor='r', facecolor='none')
         plt.gca().add_patch(rect)
