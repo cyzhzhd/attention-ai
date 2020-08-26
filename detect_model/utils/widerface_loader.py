@@ -118,7 +118,7 @@ def generate_gt(labels, anchors, iou_threshold=0.5):
             # translate to target
             gt[maxarg, 0] = 1.0
             gt[maxarg, 1:3] = (box[0:2] - anchors[maxarg, 0:2]
-                               ) / anchors[maxarg, 0:2]
+                               ) / anchors[maxarg, 2:4]
             gt[maxarg, 3:5] = np.log(box[2:4] / anchors[maxarg, 2:4])
         gts = np.vstack([gts, np.expand_dims(gt, axis=0)])
     print('\nLoaded: ', gts.shape)
