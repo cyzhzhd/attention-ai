@@ -7,7 +7,7 @@ import time
 
 def drawplt(image, label, target_w, target_h):
     """
-    image: numpy array\n
+    image: [image_width, image_height, 3], numpy array\n
     label: [num_face, 4], cx, cy, w, h: ratio of pixel location
     """
     fig, ax = plt.subplots(1)

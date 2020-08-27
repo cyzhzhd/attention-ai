@@ -16,7 +16,7 @@ parser.add_argument('--anchor', type=str, default='./',
                     help='Path of generated anchors')
 parser.add_argument('--threshold', type=float, default=0.5,
                     help='Threshold of detection')
-parser.add_argument('--tie_threshold', type=float, default=0.1,
+parser.add_argument('--tie_threshold', type=float, default=0.2,
                     help='Tie threshold of predicted boxes')
 parser.add_argument('--image_dir', type=str, default='./sample_images',
                     help='Image directory')

@@ -1,8 +1,8 @@
 """
-TODO: more dataset, data augmentation(using original picture), __init__ module job
+TODO: more dataset, data augmentation(using original picture), __init__ module job, validation dataset
 """
 
-from utils.widerface_loader import load_widerface, generate_gt, dataloader
+from utils.widerface_loader import load_widerface, generate_gt, dataloader_aug
 from model.models import Blazeface
 from utils.losses import MultiboxLoss
 import tensorflow as tf
@@ -26,19 +26,16 @@ if __name__ == "__main__":
 
     gts = cfg['wider_gts']
     gts = [gts] if isinstance(gts, str) else [gt for gt in gts]
-    
+
     # [num_picture, width(128), height(128), 3], [num_picture, num_gt, 4]
-    images, labels = load_widerface(gts, cfg['wider_train'])
+    images, labels = load_widerface(
+        gts, cfg['wider_train'], cfg.as_int('input_w'), cfg.as_int('input_h'))
 
     # [num_box(896), 4]
     anchors = np.load(os.path.join(cfg['anchor_path'], "anchors.npy"))
 
-    # [num_labels, num_boxes, 5(conf, tcx, tcy, tw, th)]
-    ground_truths = generate_gt(
-        labels, anchors, cfg.as_float('gt_iou'))
-
-    data_loader = dataloader(images, ground_truths,
-                             batch_size=cfg.as_int('batch_size'))
+    data_loader = dataloader_aug(images, labels, anchors,
+                                 batch_size=cfg.as_int('batch_size'))
 
     model = Blazeface(input_dim=(
         cfg.as_int('input_w'), cfg.as_int('input_h'), 3)).build_model()
