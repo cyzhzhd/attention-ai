@@ -14,7 +14,7 @@ import { landmarkModel, convertLandmark } from "./landmark.js";
 tfjs.enableProdMode();
 
 let score = 0;
-let frames = 0;
+export let frames = 0;
 let task = null;
 const upload = document.getElementById("myFileUpload");
 const uploadedImg = document.getElementById("myImg");
