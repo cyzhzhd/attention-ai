@@ -10,9 +10,8 @@ import os
 def read_image(image_path, target_w, target_h):
     image = tf.keras.preprocessing.image.load_img(
         image_path, color_mode='rgb', target_size=(target_h, target_w),
-        interpolation='bilinear'
-    )
-    return np.array(image, dtype=np.float32)
+        interpolation='bilinear')
+    return np.array(image)
 
 
 def print_progress(num):
@@ -26,7 +25,7 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
     """
     loads widerface dataset from directory. filter out images with small faces.\n
     returns: [num_picture, image_width, image_height, 3], [num_picture, num_gt, 4]\n
-    4(cx, cy, w, h - ratio of pixel location relative to resized image)
+    4(cx, cy, w, h - normalized(0 ~ 1) location relative to resized image)
     """
     images, labels = [], []
     print('Processing dataset...')
@@ -68,8 +67,8 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
 
                     # filter out invalid or small gt boxes
                     # no heavy blur, occlusion, atypical pose
-                    if (gt[2] * gt[3] > min_face_ratio and gt[4] != 2
-                            and gt[7] != 1 and gt[8] != 2 and gt[9] != 1):
+                    if (gt[2] * gt[3] > min_face_ratio and gt[4] == 0
+                            and gt[7] != 1 and gt[8] == 0 and gt[9] != 1):
                         label.append(np.array(gt[:4]))
                     else:
                         filter_flag = True
@@ -97,7 +96,7 @@ def generate_gt(labels, anchors, iou_threshold=0.5):
     """
     labels: [num_labels, num_gt, 4]]\n
     anchors: [num_box, 4(cx, cy, w, h)]\n
-    returns: [num_labels, num_boxes, 5(responsible, tcx, tcy, tw, th)]
+    returns: [num_labels, num_boxes, 5(responsibility, tcx, tcy, tw, th)]
     """
     num_boxes = anchors.shape[0]
     process_num = 0
@@ -144,8 +143,9 @@ def dataloader_gt(images, ground_truths, batch_size=64):
 def dataloader_aug(images, labels, anchors, batch_size=64):
     """
     images: [num_images, image_width, image_height, 3]\n
-    labels: [num_labels, 4(tcx, tcy, tw, th)]\n
-    returns: ([batch_size, image_width, image_height, 3], [batch_size, num_boxes, 5])
+    labels: [num_labels, num_gt, 4(tcx, tcy, tw, th)]\n
+    returns: ([batch_size, image_width, image_height, 3],
+              [batch_size, num_boxes, 5(conf, tcx, tcy, tw, th)])
     """
     data_keys = np.arange(len(images))
     while True:
@@ -155,14 +155,14 @@ def dataloader_aug(images, labels, anchors, batch_size=64):
         image_batch = []
         label_batch = []
         for key in selected_keys:
-            image = images[key]
-            label = labels[key]
+            image = images[key].copy()
+            label = labels[key].copy()
 
             # do augmentation
             image, label = random_flip(image, label)
             image = random_brightness(image)
+            image = np.array(image, dtype=np.float32)
             image = image / 127.5 - 1.0
-            image = np.array(image)
 
             image_batch.append(image)
             label_batch.append(label)

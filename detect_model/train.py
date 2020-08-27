@@ -1,5 +1,5 @@
 """
-TODO: more dataset, data augmentation(using original picture), __init__ module job, validation dataset
+TODO: more dataset, __init__ module job, validation dataset
 """
 
 from utils.widerface_loader import load_widerface, generate_gt, dataloader_aug

@@ -1,5 +1,5 @@
 from utils.utils import prediction_to_bbox, drawplt, tie_resolution
-from utils.widerface_loader import process_image, read_image
+from utils.widerface_loader import read_image
 import tensorflow as tf
 import numpy as np
 import argparse
@@ -20,7 +20,8 @@ parser.add_argument('--tie_threshold', type=float, default=0.2,
                     help='Tie threshold of predicted boxes')
 parser.add_argument('--image_dir', type=str, default='./sample_images',
                     help='Image directory')
-parser.add_argument('--cpu', help='use cpu', action="store_true")
+parser.add_argument('--cpu', action="store_true",
+                    help="Use CPU for inference")
 parser.add_argument('--model', type=str, required=True,
                     help='Model directory')
 
@@ -45,8 +46,9 @@ if __name__ == "__main__":
         for file_name in os.listdir(args.image_dir):
             f = os.path.join(args.image_dir, file_name)
             image = read_image(os.path.join(f), args.width, args.height)
-            image_normalized = process_image(
+            image = read_image(
                 os.path.join(f), args.width, args.height)
+            image_normalized = image / 127.5 - 1.0
             image_normalized = tf.convert_to_tensor(image_normalized)
             image_normalized = tf.expand_dims(image_normalized, 0)
 

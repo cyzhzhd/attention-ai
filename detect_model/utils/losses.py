@@ -3,7 +3,7 @@ import tensorflow as tf
 
 def smooth_l1_loss(true, pred):
     """
-    true, pred: [num_batch, num_box, 5] (confidence, cx, cy, w, h)\n
+    true, pred: [num_batch, num_box, 5(confidence, cx, cy, w, h)]\n
     returns: [num_batch] loss, responsible anchor box only
     """
     abs_loss = tf.abs(true[..., 1:5] - pred[..., 1:5])
