@@ -2,6 +2,10 @@
 
 ### Results
 
+```
+python test.py --model ./pretrained.hdf5 --threshold 0.5 --tie_threshold 0.2
+```
+
 ![Image](/detect_model/result.jpg)
 
 ### Scripts
