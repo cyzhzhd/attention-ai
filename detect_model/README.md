@@ -1,5 +1,9 @@
 ## 얼굴 탐지 모델 개발
 
+### Results
+
+![Image](/detect_model/result.jpg)
+
 ### Scripts
 
 - train.py: 모델 학습, 환경설정은 train_config.ini 파일 참고
