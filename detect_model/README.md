@@ -38,3 +38,4 @@ python test.py --model ./pretrained.hdf5 --threshold 0.5 --tie_threshold 0.2
 
 - [WIDERface](http://shuoyang1213.me/WIDERFACE/)
 - [FDDB](http://vis-www.cs.umass.edu/fddb/)
+- [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)

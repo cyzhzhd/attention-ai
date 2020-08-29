@@ -37,7 +37,7 @@ def cross_entrophy_loss(true, pred, num_neg):
     return pos_conf_loss + neg_conf_loss
 
 
-def MultiboxLoss(true, pred, hard_mining_ratio=3):
+def multiboxLoss(true, pred, hard_mining_ratio=3):
     num_box = tf.cast(tf.keras.backend.shape(true)[1], dtype=tf.float32)
     num_pos = tf.reduce_sum(true[..., 0], axis=-1)
     num_neg = tf.minimum(hard_mining_ratio * num_pos, num_box - num_pos)
@@ -47,3 +47,20 @@ def MultiboxLoss(true, pred, hard_mining_ratio=3):
     total_loss = (smooth_l1_loss(true, pred) +
                   cross_entrophy_loss(true[..., 0], pred[..., 0], num_neg))
     return total_loss / num_pos
+
+
+def l_loss(true, pred, hard_mining_ratio=3):
+    num_pos = tf.reduce_sum(true[..., 0], axis=-1)
+    num_pos = tf.where(tf.not_equal(num_pos, 0), num_pos,
+                       tf.ones_like(num_pos))
+    return smooth_l1_loss(true, pred) / num_pos
+
+
+def c_loss(true, pred, hard_mining_ratio=3):
+    num_box = tf.cast(tf.keras.backend.shape(true)[1], dtype=tf.float32)
+    num_pos = tf.reduce_sum(true[..., 0], axis=-1)
+    num_neg = tf.minimum(hard_mining_ratio * num_pos, num_box - num_pos)
+
+    num_pos = tf.where(tf.not_equal(num_pos, 0), num_pos,
+                       tf.ones_like(num_pos))
+    return cross_entrophy_loss(true[..., 0], pred[..., 0], num_neg) / num_pos
