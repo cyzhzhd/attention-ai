@@ -39,7 +39,7 @@ if __name__ == "__main__":
     num_gpu = len(physical_devices)
     print("Available GPUs:", num_gpu)
 
-    device = '/CPU:0' if (args.cpu and num_gpu > 0) else '/GPU:0'
+    device = '/CPU:0' if (args.cpu or num_gpu == 0) else '/GPU:0'
     print('using ' + device)
 
     with tf.device(device):

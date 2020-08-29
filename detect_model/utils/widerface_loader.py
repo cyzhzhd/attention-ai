@@ -21,7 +21,7 @@ def print_progress(num):
 
 
 def load_widerface(gt_dirs, train_dir, target_w, target_h,
-                   min_face_ratio=0.009, filter_entire_img=True):
+                   min_face_ratio=0.04, filter_entire_img=True, max_size=150000):
     """
     loads widerface dataset from directory. filter out images with small faces.\n
     returns: [num_picture, image_width, image_height, 3], [num_picture, num_gt, 4]\n
@@ -34,6 +34,9 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
         with open(gt_dir, 'r') as f:
             process_num = 1
             while True:
+                if(len(images) >= max_size):
+                    break
+
                 process_num = print_progress(process_num)
                 image_name = f.readline().strip("\n ")
 
@@ -87,22 +90,23 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
 
             print('\nLoaded:', len(images))
 
-    images = np.array(images)
-    labels = np.array(labels)
     return images, labels
 
 
-def generate_gt(labels, anchors, iou_threshold=0.5):
+def generate_gt(labels, anchors, iou_threshold=0.5, verbose=False):
     """
     labels: [num_labels, num_gt, 4]]\n
     anchors: [num_box, 4(cx, cy, w, h)]\n
     returns: [num_labels, num_boxes, 5(responsibility, tcx, tcy, tw, th)]
     """
-    num_boxes = anchors.shape[0]
     process_num = 0
+    num_boxes = anchors.shape[0]
     gts = np.empty([0, num_boxes, 5])
 
     for label in labels:
+        if verbose:
+            process_num = print_progress(process_num)
+
         gt = np.zeros([num_boxes, 5], dtype=np.float32)
         for box in label:
             ious = np.array(calc_iou_batch(box, anchors))
@@ -117,6 +121,8 @@ def generate_gt(labels, anchors, iou_threshold=0.5):
             gt[maxarg, 3:5] = np.log(box[2:4] / anchors[maxarg, 2:4])
         gts = np.vstack([gts, np.expand_dims(gt, axis=0)])
 
+    if verbose:
+        print('\nLoaded:', len(gts))
     return gts
 
 

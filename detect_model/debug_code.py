@@ -7,12 +7,12 @@ import numpy as np
 import sys
 import os
 
-GT_DIRS = ["/home/cyrojyro/hddrive/wider_face_split/wider_face_train_bbx_gt.txt"]
+GT_DIRS = ["/home/cyrojyro/hddrive/wider_face_split/celeba_gt.txt"]
 DATA_DIR = "/home/cyrojyro/hddrive/WIDER_train/images"
-MODRL_DIR = "./Blazeface188r.hdf5"
+MODRL_DIR = "./pretrained.hdf5"
 
 
-def load_widerface_dynamic(gt_dirs, train_dir, min_face_ratio=0.009,
+def load_widerface_dynamic(gt_dirs, train_dir, min_face_ratio=0.0225,
                            filter_entire_img=True):
     """
     loads widerface dataset from directory. filter out images with small faces.\n
