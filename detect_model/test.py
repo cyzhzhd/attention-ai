@@ -61,5 +61,5 @@ if __name__ == "__main__":
                 bbox, args.threshold, args.tie_threshold)
             print("time taken(ms): ", (time.time() - t1)*1000)
 
-            drawplt(image.astype(int), resolved_boxes, args.width, args.height)
-            drawplt(image.astype(int), bbox[..., 1:5], args.width, args.height)
+            drawplt(image, resolved_boxes, args.width, args.height)
+            drawplt(image, bbox[..., 1:5], args.width, args.height)

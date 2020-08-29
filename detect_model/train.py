@@ -38,7 +38,7 @@ if __name__ == "__main__":
     val_num = int(len(images) * cfg.as_float('validation_ratio'))
     images_val, labels_val = images[:val_num], labels[:val_num]
     images_val = np.array(images_val, copy=False,
-                          dtype=np.flaot32) / 127.5 - 1.0
+                          dtype=np.float32) / 127.5 - 1.0
     gt_val = generate_gt(labels_val, anchors, verbose=True)
 
     images, labels = images[val_num:], labels[val_num:]

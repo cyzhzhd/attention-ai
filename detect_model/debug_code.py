@@ -7,7 +7,7 @@ import numpy as np
 import sys
 import os
 
-GT_DIRS = ["/home/cyrojyro/hddrive/wider_face_split/celeba_gt.txt"]
+GT_DIRS = ["/home/cyrojyro/hddrive/wider_face_split/fddb_gt.txt"]
 DATA_DIR = "/home/cyrojyro/hddrive/WIDER_train/images"
 MODRL_DIR = "./pretrained.hdf5"
 
@@ -57,15 +57,14 @@ def load_widerface_dynamic(gt_dirs, train_dir, min_face_ratio=0.0225,
                     # filter out invalid or small gt boxes
                     if (gt[2] * gt[3] > min_face_ratio and gt[4] == 0
                             and gt[7] != 1 and gt[8] == 0 and gt[9] != 1):
-                        label.append(np.array(gt[:4], dtype=np.float32))
+                        label.append(gt[:4])
                     else:
                         filter_flag = True
 
                 if filter_flag and filter_entire_img:
                     continue
 
-                label = np.array(label, dtype=np.float32)
-                if label.size > 0:
+                if len(label) > 0:
                     images.append(image_path)
                     labels.append(label)
 
@@ -95,15 +94,15 @@ def dataloader_dynamic(image_urls, labels, anchors, target_w, target_h, batch_si
             # do augmentation
             image, label = random_flip(image, label)
             image = random_brightness(image)
-            image = np.array(image, dtype=np.float32)
+            image = np.array(image, copy=False, dtype=np.float32)
             image = image / 127.5 - 1.0
 
             image_batch.append(image)
             label_batch.append(label)
 
         gt_batch = generate_gt(label_batch, anchors)
-        yield (np.array(image_batch, dtype=np.float32),
-               np.array(gt_batch, dtype=np.float32))
+        yield (np.array(image_batch, copy=False, dtype=np.float32),
+               np.array(gt_batch, copy=False, dtype=np.float32))
 
 
 def test_model_on_dataset():

@@ -11,7 +11,7 @@ def read_image(image_path, target_w, target_h):
     image = tf.keras.preprocessing.image.load_img(
         image_path, color_mode='rgb', target_size=(target_h, target_w),
         interpolation='bilinear')
-    return np.array(image, dtype=np.float32)
+    return np.asarray(image)
 
 
 def print_progress(num):
@@ -72,7 +72,7 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
                     # no heavy blur, occlusion, atypical pose
                     if (gt[2] * gt[3] > min_face_ratio and gt[4] == 0
                             and gt[7] != 1 and gt[8] == 0 and gt[9] != 1):
-                        label.append(np.array(gt[:4], dtype=np.float32))
+                        label.append(gt[:4])
                     else:
                         filter_flag = True
 
@@ -81,8 +81,7 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
 
                 image = read_image(image_path, target_w, target_h)
 
-                label = np.array(label, dtype=np.float32)
-                if label.size > 0:
+                if len(label) > 0:
                     images.append(image)
                     labels.append(label)
                     # show normalized image and bbox
@@ -142,8 +141,8 @@ def dataloader_gt(images, ground_truths, batch_size=64):
         for key in selected_keys:
             image_batch.append(images[key])
             gt_batch.append(ground_truths[key])
-        yield (np.array(image_batch, dtype=np.float32),
-               np.array(gt_batch, dtype=np.float32))
+        yield (np.array(image_batch, copy=False, dtype=np.float32),
+               np.array(gt_batch, copy=False, dtype=np.float32))
 
 
 def dataloader_aug(images, labels, anchors, batch_size=64):
@@ -167,12 +166,12 @@ def dataloader_aug(images, labels, anchors, batch_size=64):
             # do augmentation
             image, label = random_flip(image, label)
             image = random_brightness(image)
-            image = np.array(image, dtype=np.float32)
+            image = np.array(image, copy=False, dtype=np.float32)
             image = image / 127.5 - 1.0
 
             image_batch.append(image)
             label_batch.append(label)
 
         gt_batch = generate_gt(label_batch, anchors)
-        yield (np.array(image_batch, dtype=np.float32),
-               np.array(gt_batch, dtype=np.float32))
+        yield (np.array(image_batch, copy=False, dtype=np.float32),
+               np.array(gt_batch, copy=False, dtype=np.float32))
