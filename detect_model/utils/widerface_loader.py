@@ -11,7 +11,7 @@ def read_image(image_path, target_w, target_h):
     image = tf.keras.preprocessing.image.load_img(
         image_path, color_mode='rgb', target_size=(target_h, target_w),
         interpolation='bilinear')
-    return np.array(image)
+    return np.array(image, dtype=np.float32)
 
 
 def print_progress(num):
@@ -72,7 +72,7 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
                     # no heavy blur, occlusion, atypical pose
                     if (gt[2] * gt[3] > min_face_ratio and gt[4] == 0
                             and gt[7] != 1 and gt[8] == 0 and gt[9] != 1):
-                        label.append(np.array(gt[:4]))
+                        label.append(np.array(gt[:4], dtype=np.float32))
                     else:
                         filter_flag = True
 
@@ -81,7 +81,7 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
 
                 image = read_image(image_path, target_w, target_h)
 
-                label = np.array(label)
+                label = np.array(label, dtype=np.float32)
                 if label.size > 0:
                     images.append(image)
                     labels.append(label)
@@ -109,7 +109,7 @@ def generate_gt(labels, anchors, iou_threshold=0.5, verbose=False):
 
         gt = np.zeros([num_boxes, 5], dtype=np.float32)
         for box in label:
-            ious = np.array(calc_iou_batch(box, anchors))
+            ious = np.array(calc_iou_batch(box, anchors), dtype=np.float32)
             # Match higher than threshold
             maxarg = ious > iou_threshold
             # Match best jaccard(IOU) overlap

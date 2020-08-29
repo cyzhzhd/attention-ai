@@ -54,12 +54,12 @@ if __name__ == "__main__":
 
             t1 = time.time()
             prediction = model(image_normalized)
-            prediction = np.array(prediction)
+            prediction = np.array(prediction, dtype=np.float32)
             bbox = prediction_to_bbox(prediction, anchors)[0]
             bbox = bbox[bbox[..., 0] > args.threshold]
             resolved_boxes = tie_resolution(
                 bbox, args.threshold, args.tie_threshold)
             print("time taken(ms): ", (time.time() - t1)*1000)
 
-            drawplt(image, resolved_boxes, args.width, args.height)
-            drawplt(image, bbox[..., 1:5], args.width, args.height)
+            drawplt(image.astype(int), resolved_boxes, args.width, args.height)
+            drawplt(image.astype(int), bbox[..., 1:5], args.width, args.height)

@@ -57,22 +57,20 @@ def load_widerface_dynamic(gt_dirs, train_dir, min_face_ratio=0.0225,
                     # filter out invalid or small gt boxes
                     if (gt[2] * gt[3] > min_face_ratio and gt[4] == 0
                             and gt[7] != 1 and gt[8] == 0 and gt[9] != 1):
-                        label.append(np.array(gt[:4]))
+                        label.append(np.array(gt[:4], dtype=np.float32))
                     else:
                         filter_flag = True
 
                 if filter_flag and filter_entire_img:
                     continue
 
-                label = np.array(label)
+                label = np.array(label, dtype=np.float32)
                 if label.size > 0:
                     images.append(image_path)
                     labels.append(label)
 
             print('\nLoaded: ', len(images))
 
-    images = np.array(images)
-    labels = np.array(labels)
     return images, labels
 
 
@@ -126,7 +124,7 @@ def test_model_on_dataset():
             drawplt(a[j], ress[..., 1:5], 128, 128)
 
             prediction = model(np.expand_dims(a[j], 0))
-            prediction = np.array(prediction)
+            prediction = np.array(prediction, dtype=np.float32)
             bbox = prediction_to_bbox(prediction, anchors)[0]
             bbox = bbox[bbox[..., 0] > 0.5]
             resolved_boxes = tie_resolution(bbox, 0.5, 0.2)
