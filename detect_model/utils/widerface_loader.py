@@ -100,7 +100,7 @@ def generate_gt(labels, anchors, iou_threshold=0.5, verbose=False):
     """
     process_num = 0
     num_boxes = anchors.shape[0]
-    gts = np.empty([0, num_boxes, 5])
+    gts = []
 
     for label in labels:
         if verbose:
@@ -118,34 +118,14 @@ def generate_gt(labels, anchors, iou_threshold=0.5, verbose=False):
             gt[maxarg, 1:3] = (box[0:2] - anchors[maxarg, 0:2]
                                ) / anchors[maxarg, 2:4]
             gt[maxarg, 3:5] = np.log(box[2:4] / anchors[maxarg, 2:4])
-        gts = np.vstack([gts, np.expand_dims(gt, axis=0)])
+        gts.append(gt)
 
     if verbose:
         print('\nLoaded:', len(gts))
     return gts
 
 
-def dataloader_gt(images, ground_truths, batch_size=64):
-    """
-    images: [num_images, 128, 128, 3]\n
-    ground_truths: [num_labels, num_boxes, 5(conf, tcx, tcy, tw, th)]\n
-    returns: ([batch_size, 128, 128, 3], [batch_size, num_boxes, 5])
-    """
-    data_keys = np.arange(len(images))
-    while True:
-        selected_keys = np.random.choice(
-            data_keys, replace=False, size=batch_size)
-
-        image_batch = []
-        gt_batch = []
-        for key in selected_keys:
-            image_batch.append(images[key])
-            gt_batch.append(ground_truths[key])
-        yield (np.array(image_batch, copy=False, dtype=np.float32),
-               np.array(gt_batch, copy=False, dtype=np.float32))
-
-
-def dataloader_aug(images, labels, anchors, batch_size=64):
+def dataloader(images, labels, anchors, batch_size=64, augment=True):
     """
     images: [num_images, image_width, image_height, 3]\n
     labels: [num_labels, num_gt, 4(tcx, tcy, tw, th)]\n
@@ -164,8 +144,9 @@ def dataloader_aug(images, labels, anchors, batch_size=64):
             label = labels[key].copy()
 
             # do augmentation
-            image, label = random_flip(image, label)
-            image = random_brightness(image)
+            if augment:
+                image, label = random_flip(image, label)
+                image = random_brightness(image)
             image = np.array(image, copy=False, dtype=np.float32)
             image = image / 127.5 - 1.0
 

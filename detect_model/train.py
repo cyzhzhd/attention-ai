@@ -1,16 +1,25 @@
 """
-TODO: __init__ module job, camera test code, efficient data feeding, gt gen
+TODO: __init__ module job, camera test code, efficient data feeding, gt gen, prec recall metric, loss 결과 찍어보기 배치단위, positive negative 샘플 갯수 찍어보기
 """
 
 from utils.widerface_loader import *
 from model.models import Blazeface
+from utils.metrics import *
 from utils.losses import *
 import tensorflow as tf
-import configobj
 import numpy as np
+import configobj
+import argparse
 import os
 
 CONFIG_FILE = 'train_config.ini'
+
+parser = argparse.ArgumentParser(
+    description="Test model using arbitrary image")
+parser.add_argument('--model', type=str, default='',
+                    help='Model directory to resume training')
+parser.add_argument('--epoch', type=int, default=0,
+                    help='Resume epoch')
 
 
 def preprocess_config():
@@ -20,6 +29,7 @@ def preprocess_config():
 
 
 if __name__ == "__main__":
+    args = parser.parse_args()
     cfg = preprocess_config()
     physical_devices = tf.config.list_physical_devices('GPU')
     print("Available GPUs:", len(physical_devices))
@@ -36,22 +46,29 @@ if __name__ == "__main__":
 
     # split validation set
     val_num = int(len(images) * cfg.as_float('validation_ratio'))
-    images_val, labels_val = images[:val_num], labels[:val_num]
-    images_val = np.array(images_val, copy=False,
-                          dtype=np.float32) / 127.5 - 1.0
-    gt_val = generate_gt(labels_val, anchors, verbose=True)
 
     images, labels = images[val_num:], labels[val_num:]
-    data_loader = dataloader_aug(images, labels, anchors,
-                                 batch_size=cfg.as_int('batch_size'))
+    data_loader = dataloader(images, labels, anchors,
+                             batch_size=cfg.as_int('batch_size'))
 
-    model = Blazeface(input_dim=(
-        cfg.as_int('input_w'), cfg.as_int('input_h'), 3)).build_model()
+    images_val, labels_val = images[:val_num], labels[:val_num]
+    data_loader_val = dataloader(images_val, labels_val, anchors,
+                                 batch_size=cfg.as_int('batch_size'), augment=False)
+
+    if args.model:
+        model = tf.keras.models.load_model(args.model, custom_objects={
+                                           'multiboxLoss': multiboxLoss,
+                                           'cn_loss': cn_loss, 'cp_loss': cp_loss,
+                                           'l_loss': l_loss})
+    else:
+        model = Blazeface(input_dim=(
+            cfg.as_int('input_w'), cfg.as_int('input_h'), 3)).build_model()
+
     loss = multiboxLoss
     optim = tf.keras.optimizers.Adam(
         learning_rate=cfg.as_float('learning_rate'))
     model.compile(loss=loss, optimizer=optim,
-                  metrics=[c_loss, l_loss])
+                  metrics=[cp_loss, cn_loss, l_loss])
 
     early_stop = tf.keras.callbacks.EarlyStopping(
         monitor='val_loss', patience=cfg.as_float('early_stop_patience'))
@@ -71,8 +88,12 @@ if __name__ == "__main__":
         verbose=1
     )
 
+    val_steps = int(cfg.as_int('steps_per_epoch') *
+                    cfg.as_float('validation_ratio'))
     res = model.fit(x=data_loader,
-                    validation_data=(images_val, gt_val),
+                    validation_data=data_loader_val,
+                    validation_steps=val_steps,
+                    initial_epoch=args.epoch,
                     epochs=cfg.as_int('epochs'),
                     steps_per_epoch=cfg.as_int('steps_per_epoch'),
                     callbacks=[ckpt, early_stop, rdlr],
