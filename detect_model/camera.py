@@ -24,6 +24,8 @@ parser.add_argument('--model', type=str, required=True,
 
 if __name__=="__main__":
     cap = cv2.VideoCapture(0)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 128)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 128)
     args = parser.parse_args()
     anchors = np.load(os.path.join(args.anchor, "anchors.npy"))
 
