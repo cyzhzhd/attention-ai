@@ -84,7 +84,7 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
                 if len(label) > 0:
                     images.append(image)
                     labels.append(label)
-                    # show normalized image and bbox
+                    # show image and bbox
                     # drawplt(image_normalized, label, target_w, target_h)
 
             print('\nLoaded:', len(images))
@@ -146,14 +146,14 @@ def dataloader(images, labels, anchors, batch_size=64, augment=True):
             # do augmentation
             if augment:
                 image, label = random_flip(image, label)
+                image, label = random_rotate(image, label)
                 image = random_brightness(image)
 
-            image = np.array(image, copy=False, dtype=np.float32)
+            image = np.array(image, dtype=np.float32)
             image = image / 127.5 - 1.0
-
             image_batch.append(image)
             label_batch.append(label)
 
         gt_batch = generate_gt(label_batch, anchors)
-        yield (np.array(image_batch, copy=False, dtype=np.float32),
-               np.array(gt_batch, copy=False, dtype=np.float32))
+        yield (np.array(image_batch, dtype=np.float32),
+               np.array(gt_batch, dtype=np.float32))

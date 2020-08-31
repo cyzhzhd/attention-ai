@@ -4,12 +4,17 @@ from utils.utils import *
 import tensorflow as tf
 from PIL import Image
 import numpy as np
+import argparse
 import sys
 import os
 
 GT_DIRS = ["/home/cyrojyro/hddrive/wider_face_split/fddb_gt.txt"]
 DATA_DIR = "/home/cyrojyro/hddrive/WIDER_train/images"
-MODRL_DIR = "./Blazeface018e.hdf5"
+
+parser = argparse.ArgumentParser(
+    description="Debug, Testbed")
+parser.add_argument('--model', type=str, required=True,
+                    help='Model directory')
 
 
 def load_widerface_dynamic(gt_dirs, train_dir, min_face_ratio=0.0225,
@@ -90,25 +95,27 @@ def dataloader_dynamic(image_urls, labels, anchors, target_w, target_h, batch_si
         for key in selected_keys:
             image = read_image(image_urls[key], target_w, target_h)
             label = np.array(labels[key], dtype=np.float32)
-
             # do augmentation
             image, label = random_flip(image, label)
+            image, label = random_rotate(image, label)
             image = random_brightness(image)
-            image = np.array(image, copy=False, dtype=np.float32)
+            image = np.array(image, dtype=np.float32)
+            image = np.array(image)
             image = image / 127.5 - 1.0
+            # drawplt(image, label, 128, 128)
 
             image_batch.append(image)
             label_batch.append(label)
 
         gt_batch = generate_gt(label_batch, anchors)
-        yield (np.array(image_batch, copy=False, dtype=np.float32),
-               np.array(gt_batch, copy=False, dtype=np.float32))
+        yield (np.array(image_batch, dtype=np.float32),
+               np.array(gt_batch, dtype=np.float32))
 
 
-def test_model_on_dataset():
+def test_model_on_dataset(args):
     anchors = np.load(os.path.join("./", "anchors.npy"))
     model = tf.keras.models.load_model(
-        MODRL_DIR, compile=False)
+        args.model, compile=False)
     image_urls, labels = load_widerface_dynamic(GT_DIRS, DATA_DIR)
     dataloader = dataloader_dynamic(image_urls, labels, anchors, 128, 128)
 
@@ -132,4 +139,5 @@ def test_model_on_dataset():
 
 
 if __name__ == "__main__":
-    test_model_on_dataset()
+    args = parser.parse_args()
+    test_model_on_dataset(args)
