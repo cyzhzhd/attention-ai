@@ -14,5 +14,4 @@ def random_brightness(image, max_factor=0.25, prob=0.5):
     if random.random() > prob:
         factor = (random.random() - 0.5) * 2 * max_factor
         image = tf.image.adjust_brightness(image, factor)
-
     return image

@@ -1,5 +1,5 @@
 """
-TODO: __init__ module job, camera test code, efficient data feeding, gt gen, prec recall metric, loss 결과 찍어보기 배치단위, positive negative 샘플 갯수 찍어보기
+TODO: __init__ module job, camera test code, efficient data feeding, gt gen, prec recall metric
 """
 
 from utils.widerface_loader import *
@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
     loss = multiboxLoss
     optim = tf.keras.optimizers.Adam(
-        learning_rate=cfg.as_float('learning_rate'))
+        learning_rate=cfg.as_float('learning_rate'), amsgrad=True)
     model.compile(loss=loss, optimizer=optim,
                   metrics=[cp_loss, cn_loss, l_loss])
 

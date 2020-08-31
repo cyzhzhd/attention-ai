@@ -9,7 +9,7 @@ import os
 
 GT_DIRS = ["/home/cyrojyro/hddrive/wider_face_split/fddb_gt.txt"]
 DATA_DIR = "/home/cyrojyro/hddrive/WIDER_train/images"
-MODRL_DIR = "./pretrained.hdf5"
+MODRL_DIR = "./Blazeface018e.hdf5"
 
 
 def load_widerface_dynamic(gt_dirs, train_dir, min_face_ratio=0.0225,
@@ -89,7 +89,7 @@ def dataloader_dynamic(image_urls, labels, anchors, target_w, target_h, batch_si
         label_batch = []
         for key in selected_keys:
             image = read_image(image_urls[key], target_w, target_h)
-            label = labels[key].copy()
+            label = np.array(labels[key], dtype=np.float32)
 
             # do augmentation
             image, label = random_flip(image, label)

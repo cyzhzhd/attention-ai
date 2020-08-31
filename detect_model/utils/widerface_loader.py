@@ -64,9 +64,9 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
                     gt_str = f.readline().strip('\n ').split(' ')
                     gt = [int(i) for i in gt_str]
                     gt[0], gt[2] = (gt[0] + gt[2] / 2) / \
-                        image_w,  gt[2] / image_w
+                        image_w,  gt[2] * 1.1 / image_w
                     gt[1], gt[3] = (gt[1] + gt[3] / 2) / \
-                        image_h,  gt[3] / image_h
+                        image_h,  gt[3] * 1.0 / image_h
 
                     # filter out invalid or small gt boxes
                     # no heavy blur, occlusion, atypical pose
@@ -140,13 +140,14 @@ def dataloader(images, labels, anchors, batch_size=64, augment=True):
         image_batch = []
         label_batch = []
         for key in selected_keys:
-            image = images[key].copy()
-            label = labels[key].copy()
+            image = np.array(images[key], dtype=np.float32)
+            label = np.array(labels[key], dtype=np.float32)
 
             # do augmentation
             if augment:
                 image, label = random_flip(image, label)
                 image = random_brightness(image)
+
             image = np.array(image, copy=False, dtype=np.float32)
             image = image / 127.5 - 1.0
 
