@@ -64,7 +64,7 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
                     gt_str = f.readline().strip('\n ').split(' ')
                     gt = [int(i) for i in gt_str]
                     gt[0], gt[2] = (gt[0] + gt[2] / 2) / \
-                        image_w,  gt[2] * 1.1 / image_w
+                        image_w,  gt[2] * 1.0 / image_w
                     gt[1], gt[3] = (gt[1] + gt[3] / 2) / \
                         image_h,  gt[3] * 1.0 / image_h
 

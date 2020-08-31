@@ -37,7 +37,7 @@ if __name__ == "__main__":
     gts = cfg['wider_gts']
     gts = [gts] if isinstance(gts, str) else [gt for gt in gts]
 
-    # [num_picture, width(128), height(128), 3], [num_picture, num_gt, 4]
+    # [num_picture, image_width, image_height, 3], [num_picture, num_gt, 4]
     images, labels = load_widerface(gts, cfg['wider_train'], cfg.as_int('input_w'),
                                     cfg.as_int('input_h'), max_size=cfg.as_int('max_dset'))
 

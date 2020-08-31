@@ -11,6 +11,8 @@ import os
 GT_DIRS = ["/home/cyrojyro/hddrive/wider_face_split/fddb_gt.txt"]
 DATA_DIR = "/home/cyrojyro/hddrive/WIDER_train/images"
 
+img_width = 128
+img_height = 128
 parser = argparse.ArgumentParser(
     description="Debug, Testbed")
 parser.add_argument('--model', type=str, required=True,
@@ -82,7 +84,7 @@ def dataloader_dynamic(image_urls, labels, anchors, target_w, target_h, batch_si
     """
     image_urls: [num_images] contains image url\n
     labels: [num_labels, num_gt, 4]]\n
-    returns: ([batch_size, 128, 128, 3], [batch_size, num_boxes, 5])\n
+    returns: ([batch_size, image_width, image_height, 3], [batch_size, num_boxes, 5])\n
     this function dynamically loads image from image_url, and make gt from labels.
     """
     data_keys = np.arange(len(image_urls))
@@ -102,7 +104,7 @@ def dataloader_dynamic(image_urls, labels, anchors, target_w, target_h, batch_si
             image = np.array(image, dtype=np.float32)
             image = np.array(image)
             image = image / 127.5 - 1.0
-            # drawplt(image, label, 128, 128)
+            # drawplt(image, label, img_width, img_height)
 
             image_batch.append(image)
             label_batch.append(label)
@@ -117,7 +119,8 @@ def test_model_on_dataset(args):
     model = tf.keras.models.load_model(
         args.model, compile=False)
     image_urls, labels = load_widerface_dynamic(GT_DIRS, DATA_DIR)
-    dataloader = dataloader_dynamic(image_urls, labels, anchors, 128, 128)
+    dataloader = dataloader_dynamic(
+        image_urls, labels, anchors, img_width, img_height)
 
     for _ in range(10):
         a, gt = next(dataloader)
@@ -127,7 +130,7 @@ def test_model_on_dataset(args):
             ress = p[j]
             ress = ress[ress[..., 0] == 1]
             # show translated gt
-            drawplt(a[j], ress[..., 1:5], 128, 128)
+            drawplt(a[j], ress[..., 1:5], img_width, img_height)
 
             prediction = model(np.expand_dims(a[j], 0))
             prediction = np.array(prediction, dtype=np.float32)
@@ -135,7 +138,7 @@ def test_model_on_dataset(args):
             bbox = bbox[bbox[..., 0] > 0.5]
             resolved_boxes = tie_resolution(bbox, 0.5, 0.2)
             # show model result
-            drawplt(a[j], resolved_boxes, 128, 128)
+            drawplt(a[j], resolved_boxes, img_width, img_height)
 
 
 if __name__ == "__main__":

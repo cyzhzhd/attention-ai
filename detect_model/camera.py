@@ -22,11 +22,12 @@ parser.add_argument('--cpu', action="store_true",
 parser.add_argument('--model', type=str, required=True,
                     help='Model directory')
 
-if __name__=="__main__":
-    cap = cv2.VideoCapture(0)
-    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 128)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 128)
+if __name__ == "__main__":
     args = parser.parse_args()
+
+    cap = cv2.VideoCapture(0)
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, args.width)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, args.height)
     anchors = np.load(os.path.join(args.anchor, "anchors.npy"))
 
     model = tf.keras.models.load_model(args.model, compile=False)
@@ -46,14 +47,17 @@ if __name__=="__main__":
         prediction = np.array(prediction)
         bbox = prediction_to_bbox(prediction, anchors)[0]
         bbox = bbox[bbox[..., 0] > args.threshold]
-        resolved_boxes = tie_resolution(bbox, args.threshold, args.tie_threshold)
-        
-        if ret==True:
+        resolved_boxes = tie_resolution(
+            bbox, args.threshold, args.tie_threshold)
+
+        if ret == True:
             for box in resolved_boxes:
-                top_left = (int(frame.shape[1] * (box[0] - box[2] / 2)), int(frame.shape[0] * (box[1] - box[3] / 2)))
-                botton_right = (int(frame.shape[1] * (box[0] + box[2] / 2)), int(frame.shape[0] * (box[1] + box[3] / 2)))
+                top_left = (int(frame.shape[1] * (box[0] - box[2] / 2)),
+                            int(frame.shape[0] * (box[1] - box[3] / 2)))
+                botton_right = (int(
+                    frame.shape[1] * (box[0] + box[2] / 2)), int(frame.shape[0] * (box[1] + box[3] / 2)))
                 blue = (255, 0, 0)
-                frame = cv2.rectangle(frame, top_left, botton_right, blue, 2) 
+                frame = cv2.rectangle(frame, top_left, botton_right, blue, 2)
             cv2.imshow('frame', frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
