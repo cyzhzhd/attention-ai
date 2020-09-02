@@ -14,7 +14,7 @@ def BlazeBlock(x, filters_1, filters_2=0, kernel_size=5,
                strides=1, padding='same'):
     assert strides in [1, 2]
     activation = tf.keras.layers.Activation(tf.nn.relu)
-    use_residual = (strides == 2)
+    use_pool = (strides == 2)
     use_double_block = (filters_2 != 0)
 
     dw_conv_1 = tf.keras.Sequential([
@@ -38,12 +38,14 @@ def BlazeBlock(x, filters_1, filters_2=0, kernel_size=5,
         ])
 
     x_0 = dw_conv_1(x)
+
     if use_double_block:
         x_0 = activation(x_0)
         x_0 = dw_conv_2(x_0)
-    if use_residual:
-        pad_num = x_0.shape[-1] - x.shape[-1]
-        x_1 = tf.keras.layers.MaxPool2D()(x)
-        x_1 = ChannelPad(x_1, pad_num)
-        x_0 = tf.keras.layers.Add()([x_0, x_1])
+    if use_pool:
+        x = tf.keras.layers.MaxPool2D()(x)
+
+    pad_num = x_0.shape[-1] - x.shape[-1]
+    x = ChannelPad(x, pad_num)
+    x_0 = tf.keras.layers.Add()([x_0, x])
     return activation(x_0)

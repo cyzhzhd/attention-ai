@@ -21,7 +21,7 @@ def random_brightness(image, max_factor=0.25, prob=0.5):
 
 def random_rotate(image, labels, max_factor=math.pi/4, prob=0.5):
     if random.random() < prob:
-        factor = random.random() * max_factor
+        factor = 2 * (random.random() - 0.5) * max_factor
         # counter-clockwise
         image = tfa.image.rotate(image, -factor, 'BILINEAR')
         for label in labels:
@@ -31,5 +31,5 @@ def random_rotate(image, labels, max_factor=math.pi/4, prob=0.5):
 
             label[0] = norm * math.cos(angle) + 0.5
             label[1] = norm * math.sin(angle) + 0.5
-            label[2:3] = label[2:3] * math.sin(math.pi/4 + factor) * 1.414
+            label[2:3] = label[2:3] * math.sin(math.pi/4 + abs(factor)) * 1.414
     return image, labels

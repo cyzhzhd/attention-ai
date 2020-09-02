@@ -18,7 +18,7 @@ python test.py --model ./pretrained.hdf5 --threshold 0.5 --tie_threshold 0.2
 ### Convert to TFJS
 
 ```
-    sh convert_to_tfjs [.hdf5 file] [output directory]
+    sh convert_to_tfjs.sh [.hdf5 file] [output directory]
 ```
 
 ### References

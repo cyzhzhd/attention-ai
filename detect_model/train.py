@@ -3,8 +3,9 @@ TODO: __init__ module job, camera test code, efficient data feeding, gt gen, pre
 """
 
 from utils.widerface_loader import *
-from model.models import Blazeface
+from model.backbones import *
 from utils.metrics import *
+from model.models import *
 from utils.losses import *
 import tensorflow as tf
 import numpy as np
@@ -62,7 +63,8 @@ if __name__ == "__main__":
                                            'l_loss': l_loss})
     else:
         model = Blazeface(input_dim=(
-            cfg.as_int('input_w'), cfg.as_int('input_h'), 3)).build_model()
+            cfg.as_int('input_w'), cfg.as_int('input_h'), 3),
+            backbone=blaze_backbone).build_model()
 
     loss = multiboxLoss
     optim = tf.keras.optimizers.Adam(

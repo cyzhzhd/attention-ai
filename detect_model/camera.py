@@ -2,11 +2,12 @@ from utils.utils import prediction_to_bbox, tie_resolution
 import tensorflow as tf
 import numpy as np
 import argparse
+import time
 import cv2
 import os
 
 parser = argparse.ArgumentParser(
-    description="Test model using arbitrary image")
+    description="Test model using camera")
 parser.add_argument('--width', type=int, default=128,
                     help='Target image width')
 parser.add_argument('--height', type=int, default=128,
@@ -26,8 +27,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     cap = cv2.VideoCapture(0)
-    cap.set(cv2.CAP_PROP_FRAME_WIDTH, args.width)
-    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, args.height)
     anchors = np.load(os.path.join(args.anchor, "anchors.npy"))
 
     model = tf.keras.models.load_model(args.model, compile=False)
@@ -42,8 +41,14 @@ if __name__ == "__main__":
     while(cap.isOpened()):
         ret, frame = cap.read()
         frame_resized = cv2.resize(frame, (args.width, args.height))
+        frame_resized = cv2.cvtColor(frame_resized, cv2.COLOR_BGR2RGB)
         frame_resized = frame_resized / 127.5 - 1.0
+
+        t1 = time.time()
         prediction = model(np.expand_dims(frame_resized, 0))
+        t2 = time.time()
+        print("time to predict:", (t2 - t1) * 1000, "ms")
+
         prediction = np.array(prediction)
         bbox = prediction_to_bbox(prediction, anchors)[0]
         bbox = bbox[bbox[..., 0] > args.threshold]

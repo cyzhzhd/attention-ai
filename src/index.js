@@ -32,12 +32,6 @@ const TinyFaceDetectorOption = new faceapi.TinyFaceDetectorOptions({
   scoreThreshold: 0.3,
 });
 
-// SsdMobilenetv1 works with tfjs 1.7.x
-const SsdMobilenetv1Option = new faceapi.SsdMobilenetv1Options({
-  minConfidence: 0.1,
-  maxResults: 987654321,
-});
-
 faceapi.env.monkeyPatch({
   Canvas: HTMLCanvasElement,
   Image: HTMLImageElement,
@@ -159,7 +153,7 @@ async function uploadTest() {
   uploadedImg.src = img.src;
 
   const t1 = performance.now();
-  await faceapi.detectAllFaces(uploadedImg, SsdMobilenetv1Option);
+  await faceapi.detectAllFaces(uploadedImg, TinyFaceDetectorOption);
   const t2 = performance.now();
 
   console.log(`took ${(t2 - t1).toFixed(3)} ms to process`);
