@@ -1,4 +1,7 @@
 export let status = {
+  yaw: 0,
+  roll: 0,
+  pitch: 0,
   undetected: false,
   turned: false,
   turnedFactor: 0,
@@ -14,12 +17,15 @@ const turnFactor = 3.5; // higher -> need more turn to trigger true
 const bowFactor = -0.1; // higher -> need more bow to trigger true
 const eyeTurnCorrection = 2.5;
 
-export function analyze(detection, landmarks) {
+export function analyze(detection, landmarks, angle) {
   status = {};
   status.undetected = detection ? false : true;
 
-  if (landmarks) {
+  if (detection) {
     status = { ...status, ...analyzeLandmark(landmarks) };
+    status.pitch = angle[0][0].toFixed(3);
+    status.yaw = angle[0][1].toFixed(3);
+    status.roll = angle[0][2].toFixed(3);
   }
 
   // weighted sum of score to produce overall score.
