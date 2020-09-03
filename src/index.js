@@ -1,56 +1,28 @@
 /*
 TODO: 
-      preprocess face for better results,
+      constants to another file
+      async function (.arraySunc()...) optimization
+      benchmark
       adaptive method to analyze face
       (use facebox, overall median, face calibration phase etc...),
       analyze sight,
       development/production setting
 */
-import * as canvas from "canvas";
-import * as faceapi from "face-api.js";
 import * as tfjs from "@tensorflow/tfjs";
 import { status, analyze } from "./analysis.js";
-import { landmarkModel, convertLandmark } from "./landmark.js";
+import { landmarkModel } from "./landmark.js";
+import { detectorModel } from "./detector.js";
 tfjs.enableProdMode();
 
 let score = 0;
-export let frames = 0;
-let task = null;
-const upload = document.getElementById("myFileUpload");
-const uploadedImg = document.getElementById("myImg");
-const stop = document.getElementById("stopButton");
+let frames = 0;
 const video = document.getElementById("video");
 const vidW = 640;
 const vidH = 480;
 
-stop.onclick = onStop;
-upload.onchange = uploadTest;
-
-const { ImageData } = canvas;
-const TinyFaceDetectorOption = new faceapi.TinyFaceDetectorOptions({
-  inputSize: 160,
-  scoreThreshold: 0.3,
-});
-
-// SsdMobilenetv1 works with tfjs 1.7.x
-const SsdMobilenetv1Option = new faceapi.SsdMobilenetv1Options({
-  minConfidence: 0.1,
-  maxResults: 987654321,
-});
-
-faceapi.env.monkeyPatch({
-  Canvas: HTMLCanvasElement,
-  Image: HTMLImageElement,
-  ImageData: ImageData,
-  Video: HTMLVideoElement,
-  createCanvasElement: () => document.createElement("canvas"),
-  createImageElement: () => document.createElement("img"),
-});
-
 Promise.all([
-  faceapi.nets.tinyFaceDetector.loadFromUri("./models-faceapi"),
-  faceapi.nets.ssdMobilenetv1.loadFromUri("./models-faceapi"),
   landmarkModel.loadFromUri("../dist/models-tfjs/keypoints_tfjs/model.json"),
+  detectorModel.loadFromUri("../dist/models-tfjs/detector_crafted/model.json"),
 ]).then(startVideo);
 
 function startVideo() {
@@ -63,32 +35,26 @@ function startVideo() {
 
 video.addEventListener("play", async () => {
   console.log(`Backend: ${tfjs.getBackend()}`);
-  const canvas = faceapi.createCanvasFromMedia(video);
+  const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
   document.body.append(canvas);
-  const displaySize = { width: vidW, height: vidH };
-  faceapi.matchDimensions(canvas, displaySize);
 
-  task = setInterval(async () => {
+  setInterval(async () => {
     const timefd1 = performance.now();
-    const detection = await faceapi.detectSingleFace(
-      video,
-      TinyFaceDetectorOption
-    );
+    const pixel = tfjs.browser.fromPixels(video);
+    const img = pixel.reshape([-1, vidH, vidW, 3]);
+    const detectImg = tfjs.image.resizeBilinear(img, [128, 128]);
+    const [bbox, conf] = await detectorModel.predict(detectImg);
     const timefd2 = performance.now();
 
     const timelm1 = performance.now();
-    const box = detection ? detection._box : undefined;
-    const pixel = tfjs.browser.fromPixels(video);
-    const img = pixel.reshape([-1, vidH, vidW, 3]);
-    const croppedFace = cropFace(box, img);
-    const landmarks = landmarkModel.execute(croppedFace, "Identity_2");
-    convertLandmark(landmarks, box).then((landmarkObj) => {
-      score = analyze(detection, landmarkObj);
-      drawAll(canvas, ctx, detection, landmarkObj, displaySize, score);
-    });
+    const [angle, landmark] = await landmarkModel.predict(bbox, img);
     const timelm2 = performance.now();
 
+    score = analyze(bbox, landmark, angle);
+    drawAll(canvas, ctx, bbox, conf, landmark, score);
+
+    // time checker
     frames = frames + 1;
     if (frames % 10 === 0)
       console.log(
@@ -97,70 +63,37 @@ video.addEventListener("play", async () => {
         ).toFixed(3)}ms`
       );
 
-    tfjs.dispose(landmarks);
-    tfjs.dispose(croppedFace);
-    tfjs.dispose(pixel);
-    tfjs.dispose(img);
+    tfjs.dispose([landmark, detectImg, angle, pixel, img]);
   }, 50);
 });
 
-function cropFace(box, img) {
-  if (box === undefined) return undefined;
-  return tfjs.image.cropAndResize(
-    img,
-    [
-      [
-        box.y / vidH,
-        box.x / vidW,
-        (box.y + box.height) / vidH,
-        (box.x + box.width) / vidW,
-      ],
-    ],
-    [0],
-    [160, 160]
-  );
-}
-
-function drawAll(canvas, ctx, detection, landmarkObj, displaySize, score) {
+function drawAll(canvas, ctx, bbox, conf, landmarkObj, score) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  if (detection !== undefined) {
-    const resizedDetections = faceapi.resizeResults(detection, displaySize);
-    faceapi.draw.drawDetections(canvas, resizedDetections);
-  }
-  ctx.fillStyle = "#FF00FF";
-  if (landmarkObj !== undefined) {
+
+  ctx.fillStyle = "#FF0000";
+  ctx.strokeStyle = "#FF0000";
+  ctx.font = "30px Arial";
+  ctx.lineWidth = "4";
+
+  if (bbox !== undefined) {
+    ctx.font = "30px Arial";
+    ctx.beginPath();
+    ctx.rect(bbox[0], bbox[1], bbox[2] - bbox[0], bbox[3] - bbox[1]);
+    ctx.fillText(conf.toFixed(2), bbox[0] + 15, bbox[1] + 30);
+    ctx.stroke();
     for (let i = 0; i < 68; ++i) {
-      ctx.fillRect(landmarkObj[i]["_x"], landmarkObj[i]["_y"], 3, 3);
+      ctx.fillRect(landmarkObj[i]["_x"], landmarkObj[i]["_y"], 4, 4);
     }
   }
   drawInfo(ctx, score);
 }
 
 function drawInfo(ctx, score) {
-  ctx.fillStyle = "#FF00FF";
-  ctx.font = "30px Arial";
   ctx.fillText("score: " + score, 30, 50);
   ctx.font = "18px Arial";
   var lines = JSON.stringify(status, null, 2).split("\n");
   for (var j = 0; j < lines.length; j++)
-    ctx.fillText(lines[j], 10, 310 + j * 20);
-  ctx.font = "12px Arial";
+    ctx.fillText(lines[j], 10, 240 + j * 20);
+  ctx.font = "14px Arial";
   ctx.fillText(JSON.stringify(tfjs.memory()), 20, 470);
-}
-
-function onStop() {
-  video.pause();
-  clearInterval(task);
-}
-
-async function uploadTest() {
-  const imgFile = document.getElementById("myFileUpload").files[0];
-  const img = await faceapi.bufferToImage(imgFile);
-  uploadedImg.src = img.src;
-
-  const t1 = performance.now();
-  await faceapi.detectAllFaces(uploadedImg, SsdMobilenetv1Option);
-  const t2 = performance.now();
-
-  console.log(`took ${(t2 - t1).toFixed(3)} ms to process`);
 }

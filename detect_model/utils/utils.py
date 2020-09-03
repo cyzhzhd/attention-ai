@@ -1,29 +1,58 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import tensorflow as tf
+import numpy as np
 import time
 
 
 def drawplt(image, label, target_w, target_h):
     """
-    image: numpy array\n
-    label: [num_face, 4], cx, cy, w, h: ratio of pixel location
+    image: [image_width, image_height, 3], numpy array\n
+    label: [num_face, 4(cx, cy, w, h)]
     """
     fig, ax = plt.subplots(1)
     ax = plt.imshow(image)
     for l in label:
-        rect = patches.Rectangle((l[0] * target_w, l[1] * target_h),
+        rect = patches.Rectangle(((l[0] - l[2] / 2) * target_w, (l[1] - l[3] / 2) * target_h),
                                  l[2] * target_w, l[3] * target_h, linewidth=1,
                                  edgecolor='r', facecolor='none')
         plt.gca().add_patch(rect)
     plt.show()
 
 
+def tie_resolution(prediction, threshold=0.7, match_iou=0.3):
+    """
+    prediction: [num_batch, num_box, 5(conf, cx, cy, w, h)]\n
+    threshold: minimum confidence to preserve box\n
+    match_iou: iou threshold of same object\n
+    returns: [num_box, 4(cx, cy, w, h)]
+    """
+    resolved = np.empty([0, 4])
+    saved_boxes = prediction[prediction[..., 0] > threshold]
+    sorted = tf.argsort(saved_boxes[..., 0], axis=-1, direction="DESCENDING")
+    used = np.zeros_like(sorted)
+
+    for element in sorted:
+        if(used[element]):
+            continue
+        ious = calc_iou_batch(saved_boxes[element, 1:5], saved_boxes[..., 1:5])
+        selected = ious > match_iou
+        used = np.logical_or(used, selected)
+
+        overlapping_boxes = saved_boxes[np.ravel(selected)]
+        weighted_boxes = np.expand_dims(overlapping_boxes[..., 0], -1) * \
+            overlapping_boxes[..., 1:5] / np.sum(overlapping_boxes[..., 0])
+        weighted_box = np.sum(weighted_boxes, axis=0)
+        resolved = np.vstack([resolved, weighted_box])
+
+    return resolved
+
+
 def prediction_to_bbox(prediction, anchors):
     """
-    prediction: [num_batch, num_box, 5]\n
-    anchors: [num_box, 4]\n
-    returns: [num_batch, num_box, 5] normalized bbox
+    prediction: [num_batch, num_box, 5(conf, cx, cy, w, h)]\n
+    anchors: [num_box, 4(cx, cy, w, h)]\n
+    returns: [num_batch, num_box, 5(conf, cx, cy, w, h)]
     """
     center = prediction[..., 1:3] * anchors[..., 2:4] + anchors[..., 0:2]
     width_height = anchors[..., 2:4] * tf.exp(prediction[..., 3:5])
@@ -34,8 +63,8 @@ def prediction_to_bbox(prediction, anchors):
 
 def calc_iou_batch(box, batch):
     """
-    box: [4]\n
-    batch: [num_box, 4]\n
+    box: [4(cx, cy, w, h)]\n
+    batch: [num_box, 4(cx, cy, w, h)]\n
     returns: [num_box] calculated IOUs
     """
     tf.convert_to_tensor(batch)

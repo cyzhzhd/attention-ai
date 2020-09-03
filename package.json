@@ -13,8 +13,8 @@
   "dependencies": {
     "@commitlint/config-conventional": "^9.1.1",
     "@tensorflow-models/blazeface": "^0.0.5",
-    "@tensorflow/tfjs": "1.7.0",
-    "@tensorflow/tfjs-node": "1.7.0",
+    "@tensorflow/tfjs": "^2.3.0",
+    "@tensorflow/tfjs-node": "^2.3.0",
     "canvas": "^2.6.1",
     "electron": "^9.1.1",
     "eslint": "^7.5.0",

@@ -1,6 +1,9 @@
 import { frames } from "./index.js";
 
 export let status = {
+  yaw: 0,
+  roll: 0,
+  pitch: 0,
   undetected: false,
   turned: false,
   turnedFactor: 0,
@@ -68,6 +71,9 @@ export function analyze(detection, landmarks) {
 
   if (landmarks) {
     status = { ...status, ...analyzeLandmark(landmarks) };
+    status.pitch = angle[0][0].toFixed(3);
+    status.yaw = angle[0][1].toFixed(3);
+    status.roll = angle[0][2].toFixed(3);
   }
 
   // weighted sum of score to produce overall score.

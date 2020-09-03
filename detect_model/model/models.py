@@ -3,12 +3,12 @@ import tensorflow as tf
 
 
 class Blazeface():
-    def __init__(self, input_dim=(128, 128, 3)):
+    def __init__(self, backbone, input_dim=(128, 128, 3)):
         # TODO: make configurable
         self.anchor_num = [2, 6]
         self.cell_size = [16, 8]
         self.input_dim = input_dim
-        self.backbone = blaze_backbone(input_dim=input_dim)
+        self.backbone = backbone(input_dim)
 
     def build_model(self):
         backbone = self.backbone

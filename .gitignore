@@ -3,6 +3,7 @@ node_modules/
 dist/main.js
 test/result*
 test/timeResult.txt
+pretrained_models
 .DS_STORE
 Blazeface*.hdf5
 __pycache__
