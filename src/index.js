@@ -15,10 +15,24 @@ import { detectorModel } from "./detector.js";
 tfjs.enableProdMode();
 
 let score = 0;
-let frames = 0;
+export let frames = 0;
+const stop = document.getElementById("stopButton");
+const resume = document.getElementById("resumeButton");
 const video = document.getElementById("video");
 const vidW = 640;
 const vidH = 480;
+
+stop.onclick = onStop;
+resume.onclick = onResume;
+
+let task = null;
+function onStop() {
+  video.pause();
+  clearInterval(task);
+}
+function onResume() {
+  video.load();
+}
 
 Promise.all([
   landmarkModel.loadFromUri("../dist/models-tfjs/keypoints_tfjs/model.json"),
@@ -39,7 +53,7 @@ video.addEventListener("play", async () => {
   const ctx = canvas.getContext("2d");
   document.body.append(canvas);
 
-  setInterval(async () => {
+  task = setInterval(async () => {
     const timefd1 = performance.now();
     const pixel = tfjs.browser.fromPixels(video);
     const img = pixel.reshape([-1, vidH, vidW, 3]);

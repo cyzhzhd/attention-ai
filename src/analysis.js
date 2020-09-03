@@ -22,7 +22,7 @@ const eyeTurnCorrection = 2.5;
 var state = ["faceOn", ""];
 var frameTemp = 0;
 
-export function analyze(detection, landmarks) {
+export function analyze(detection, landmarks, angle) {
   status.undetected = detection ? false : true;
 
   switch (state[0]) {
