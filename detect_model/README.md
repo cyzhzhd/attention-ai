@@ -11,6 +11,13 @@ pip install -r requirements.txt
 python test.py --model ./pretrained.hdf5 --threshold 0.5 --tie_threshold 0.2
 ```
 
+### Dependencies
+
+```
+Python 3.7.3
+Pip 20.1.1
+```
+
 ### Scripts
 
 - train.py: 모델 학습, 환경설정은 train_config.ini 파일 참고
