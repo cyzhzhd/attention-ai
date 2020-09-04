@@ -15,17 +15,29 @@
       justify-content: center;
       align-items: center;
     }
+
     canvas,
     video {
       position: absolute;
       display: flex;
       top: 0px;
     }
+
+    #controls {
+      position: relative;
+      display: flex;
+      top: 500px;
+    }
   </style>
+
   <body>
     <div>
       <canvas id="canvas" width="640" height="480"></canvas>
       <video id="video" width="640" height="480" autoplay muted></video>
+    </div>
+    <div id="controls">
+      <button id="stopButton">stop</button>
+      <button id="resumeButton">resume</button>
     </div>
   </body>
 </html>
