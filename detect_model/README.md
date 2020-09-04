@@ -2,6 +2,10 @@
 
 ### Results
 
+https://13.125.91.162/swmaestro/183-2/-/wikis/%EC%A0%9C%EC%9E%91-Detector-FDDB-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%82%B9
+
+### HowTo
+
 ```
 pip install -r requirements.txt
 python test.py --model ./pretrained.hdf5 --threshold 0.5 --tie_threshold 0.2

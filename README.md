@@ -1,6 +1,6 @@
 ## 얼굴 데이터 기반 학생 분석 엔진 개발
 
-- 얼굴 탐지 모델 개발 관련:[링크](https://13.125.91.162/swmaestro/183-2/blob/master/detect_model/README.md) 참고
+- 얼굴 탐지 모델 개발 관련:[링크](https://13.125.91.162/swmaestro/183-2/tree/master/detect_model) 참고
 
 ### How To
 
