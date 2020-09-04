@@ -24,18 +24,21 @@ const vidH = 480;
 stop.onclick = onStop;
 resume.onclick = onResume;
 
-let task = null;
+let task = true;
 function onStop() {
+  task = false;
   video.pause();
-  clearInterval(task);
 }
 function onResume() {
+  task = true;
   video.load();
 }
 
 Promise.all([
   landmarkModel.loadFromUri("../dist/models-tfjs/keypoints_tfjs/model.json"),
-  detectorModel.loadFromUri("../dist/models-tfjs/detector_crafted/model.json"),
+  detectorModel.loadFromUri(
+    "../dist/models-tfjs/detector_crafted_q/model.json"
+  ),
 ]).then(startVideo);
 
 function startVideo() {
@@ -51,8 +54,9 @@ video.addEventListener("play", async () => {
   const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
   document.body.append(canvas);
+  setTimeout(async function faceAnalysis() {
+    if (!task) return;
 
-  task = setInterval(async () => {
     const timefd1 = performance.now();
     const pixel = tfjs.browser.fromPixels(video);
     const img = pixel.reshape([-1, vidH, vidW, 3]);
@@ -77,7 +81,8 @@ video.addEventListener("play", async () => {
       );
 
     tfjs.dispose([landmark, detectImg, angle, pixel, img]);
-  }, 50);
+    setTimeout(faceAnalysis, 0);
+  }, 0);
 });
 
 function drawAll(canvas, ctx, bbox, conf, landmarkObj, score) {
