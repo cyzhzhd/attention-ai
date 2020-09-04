@@ -83,8 +83,14 @@ function prediction_to_bbox(prediction, anchors, imgW, imgH) {
 
 async function nonMaximalSuppression(bboxes, confs, min_conf) {
   const topk = confs.topk(1);
-  let [maxConf] = await topk["values"].array();
-  let [maxArg] = await topk["indices"].array();
+
+  const toCopy = [topk["values"], topk["indices"]];
+  const [[maxConf], [maxArg]] = await Promise.all(
+    toCopy.map(async (item) => {
+      const arr = await item.array();
+      return arr;
+    })
+  );
 
   if (maxConf < min_conf) {
     tfjs.dispose(topk);

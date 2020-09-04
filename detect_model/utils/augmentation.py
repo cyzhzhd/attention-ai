@@ -12,16 +12,9 @@ def random_flip(image, labels, prob=0.5):
     return image, labels
 
 
-def random_brightness(image, max_factor=0.25, prob=0.5):
-    if random.random() < prob:
-        factor = (random.random() - 0.5) * 2 * max_factor
-        image = tf.image.adjust_brightness(image, factor)
-    return image
-
-
 def random_rotate(image, labels, max_factor=math.pi/4, prob=0.5):
     if random.random() < prob:
-        factor = 2 * (random.random() - 0.5) * max_factor
+        factor = (random.random() - 0.5) * 2 * max_factor
         # counter-clockwise
         image = tfa.image.rotate(image, -factor, 'BILINEAR')
         for label in labels:
@@ -33,3 +26,10 @@ def random_rotate(image, labels, max_factor=math.pi/4, prob=0.5):
             label[1] = norm * math.sin(angle) + 0.5
             label[2:3] = label[2:3] * math.sin(math.pi/4 + abs(factor)) * 1.414
     return image, labels
+
+
+def random_brightness(image, max_factor=0.25, prob=0.5):
+    if random.random() < prob:
+        factor = (random.random() - 0.5) * 2 * max_factor
+        image = tf.image.adjust_brightness(image, factor)
+    return image

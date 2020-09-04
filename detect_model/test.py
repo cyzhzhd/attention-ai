@@ -1,5 +1,5 @@
-from utils.utils import prediction_to_bbox, drawplt, tie_resolution
 from utils.widerface_loader import read_image
+from utils.utils import *
 import tensorflow as tf
 import numpy as np
 import argparse
@@ -48,7 +48,7 @@ if __name__ == "__main__":
             image = read_image(os.path.join(f), args.width, args.height)
             image = read_image(
                 os.path.join(f), args.width, args.height)
-            image_normalized = image / 127.5 - 1.0
+            image_normalized = normalize_image(image)
             image_normalized = tf.convert_to_tensor(image_normalized)
             image_normalized = tf.expand_dims(image_normalized, 0)
 

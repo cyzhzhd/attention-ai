@@ -1,10 +1,9 @@
 /*
 TODO: 
       constants to another file
-      async function (.arraySunc()...) optimization
       benchmark
       adaptive method to analyze face
-      (use facebox, overall median, face calibration phase etc...),
+      (overall median, face calibration phase etc...),
       analyze sight,
       development/production setting
 */

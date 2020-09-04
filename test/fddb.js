@@ -1,23 +1,27 @@
-/* use tfjs-node */
 const os = require("os");
 var fs = require("fs");
 const path = require("path");
 const faceapi = require("face-api.js");
 const tfjs = require("@tensorflow/tfjs-node");
 const { performance } = require("perf_hooks");
+
 tfjs.enableProdMode();
 
-const macDir = "../../Widerface/WIDER_val/images";
-const lnxDir = "../../hddrive/WIDER_val/images";
+const macDir = "../../Widerface/WIDER_train/images";
+const lnxDir = "../../hddrive/WIDER_train/images";
 
 const backend = "tensorflow";
-const testName = "128-0.1-Ours";
+const testName = "128-0.1-Ours-fddb";
+const foldPath = path.join(
+  __dirname,
+  "../../hddrive/wider_face_split/FDDB-folds"
+);
 const testPath = path.join(__dirname, os.type() == "Linux" ? lnxDir : macDir);
 const outputPath = path.join(__dirname, "./result-" + testName);
 const modelPath = path.join(__dirname, "../dist/models-faceapi");
 const oursPath = path.join(
   __dirname,
-  "../dist/models-tfjs/detector_crafted2/model.json"
+  "../dist/models-tfjs/detector_crafted/model.json"
 );
 
 let detected = 0;
@@ -25,7 +29,7 @@ let imgNum = 0;
 let timeTaken = 0;
 
 const TinyFaceDetectorOption = new faceapi.TinyFaceDetectorOptions({
-  inputSize: 256,
+  inputSize: 128,
   scoreThreshold: 0.1,
 });
 
@@ -140,47 +144,46 @@ function makeDirIfNotExists(dir) {
   }
 }
 
-async function processFolder(testFolder, resultFolder) {
-  console.log(`Working on ${testFolder}`);
-  const testFiles = await getFiles(testFolder);
-  for await (const file of testFiles) {
-    const fileName = file.split(".")[0];
-    const resultFile = path.join(resultFolder, fileName + ".txt");
-    fs.writeFileSync(resultFile, fileName + "\n");
-    const imgBuffer = fs.readFileSync(path.join(testFolder, file));
-    const img = tfjs.node.decodeImage(new Uint8Array(imgBuffer));
-
-    const t0 = performance.now();
-    const detectResult = await detectOurs(img);
-    /*
-    const detectResult = await faceapi.detectAllFaces(
-      img,
-      TinyFaceDetectorOption // set your faceapi model here
-    );
-    */
-    const t1 = performance.now();
-
-    // ignore first one, abnormal time
-    timeTaken = timeTaken + (imgNum < 0 ? 0 : t1 - t0);
-    imgNum = imgNum + 1;
-    detected += detectResult.length;
-
-    fs.writeFileSync(resultFile, `${detectResult.length}\n`, { flag: "a" });
-    for await (const detection of detectResult) {
-      const { _box, _score } = detection;
-      fs.writeFileSync(
-        resultFile,
-        `${Math.round(_box._x)} ${Math.round(_box._y)} ${Math.round(
-          _box._width
-        )} ${Math.round(_box._height)} ${_score.toFixed(3)}\n`,
-        {
-          flag: "a",
-        }
-      );
-    }
-
+async function processImage(imgPath, imgName, savePath) {
+  const imgBuffer = fs.readFileSync(imgPath);
+  let img = tfjs.node.decodeImage(new Uint8Array(imgBuffer));
+  if (img.shape[2] == 1) {
+    const new_img = tfjs.concat([img, img, img], -1);
     tfjs.dispose(img);
+    img = new_img;
   }
+  const t0 = performance.now();
+  const detectResult = await detectOurs(img);
+  /*
+  const detectResult = await faceapi.detectAllFaces(
+    img,
+    TinyFaceDetectorOption // set your faceapi model here
+  );
+  */
+  const t1 = performance.now();
+  // ignore first one, abnormal time
+  timeTaken = timeTaken + (imgNum < 0 ? 0 : t1 - t0);
+  imgNum = imgNum + 1;
+  detected += detectResult.length;
+  savePath = savePath + "/" + imgName.split("/").join("_") + ".txt";
+  fs.writeFileSync(savePath, `${imgName.split("/").join("_")}\n`, {
+    flag: "a",
+  });
+  fs.writeFileSync(savePath, `${detectResult.length}\n`, { flag: "a" });
+  for await (const detection of detectResult) {
+    const { _box, _score } = detection;
+    fs.writeFileSync(
+      savePath,
+      `${Math.round(_box._x)} ${Math.round(_box._y)} ${Math.round(
+        _box._width
+      )} ${Math.round(_box._height)} ${_score.toFixed(3)}\n`,
+      {
+        flag: "a",
+      }
+    );
+  }
+
+  tfjs.dispose(img);
 }
 
 async function detectOurs(img) {
@@ -205,17 +208,30 @@ async function detectOurs(img) {
 async function main() {
   await tfjs.setBackend(backend);
   console.log(`Start testing: ${testName}, ${tfjs.getBackend()}`);
-  const testFolders = await getFiles(testPath);
   await faceapi.nets.tinyFaceDetector.loadFromDisk(modelPath);
   await ours.loadFromUri("file://" + oursPath);
   makeDirIfNotExists(outputPath);
-  for await (const folder of testFolders) {
-    const testFolder = path.join(testPath, folder);
-    const resultFolder = path.join(outputPath, folder);
-    makeDirIfNotExists(resultFolder);
-    await processFolder(testFolder, resultFolder);
+
+  const folds = await getFiles(foldPath);
+  folds.sort();
+  for await (const txtFile of folds) {
+    console.log("Working on", txtFile);
+    const curPath = path.join(
+      outputPath,
+      parseInt(txtFile.split("-")[2].split(".")[0]).toString()
+    );
+    makeDirIfNotExists(curPath);
+    const txtFilePath = path.join(foldPath, txtFile);
+    const data = fs.readFileSync(txtFilePath, "UTF-8");
+    const lines = data.split(/\r?\n/);
+    for await (const line of lines) {
+      if (line == "") continue;
+      const imgPath = path.join(testPath, line) + ".jpg";
+      await processImage(imgPath, line, curPath);
+    }
     console.log(`Current time: ${timeTaken}ms, Processed Iamges: ${imgNum}`);
   }
+
   console.log(`${detected} face detected.`);
   console.log(`${tfjs.getBackend()} backend used.`);
   console.log(`Avg time taken: ${timeTaken / (imgNum - 1)}ms`);

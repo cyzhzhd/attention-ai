@@ -19,8 +19,15 @@ class LandmarkModel {
       "Identity_1",
       "Identity_2",
     ]);
-    const angle = angles.arraySync();
-    const rawLandmarks = _rawLandmarks.arraySync();
+
+    const toCopy = [angles, _rawLandmarks];
+    const [angle, rawLandmarks] = await Promise.all(
+      toCopy.map(async (item) => {
+        const arr = await item.array();
+        return arr;
+      })
+    );
+
     const landmarks = convertLandmark(rawLandmarks, bbox);
     tfjs.dispose([croppedFace, angles, landmarks]);
     return [angle, landmarks];
