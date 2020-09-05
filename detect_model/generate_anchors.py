@@ -35,7 +35,7 @@ def calc_anchors(s_min, s_max, anchor_num, cell_size):
                         (total_anchor - 1) * (order + cell_cumulated)
                     anchors = np.vstack([anchors, np.array(
                         [(x + 0.5) / cells, (y + 0.5) / cells, scale, scale])])
-        cell_cumulated += anchor_num[iteration]
+        cell_cumulated += anchor
     return anchors
 
 

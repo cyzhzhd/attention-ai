@@ -74,7 +74,7 @@ def convertEllipseToRect(ellipseFilename, output_file):
         i = i + num_faces + 2
 
 
-def main():
+if __name__ == '__main__':
     output_file = open(OUTPUT_PATH, 'w')
     for i in range(1, 11):
         fileElliName = "FDDB-fold-%02d-ellipseList.txt" % i
@@ -82,7 +82,3 @@ def main():
 
         convertEllipseToRect(ellipseFilename, output_file)
     output_file.close()
-
-
-if __name__ == '__main__':
-    main()

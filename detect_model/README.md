@@ -2,11 +2,21 @@
 
 ### Results
 
+https://13.125.91.162/swmaestro/183-2/-/wikis/%EC%A0%9C%EC%9E%91-Detector-FDDB-%EB%B2%A4%EC%B9%98%EB%A7%88%ED%82%B9
+
+### HowTo
+
 ```
+pip install -r requirements.txt
 python test.py --model ./pretrained.hdf5 --threshold 0.5 --tie_threshold 0.2
 ```
 
-![Image](/detect_model/result.jpg)
+### Dependencies
+
+```
+Python 3.7.3
+Pip 20.1.1
+```
 
 ### Scripts
 
@@ -14,6 +24,8 @@ python test.py --model ./pretrained.hdf5 --threshold 0.5 --tie_threshold 0.2
 - test.py: 이미지가 들어있는 폴더에 대해 테스트 수행
 - convert_to_tfjs.py: hdf5 포멧을 tensorflowjs 모델로 변환
 - generate_anchors.py: anchor 중심점과 규모 생성 후 저장
+- debug_code.py: anchor 생성 및 정답 데이터 생성 테스트
+- camera.py: 카메라 테스트 수행 (OpenCV)
 
 ### Convert to TFJS
 

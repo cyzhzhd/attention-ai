@@ -1,6 +1,6 @@
 {
   "name": "183-2",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Face Analysis model",
   "scripts": {
     "start": "electron ./dist/electron.js",
@@ -12,10 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "@commitlint/config-conventional": "^9.1.1",
-    "@tensorflow-models/blazeface": "^0.0.5",
     "@tensorflow/tfjs": "^2.3.0",
     "@tensorflow/tfjs-node": "^2.3.0",
-    "canvas": "^2.6.1",
     "electron": "^9.1.1",
     "eslint": "^7.5.0",
     "face-api.js": "^0.22.2",

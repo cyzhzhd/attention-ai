@@ -19,7 +19,7 @@ parser.add_argument('--model', type=str, required=True,
                     help='Model directory')
 
 
-def load_widerface_dynamic(gt_dirs, train_dir, min_face_ratio=0.0225,
+def load_widerface_dynamic(gt_dirs, train_dir, min_face_ratio=0.04,
                            filter_entire_img=True):
     """
     loads widerface dataset from directory. filter out images with small faces.\n
@@ -97,14 +97,15 @@ def dataloader_dynamic(image_urls, labels, anchors, target_w, target_h, batch_si
         for key in selected_keys:
             image = read_image(image_urls[key], target_w, target_h)
             label = np.array(labels[key], dtype=np.float32)
+
             # do augmentation
             image, label = random_flip(image, label)
             image, label = random_rotate(image, label)
-            image = random_brightness(image)
+            image = random_brightness(image, prob=1)
+
             image = np.array(image, dtype=np.float32)
             image = np.array(image)
-            image = image / 127.5 - 1.0
-            # drawplt(image, label, img_width, img_height)
+            image = normalize_image(image)
 
             image_batch.append(image)
             label_batch.append(label)
@@ -129,16 +130,12 @@ def test_model_on_dataset(args):
         for j in range(64):
             ress = p[j]
             ress = ress[ress[..., 0] == 1]
-            # show translated gt
-            drawplt(a[j], ress[..., 1:5], img_width, img_height)
 
             prediction = model(np.expand_dims(a[j], 0))
             prediction = np.array(prediction, dtype=np.float32)
             bbox = prediction_to_bbox(prediction, anchors)[0]
             bbox = bbox[bbox[..., 0] > 0.5]
             resolved_boxes = tie_resolution(bbox, 0.5, 0.2)
-            # show model result
-            drawplt(a[j], resolved_boxes, img_width, img_height)
 
 
 if __name__ == "__main__":

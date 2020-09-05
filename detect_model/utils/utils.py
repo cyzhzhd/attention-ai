@@ -20,7 +20,11 @@ def drawplt(image, label, target_w, target_h):
     plt.show()
 
 
-def tie_resolution(prediction, threshold=0.7, match_iou=0.3):
+def normalize_image(image):
+    return image / 127.5 - 1.0
+
+
+def tie_resolution(prediction, threshold=0.3, match_iou=0.3):
     """
     prediction: [num_batch, num_box, 5(conf, cx, cy, w, h)]\n
     threshold: minimum confidence to preserve box\n

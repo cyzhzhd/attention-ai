@@ -1,4 +1,4 @@
-from utils.utils import prediction_to_bbox, tie_resolution
+from utils.utils import *
 import tensorflow as tf
 import numpy as np
 import argparse
@@ -42,7 +42,7 @@ if __name__ == "__main__":
         ret, frame = cap.read()
         frame_resized = cv2.resize(frame, (args.width, args.height))
         frame_resized = cv2.cvtColor(frame_resized, cv2.COLOR_BGR2RGB)
-        frame_resized = frame_resized / 127.5 - 1.0
+        frame_resized = normalize_image(frame_resized)
 
         t1 = time.time()
         prediction = model(np.expand_dims(frame_resized, 0))

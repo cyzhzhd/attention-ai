@@ -1,7 +1,3 @@
-"""
-TODO: __init__ module job, camera test code, efficient data feeding, gt gen, prec recall metric
-"""
-
 from utils.widerface_loader import *
 from model.backbones import *
 from utils.metrics import *
@@ -64,7 +60,7 @@ if __name__ == "__main__":
     else:
         model = Blazeface(input_dim=(
             cfg.as_int('input_w'), cfg.as_int('input_h'), 3),
-            backbone=blaze_backbone).build_model()
+            backbone=blaze_mediapipe_backbone).build_model()
 
     loss = multiboxLoss
     optim = tf.keras.optimizers.Adam(

@@ -1,4 +1,4 @@
-from utils.utils import drawplt, calc_iou_batch
+from utils.utils import calc_iou_batch, normalize_image
 from utils.augmentation import *
 from PIL import Image
 import tensorflow as tf
@@ -84,8 +84,6 @@ def load_widerface(gt_dirs, train_dir, target_w, target_h,
                 if len(label) > 0:
                     images.append(image)
                     labels.append(label)
-                    # show image and bbox
-                    # drawplt(image_normalized, label, target_w, target_h)
 
             print('\nLoaded:', len(images))
 
@@ -150,7 +148,7 @@ def dataloader(images, labels, anchors, batch_size=64, augment=True):
                 image = random_brightness(image)
 
             image = np.array(image, dtype=np.float32)
-            image = image / 127.5 - 1.0
+            image = normalize_image(image)
             image_batch.append(image)
             label_batch.append(label)
 
