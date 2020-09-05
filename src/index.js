@@ -54,7 +54,7 @@ video.addEventListener("play", async () => {
   const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
   document.body.append(canvas);
-  setTimeout(async function faceAnalysis() {
+  setInterval(async function faceAnalysis() {
     if (!task) return;
 
     const timefd1 = performance.now();
@@ -79,10 +79,11 @@ video.addEventListener("play", async () => {
           timelm2 - timelm1
         ).toFixed(3)}ms`
       );
+    console.log(status.detectRatio);
 
     tfjs.dispose([landmark, detectImg, angle, pixel, img]);
-    setTimeout(faceAnalysis, 0);
-  }, 0);
+    // setTimeout(faceAnalysis, 0);
+  }, 50);
 });
 
 function drawAll(canvas, ctx, bbox, conf, landmarkObj, score) {

@@ -1,10 +1,10 @@
-//import { frames } from "./index.js";
+// import { frames } from "./index.js";
 
 export let status = {
   yaw: 0,
   roll: 0,
   pitch: 0,
-  undetected: false,
+  detectRatio: false,
   turned: false,
   turnedFactor: 0,
   bowed: false,
@@ -21,9 +21,27 @@ const eyeTurnCorrection = 2.5;
 
 // var state = ["faceOn", ""];
 // var frameTemp = 0;
+var arrDetect = new Array(); // size : 200
+var cnt_detect = 0;
+var cnt_undetect = 0;
+var m_detect = 0;
+var m_undetect;
+// export var detectRatio = 0;
 
 export function analyze(detection, landmarks, angle) {
-  status.undetected = detection ? false : true;
+  if (detection) arrDetect.push(1);
+  //detect
+  else arrDetect.push(0); //undetect
+
+  cnt_detect = arrDetect.reduce((prev, curr) => prev + curr);
+  cnt_undetect = arrDetect.length - cnt_detect;
+  m_detect = 10 * Math.pow(cnt_detect, 3);
+  m_undetect = 10 * Math.pow(cnt_undetect, 3);
+  status.detectRatio = (1 * m_detect) / (m_detect + m_undetect);
+
+  if (arrDetect.length == 200) {
+    arrDetect.splice(0, 20);
+  }
 
   if (landmarks) {
     status = { ...status, ...analyzeLandmark(landmarks) };
