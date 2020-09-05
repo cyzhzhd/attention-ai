@@ -9,7 +9,7 @@ TODO:
       development/production setting
 */
 import * as tfjs from "@tensorflow/tfjs";
-import { status, analyze } from "./analysis.js";
+import { status, analyze } from "./lowdata.js";
 import { landmarkModel } from "./landmark.js";
 import { detectorModel } from "./detector.js";
 tfjs.enableProdMode();
