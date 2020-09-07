@@ -1,5 +1,7 @@
 // import { frames } from "./index.js";
 
+// import { eye } from "@tensorflow/tfjs";
+
 export let status = {
   yaw: 0,
   roll: 0,
@@ -28,7 +30,13 @@ var m_detect = 0;
 var m_undetect;
 // export var detectRatio = 0;
 
+const eyeSetting = document.getElementById("eyeSetting");
+eyeSetting.onclick = () => (setFlag = true);
+var arrSettingEye = new Array(); // size : 100
+var setFlag = false;
+
 export function analyze(detection, landmarks, angle) {
+  // empty seat check
   if (detection) arrDetect.push(1);
   //detect
   else arrDetect.push(0); //undetect
@@ -70,6 +78,19 @@ function diffBigger(l1, l2, ratio) {
   return [l2 * ratio < l1, `${(l1 / l2).toFixed(2)}>${turnFactor}`];
 }
 
+// eye blink edge threshold detect algorithm
+function calcEdge(arr1) {
+  var underEdge = (arr1[25] * 3) / 4 + (arr1[26] * 1) / 4;
+  var overEdge = (arr1[75] * 1) / 4 + (arr1[76] * 3) / 4;
+  var range = overEdge - underEdge;
+  var blinkRange = underEdge - 1.5 * range;
+  var arrSmall = new Array();
+  var endIndex = arr1.findIndex((element) => element > blinkRange);
+  arrSmall = arr1.splice(0, endIndex);
+  // console.log(blinkRange, arr1[0], endIndex, arrSmall);
+  return arrSmall;
+}
+
 function analyzeLandmark(landmarks) {
   // turned face
   const lcheek = calcDist(landmarks[33], landmarks[3]);
@@ -89,6 +110,39 @@ function analyzeLandmark(landmarks) {
   )}>${bowFactor}`;
 
   // eyes closed
+  const r_in_h = calcDist(landmarks[38], landmarks[40]);
+  const r_out_h = calcDist(landmarks[37], landmarks[41]);
+  const r_w = calcDist(landmarks[36], landmarks[39]);
+  const l_in_h = calcDist(landmarks[43], landmarks[47]);
+  const l_out_h = calcDist(landmarks[44], landmarks[46]);
+  const l_w = calcDist(landmarks[42], landmarks[45]);
+
+  const r_eye = (r_in_h + r_out_h) / (2 * r_w);
+  const l_eye = (l_in_h + l_out_h) / (2 * l_w);
+  const avgEAR = (r_eye + l_eye) / 2; //average Eye Aspect Ratio
+
+  if (setFlag) {
+    if (arrSettingEye.length == 100) {
+      var arrBlink = new Array();
+      arrSettingEye.sort((a, b) => a - b);
+      arrBlink = calcEdge(arrSettingEye);
+      const eyeUser =
+        arrSettingEye.reduce((a, b) => {
+          return a + b;
+        }, 0) / arrSettingEye.length;
+      const blinkUser =
+        arrBlink.reduce((a, b) => {
+          return a + b;
+        }, 0) / arrBlink.length;
+      console.log(eyeUser, blinkUser);
+      setFlag = false;
+    } else {
+      arrSettingEye.push(avgEAR);
+      // console.log(arrSettingEye.length);
+    }
+  }
+  // console.log(r_eye.toFixed(3), l_eye.toFixed(3), avgEAR.toFixed(3));
+
   const leyeHeight = calcDist(landmarks[38], landmarks[40]);
   const reyeHeight = calcDist(landmarks[43], landmarks[47]);
   const avgeyeHeight = (leyeHeight + reyeHeight) / 2;
@@ -103,7 +157,7 @@ function analyzeLandmark(landmarks) {
   const eyesClosedFactor = `${(
     avgeyeWidth / avgeyeHeight +
     eyeTurnCorrection * cheekRatio
-  ).toFixed(2)}>${eyeFactor}`;
+  ).toFixed(2)} > ${eyeFactor}`;
 
   return {
     turned,
