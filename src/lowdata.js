@@ -6,20 +6,20 @@ export let status = {
   yaw: 0,
   roll: 0,
   pitch: 0,
-  detectRatio: false,
+  detectRatio: 1,
   turned: false,
   turnedFactor: 0,
   bowed: false,
   bowedFactor: 0,
   eyesClosed: false,
-  eyesClosedFactor: 0,
+  eyesClosedRatio: 0,
 };
 
 const weights = { undetected: 50, turned: 30, bowed: 40, eyesClosed: 50 };
-const eyeFactor = 5.8; // higher -> need to close eye harder to trigger true
+// const eyeFactor = 5.8; // higher -> need to close eye harder to trigger true
 const turnFactor = 3.5; // higher -> need more turn to trigger true
 const bowFactor = -0.1; // higher -> need more bow to trigger true
-const eyeTurnCorrection = 2.5;
+// const eyeTurnCorrection = 2.5;
 
 // var state = ["faceOn", ""];
 // var frameTemp = 0;
@@ -33,7 +33,10 @@ var m_undetect;
 const eyeSetting = document.getElementById("eyeSetting");
 eyeSetting.onclick = () => (setFlag = true);
 var arrSettingEye = new Array(); // size : 100
+var arrEye = new Array(); // size : 200
 var setFlag = false;
+var eyeUser = 0.28;
+var blinkUser = 0.15;
 
 export function analyze(detection, landmarks, angle) {
   // empty seat check
@@ -121,20 +124,24 @@ function analyzeLandmark(landmarks) {
   const l_eye = (l_in_h + l_out_h) / (2 * l_w);
   const avgEAR = (r_eye + l_eye) / 2; //average Eye Aspect Ratio
 
+  var min_eye = blinkUser;
+  var max_eye = eyeUser;
   if (setFlag) {
     if (arrSettingEye.length == 100) {
       var arrBlink = new Array();
       arrSettingEye.sort((a, b) => a - b);
       arrBlink = calcEdge(arrSettingEye);
-      const eyeUser =
+      max_eye = arrSettingEye[-1];
+      min_eye = arrBlink[0];
+      eyeUser =
         arrSettingEye.reduce((a, b) => {
           return a + b;
         }, 0) / arrSettingEye.length;
-      const blinkUser =
+      blinkUser =
         arrBlink.reduce((a, b) => {
           return a + b;
         }, 0) / arrBlink.length;
-      console.log(eyeUser, blinkUser);
+      // console.log(eyeUser, blinkUser);
       setFlag = false;
     } else {
       arrSettingEye.push(avgEAR);
@@ -142,29 +149,48 @@ function analyzeLandmark(landmarks) {
     }
   }
   // console.log(r_eye.toFixed(3), l_eye.toFixed(3), avgEAR.toFixed(3));
+  arrEye.push(avgEAR);
+  var avgEye =
+    arrEye.reduce((a, b) => {
+      return a + b;
+    }, 0) / arrEye.length;
 
-  const leyeHeight = calcDist(landmarks[38], landmarks[40]);
-  const reyeHeight = calcDist(landmarks[43], landmarks[47]);
-  const avgeyeHeight = (leyeHeight + reyeHeight) / 2;
-  const leyeWidth = calcDist(landmarks[36], landmarks[39]);
-  const reyeWidth = calcDist(landmarks[42], landmarks[45]);
-  const avgeyeWidth = (leyeWidth + reyeWidth) / 2;
-  const cheekRatio =
-    Math.pow(Math.max(lcheek, rcheek) - Math.min(lcheek, rcheek), 2) /
-    Math.pow(Math.max(lcheek, rcheek), 2);
-  const eyesClosed =
-    avgeyeWidth / avgeyeHeight + eyeTurnCorrection * cheekRatio >= eyeFactor;
-  const eyesClosedFactor = `${(
-    avgeyeWidth / avgeyeHeight +
-    eyeTurnCorrection * cheekRatio
-  ).toFixed(2)} > ${eyeFactor}`;
+  var weight = 1;
+  if (avgEye > max_eye) weight = 0.1;
+  else if (avgEye < min_eye) avgEye = blinkUser;
+  else weight = 1;
 
+  const eyesClosedRatio =
+    (weight * Math.abs(eyeUser - avgEye)) / (eyeUser - blinkUser);
+  // if (!setFlag) console.log(status.eyesClosedRatio);
+  if (arrEye.length == 200) {
+    arrEye.splice(0, 20);
+  }
+
+  // const leyeHeight = calcDist(landmarks[38], landmarks[40]);
+  // const reyeHeight = calcDist(landmarks[43], landmarks[47]);
+  // const avgeyeHeight = (leyeHeight + reyeHeight) / 2;
+  // const leyeWidth = calcDist(landmarks[36], landmarks[39]);
+  // const reyeWidth = calcDist(landmarks[42], landmarks[45]);
+  // const avgeyeWidth = (leyeWidth + reyeWidth) / 2;
+  // const cheekRatio =
+  //   Math.pow(Math.max(lcheek, rcheek) - Math.min(lcheek, rcheek), 2) /
+  //   Math.pow(Math.max(lcheek, rcheek), 2);
+  // const eyesClosed =
+  //   avgeyeWidth / avgeyeHeight + eyeTurnCorrection * cheekRatio >= eyeFactor;
+  // const eyesClosedFactor = `${(
+  //   avgeyeWidth / avgeyeHeight +
+  //   eyeTurnCorrection * cheekRatio
+  // ).toFixed(2)} > ${eyeFactor}`;
+
+  const eyesClosed = true;
+  // const eyesClosedFactor = 3.0;
   return {
     turned,
     turnedFactor,
     bowed,
     bowedFactor,
     eyesClosed,
-    eyesClosedFactor,
+    eyesClosedRatio,
   };
 }

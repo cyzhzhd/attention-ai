@@ -73,14 +73,17 @@ video.addEventListener("play", async () => {
 
     // time checker
     frames = frames + 1;
-    if (frames % 10 === 0)
+    if (frames % 10 === 0) {
       console.log(
         `${frames}: fd ${(timefd2 - timefd1).toFixed(3)}ms lm ${(
           timelm2 - timelm1
         ).toFixed(3)}ms`
       );
-    console.log(status.detectRatio);
-
+      console.log(
+        status.detectRatio.toFixed(3),
+        status.eyesClosedRatio.toFixed(3)
+      );
+    }
     tfjs.dispose([landmark, detectImg, angle, pixel, img]);
     // setTimeout(faceAnalysis, 0);
   }, 50);
