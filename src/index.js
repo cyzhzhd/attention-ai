@@ -18,6 +18,7 @@ export let frames = 0;
 const stop = document.getElementById("stopButton");
 const resume = document.getElementById("resumeButton");
 const video = document.getElementById("video");
+
 const vidW = 640;
 const vidH = 480;
 

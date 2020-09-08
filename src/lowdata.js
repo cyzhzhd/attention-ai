@@ -31,6 +31,7 @@ var m_undetect;
 // export var detectRatio = 0;
 
 const eyeSetting = document.getElementById("eyeSetting");
+const sec_cnt = document.getElementById("settingSec");
 eyeSetting.onclick = () => (setFlag = true);
 var arrSettingEye = new Array(); // size : 100
 var arrEye = new Array(); // size : 200
@@ -126,7 +127,9 @@ function analyzeLandmark(landmarks) {
 
   var min_eye = blinkUser;
   var max_eye = eyeUser;
+
   if (setFlag) {
+    sec_cnt.innerHTML = 5 - parseInt(arrSettingEye.length / 20);
     if (arrSettingEye.length == 100) {
       var arrBlink = new Array();
       arrSettingEye.sort((a, b) => a - b);
@@ -159,6 +162,7 @@ function analyzeLandmark(landmarks) {
   if (avgEye > max_eye) weight = 0.1;
   else if (avgEye < min_eye) avgEye = blinkUser;
   else weight = 1;
+  if (status.pitch < 0 || status.pitch > 0.18) weight = 0.1;
 
   const eyesClosedRatio =
     (weight * Math.abs(eyeUser - avgEye)) / (eyeUser - blinkUser);
