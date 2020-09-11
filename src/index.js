@@ -80,10 +80,7 @@ video.addEventListener("play", async () => {
           timelm2 - timelm1
         ).toFixed(3)}ms`
       );
-      console.log(
-        status.detectRatio.toFixed(3),
-        status.eyesClosedRatio.toFixed(3)
-      );
+      console.log(status.detectRatio, status.eyesClosedRatio);
     }
     tfjs.dispose([landmark, detectImg, angle, pixel, img]);
     // setTimeout(faceAnalysis, 0);

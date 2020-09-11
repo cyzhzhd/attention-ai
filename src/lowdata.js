@@ -1,28 +1,11 @@
-// import { frames } from "./index.js";
-
-// import { eye } from "@tensorflow/tfjs";
-
 export let status = {
   yaw: 0,
   roll: 0,
   pitch: 0,
   detectRatio: 1,
-  turned: false,
-  turnedFactor: 0,
-  bowed: false,
-  bowedFactor: 0,
-  eyesClosed: false,
   eyesClosedRatio: 0,
 };
 
-const weights = { undetected: 50, turned: 30, bowed: 40, eyesClosed: 50 };
-// const eyeFactor = 5.8; // higher -> need to close eye harder to trigger true
-const turnFactor = 3.5; // higher -> need more turn to trigger true
-const bowFactor = -0.1; // higher -> need more bow to trigger true
-// const eyeTurnCorrection = 2.5;
-
-// var state = ["faceOn", ""];
-// var frameTemp = 0;
 var arrDetect = new Array(); // size : 200
 var cnt_detect = 0;
 var cnt_undetect = 0;
@@ -49,7 +32,7 @@ export function analyze(detection, landmarks, angle) {
   cnt_undetect = arrDetect.length - cnt_detect;
   m_detect = 10 * Math.pow(cnt_detect, 3);
   m_undetect = 10 * Math.pow(cnt_undetect, 3);
-  status.detectRatio = (1 * m_detect) / (m_detect + m_undetect);
+  status.detectRatio = ((1 * m_detect) / (m_detect + m_undetect)).toFixed(3);
 
   if (arrDetect.length == 200) {
     arrDetect.splice(0, 20);
@@ -63,24 +46,21 @@ export function analyze(detection, landmarks, angle) {
   }
 
   // weighted sum of score to produce overall score.
-  return Object.keys(weights).reduce((acc, key) => {
-    const returnVal = status[key] ? acc + status[key] * weights[key] : acc;
-    return returnVal;
-  }, 0);
+  return 0;
 }
 
 function calcDist(p1, p2) {
   return Math.sqrt(Math.pow(p1._x - p2._x, 2) + Math.pow(p1._y - p2._y, 2));
 }
 
-function diffBigger(l1, l2, ratio) {
-  if (l1 < l2) {
-    let t = l1;
-    l1 = l2;
-    l2 = t;
-  }
-  return [l2 * ratio < l1, `${(l1 / l2).toFixed(2)}>${turnFactor}`];
-}
+// function diffBigger(l1, l2, ratio) {
+//   if (l1 < l2) {
+//     let t = l1;
+//     l1 = l2;
+//     l2 = t;
+//   }
+//   return [l2 * ratio < l1, `${(l1 / l2).toFixed(2)}>${turnFactor}`];
+// }
 
 // eye blink edge threshold detect algorithm
 function calcEdge(arr1) {
@@ -96,23 +76,6 @@ function calcEdge(arr1) {
 }
 
 function analyzeLandmark(landmarks) {
-  // turned face
-  const lcheek = calcDist(landmarks[33], landmarks[3]);
-  const rcheek = calcDist(landmarks[33], landmarks[13]);
-  const [turned, turnedFactor] = diffBigger(lcheek, rcheek, turnFactor);
-
-  // bowed face
-  const facehigh = (landmarks[1]._y + landmarks[15]._y) / 2;
-  const eyelow = (landmarks[39]._y + landmarks[42]._y) / 2;
-  const distance =
-    (calcDist(landmarks[0], landmarks[1]) +
-      calcDist(landmarks[15], landmarks[16])) /
-    2;
-  const bowed = facehigh < eyelow + distance * -bowFactor;
-  const bowedFactor = `${(-(facehigh - eyelow) / distance).toFixed(
-    2
-  )}>${bowFactor}`;
-
   // eyes closed
   const r_in_h = calcDist(landmarks[38], landmarks[40]);
   const r_out_h = calcDist(landmarks[37], landmarks[41]);
@@ -129,8 +92,12 @@ function analyzeLandmark(landmarks) {
   var max_eye = eyeUser;
 
   if (setFlag) {
-    sec_cnt.innerHTML = 5 - parseInt(arrSettingEye.length / 20);
+    sec_cnt.innerHTML =
+      5 -
+      parseInt(arrSettingEye.length / 20) +
+      "초 동안 화면을 정면으로 응시해주세요.";
     if (arrSettingEye.length == 100) {
+      sec_cnt.innerHTML = "사용자 눈 크기 조정이 완료되었습니다.";
       var arrBlink = new Array();
       arrSettingEye.sort((a, b) => a - b);
       arrBlink = calcEdge(arrSettingEye);
@@ -151,6 +118,7 @@ function analyzeLandmark(landmarks) {
       // console.log(arrSettingEye.length);
     }
   }
+
   // console.log(r_eye.toFixed(3), l_eye.toFixed(3), avgEAR.toFixed(3));
   arrEye.push(avgEAR);
   var avgEye =
@@ -164,37 +132,16 @@ function analyzeLandmark(landmarks) {
   else weight = 1;
   if (status.pitch < 0 || status.pitch > 0.18) weight = 0.1;
 
-  const eyesClosedRatio =
-    (weight * Math.abs(eyeUser - avgEye)) / (eyeUser - blinkUser);
+  const eyesClosedRatio = (
+    (weight * Math.abs(eyeUser - avgEye)) /
+    (eyeUser - blinkUser)
+  ).toFixed(3);
   // if (!setFlag) console.log(status.eyesClosedRatio);
   if (arrEye.length == 200) {
     arrEye.splice(0, 20);
   }
 
-  // const leyeHeight = calcDist(landmarks[38], landmarks[40]);
-  // const reyeHeight = calcDist(landmarks[43], landmarks[47]);
-  // const avgeyeHeight = (leyeHeight + reyeHeight) / 2;
-  // const leyeWidth = calcDist(landmarks[36], landmarks[39]);
-  // const reyeWidth = calcDist(landmarks[42], landmarks[45]);
-  // const avgeyeWidth = (leyeWidth + reyeWidth) / 2;
-  // const cheekRatio =
-  //   Math.pow(Math.max(lcheek, rcheek) - Math.min(lcheek, rcheek), 2) /
-  //   Math.pow(Math.max(lcheek, rcheek), 2);
-  // const eyesClosed =
-  //   avgeyeWidth / avgeyeHeight + eyeTurnCorrection * cheekRatio >= eyeFactor;
-  // const eyesClosedFactor = `${(
-  //   avgeyeWidth / avgeyeHeight +
-  //   eyeTurnCorrection * cheekRatio
-  // ).toFixed(2)} > ${eyeFactor}`;
-
-  const eyesClosed = true;
-  // const eyesClosedFactor = 3.0;
   return {
-    turned,
-    turnedFactor,
-    bowed,
-    bowedFactor,
-    eyesClosed,
     eyesClosedRatio,
   };
 }
