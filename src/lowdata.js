@@ -3,6 +3,9 @@ export let status = {
   roll: 0,
   pitch: 0,
   detectRatio: 1,
+  eyeHeight: 0,
+  deltaEyeHeight: 0,
+  mouseRatio: 0,
   eyesClosedRatio: 0,
 };
 
@@ -21,6 +24,10 @@ var arrEye = new Array(); // size : 200
 var setFlag = false;
 var eyeUser = 0.28;
 var blinkUser = 0.15;
+
+var delta_cnt = 0; // end : 10
+var delta_eye_height = 0;
+var temp_eye_height = 0;
 
 export function analyze(detection, landmarks, angle) {
   // empty seat check
@@ -46,7 +53,7 @@ export function analyze(detection, landmarks, angle) {
   }
 
   // weighted sum of score to produce overall score.
-  return 0;
+  return status;
 }
 
 function calcDist(p1, p2) {
@@ -84,8 +91,26 @@ function analyzeLandmark(landmarks) {
   const l_out_h = calcDist(landmarks[44], landmarks[46]);
   const l_w = calcDist(landmarks[42], landmarks[45]);
 
-  const r_eye = (r_in_h + r_out_h) / (2 * r_w);
-  const l_eye = (l_in_h + l_out_h) / (2 * l_w);
+  const mouse_w = calcDist(landmarks[48], landmarks[54]);
+  const mouse_h =
+    (calcDist(landmarks[50], landmarks[58]) +
+      calcDist(landmarks[51], landmarks[57]) +
+      calcDist(landmarks[52], landmarks[56])) /
+    3;
+  const mouse_ratio = mouse_h / mouse_w;
+
+  const r_eye_height = (r_in_h + r_out_h) / 2;
+  const l_eye_height = (l_in_h + l_out_h) / 2;
+  const eye_height = (r_eye_height + l_eye_height) / 2;
+  delta_cnt++;
+  if (delta_cnt == 20) {
+    delta_cnt = 0;
+    delta_eye_height = Math.abs(eye_height - temp_eye_height);
+    temp_eye_height = eye_height;
+  }
+
+  const r_eye = r_eye_height / r_w;
+  const l_eye = l_eye_height / l_w;
   const avgEAR = (r_eye + l_eye) / 2; //average Eye Aspect Ratio
 
   var min_eye = blinkUser;
@@ -141,7 +166,14 @@ function analyzeLandmark(landmarks) {
     arrEye.splice(0, 20);
   }
 
+  const eyeHeight = eye_height.toFixed(3);
+  const deltaEyeHeight = delta_eye_height.toFixed(3);
+  const mouseRatio = mouse_ratio.toFixed(3);
+
   return {
+    eyeHeight,
+    deltaEyeHeight,
+    mouseRatio,
     eyesClosedRatio,
   };
 }

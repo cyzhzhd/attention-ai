@@ -13,7 +13,7 @@ import { landmarkModel } from "./landmark.js";
 import { detectorModel } from "./detector.js";
 tfjs.enableProdMode();
 
-let score = 0;
+var low_data;
 export let frames = 0;
 const stop = document.getElementById("stopButton");
 const resume = document.getElementById("resumeButton");
@@ -69,8 +69,8 @@ video.addEventListener("play", async () => {
     const [angle, landmark] = await landmarkModel.predict(bbox, img);
     const timelm2 = performance.now();
 
-    score = analyze(bbox, landmark, angle);
-    drawAll(canvas, ctx, bbox, conf, landmark, score);
+    low_data = JSON.stringify(analyze(bbox, landmark, angle));
+    drawAll(canvas, ctx, bbox, conf, landmark, low_data);
 
     // time checker
     frames = frames + 1;

@@ -1,3 +1,5 @@
+// import { status } from "./lowdata.js";
+
 //   switch (state[0]) {
 //     case "faceOn":
 //       if (status.undetected) {
