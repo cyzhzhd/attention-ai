@@ -8,9 +8,10 @@ TODO:
       development/production setting
 */
 import * as tfjs from "@tensorflow/tfjs";
-import { status, analyze } from "./lowdata.js";
+import { status, rowData } from "./lowdata.js";
 import { landmarkModel } from "./landmark.js";
 import { detectorModel } from "./detector.js";
+import { analyze, result } from "./meaning.js";
 tfjs.enableProdMode();
 
 var low_data;
@@ -27,6 +28,9 @@ resume.onclick = onResume;
 
 let task = true;
 function onStop() {
+  console.log(result.arrAbsence);
+  console.log(result.arrSleep);
+  console.log(result.arrTurn);
   task = false;
   video.pause();
 }
@@ -69,8 +73,9 @@ video.addEventListener("play", async () => {
     const [angle, landmark] = await landmarkModel.predict(bbox, img);
     const timelm2 = performance.now();
 
-    low_data = JSON.stringify(analyze(bbox, landmark, angle));
-    drawAll(canvas, ctx, bbox, conf, landmark, low_data);
+    low_data = JSON.stringify(rowData(bbox, landmark, angle), null, 2);
+    analyze();
+    drawAll(canvas, ctx, bbox, conf, landmark, result);
 
     // time checker
     frames = frames + 1;
@@ -83,11 +88,10 @@ video.addEventListener("play", async () => {
       console.log(status.detectRatio, status.eyesClosedRatio);
     }
     tfjs.dispose([landmark, detectImg, angle, pixel, img]);
-    // setTimeout(faceAnalysis, 0);
   }, 50);
 });
 
-function drawAll(canvas, ctx, bbox, conf, landmarkObj, score) {
+function drawAll(canvas, ctx, bbox, conf, landmarkObj, result) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   ctx.fillStyle = "#FF0000";
@@ -105,13 +109,14 @@ function drawAll(canvas, ctx, bbox, conf, landmarkObj, score) {
       ctx.fillRect(landmarkObj[i]["_x"], landmarkObj[i]["_y"], 4, 4);
     }
   }
-  drawInfo(ctx, score);
+  drawInfo(ctx, result);
 }
 
-function drawInfo(ctx, score) {
-  ctx.fillText("score: " + score, 30, 50);
-  ctx.font = "18px Arial";
-  var lines = JSON.stringify(status, null, 2).split("\n");
+function drawInfo(ctx, result) {
+  ctx.fillText("score: " + result, 10, 20);
+  ctx.font = "12px Arial";
+  // var lines = JSON.stringify(status, null, 2).split("\n");
+  var lines = low_data.split("\n");
   for (var j = 0; j < lines.length; j++)
     ctx.fillText(lines[j], 10, 240 + j * 20);
   ctx.font = "14px Arial";

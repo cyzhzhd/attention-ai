@@ -9,27 +9,34 @@ export let status = {
   eyesClosedRatio: 0,
 };
 
+// detect part variables
 var arrDetect = new Array(); // size : 200
-var cnt_detect = 0;
-var cnt_undetect = 0;
-var m_detect = 0;
-var m_undetect;
-// export var detectRatio = 0;
+var cnt_detect = 0; //count
+var cnt_undetect = 0; //count
+var m_detect = 0; //weight
+var m_undetect; //weight
 
+// eye close part variables
 const eyeSetting = document.getElementById("eyeSetting");
 const sec_cnt = document.getElementById("settingSec");
 eyeSetting.onclick = () => (setFlag = true);
-var arrSettingEye = new Array(); // size : 100
+var arrSettingEye = new Array(); // size : 100, buffer to set eye size
 var arrEye = new Array(); // size : 200
-var setFlag = false;
-var eyeUser = 0.28;
-var blinkUser = 0.15;
+var setFlag = false; // user eye setting mode
+var eyeUser = 0.28; // initial value
+var blinkUser = 0.15; // initial value
 
+// eye height part variables
 var delta_cnt = 0; // end : 10
 var delta_eye_height = 0;
 var temp_eye_height = 0;
 
-export function analyze(detection, landmarks, angle) {
+//
+var arrPitch = new Array();
+var arrYaw = new Array();
+var arrRoll = new Array();
+
+export function rowData(detection, landmarks, angle) {
   // empty seat check
   if (detection) arrDetect.push(1);
   //detect
@@ -47,9 +54,28 @@ export function analyze(detection, landmarks, angle) {
 
   if (landmarks) {
     status = { ...status, ...analyzeLandmark(landmarks) };
-    status.pitch = angle[0][0].toFixed(3);
-    status.yaw = angle[0][1].toFixed(3);
-    status.roll = angle[0][2].toFixed(3);
+    arrPitch.push(Number(angle[0][0].toFixed(3)));
+    arrYaw.push(Number(angle[0][1].toFixed(3)));
+    arrRoll.push(Number(angle[0][2].toFixed(3)));
+    // console.log(arrYaw);
+    if (arrPitch.length == 100) arrPitch.splice(0, 20);
+    if (arrYaw.length == 100) arrYaw.splice(0, 20);
+    if (arrRoll.length == 100) arrRoll.splice(0, 20);
+    status.pitch = (
+      arrPitch.reduce((a, b) => {
+        return a + b;
+      }, 0) / arrPitch.length
+    ).toFixed(3);
+    status.yaw = (
+      arrYaw.reduce((a, b) => {
+        return a + b;
+      }, 0) / arrYaw.length
+    ).toFixed(3);
+    status.roll = (
+      arrRoll.reduce((a, b) => {
+        return a + b;
+      }, 0) / arrRoll.length
+    ).toFixed(3);
   }
 
   // weighted sum of score to produce overall score.
@@ -104,6 +130,7 @@ function analyzeLandmark(landmarks) {
   const eye_height = (r_eye_height + l_eye_height) / 2;
   delta_cnt++;
   if (delta_cnt == 20) {
+    // 1sec
     delta_cnt = 0;
     delta_eye_height = Math.abs(eye_height - temp_eye_height);
     temp_eye_height = eye_height;
@@ -154,7 +181,7 @@ function analyzeLandmark(landmarks) {
   var weight = 1;
   if (avgEye > max_eye) weight = 0.1;
   else if (avgEye < min_eye) avgEye = blinkUser;
-  else weight = 1;
+  else weight = 1 - 20 * Math.pow(status.pitch, 2);
   if (status.pitch < 0 || status.pitch > 0.18) weight = 0.1;
 
   const eyesClosedRatio = (
