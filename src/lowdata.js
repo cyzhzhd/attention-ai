@@ -3,8 +3,8 @@ export let status = {
   roll: 0,
   pitch: 0,
   detectRatio: 1,
-  eyeHeight: 0,
-  deltaEyeHeight: 0,
+  eyeRatio: 0,
+  deltaEyeRatio: 0,
   mouseRatio: 0,
   eyesClosedRatio: 0,
 };
@@ -28,7 +28,7 @@ var blinkUser = 0.15; // initial value
 
 // eye height part variables
 var delta_cnt = 0; // end : 10
-var delta_eye_height = 0;
+var delta_eye_ratio = 0;
 var temp_eye_height = 0;
 
 //
@@ -127,18 +127,19 @@ function analyzeLandmark(landmarks) {
 
   const r_eye_height = (r_in_h + r_out_h) / 2;
   const l_eye_height = (l_in_h + l_out_h) / 2;
-  const eye_height = (r_eye_height + l_eye_height) / 2;
-  delta_cnt++;
-  if (delta_cnt == 20) {
-    // 1sec
-    delta_cnt = 0;
-    delta_eye_height = Math.abs(eye_height - temp_eye_height);
-    temp_eye_height = eye_height;
-  }
+  // const eye_height = (r_eye_height + l_eye_height) / 2;
 
   const r_eye = r_eye_height / r_w;
   const l_eye = l_eye_height / l_w;
   const avgEAR = (r_eye + l_eye) / 2; //average Eye Aspect Ratio
+
+  delta_cnt++;
+  if (delta_cnt == 20) {
+    // 1sec
+    delta_cnt = 0;
+    delta_eye_ratio = Math.abs(avgEAR - temp_eye_height);
+    temp_eye_height = avgEAR;
+  }
 
   var min_eye = blinkUser;
   var max_eye = eyeUser;
@@ -165,6 +166,7 @@ function analyzeLandmark(landmarks) {
         }, 0) / arrBlink.length;
       // console.log(eyeUser, blinkUser);
       setFlag = false;
+      arrSettingEye = new Array();
     } else {
       arrSettingEye.push(avgEAR);
       // console.log(arrSettingEye.length);
@@ -193,13 +195,13 @@ function analyzeLandmark(landmarks) {
     arrEye.splice(0, 20);
   }
 
-  const eyeHeight = eye_height.toFixed(3);
-  const deltaEyeHeight = delta_eye_height.toFixed(3);
+  const eyeRatio = avgEAR.toFixed(3);
+  const deltaEyeRatio = delta_eye_ratio.toFixed(3);
   const mouseRatio = mouse_ratio.toFixed(3);
 
   return {
-    eyeHeight,
-    deltaEyeHeight,
+    eyeRatio,
+    deltaEyeRatio,
     mouseRatio,
     eyesClosedRatio,
   };

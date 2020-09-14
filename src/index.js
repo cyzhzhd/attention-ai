@@ -8,7 +8,7 @@ TODO:
       development/production setting
 */
 import * as tfjs from "@tensorflow/tfjs";
-import { status, rowData } from "./lowdata.js";
+import { rowData } from "./lowdata.js";
 import { landmarkModel } from "./landmark.js";
 import { detectorModel } from "./detector.js";
 import { analyze, result } from "./meaning.js";
@@ -75,7 +75,7 @@ video.addEventListener("play", async () => {
 
     low_data = JSON.stringify(rowData(bbox, landmark, angle), null, 2);
     analyze();
-    drawAll(canvas, ctx, bbox, conf, landmark, result);
+    drawAll(canvas, ctx, bbox, conf, landmark, result.focusPoint);
 
     // time checker
     frames = frames + 1;
@@ -85,7 +85,8 @@ video.addEventListener("play", async () => {
           timelm2 - timelm1
         ).toFixed(3)}ms`
       );
-      console.log(status.detectRatio, status.eyesClosedRatio);
+      // console.log(status.detectRatio, status.eyesClosedRatio);
+      // console.log(result.focusPoint);
     }
     tfjs.dispose([landmark, detectImg, angle, pixel, img]);
   }, 50);
