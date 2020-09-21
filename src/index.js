@@ -8,6 +8,7 @@ TODO:
       development/production setting
 */
 import * as tfjs from "@tensorflow/tfjs";
+// import { status, rowData } from "./lowdata.js";
 import { rowData } from "./lowdata.js";
 import { landmarkModel } from "./landmark.js";
 import { detectorModel } from "./detector.js";
@@ -28,9 +29,6 @@ resume.onclick = onResume;
 
 let task = true;
 function onStop() {
-  console.log(result.arrAbsence);
-  console.log(result.arrSleep);
-  console.log(result.arrTurn);
   task = false;
   video.pause();
 }
@@ -86,7 +84,6 @@ video.addEventListener("play", async () => {
         ).toFixed(3)}ms`
       );
       // console.log(status.detectRatio, status.eyesClosedRatio);
-      // console.log(result.focusPoint);
     }
     tfjs.dispose([landmark, detectImg, angle, pixel, img]);
   }, 50);

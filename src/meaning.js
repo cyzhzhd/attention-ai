@@ -94,41 +94,43 @@ export function analyze() {
           ).toFixed(1);
         }
         if (arrPoint.length == 100) arrPoint.splice(0, 20);
-
         // console.log(result.focusPoint);
       }
       break;
     case "absence":
       timeAbsence = frames - stamp;
-      if (status.detectRatio > threshold.absence) {
-        if (timeAbsence * 0.05 > 5) {
+      if (timeAbsence * 0.05 > 5) {
+        result.absence = result.arrAbsence.length + 1;
+        if (status.detectRatio > threshold.absence) {
           result.arrAbsence.push((timeAbsence * 0.05).toFixed(2));
-          result.absence = result.arrAbsence.length;
+          state[0] = "check";
         }
-        state[0] = "check";
       }
       break;
     case "sleep":
       timeSleep = frames - stamp;
-      if (status.eyesClosedRatio < threshold.sleep) {
-        if (timeSleep * 0.05 > 5) {
+      if (timeSleep * 0.05 > 5) {
+        result.sleep = result.arrSleep.length + 1;
+        if (
+          status.eyesClosedRatio < threshold.sleep ||
+          status.detectRatio < threshold.absence
+        ) {
           result.arrSleep.push((timeSleep * 0.05).toFixed(2));
-          result.sleep = result.arrSleep.length;
+          state[0] = "check";
         }
-        state[0] = "check";
       }
       break;
     case "turnHead":
       timeTurn = frames - stamp;
-      if (
-        Math.abs(status.yaw) < threshold.turn ||
-        status.detectRatio < threshold.absence
-      ) {
-        if (timeTurn * 0.05 > 4) {
+      if (timeTurn * 0.05 > 4) {
+        result.turnHead = result.arrTurn.length + 1;
+        if (
+          Math.abs(status.yaw) < threshold.turn ||
+          status.detectRatio < threshold.absence
+        ) {
           result.arrTurn.push((timeTurn * 0.05).toFixed(2));
-          result.turnHead = result.arrTurn.length;
+          state[0] = "check";
         }
-        state[0] = "check";
       }
       break;
     case "buffer":

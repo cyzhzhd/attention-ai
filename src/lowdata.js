@@ -86,15 +86,6 @@ function calcDist(p1, p2) {
   return Math.sqrt(Math.pow(p1._x - p2._x, 2) + Math.pow(p1._y - p2._y, 2));
 }
 
-// function diffBigger(l1, l2, ratio) {
-//   if (l1 < l2) {
-//     let t = l1;
-//     l1 = l2;
-//     l2 = t;
-//   }
-//   return [l2 * ratio < l1, `${(l1 / l2).toFixed(2)}>${turnFactor}`];
-// }
-
 // eye blink edge threshold detect algorithm
 function calcEdge(arr1) {
   var underEdge = (arr1[25] * 3) / 4 + (arr1[26] * 1) / 4;
@@ -185,15 +176,12 @@ function analyzeLandmark(landmarks) {
   else if (avgEye < min_eye) avgEye = blinkUser;
   else weight = 1 - 20 * Math.pow(status.pitch, 2);
   if (status.pitch < 0 || status.pitch > 0.18) weight = 0.1;
-
   const eyesClosedRatio = (
     (weight * Math.abs(eyeUser - avgEye)) /
     (eyeUser - blinkUser)
   ).toFixed(3);
   // if (!setFlag) console.log(status.eyesClosedRatio);
-  if (arrEye.length == 200) {
-    arrEye.splice(0, 20);
-  }
+  if (arrEye.length == 200) arrEye.splice(0, 20);
 
   const eyeRatio = avgEAR.toFixed(3);
   const deltaEyeRatio = delta_eye_ratio.toFixed(3);
