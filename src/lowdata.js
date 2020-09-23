@@ -1,3 +1,5 @@
+import { analyze } from "./meaning";
+
 export let status = {
   yaw: 0,
   roll: 0,
@@ -77,9 +79,9 @@ export function rowData(detection, landmarks, angle) {
       }, 0) / arrRoll.length
     ).toFixed(3);
   }
-
+  let result = analyze();
   // weighted sum of score to produce overall score.
-  return status;
+  return result;
 }
 
 function calcDist(p1, p2) {

@@ -158,4 +158,5 @@ export function analyze() {
       }
       break;
   }
+  return result;
 }
