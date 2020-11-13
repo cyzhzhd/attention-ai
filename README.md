@@ -75,5 +75,13 @@ node fddb.js / widerface.js
 
 #### Downstream
 
-- [집중력 엔진 위키](https://13.125.91.162/swmaestro/183-2/-/wikis/faceAPI%EA%B8%B0%EB%B0%98-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EC%97%94%EC%A7%84-%EA%B5%AC%ED%98%84)
-- [집중력 엔진 개발 이슈](https://13.125.91.162/swmaestro/183-2/issues/7)
+##### 집중력 엔진 참고 논문
+- [비대면 온라인 수업 사례 고찰: 동영상 녹화 및 실시간 화상 수업 중심으로(2020)] (http://www.riss.kr/link?id=A106987038)
+- [원격강의의 학습집중도 평가 시스템(2005)] (http://www.riss.kr/link?id=A101434143)
+- [이러닝 학습 환경에서 생체신호를 활용한 학습 집중도 측정 방안(2012)] (http://www.dbpia.co.kr.openlib.uos.ac.kr/pdf/pdfView.do?nodeId=NODE07480931&mark=0&useDate=&bookmarkCnt=0&ipRange=N&accessgl=Y&language=ko_KR)
+- [학습의 집중도 향상을 위한 학습자의 얼굴 검출과 분석] (http://m.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=c76bd42a2c0a4704ffe0bdc3ef48d419)
+- [학습자 참여를 유도하기 위한 얼굴인식 기반 지능형 e-Learning 시스템] (http://www.ndsl.kr/ndsl/commons/util/ndslOriginalView.do?dbt=JAKO&cn=JAKO200703534315044&oCn=JAKO200703534315044&pageCode=PG11&journal=NJOU00291398)
+- [효율적인 이러닝을 위한 학습자 얼굴 인증 기술] (http://www.ndsl.kr/ndsl/search/detail/article/articleSearchResultDetail.do?cn=JAKO201015959407195&SITE=CLICK)
+- [Concentration analysis by detecting face features of learners] (https://ieeexplore.ieee.org/abstract/document/7334807)
+- [Research on recognition method of learning concentration based on face feature] (https://ieeexplore.ieee.org/abstract/document/8274797)
+
