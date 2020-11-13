@@ -30,7 +30,6 @@ node fddb.js / widerface.js
 
 - 얼굴 탐지, 전처리
 - 얼굴 인식 / 랜드마크 탐지 / 표정 분류
-- (Optional) 학생 행동 인식, 시선 추적(eye-tracking), 물체탐지
 
 #### 요구사항
 
