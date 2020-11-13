@@ -15,11 +15,11 @@ import { detectorModel } from "./detector.js";
 import { analyze, result } from "./meaning.js";
 tfjs.enableProdMode();
 
-var low_data;
 export let frames = 0;
 const stop = document.getElementById("stopButton");
 const resume = document.getElementById("resumeButton");
 const video = document.getElementById("video");
+console.log(video);
 
 const vidW = 640;
 const vidH = 480;
@@ -30,6 +30,7 @@ resume.onclick = onResume;
 let task = true;
 function onStop() {
   task = false;
+  console.log(video);
   video.pause();
 }
 function onResume() {
@@ -60,36 +61,37 @@ video.addEventListener("play", async () => {
   setInterval(async function faceAnalysis() {
     if (!task) return;
 
-    const timefd1 = performance.now();
+    // const timefd1 = performance.now();
     const pixel = tfjs.browser.fromPixels(video);
+    // console.log(pixel);
     const img = pixel.reshape([-1, vidH, vidW, 3]);
     const detectImg = tfjs.image.resizeBilinear(img, [128, 128]);
     const [bbox, conf] = await detectorModel.predict(detectImg);
-    const timefd2 = performance.now();
+    // const timefd2 = performance.now();
 
-    const timelm1 = performance.now();
+    // const timelm1 = performance.now();
     const [angle, landmark] = await landmarkModel.predict(bbox, img);
-    const timelm2 = performance.now();
+    // const timelm2 = performance.now();
 
-    low_data = JSON.stringify(rowData(bbox, landmark, angle), null, 2);
+    JSON.stringify(rowData(bbox, landmark, angle), null, 2);
     analyze();
-    drawAll(canvas, ctx, bbox, conf, landmark, result.focusPoint);
+    drawAll(canvas, ctx, bbox, conf, landmark, result);
 
     // time checker
     frames = frames + 1;
     if (frames % 10 === 0) {
-      console.log(
-        `${frames}: fd ${(timefd2 - timefd1).toFixed(3)}ms lm ${(
-          timelm2 - timelm1
-        ).toFixed(3)}ms`
-      );
+      // console.log(
+      //   `${frames}: fd ${(timefd2 - timefd1).toFixed(3)}ms lm ${(
+      //     timelm2 - timelm1
+      //   ).toFixed(3)}ms`
+      // );
       // console.log(status.detectRatio, status.eyesClosedRatio);
     }
     tfjs.dispose([landmark, detectImg, angle, pixel, img]);
   }, 50);
 });
 
-function drawAll(canvas, ctx, bbox, conf, landmarkObj, result) {
+function drawAll(canvas, ctx, bbox, conf, landmarkObj, result1) {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   ctx.fillStyle = "#FF0000";
@@ -107,16 +109,17 @@ function drawAll(canvas, ctx, bbox, conf, landmarkObj, result) {
       ctx.fillRect(landmarkObj[i]["_x"], landmarkObj[i]["_y"], 4, 4);
     }
   }
-  drawInfo(ctx, result);
+  drawInfo(ctx, result1);
 }
 
-function drawInfo(ctx, result) {
-  ctx.fillText("score: " + result, 10, 20);
+function drawInfo(ctx, result2) {
+  ctx.fillText("score: " + result2.focusPoint, 10, 40);
   ctx.font = "12px Arial";
   // var lines = JSON.stringify(status, null, 2).split("\n");
-  var lines = low_data.split("\n");
-  for (var j = 0; j < lines.length; j++)
-    ctx.fillText(lines[j], 10, 240 + j * 20);
+  // var lines = low_data.split("\n");
+  ctx.fillText("absense count : " + result2.absence, 10, 240 + 1 * 20);
+  ctx.fillText("sleep count : " + result2.sleep, 10, 240 + 2 * 20);
+  ctx.fillText("turnHead count : " + result2.turnHead, 10, 240 + 3 * 20);
   ctx.font = "14px Arial";
   ctx.fillText(JSON.stringify(tfjs.memory()), 20, 470);
 }

@@ -40,6 +40,7 @@ var arrRoll = new Array();
 
 export function rowData(detection, landmarks, angle) {
   // empty seat check
+  // console.log(detection);
   if (detection) arrDetect.push(1);
   //detect
   else arrDetect.push(0); //undetect
@@ -59,7 +60,6 @@ export function rowData(detection, landmarks, angle) {
     arrPitch.push(Number(angle[0][0].toFixed(3)));
     arrYaw.push(Number(angle[0][1].toFixed(3)));
     arrRoll.push(Number(angle[0][2].toFixed(3)));
-    // console.log(arrYaw);
     if (arrPitch.length == 100) arrPitch.splice(0, 20);
     if (arrYaw.length == 100) arrYaw.splice(0, 20);
     if (arrRoll.length == 100) arrRoll.splice(0, 20);
@@ -78,6 +78,7 @@ export function rowData(detection, landmarks, angle) {
         return a + b;
       }, 0) / arrRoll.length
     ).toFixed(3);
+    // console.log(status.yaw);
   }
   let result = analyze();
   // weighted sum of score to produce overall score.
@@ -117,6 +118,7 @@ function analyzeLandmark(landmarks) {
       calcDist(landmarks[52], landmarks[56])) /
     3;
   const mouse_ratio = mouse_h / mouse_w;
+  // console.log(mouse_ratio);
 
   const r_eye_height = (r_in_h + r_out_h) / 2;
   const l_eye_height = (l_in_h + l_out_h) / 2;

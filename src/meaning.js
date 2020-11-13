@@ -27,7 +27,7 @@ let deltaPer = 1;
 let mousePer = 1;
 
 export function analyze() {
-  stateText.innerHTML = state[0];
+  stateText.innerHTML = "현재 상태 : " + state[0];
   absenceCnt.innerHTML =
     "부재 " +
     result.absence +
